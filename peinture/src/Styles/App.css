@@ -1,0 +1,2270 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../Font/Roboto-Regular.ttf") format("truetype");
+}
+
+body
+/* Police des pages de toute la page */
+
+    {
+    font-family: "Roboto Regular", sans-serif;
+}
+
+header {
+    background: url(../images/Background-Image/ors.jpg);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+
+#Main-Partie-Principale-de-La-Page a {
+    text-decoration: none;
+}
+
+
+/* Titre Principal h1 de toutes les pages */
+
+.TitreH1-Toute-Page {
+    font-family: Helvetica Neue;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0px;
+    box-shadow: inset 0px 0px 3px 3px sienna;
+    color: black;
+    ;
+}
+
+.Titre-Footer {
+    font-family: Helvetica Neue;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0px;
+    box-shadow: 0px 0px 3px 3px;
+    background: linear-gradient(#FFF, #cc5302);
+    color: black;
+    ;
+}
+
+
+/* -> Page Tarif Titre Principal h2 tarif */
+
+.H2-Titre-Tarif {
+    text-align: center;
+    margin: 0px;
+    color: #5a1d00;
+    font-size: 1.5rem;
+}
+
+
+/* -> Page Tarif Div Legende  */
+
+.Legende {
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+    height: 150px
+}
+
+
+/* -> Page Tarif  Légende couleurs vente indisponible */
+
+.PeintureNonDisponible {
+    color: red;
+}
+
+
+/* -> Page Tarif  Légende lien avec une couleur verte pour la peinture selectionné */
+
+.PeintureDisponibleLien {
+    color: green;
+}
+
+
+/* -> Page Tarif  Légende couleurs vente disponible */
+
+.PeintureDisponible {
+    color: black;
+}
+
+
+/* Class de la Nav de toutes les pages */
+
+.Navigation-Desktop {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    box-shadow: inset 0px 0px 3px 3px rgb(0, 0, 0);
+}
+
+
+/* Nav bouton mobile java script  de toutes les pages */
+
+.Navigation-Mobile {
+    display: none;
+    background: url(../images/Background-Image/ors.jpg);
+}
+
+.Navigation-Mobile a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.Navigation-Mobile a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.Navigation-Mobile a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.Navigation-Mobile .icon {
+    display: none;
+}
+
+
+/* Class de la balise Ul dans la navigation */
+
+.Balise-Presentation {
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+
+/* Class des Li dans la navigation */
+
+.Nav-List-Items {
+    color: rgb(31, 30, 30);
+    width: 14%;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+/* Class des liens dans les Li dans la navigation ( Les liens de toutes les pages ) */
+
+.Nav-List-Items a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+/* Class des liens dans les Li dans la navigation avec une couleur au hover ( Les liens de toutes les pages ) */
+
+.Nav-List-Items:hover a {
+    color: #5b1202;
+}
+
+
+/* Toutes les pages -> Span pour afficher la page selectionné et la rendre plus voyante et esthétique. Pour bien montrer que l'on est bien situé sur la page selectionné */
+
+.NavListSelectionne {
+    color: #ff3101;
+    border: 1px solid rgb(31, 30, 30);
+    font-weight: bold;
+    background: rgba(230, 230, 230, 0.733);
+    box-shadow: 1px 5px;
+}
+
+
+/* -> Page Index ( Présentation ) Main partie principale de la page pour mettre un padding de 50px */
+
+.MainPartiePrincipalePresentation {
+    padding: 0px 0px 50px 0px;
+    background: #ba967b;
+}
+
+
+/* -> Page Index ( Présentation ) Class pour mettre la section de la bibliographie à 60 % en width */
+
+.Bibliographie {
+    color: black;
+    width: 100%;
+    margin: 0px auto;
+    text-align: justify;
+    padding: 130px 10% 10px 10%;
+    background: #ba967b;
+}
+
+
+/* Page Index  Titre h2 de selection des thèmes de peintures - Nature morte ou Velours*/
+
+.TitrePresentationIllustration {
+    display: flex;
+    background: url(../images/Background-Image/ors.jpg);
+    color: #000;
+    padding: 15px 0px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    background: linear-gradient(#FFF, #cc5302);
+    color: red;
+    box-shadow: 0px 3px 3px rgb(3, 3, 3);
+}
+
+.TitrePresentationIllustration .LienNatureMorte:hover {
+    color: red;
+}
+
+.TitrePresentationIllustration .LienVelours:hover {
+    color: red;
+}
+
+.TitrePresentationIllustration a {
+    color: black;
+    text-decoration: none;
+    width: 50%;
+}
+
+
+/* Met en display None (cache) les sections Nature Morte et Velours*/
+
+.CacheIllustrationNatureMorte,
+.CacheIllustrationVelours {
+    Display: none;
+}
+
+
+/* Id de la div des 2 titres Illustration pour créer une animation*/
+
+#NavigationIllustrationSelection h3 {
+    animation: 3s ease-out both Illustration;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes Illustration {
+    0% {
+        transform: rotatey(0deg) translateY(0%) scale(0.5);
+        opacity: 0.2;
+    }
+
+    50% {
+        transform: rotatey(190deg) translateX(0%) scale(0.5);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: rotatey(360deg) translateX(0%) scale(1);
+        opacity: 1;
+    }
+}
+
+
+/* Les 2 Id carousels de la page Illustration  (Nature Morte + Velours )*/
+
+#carouselControlsNatureMorte,
+#carouselControlsVelours {
+    position: relative;
+}
+
+
+/* Id section nature morte + h4 titres Illustration pour mettre en gras et avec un margin*/
+
+#carouselControlsNatureMorte h4,
+#carouselControlsVelours h4 {
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+/* Figure Carousel item   (Nature Morte + Velours )*/
+
+.carousel-item {
+    transition: transform 0.1s cubic-bezier(0, 1.01, 0, 1.02);
+}
+
+
+/* Page-Présentation  Style pour la div de l'image de la peinture d'illustration */
+
+.Div-Illustration {
+    position: relative;
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+
+/* Les listes d'indications ou on se situe dans le carousel  (Nature Morte + Velours )*/
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+
+
+/* Page Index  carousel Inner pour rajouter le bow shadow ( supprimé avec boostrap en overflow hidden)*/
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    overflow: initial;
+    margin: 0px auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    text-decoration: none;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: #421d03;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #421d03;
+}
+
+
+/* Page Index  carousel control prev pour mettre un width de 5 % au lien 
+  et déplacer les flèches à gauches et à droite 
+*/
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    text-decoration: none;
+}
+
+
+/* Page-Présentation Div de la figure de la peinture de présentation*/
+
+.Photo-Presentation {
+    padding: 50px 0px;
+    background: #ba967b;
+    z-index: 0;
+}
+
+
+/* Page-Présentation figure des peintures de présentation*/
+
+.Photo-Presentation figure {
+    box-shadow: 0px 10px 25px rgb(3, 3, 3);
+    border-radius: 35px 35px 35px 35px;
+    padding: 33px;
+    background: white;
+    margin: 0px 10px;
+}
+
+.Photo-Presentation figcaption {
+    text-align: center;
+    color: black;
+}
+
+
+/* Page-Présentation  style pour l'image de la peinture d'illustration */
+
+.galeriePresentation {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+
+
+/* -> Page Index ( Présentation ) Class pour mettre le H2 principal de la section de la bibliographie en majuscule */
+
+.H2-Bibliographie {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(#FFF, #cc5302);
+    color: red;
+    padding: 15px;
+    box-shadow: 0px 3px 3px rgb(3, 3, 3);
+    margin: 0px auto 50px auto;
+}
+
+.H2-Diaporamas {
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(#FFF, #cc5302);
+    color: red;
+    padding: 15px;
+    box-shadow: 0px 3px 3px rgb(3, 3, 3);
+    margin: 0px auto;
+}
+
+
+/* -> Page Index ( Présentation ) Class pour mettre les paragraphes de la section de la bibliographie en 2rem */
+
+.Bibliographie p {
+    font-size: 1.5rem;
+}
+
+#carouselControlsNatureMorte figure,
+#carouselControlsVelours figure {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+
+/* Page-Creations Class pour mettre des styles à la Section Galerie  */
+
+.Galerie {
+    width: 100%;
+    margin: 0px auto;
+    padding: 150px 0px 50px 0px;
+    background: #ba967b;
+}
+
+
+/* Page-Creations Class pour mettre des styles à la Section Galerie  */
+
+.Galerie figcaption {
+    font-family: Helvetica Neue;
+    text-align: center;
+    color: black;
+}
+
+
+/* Page-Creations Class pour mettre des styles à la Section Galerie  */
+
+.Galerie figcaption a,
+.Section-galerie-Vos-Desirs figcaption a {
+    text-decoration: none;
+    color: black;
+    background: grey;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px 5px;
+    padding: 3px;
+}
+
+
+/* Page-Creations Class pour mettre des styles aux H3 des galeries */
+
+.Galerie h3 {
+    color: black;
+    width: 90%;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 3px 3px black;
+    background: linear-gradient(#fec180, #cc5302);
+    margin: 0px auto;
+}
+
+
+/* -> Page Revue De presse Class pour mettre des styles à la section de la revue de presse */
+
+.Revue-De-Presse {
+    width: 100%;
+    margin: 0px auto;
+    text-align: justify;
+    padding: 155px 0px 10px 0px;
+    background: darkgrey;
+}
+
+
+/* -> Page Revue De presse H2 principal de la page */
+
+.H2-Revue-De-Presse {
+    color: black;
+    font-weight: bold;
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    box-shadow: 0px 0px 3px 3px black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+/* -> Page Revue De presse H2 2009 */
+
+.H2-Revue-De-Presse-2009 {
+    color: black;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    border: 1px solid black;
+    margin: 50px auto;
+    box-shadow: 0px 0px 3px 3px black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.Div-PeintreAmateurs {
+    height: 700px;
+    margin: 80px auto;
+}
+
+.Div-PeintreAmateurs figure {
+    margin: 0px
+}
+
+.Div-SalonArtistique {
+    height: 600px;
+    margin: 80px auto;
+}
+
+.Div-SalonArtistique figure {
+    margin: 0px;
+}
+
+
+/* -> Page Revue De presse H2 2006-2000 */
+
+.H2-Revue-De-Presse-2006,
+.H2-Revue-De-Presse-2000 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    margin: 25px auto;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+/* -> Page Revue De presse H3 Titre-Description des galeries */
+
+.Revue-De-Presse h3 {
+    color: black;
+    font-weight: bold;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    padding: 20px;
+    box-shadow: 0px 0px 3px 3px #000000;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+/* -> Page Revue De presse Div des journaux  */
+
+.LionsClub,
+.PrintempsDozon,
+.UCAO,
+.LaMontagne,
+.PeintresAmateurs {
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px 3px #000000;
+}
+
+
+/* -> Page Revue De presse Div image SalonArtistique  */
+
+.SalonArtistique {
+    height: 489px;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px 3px #000000;
+}
+
+
+/* -> Page Revue De presse Images des journaux  */
+
+.LionsClub img,
+.PrintempsDozon img,
+.UCAO img,
+.LaMontagne img,
+.PeintresAmateurs img,
+.SalonArtistique img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+
+
+/* -> Page Revue De presse Div de la première galerie 2009 pour les mettres en flex. */
+
+.Revue-De-Presse-2009-Galerie1 {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+
+
+/* -> Page Revue De presse Div de la seconde galerie 2009 pour les mettres en flex. */
+
+.Revue-De-Presse-2009-Galerie2 {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 80px auto;
+}
+
+
+/* -> Page Revue De presse Div de la galerie 2000-2006 pour les mettres en flex. */
+
+.Revue-De-Presse-2000-2006 {
+    width: 96%;
+    margin: 0px auto 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* -> Page Contact  Class pour mettre des styles à la section Contact */
+
+.Section-Contact {
+    background: #ba967b;
+}
+
+/* -> Page mentions légales Class pour mettre des styles à l'article */
+
+.Article-Mention-Legales {
+    width: 90%;
+    padding: 10px 5%;
+    background: #ba967b;
+    margin: 0px;
+}
+
+/* Class pour mettre les inputs du formulaire en flex - Colonnes */
+
+.Disposition-Formulaire {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Class pour mettre les formulaires au centre */
+
+#Contact {
+    text-align: center;
+    padding: 120px 0px 0px 0px;
+}
+
+#sujet,
+#firstName,
+#lastName,
+#email,
+#message {
+    width: 350px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+/* -> Page Contact Class pour mettre les labels du formulaire à gauche*/
+
+label {
+    width: 350px;
+    text-align: left;
+    margin: 25px auto;
+    font-size: 2rem;
+}
+
+#sujet {
+    width: 350px;
+}
+
+#message {
+    width: 350px;
+    height: 200px;
+}
+
+
+/* Page  Tarifs ->> Section des Grille des tarifs avec grid */
+
+.Tarifs {
+    background: bisque;
+    padding: 155px 0px 0px 0px;
+}
+
+
+/* Page  Tarifs ->> Pour mettre une couleur noir et enlever le soulignement aux Liens de toute la page ( Tableau ) */
+
+.Tarifs a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Page  Tarifs ->> Pour mettre une couleur au hover des liens du tableau de tarifs ( Tableau ) */
+
+.grid-item:hover a {
+    color: green;
+}
+
+
+/* Page  Tarifs ->> Grille Container des tarifs avec grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 60px 50px;
+    font-size: 1.5rem;
+}
+
+
+/* Page  Tarifs ->> 1 Case item ( Dimensions ) des tarifs avec grid */
+
+.grid-item1 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    display: grid;
+    grid-column: 1/ 3;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+/* Page  Tarifs ->> 1 Case item ( Prix) des tarifs avec grid */
+
+.grid-item2 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    display: grid;
+    grid-column: 3 / 3;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+/* Page  Tarifs ->> Toutes les Cases items des dimensions + tarifs avec grid */
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+}
+
+
+/* Page ->> Contact Boutton Formulaire */
+
+.Boutton {
+    color: white;
+    font-size: 2rem;
+    border-radius: 30px 30px;
+    border-width: 0px;
+    padding: 20px;
+}
+
+.Boutton input:hover {
+    background: rgb(145, 76, 3);
+    border: 0px;
+}
+
+footer {
+    background: url(../images/Background-Image/ors.jpg);
+    background-position-x: 35%;
+}
+
+.Coordonnees-Details {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+footer a {
+    color: #452020;
+    ;
+    text-decoration: none;
+}
+
+
+/* Toutes pages -> Footer pour mettre en gras les descriptions des Icons. Email-Téléphone- Linkdin */
+
+.bold {
+    font-weight: bold;
+    color: black;
+}
+
+
+/* Page Mentions légales  souligner des mots + Page présentation ( Fin du texte paragraphe 2)*/
+
+.Souligner {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Adresse-Email,
+.Telephone {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    color: black;
+}
+
+.Adresse-Email a {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.Adresse-Email i {
+    font-size: 1.5rem;
+}
+
+.Telephone i {
+    font-size: 1.5rem;
+}
+
+.Description,
+.Prix,
+.Reference {
+    color: orange;
+    font-weight: bold;
+}
+
+
+/* Style pour mettre le boutton en background blanc" */
+
+.Compteur {
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Page Creation  Style pour mettre le span du Coeur en position relative */
+
+.Dimension-Coeur {
+    position: relative;
+    align-items: center;
+}
+
+
+/* Style pour mettre l'icon Coeur vide avec un font size" */
+
+.Coeur-Vide-Menu {
+    Margin: 0px 0px 0px 0px;
+    font-size: 1.25rem;
+    padding: 5px;
+}
+
+
+/* Style pour mettre l'icon Coeur plein en position absolute avec une couleur transparente et un font size " */
+
+.Coeur-Plein-Menu,
+.Coeur-Plein-Menu-Desir {
+    bottom: -3px;
+    left: 6px;
+    position: absolute;
+    font-size: 1.15rem;
+    opacity: 0;
+    color: transparent;
+}
+
+
+/* Style pour mettre l'icon Coeur plein en position absolute avec une couleur transparente et un font size " */
+
+.Coeur-Plein-Menu-index {
+    bottom: -4px;
+    left: 6px;
+    position: absolute;
+    font-size: 1.15rem;
+    opacity: 0;
+    color: transparent;
+}
+
+.Galerie figcaption a:hover,
+.Section-galerie-Vos-Desirs figcaption a:hover {
+    background: linear-gradient(#fec180, #cc5302);
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+
+/* Style pour mettre une animation avec une couleur linear-gradient sur le coeur " */
+
+.Coeur-Plein-Menu:hover,
+.Coeur-Plein-Menu-Desir:hover {
+    animation: 3s ease-out Coeur;
+    -webkit-background-clip: text;
+    opacity: 1;
+}
+
+
+/* Style pour mettre une animation avec une couleur linear-gradient sur le coeur " */
+
+.Coeur-Plein-Menu-index:hover {
+    animation: 3s ease-out Coeur;
+    -webkit-background-clip: text;
+    opacity: 1;
+}
+
+
+/* Animation Coeur " */
+
+@keyframes Coeur {
+    25% {
+        background: linear-gradient(to bottom, #fec180 100%, #cc5302 0%);
+        background: -webkit-linear-gradient(to bottom, #fec180 40%, #cc5302 60%);
+        /* Chrome, Opera 15+, Safari 3.1+ */
+        background: -ms-linear-gradient(to bottom, #fec180 40%, #cc5302 60%);
+        /* IE 9 */
+        -webkit-background-clip: text;
+        opacity: 0.7;
+    }
+
+    65% {
+        background: linear-gradient(to bottom, #fec180 0%, #cc5302 60%);
+        background: -webkit-linear-gradient(to bottom, #fec180 0%, #cc5302 60%);
+        /* Chrome, Opera 15+, Safari 3.1+ */
+        background: -ms-linear-gradient(to bottom, #fec180 0%, #cc5302 60%);
+        /* IE 9 */
+        -webkit-background-clip: text;
+        opacity: 0.9;
+    }
+
+    100% {
+        background: linear-gradient(to bottom, #fec180 0%, #cc5302 80%);
+        background: -webkit-linear-gradient(to bottom, #fec180 0%, #cc5302 80%);
+        /* Chrome, Opera 15+, Safari 3.1+ */
+        background: -ms-linear-gradient(to bottom, #fec180 0%, #cc5302 80%);
+        /* IE 9 */
+        -webkit-background-clip: text;
+        opacity: 1;
+    }
+}
+
+
+/* Page-Creation Div1-Div2-Div3-Div4-Div5  Galerie1-Galerie2-Galerie3-Galerie4-Galerie5 + Velours  images */
+
+.Galerie1,
+.Galerie1-Nature-Morte,
+.Galerie2-Nature-Morte,
+.Galerie3-Nature-Morte {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3px auto;
+    padding: 50px 0px;
+}
+
+.Galerie1-Nature-Morte-Vente {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3px auto;
+    padding: 50px 0px;
+}
+
+.Velours-Galerie1,
+.Velours-Galerie2,
+.Velours-Galerie3 {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3px auto;
+    padding: 50px 0px;
+}
+
+.Galerie4-Nature-Morte,
+.Galerie5-Nature-Morte {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3px auto;
+    padding: 50px 0px;
+}
+
+
+/* Page-Creation  Titre Nature Morte */
+
+.Titre-Nature-Morte {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 50px auto;
+    padding: 25px 0px;
+    background: linear-gradient(#fec180, #cc5302);
+    box-shadow: 0px 0px 3px 3px black;
+    text-transform: uppercase;
+    width: 94%;
+}
+
+
+/* Page-Creation  Titre Nature Morte */
+
+.Titre-Velours {
+    text-align: center;
+    margin: 50px auto 100px auto;
+    padding: 25px 0px;
+    background: linear-gradient(#fec180, #cc5302);
+    box-shadow: 0px 0px 3px 3px black;
+    text-transform: uppercase;
+    width: 94%;
+}
+
+
+/* Page-Creation  Lien (a) du Titre principale Velours pour enlever le soulignement et mettre une couleur noire */
+
+.Titre-Nature-Morte a {
+    text-decoration: none;
+    color: black;
+}
+
+.Titre-Nature-Morte a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+/* Page-Creation  Images de la Section galerie*/
+
+.Galerie img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+
+
+/* Page-Creation  Figure Caniche abricot ( width différente )de la Section galerie*/
+
+.Galerie .Caniche-Abricot {
+    box-shadow: 0px 10px 25px rgb(3, 3, 3);
+    border-radius: 35px 35px 35px 35px;
+    padding: 33px 5px 0px 5px;
+    background: white;
+}
+
+
+/* Page-Creation  Figure de la Section galerie*/
+
+.Galerie figure {
+    box-shadow: 0px 10px 25px rgb(3, 3, 3);
+    border-radius: 35px 35px 35px 35px;
+    padding: 33px;
+    background: white;
+    margin: 16px 40px;
+}
+
+
+/* Page-Creation  Div de la Section galerie*/
+
+.Div-En-Vente {
+    width: 165px;
+    height: auto;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+
+/* Page-Vendue  Div de la Section galerie*/
+
+.Div-vendue {
+    width: 375px;
+    height: auto;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+}
+
+
+/* Page-Desirs-Vendue  Div pour les peintures reservés*/
+
+.Div-Reserve {
+    position: relative;
+}
+
+
+/* Page-Vendue Span du mot Vendue en absolue pour le mettre sur les photos des peintures*/
+
+.Mot-Vendue-Image {
+    padding: 2px;
+    bottom: 20px;
+    right: 4px;
+    position: absolute;
+    color: #ff0f02;
+    border: 1px solid #ff0c0c;
+    background: #fff;
+    box-shadow: 1px 1px #ff6000;
+    transform: translateY(0px) translateX(0px) skew(380deg, 325deg);
+    font-size: 0.8rem;
+}
+
+
+/* Page-Index Span du mot Vendue en absolue pour le mettre sur les photos des peintures*/
+
+.Page-Index-Mot-Vendue-Image {
+    padding: 2px;
+    bottom: 15px;
+    right: 4px;
+    position: absolute;
+    color: #ff0f02;
+    border: 1px solid #ff0c0c;
+    background: #fff;
+    box-shadow: 1px 1px #ff6000;
+    transform: translateY(0px) translateX(0px) skew(380deg, 325deg);
+    font-size: 0.8rem;
+}
+
+
+/* Page-Vendue Span du mot Reservé en absolue pour le mettre sur les photos des peintures*/
+
+.Mot-Reserve-Image {
+    padding: 2px;
+    bottom: 23px;
+    right: 4px;
+    position: absolute;
+    color: #0230ff;
+    border: 1px solid #0230ff;
+    background: #fff;
+    box-shadow: 1px 1px #2753cc;
+    transform: translateY(0px) translateX(0px) skew(380deg, 325deg);
+    font-size: 0.8rem;
+}
+
+
+/* Page-Vos desirs H2 principal de la page*/
+
+.Vos-Desirs-Titre-H2-Principal {
+    text-align: center;
+}
+
+
+/* -> Page Desirs Class pour mettre des styles à la section Description des désirs */
+
+.VosDesirs {
+    margin: 0px auto;
+    text-align: justify;
+    padding: 135px 5% 20px 5%;
+    background: bisque;
+}
+
+
+/* Page-Vos Desirs la Section galerie*/
+
+.Section-galerie-Vos-Desirs {
+    background: #ba967b;
+    padding: 10px 0px;
+}
+
+
+/* Page-Vos Desirs Titre des figures*/
+
+.Titre-Section-galerie-Vos-Desirs {
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.Div-Dentiste,
+.Div-Montagne,
+.Div-Au-Quotidien,
+.Div-Marin {
+    margin: 0px 20px;
+}
+
+
+/* Page-Vos Desirs Titre H2 Dentiste*/
+
+.Dentiste {
+    height: 25px;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0px auto;
+    color: rgb(12, 128, 101);
+    box-shadow: 0px 0px 0px 3px rgb(12, 128, 101);
+    text-transform: uppercase;
+}
+
+
+/* Page-Vos Desirs Titre H2 Montagne*/
+
+.Montagne {
+    height: 25px;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0px auto;
+    color: #692c00;
+    box-shadow: 0px 0px 0px 3px #5a1d00;
+    text-transform: uppercase;
+}
+
+
+/* Page-Vos Desirs Titre H2 Au-Quotidien*/
+
+.Au-Quotidien {
+    height: 25px;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0px auto;
+    color: #720101;
+    box-shadow: 0px 0px 0px 3px #f30000;
+    text-transform: uppercase;
+}
+
+
+/* Page-Vos Desirs Titre H2 Marin*/
+
+.Marin {
+    height: 25px;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0px auto;
+    color: #015d72;
+    box-shadow: 0px 0px 0px 3px #015d72;
+    text-transform: uppercase;
+}
+
+
+/* Page-Vos Desirs  Figure de la Section galerie*/
+
+.Figure-Vos-Desirs1 {
+    width: 300px;
+    box-shadow: 0px 0px 8px 8px #5a1d00;
+    border-radius: 35px 35px 35px 35px;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 15px 20px 10px 20px;
+    background: white;
+}
+
+
+/* Page-Vos Desirs  Figure de la Section galerie*/
+
+.Figure-Vos-Desirs2 {
+    width: 300px;
+    box-shadow: 0px 0px 3px 3px #f30000;
+    border-radius: 35px 35px 35px 35px;
+    overflow: hidden;
+    margin: 35px auto;
+    padding: 28px 20px 15px 20px;
+    background: white;
+}
+
+
+/* Page-Vos Desirs  Figure de la Section galerie*/
+
+.Figure-Vos-Desirs3 {
+    width: 300px;
+    box-shadow: 0px 0px 3px 3px #015d72;
+    border-radius: 35px 35px 35px 35px;
+    overflow: hidden;
+    margin: 35px auto;
+    padding: 28px 20px 15px 20px;
+    background: white;
+}
+
+.Section-galerie-Vos-Desirs img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+
+.Section-galerie-Vos-Desirs figcaption {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Page-Vos Desirs  Div qui met en flex les 3 galeries desirs*/
+
+.Div-Section-Galerie {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+.Prix {
+    color: #9a4609;
+}
+
+
+/* Article En savoir plus -> Fiche */
+
+.Fiche- {
+    text-align: center;
+    padding: 125px 0px 20px 0px;
+}
+
+
+/* Article En savoir plus -> Fiche Image */
+
+.Fiche- img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+
+
+/* Article En savoir plus -> Fiche Div Image  ( Dimensions images )*/
+
+.Div-Image- {
+    overflow: hidden;
+}
+
+
+/* Article détails : Ajouter au panier */
+
+.Ajouter-Au-Panier {
+    text-align: center;
+}
+
+
+/* Article détails : Icon - Ajouter au panier */
+
+.Ajouter-Au-Panier i {
+    color: orange;
+}
+
+@media screen and (min-width: 1090px) and (max-width: 1280px)
+/* styles pour tablettes*/
+
+    {
+
+    /* Page-Creation Div1-Div2-Div3-Div4-Div5  Galerie1-Galerie2-Galerie3-Galerie4-Galerie5 + Velours  images */
+    .Galerie1,
+    .Galerie1-Nature-Morte,
+    .Galerie2-Nature-Morte,
+    .Galerie3-Nature-Morte {
+        width: 94%;
+    }
+
+    .Galerie1-Nature-Morte-Vente {
+        width: 100%;
+    }
+
+    .Galerie4-Nature-Morte,
+    .Galerie5-Nature-Morte {
+        width: 71%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 3px auto;
+        padding: 50px 0px;
+    }
+
+    .Velours-Galerie1,
+    .Velours-Galerie2,
+    .Velours-Galerie3 {
+        width: 94%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 3px auto;
+        padding: 50px 0px;
+    }
+
+    /* Style pour mettre l'icon Coeur plein en position absolute avec une couleur transparente et un font size " */
+
+    .Coeur-Plein-Menu,
+    .Coeur-Plein-Menu-Desir {
+        bottom: -5px;
+        left: 6px;
+    }
+
+    /* Page-Vos Desirs Titre des figures*/
+    .Titre-Section-galerie-Vos-Desirs {
+        font-size: 1.5rem;
+    }
+
+    /* Page-Vos Desirs Titre H2 des exemples de peintures*/
+    .Dentiste,
+    .Montagne,
+    .Au-Quotidien,
+    .Marin {
+        width: 85%;
+        font-size: 1.2rem;
+    }
+
+    /* Page-Vos Desirs  Div qui met en flex les 3 galeries desirs*/
+    .Div-Section-Galerie {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Class des Li dans la navigation */
+    .Nav-List-Items {
+        font-size: 0.8rem;
+    }
+
+    .Navigation-Mobile {
+        display: none;
+    }
+
+    .Navigation-Desktop {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1089px)
+/* styles pour tablettes*/
+
+    {
+
+    /* Page-Présentation  Style pour la div de l'image de la peinture d'illustration */
+    .Div-Illustration {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+    /* Page-Creations Titre Nature Morte*/
+    .Titre-Nature-Morte {
+        width: 98%;
+        font-size: 1.2rem;
+    }
+
+    /* Page-Creation Div1-Div2-Div3-Div4-Div5  Galerie1-Galerie2-Galerie3-Galerie4-Galerie5 + Velours  images */
+    .Galerie1,
+    .Galerie1-Nature-Morte,
+    .Galerie2-Nature-Morte,
+    .Galerie3-Nature-Morte {
+        width: 100%;
+    }
+
+    .Galerie1-Nature-Morte-Vente {
+        width: 100%;
+    }
+
+    .Galerie4-Nature-Morte,
+    .Galerie5-Nature-Morte {
+        width: 94%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 3px auto;
+        padding: 50px 0px;
+    }
+
+    .Velours-Galerie1,
+    .Velours-Galerie2,
+    .Velours-Galerie3 {
+        width: 94%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 3px auto;
+        padding: 50px 0px;
+    }
+
+    /* Page-Creations Class pour mettre des styles aux H3 des galeries */
+    .Galerie h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Style pour mettre l'icon Coeur plein en position absolute avec une couleur transparente et un font size " */
+
+    .Coeur-Plein-Menu,
+    .Coeur-Plein-Menu-Desir {
+        bottom: -5px;
+        left: 6px;
+    }
+
+    /* Page-Creation  Div de la Section galerie*/
+    .Div-En-Vente {
+        width: 200px;
+        height: auto;
+    }
+
+    /* Page-Creation  Div de la Section galerie*/
+    .Div-vendue {
+        width: 375px;
+        height: auto;
+    }
+
+    /* Page-Vos Desirs Titre des figures*/
+    .Titre-Section-galerie-Vos-Desirs {
+        font-size: 1.5rem;
+    }
+
+    /* Page-Vos Desirs Titre H2 des exemples de peintures*/
+    .Dentiste,
+    .Montagne,
+    .Au-Quotidien,
+    .Marin {
+        width: 85%;
+        font-size: 1.2rem;
+    }
+
+    /* Page-Vos Desirs  Div qui met en flex les 3 galeries desirs*/
+    .Div-Section-Galerie {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Class des Li dans la navigation */
+    .Nav-List-Items {
+        font-size: 0.7rem;
+    }
+
+    .Navigation-Mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:768px)
+/* styles pour mobile paysage*/
+
+    {
+
+    /* -> Page Index ( Présentation ) Class pour mettre la section de la bibliographie à 60 % en width */
+    .Bibliographie {
+        padding: 10px 10% 20px 10%;
+    }
+
+    /* Page-Présentation  Style pour la div de l'image de la peinture d'illustration */
+    .Div-Illustration {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+    /* Page-Présentation paragraphe du figcaption */
+    .Illustration figcaption h2 {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0px 0px 20px 0px;
+        font-size: 1rem;
+    }
+
+    header {
+        position: initial;
+    }
+
+    .TitreH1-Toute-Page {
+        font-size: 1.5rem;
+    }
+
+    .Titre-Footer {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    /* Page-Creations Titre Nature Morte*/
+    .Titre-Nature-Morte {
+        flex-wrap: wrap;
+        width: 98%;
+        font-size: 1.1rem;
+    }
+
+    /* Page-Creations Titre Nature Morte*/
+    .Lien-Nature-Morte-En-Vente {
+        margin: 5px 0px;
+    }
+
+    /* Page-Creations Lien Nature Morte pour mettre un margin*/
+    .Galerie .Lien-Nature-Morte-Vendu {
+        margin: 5px 0px;
+    }
+
+    /* Style pour mettre l'icon Coeur plein en position absolute avec une couleur transparente et un font size " */
+
+    .Coeur-Plein-Menu,
+    .Coeur-Plein-Menu-Desir {
+        bottom: -4px;
+        left: 6px;
+    }
+
+    /* -> Page Tarif Titre Principal h2 tarif */
+    .H2-Titre-Tarif {
+        text-align: center;
+        margin: 0px auto;
+        color: #5a1d00;
+        font-size: 1rem;
+        width: 260px;
+    }
+
+    .Navigation-Desktop {
+        display: none;
+    }
+
+    .NavListSelectionne {
+        display: block;
+        width: 97%;
+        font-size: 1rem;
+        margin: 0px 0px 5px 0px;
+        padding: 1%;
+        text-align: center;
+    }
+
+    .Navigation-Mobile {
+        display: block;
+    }
+
+    .Navigation-Mobile a {
+        font-size: 1rem;
+        display: none;
+    }
+
+    .Navigation-Mobile a.icon {
+        display: block;
+        padding: 10px;
+    }
+
+    .Navigation-Mobile.responsive {
+        padding: 38px 0px 0px 0px;
+        position: relative;
+    }
+
+    .Navigation-Mobile.responsive .icon {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .Navigation-Mobile.responsive a {
+        color: black;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .TitreH1 {
+        font-size: 1.7rem;
+    }
+
+    /* Page  Tarifs ->> Section des Grille des tarifs avec grid */
+    .Tarifs {
+        padding: 25px 0px 0px 0px;
+    }
+
+    /* Page  Tarifs ->> Grille Container des tarifs avec grid */
+    .grid-container {
+        padding: 20px 25px;
+    }
+
+    /* Page  Tarifs ->> Grille Container des tarifs avec grid */
+    .grid-item1 {
+        font-size: 1.2rem;
+    }
+
+    .grid-item2 {
+        font-size: 1.2rem;
+    }
+
+    .grid-item {
+        font-size: 1.2rem;
+    }
+
+    .Adresse-Email,
+    .Telephone {
+        font-size: 0.9rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Telephone i,
+    .Adresse-Email i,
+    .Adresse-Email a {
+        font-size: 0.9rem;
+    }
+
+    /* Page-Creations Class pour mettre des styles à la Section Galerie  */
+    .Galerie {
+        width: 100%;
+        margin: 0px auto;
+        padding: 10px 0px 50px 0px;
+        background: #ba967b;
+    }
+
+    /* Page-Creations Class pour mettre des styles à la Section Galerie  */
+    .Galerie figcaption {
+        text-align: center;
+    }
+
+    /* Page-Creations Class pour mettre des styles aux H3 des galeries */
+    .Galerie h3 {
+        font-size: 1rem;
+    }
+
+    /* Page-Creation Div1-Div2-Div3-Div4-Div5  Galerie1-Galerie2-Galerie3-Galerie4-Galerie5 + Velours  images */
+    .Galerie1,
+    .Galerie1-Nature-Morte,
+    .Galerie2-Nature-Morte,
+    .Galerie3-Nature-Morte,
+    .Galerie4-Nature-Morte,
+    .Galerie5-Nature-Morte {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Galerie1-Nature-Morte-Vente {
+        width: 100%;
+    }
+
+    .Velours-Galerie1,
+    .Velours-Galerie2,
+    .Velours-Galerie3 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 3px auto;
+        padding: 50px 0px;
+    }
+
+    /* Page-Creation  Figure Caniche abricot ( width différente )de la Section galerie*/
+    .Galerie .Caniche-Abricot {
+        padding: 33px;
+    }
+
+    /* Page-Creation  Div de la Section galerie*/
+    .Div-En-Vente {
+        width: auto;
+        height: auto;
+    }
+
+    /* Page-Creation  Div de la Section galerie*/
+    .Div-vendue {
+        width: auto;
+        height: auto;
+    }
+
+    /* Page-Vos Desirs Titre des figures*/
+    .Titre-Section-galerie-Vos-Desirs {
+        font-size: 1rem;
+    }
+
+    /* Page-Vos Desirs Titre H2 des exemples de peintures*/
+    .Dentiste,
+    .Montagne,
+    .Au-Quotidien,
+    .Marin {
+        width: 85%;
+        font-size: 0.8rem;
+    }
+
+    /* -> Page Desirs Class pour mettre des styles à la section Description des désirs */
+    .VosDesirs {
+        padding: 10px 5% 20px 5%;
+    }
+
+    /* Page-Vos Desirs  Div qui met en flex les 3 galeries desirs*/
+    .Div-Section-Galerie {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* -> Page Contact Class pour mettre les labels du formulaire à gauche*/
+    label {
+        width: 210px;
+        font-size: 1.5rem;
+    }
+
+    /* Page ->> Contact Boutton Formulaire */
+    .Boutton {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    /* -> Page Contact Id Contact Formulaire pour mettre un margin auto en responsive mobile*/
+    #Contact {
+        width: 80%;
+        margin: auto;
+        padding: 10px 0px;
+    }
+
+    #sujet,
+    #firstName,
+    #lastName,
+    #email,
+    #message {
+        width: 210px;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    /* -> Page Revue De presse Class pour mettre des styles à la section de la revue de presse */
+    .Revue-De-Presse {
+        padding: 20px 0px 10px 0px;
+    }
+
+    .SalonArtistique,
+    .PeintresAmateurs {
+        height: auto;
+        width: auto;
+    }
+
+    .Div-SalonArtistique,
+    .Div-PeintreAmateurs {
+        height: auto;
+        width: auto;
+        margin: 0px;
+    }
+
+    /* -> Page Revue De presse Tout les titres h2-h3 en 1rem*/
+    .Revue-De-Presse h2,
+    .Revue-De-Presse h3 {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    /* -> Page Revue De presse Div des galeries 2009-2006-2000 pour les mettres en 96% width */
+    .Revue-De-Presse-2009-Galerie1,
+    .Revue-De-Presse-2009-Galerie2,
+    .Revue-De-Presse-2000-2006 {
+        width: 96%;
+        margin: 25px auto;
+    }
+
+    /* -> Page Revue De presse Figure des Div des galeries 2009-2006-2000 pour enlever le margin */
+    .Revue-De-Presse-2009-Galerie1 figure,
+    .Revue-De-Presse-2009-Galerie2 figure,
+    .Revue-De-Presse-2000-2006 figure {
+        margin: 0px;
+    }
+
+    /* -> Page Revue De presse Div des journaux  */
+    .LionsClub,
+    .PrintempsDozon,
+    .UCAO,
+    .LaMontagne,
+    .PeintresAmateurs {
+        height: auto;
+        width: auto;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:375px)
+/* styles pour mobiles portrait */
+
+    {
+
+    /* -> Page Index ( Présentation ) Class pour mettre la section de la bibliographie à 60 % en width */
+    .Bibliographie {
+        padding: 10px 10% 20px 10%;
+    }
+
+    /* Page-Présentation  Style pour la div de l'image de la peinture d'illustration */
+    .Div-Illustration {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+    /* Page-Présentation paragraphe du figcaption */
+    .Illustration figcaption h2 {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0px 0px 20px 0px;
+        font-size: 0.8rem;
+    }
+
+    header {
+        position: initial;
+    }
+
+    .TitreH1-Toute-Page {
+        font-size: 1.1rem;
+    }
+
+    .Titre-Footer {
+        font-size: 1rem;
+    }
+
+    /* Page-Creations Titre Nature Morte*/
+    .Titre-Nature-Morte {
+        flex-wrap: wrap;
+        font-size: 0.9rem;
+    }
+
+    /* Page-Creations Lien Nature Morte en vente*/
+    .Lien-Nature-Morte-En-Vente {
+        margin: 5px 0px;
+        text-align: center;
+    }
+
+    /* Page-Creations Lien Nature Morte vendu pour mettre un margin*/
+    .Galerie .Lien-Nature-Morte-Vendu {
+        margin: 5px 0px;
+        text-align: center;
+    }
+
+    /* Style pour mettre l'icon Coeur plein en position absolute avec une couleur transparente et un font size " */
+
+    .Coeur-Plein-Menu {
+        top: 2px;
+        right: 5px;
+    }
+
+    /* Style pour mettre l'icon Coeur plein en position absolute avec une couleur transparente et un font size " */
+
+    .Coeur-Plein-Menu-Desir {
+        bottom: -4px;
+        left: 6px;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .Navigation-Desktop {
+        display: none;
+    }
+
+    .Navigation-Mobile {
+        display: block;
+    }
+
+    .Navigation-Mobile a {
+        display: none;
+        font-size: 0.8rem;
+    }
+
+    .Navigation-Mobile a.icon {
+        display: block;
+        padding: 10px;
+    }
+
+    .Navigation-Mobile.responsive {
+        padding: 50px 0px 0px 0px;
+        position: relative;
+    }
+
+    .Navigation-Mobile.responsive .icon {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        padding: 5px;
+    }
+
+    .Navigation-Mobile.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+        color: black;
+    }
+
+    .TitreH1 {
+        font-size: 1.2rem;
+    }
+
+    .NavListSelectionne {
+        width: 97%;
+        display: block;
+        font-size: 0.8rem;
+        margin: 0px 0px 5px 0px;
+        padding: 1%;
+        text-align: center;
+    }
+
+    /* Page-Vos Desirs Titre des figures*/
+    .Titre-Section-galerie-Vos-Desirs {
+        font-size: 0.8rem;
+    }
+
+    /* Page-Vos Desirs Titre H2 des exemples de peintures*/
+    .Dentiste,
+    .Montagne,
+    .Au-Quotidien,
+    .Marin {
+        font-size: 0.8rem;
+    }
+
+    /* -> Page Desirs Class pour mettre des styles à la section Description des désirs */
+    .VosDesirs {
+        padding: 10px 5% 20px 5%;
+    }
+
+    /* Page-Vos Desirs  Div qui met en flex les 3 galeries desirs*/
+    .Div-Section-Galerie {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Page-Creations Class pour mettre des styles à la Section Galerie  */
+    .Galerie {
+        padding: 10px 0px 50px 0px;
+    }
+
+    /* Page-Creations Class pour mettre des styles aux H3 des galeries */
+    .Galerie h3 {
+        font-size: 0.8rem;
+    }
+
+    /* Page-Creation Div1-Div2-Div3-Div4-Div5  Galerie1-Galerie2-Galerie3-Galerie4-Galerie5 + Velours  images */
+    .Galerie1,
+    .Galerie1-Nature-Morte,
+    .Galerie2-Nature-Morte,
+    .Galerie3-Nature-Morte,
+    .Galerie4-Nature-Morte,
+    .Galerie5-Nature-Morte {
+        width: 100%;
+    }
+
+    .Galerie1-Nature-Morte-Vente {
+        width: 100%;
+    }
+
+    .Velours-Galerie1,
+    .Velours-Galerie2,
+    .Velours-Galerie3 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 3px auto;
+        padding: 50px 0px;
+    }
+
+    /* Page-Creation  Figure Caniche abricot ( width différente )de la Section galerie*/
+    .Galerie .Caniche-Abricot {
+        padding: 33px;
+    }
+
+    /* Page-Creations Class pour mettre des styles à la Section Galerie  */
+    .Galerie figcaption {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Page-Creation  Div de la Section galerie*/
+    .Div-En-Vente {
+        width: auto;
+        height: auto;
+    }
+
+    /* Page-Creation  Div de la Section galerie*/
+    .Div-vendue {
+        width: auto;
+        height: auto;
+    }
+
+    /* Page-Creation Style pour mettre le span du Coeur en position relative */
+    .Dimension-Coeur {
+        margin: 0px;
+        position: relative;
+    }
+
+    /* Style pour mettre l'icon Coeur vide avec un font size" */
+    .Coeur-Vide-Menu i {
+        Margin: 0px 0px 0px 0px;
+        font-size: 1.25rem;
+    }
+
+    /* Style pour mettre l'icon Coeur plein en position absolute avec une couleur transparente et un font size " */
+    .Coeur-Plein-Menu {
+        bottom: -3px;
+        left: 6px;
+        position: absolute;
+        font-size: 1.15rem;
+        opacity: 0;
+        color: transparent;
+    }
+
+    /* Page-Vos Desirs  Figure de la Section galerie*/
+    .Figure-Vos-Desirs1,
+    .Figure-Vos-Desirs2,
+    .Figure-Vos-Desirs3 {
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px 0px;
+    }
+
+    /* Page ->> Contact Boutton Formulaire */
+    .Boutton {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    /* -> Page Contact Class pour mettre les labels du formulaire à gauche*/
+    label {
+        width: 70%;
+        font-size: 1rem;
+        margin: 0px auto;
+    }
+
+    /* -> Page Contact Id Contact Formulaire pour mettre un margin auto en responsive mobile*/
+    #Contact {
+        padding: 10px 0px;
+    }
+
+    #sujet,
+    #firstName,
+    #lastName,
+    #email,
+    #message {
+        width: 70%;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .Coordonnees-Details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Adresse-Email,
+    .Telephone {
+        font-size: 0.8rem;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .Telephone i,
+    .Adresse-Email i,
+    .Adresse-Email a {
+        font-size: 0.8rem;
+    }
+
+    /* -> Page Tarif Titre Principal h2 tarif */
+    .H2-Titre-Tarif {
+        width: 56%;
+        font-size: 0.8rem;
+        margin: 0px auto;
+    }
+
+    /* Page  Tarifs ->> Section des Grille des tarifs avec grid */
+    .Tarifs {
+        padding: 20px 0px 0px 0px;
+    }
+
+    /* Page  Tarifs ->> Grille Container des tarifs avec grid */
+    .grid-container {
+        padding: 20px 25px;
+    }
+
+    /* Page  Tarifs ->> Grille Container des tarifs avec grid */
+    .grid-item1 {
+        font-size: 1rem;
+    }
+
+    .grid-item2 {
+        font-size: 1rem;
+    }
+
+    .grid-item {
+        font-size: 1rem;
+    }
+
+    /* -> Page Revue De presse Tout les titres h2-h3 en 1rem*/
+    .Revue-De-Presse h2,
+    .Revue-De-Presse h3 {
+        font-size: 0.8rem;
+        padding: 3px;
+    }
+
+    /* -> Page Revue De presse Div des galeries 2009-2006-2000 pour les mettres en 96% width */
+    .Revue-De-Presse-2009-Galerie1,
+    .Revue-De-Presse-2009-Galerie2,
+    .Revue-De-Presse-2000-2006 {
+        width: 96%;
+        margin: 25px auto;
+    }
+
+    /* -> Page Revue De presse Figure des Div des galeries 2009-2006-2000 pour enlever le margin */
+    .Revue-De-Presse-2009-Galerie1 figure,
+    .Revue-De-Presse-2009-Galerie2 figure,
+    .Revue-De-Presse-2000-2006 figure {
+        margin: 0px;
+    }
+
+    /* -> Page Revue De presse Div des journaux  */
+    .LionsClub,
+    .PrintempsDozon,
+    .UCAO,
+    .LaMontagne,
+    .PeintresAmateurs {
+        box-shadow: 0px 0px 20px 3px #000000;
+    }
+
+    .SalonArtistique,
+    .PeintresAmateurs {
+        width: auto;
+        height: auto;
+    }
+
+    .Div-SalonArtistique,
+    .Div-PeintreAmateurs {
+        height: auto;
+        margin: auto;
+    }
+
+    /* -> Page Revue De presse Class pour mettre des styles à la section de la revue de presse */
+    .Revue-De-Presse {
+        padding: 20px 0px 10px 0px;
+    }
+
+    /* -> Page Revue De presse Div des journaux  */
+    .LionsClub,
+    .PrintempsDozon,
+    .UCAO,
+    .LaMontagne,
+    .PeintresAmateurs {
+        height: auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:180px) {
+
+    /* styles pour mobiles portrait  
+    très petit (ancienne génération) 
+    */
+    /* Page-Présentation  Style pour la div de l'image de la peinture d'illustration */
+    .Div-Illustration {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+    /* -> Page mentions légales Main Partie principale de la page pour mettres les paragraphes en Pointillés */
+    .Adresse-Email p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /* Style pour mettre l'icon Coeur plein en position absolute avec une couleur transparente et un font size " */
+
+    .Coeur-Plein-Menu {
+        bottom: 0px;
+        right: 5px;
+    }
+}
