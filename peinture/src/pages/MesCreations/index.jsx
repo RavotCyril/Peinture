@@ -3,7 +3,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import OrangesEtDentelle from "../../images/Sans-Bordure/SansBordure-Grande-Oranges-Et-Dentelle.jpg";
-import GrandeAiguiere from "../../images/Grande-Images/Grande-Aiguiere.jpg";
+import GrandeAiguiere from "../../images/Grande-Images/AnyConv.com__Grande-Aiguiere.webp";
 import TerroirDeFrance from "../../images/TableauxVendu/1998/Cadre-Terroirs-De-France.jpg";
 import BleuPorcelaine from "../../images/TableauxVendu/1998/Cadre-Bleu-Porcelaine.jpg";
 import CadreDameJeanne from "../../images/TableauxVendu/2004/Cadre-Dame-Jeanne.jpg";
@@ -27,7 +27,7 @@ import LeTempsDesLumieres from "../../images/Sans-Bordure/SansBordure-Grande-Le-
 import Felins from "../../images/TableauxVendu/2007/Cadre-Felins.jpg";
 import CuivreEtRaisinDesir from "../../images/Sans-Bordure/SansBordure-Grande-Cuivre-Et-Raisin-Desir.jpg";
 import GrandeFruitsDautomne from "../../images/Sans-Bordure/SansBordure-Grande-Fruits-Dautomne.jpg";
-import Chien from "../../images/Grande-Images/Chien.webp";
+import Chien from "../../images/Grande-Images/";
 import Cheval from "../../images/Grande-Images/Cheval.webp";
 import Iris from "../../images/Grande-Images/Iris.webp";
 import TeckelSurVelours from "../../images/Grande-Images/Grande-Jeune-Teckel-Sur-Velours.jpg";
