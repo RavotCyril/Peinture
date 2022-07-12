@@ -2,8 +2,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import AvantLeDepart from "../../images/Grande-Images/Grande-Image-Avant-Le-Départ.jpg";
-import ChocolatChaud from "../../images/Grande-Images/Grande-Image-Chocolat-chaud.jpg";
+import AvantLeDepart from "../../images/Grande-Images/Grande-Image-Avant-Le-Départ.webp";
+import ChocolatChaud from "../../images/Grande-Images/Grande-Cafe-Et-Chocolat.webp";
 import SouvenirsMarin from "../../images/TableauxVendu/1998/Cadre-Souvenirs-Marin.jpg";
 import Dentiste from "../../images/TableauxVendu/2002/Dentiste.jpg";
 import BelleEpoque from "../../images/TableauxVendu/1997/Belle-Epoque.jpg";

@@ -3,7 +3,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import OrangesEtDentelle from "../../images/Sans-Bordure/SansBordure-Grande-Oranges-Et-Dentelle.jpg";
-import GrandeAiguiere from "../../images/Grande-Images/AnyConv.com__Grande-Aiguiere.webp";
+import GrandeAiguiere from "../../images/Grande-Images/Grande-Aiguiere.webp";
 import TerroirDeFrance from "../../images/TableauxVendu/1998/Cadre-Terroirs-De-France.jpg";
 import BleuPorcelaine from "../../images/TableauxVendu/1998/Cadre-Bleu-Porcelaine.jpg";
 import CadreDameJeanne from "../../images/TableauxVendu/2004/Cadre-Dame-Jeanne.jpg";
@@ -27,21 +27,20 @@ import LeTempsDesLumieres from "../../images/Sans-Bordure/SansBordure-Grande-Le-
 import Felins from "../../images/TableauxVendu/2007/Cadre-Felins.jpg";
 import CuivreEtRaisinDesir from "../../images/Sans-Bordure/SansBordure-Grande-Cuivre-Et-Raisin-Desir.jpg";
 import GrandeFruitsDautomne from "../../images/Sans-Bordure/SansBordure-Grande-Fruits-Dautomne.jpg";
-import Chien from "../../images/Grande-Images/";
+import Chien from "../../images/Grande-Images/Chien.webp";
 import Cheval from "../../images/Grande-Images/Cheval.webp";
 import Iris from "../../images/Grande-Images/Iris.webp";
-import TeckelSurVelours from "../../images/Grande-Images/Grande-Jeune-Teckel-Sur-Velours.jpg";
-import BebeYorkshireSurVelours from "../../images/Grande-Images/Grande-Bebe-Yorkshire-Sur-Velours.jpg";
-import CanicheAbricotSurVelours from "../../images/Grande-Images/Grande-Caniche-Abricot-Sur-Velours.jpg";
-import CanicheBlancSurVelours from "../../images/Grande-Images/Grande-Caniche-Blanc-Sur-Velours.jpg";
-import CanicheGrisSurVelours from "../../images/Grande-Images/Grande-Caniche-Gris-Sur-Velours.jpg";
-import GrandeChouetteSurVelours from "../../images/Grande-Images/Grande-Chouette-Sur-Velours.jpg";
-import EnLhonneurDeBacchus from "../../images/Grande-Images/Grande-En-Lhonneur-De-Bacchus.jpg";
-import AbricotSurVelours from "../../images/Grande-Images/Grande-Caniche-Abricot-Sur-Velours.jpg";
-import YorkshireSurVelours from "../../images/Grande-Images/Grande-Yorkshire-Sur-Velours.jpg";
-import GuepierSurVelours from "../../images/Grande-Images/Grande-Guepier-Sur-Velours.jpg";
-import OiseauBleuSurVelours from "../../images/Grande-Images/Grande-Oiseau-Bleu-Sur-Velours.jpg";
-import HamsterSurVelours from "../../images/Grande-Images/Grande-Hamster-Sur-Velours.jpg";
+import TeckelSurVelours from "../../images/Grande-Images/Grande-Jeune-Teckel-Sur-Velours.webp";
+import BebeYorkshireSurVelours from "../../images/Grande-Images/Grande-Bebe-Yorkshire-Sur-Velours.webp";
+import CanicheAbricotSurVelours from "../../images/Grande-Images/Grande-Caniche-Abricot-Sur-Velours.webp";
+import CanicheBlancSurVelours from "../../images/Grande-Images/Grande-Caniche-Blanc-Sur-Velours.webp";
+import CanicheGrisSurVelours from "../../images/Grande-Images/Grande-Caniche-Gris-Sur-Velours.webp";
+import GrandeChouetteSurVelours from "../../images/Grande-Images/Grande-Chouette-Sur-Velours.webp";
+import EnLhonneurDeBacchus from "../../images/Grande-Images/Grande-En-Lhonneur-De-Bacchus.webp";
+import YorkshireSurVelours from "../../images/Grande-Images/Grande-Bebe-Yorkshire-Sur-Velours.webp";
+import GuepierSurVelours from "../../images/Grande-Images/Grande-Guepier-Sur-Velours.webp";
+import OiseauBleuSurVelours from "../../images/Grande-Images/Grande-Oiseau-Bleu-Sur-Velours.webp";
+import HamsterSurVelours from "../../images/Grande-Images/Grande-Hamster-Sur-Velours.webp";
 
 function MesCreations() {
   /* Function pour compter le Nombres de click sur les coeurs. 
@@ -902,31 +901,6 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
               <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
-                <span className="Coeur-Vide-Menu">
-                  <i className="far fa-heart"></i>
-                </span>
-                <span className="Coeur-Plein-Menu">
-                  <i className="fas fa-heart"></i>
-                </span>
-              </span>
-            </figcaption>
-          </figure>
-          <figure>
-            <div className="Div-En-Vente">
-              <NavLink to={AbricotSurVelours}>
-                <img
-                  src={AbricotSurVelours}
-                  alt="Caniche Abricot Sur Velours"
-                ></img>
-              </NavLink>
-            </div>
-            <figcaption>
-              <h4>Caniche abricot sur velours</h4>
-              <span className="Prix">20€</span>
-              <NavLink to="Fiche">
-                <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>

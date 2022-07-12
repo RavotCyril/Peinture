@@ -9,7 +9,7 @@ import JambonEtPain from "../../images/TableauxVendu/1997/Jambon-Et-Pain.jpg";
 import Nocturne from "../../images/TableauxVendu/1999/Nocturne.jpg";
 import LeGouter from "../../images/TableauxVendu/2000/Le-Gouter.jpg";
 import PetitDejeuner from "../../images/TableauxVendu/2000//Petit-Dejeuner.jpg";
-import Reflets from "../../images/Grande-Images/Grande-Reflets.jpg";
+import Reflets from "../../images/Grande-Images/Grande-Reflets-De-Savoie.webp";
 import RefletsDeSavoie from "../../images/Sans-Bordure/SansBordure-Grande-Reflets-De-Savoie.jpg";
 import CadreDameJeanne from "../../images/TableauxVendu/2004/Cadre-Dame-Jeanne.jpg";
 import PichetDoree from "../../images/TableauxVendu/2005/Pipe-Et-Pichet-Doree.jpg";
