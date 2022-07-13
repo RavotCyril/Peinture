@@ -61,7 +61,9 @@ Pour connaitre les tableaux les plus populaires de la page creation */
       let resultat = await fetch("http://localhost:3000/api/peinture/");
       return await resultat.json();
     } catch (error) {
-      alert("Serveur indisponible.Veuillez contacter l'administrateur du site");
+      console.log(
+        "Serveur indisponible.Veuillez contacter l'administrateur du site"
+      );
     }
   }
 
