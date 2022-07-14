@@ -238,28 +238,28 @@ function Presentation() {
             </figure>
             <figure
               id="Jambon et pain"
-              class="carousel-item"
+              className="carousel-item"
               data-interval="100000"
             >
-              <div class="Div-Illustration">
+              <div className="Div-Illustration">
                 <a href={JambonEtPain}>
                   <img
-                    class="galeriePresentation"
+                    className="galeriePresentation"
                     src={JambonEtPain}
                     alt="Jambon et pain"
                     title="Cliquez pour agrandir"
                   />
                 </a>
-                <span class="Page-Index-Mot-Vendue-Image">Vendu</span>
+                <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
               </div>
               <figcaption>
                 <h4>Jambon et pain</h4>
-                <span class="Dimension-Coeur Compteur" onclick="Compteur()">
-                  <span class="Coeur-Vide-Menu">
-                    <i class="far fa-heart"></i>
+                <span className="Dimension-Coeur Compteur" onclick="Compteur()">
+                  <span className="Coeur-Vide-Menu">
+                    <i className="far fa-heart"></i>
                   </span>
-                  <span class="Coeur-Plein-Menu-index">
-                    <i class="fas fa-heart"></i>
+                  <span className="Coeur-Plein-Menu-index">
+                    <i className="fas fa-heart"></i>
                   </span>
                 </span>
               </figcaption>

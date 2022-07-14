@@ -5,13 +5,13 @@ function footer() {
   return (
     <footer>
       <div className="Coordonnees-Details">
-        <div class="Adresse-Email">
+        <div className="Adresse-Email">
           <a href="mailto:mireille.rossignol56@orange.fr">
             <span>
-              <i class="fas fa-envelope"></i>
+              <i className="fas fa-envelope"></i>
             </span>
           </a>
-          <span class="bold">Email</span>
+          <span className="bold">Email</span>
         </div>
         <div className="Telephone">
           <span>
