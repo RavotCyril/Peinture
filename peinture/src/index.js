@@ -6,6 +6,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Error from "./components/Error";
 import Footer from "./components/Footer";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
+
 /* Importations Pages */
 
 import Presentation from "./pages/Presentation";
@@ -30,6 +33,8 @@ root.render(
             <Header />
             <Routes>
                 <Route path="/Presentation" element={< Presentation />} />
+                <Route path="/Signup" element={<Signup />} />
+                <Route path="/Login" element={<Login />} />
                 <Route path="/Fiche" element={< Fiche />} />
                 <Route path="/Infos" element={< Infos />} />
                 <Route path="/MesCreations" element={< MesCreations />} />

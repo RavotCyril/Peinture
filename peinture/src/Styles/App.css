@@ -22,6 +22,10 @@ header {
     text-decoration: none;
 }
 
+/* Permet de mettre un margin-top au main du component inscription */
+.Inscription {
+    margin-top: 150px;
+}
 
 /* Titre Principal h1 de toutes les pages */
 
@@ -1149,6 +1153,51 @@ footer a {
     font-size: 0.8rem;
 }
 
+.form-control {
+    margin-bottom: 20px;
+}
+
+.Like,
+.Dislike {
+    border: none;
+    background: none;
+    margin: 0px 10px 0px 0px;
+}
+
+.Like:focus {
+    color: green;
+}
+
+.Dislike:focus {
+    color: red;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.valid {
+    color: green;
+    position: relative;
+    left: 0px;
+    content: "✔";
+    margin: 0px 15px;
+}
+
+.invalid {
+    color: red;
+    position: relative;
+    left: 0px;
+    content: "✖";
+    margin: 0px 15px;
+}
+
+/* Span  component Inscription */
+.iiUDtF>span,
+.eAyRRL>span {
+    margin: 5px;
+}
 
 /* Page-Vos desirs H2 principal de la page*/
 

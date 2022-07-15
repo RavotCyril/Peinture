@@ -62,6 +62,16 @@ function Header() {
             <li className="Nav-List-Items">
               <NavLink to="/Infos">Infos</NavLink>
             </li>
+            <li className="Nav-List-Items">
+              <NavLink to="/Signup" className="navbar-brand">
+                Inscription
+              </NavLink>
+            </li>
+            <li className="Nav-List-Items">
+              <NavLink to="/Login" className="navbar-brand">
+                Connexion
+              </NavLink>
+            </li>
             {localStorage.getItem("Identification") != null ? (
               <li>
                 <NavDropdown title={User && User.firstname}>
