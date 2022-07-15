@@ -31,5 +31,5 @@ A la racine du projet faire cd backend
 
 ->Vérifier que nodemon est bien installé ou l'installer nodemon avec : npm install -g nodemon
 
--> nodemon server
+-> nodemon server 
 
