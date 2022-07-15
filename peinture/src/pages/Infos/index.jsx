@@ -36,8 +36,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "BleuPorcelain",
               }}
             >
@@ -47,8 +46,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "BleuPorcelain",
               }}
             >
@@ -58,8 +56,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "BleuPorcelain",
               }}
             >
@@ -69,8 +66,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "DameJeanne",
               }}
             >
@@ -80,8 +76,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "DameJeanne",
               }}
             >
@@ -91,8 +86,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "DameJeanne",
               }}
             >
@@ -102,8 +96,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "SouvenirsMarins",
               }}
             >
@@ -113,8 +106,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "SouvenirsMarins",
               }}
             >
@@ -124,8 +116,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "SouvenirsMarins",
               }}
             >
@@ -135,8 +126,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "OutilsDantan",
               }}
             >
@@ -146,8 +136,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "OutilsDantan",
               }}
             >
@@ -157,8 +146,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "OutilsDantan",
               }}
             >
@@ -168,8 +156,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "CuivreEtRaisin",
               }}
             >
@@ -179,8 +166,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "CuivreEtRaisin",
               }}
             >
@@ -190,8 +176,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "CuivreEtRaisin",
               }}
             >
@@ -201,8 +186,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "AvantLeDepart",
               }}
             >
@@ -212,8 +196,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "AvantLeDepart",
               }}
             >
@@ -223,8 +206,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "AvantLeDepart",
               }}
             >
@@ -234,8 +216,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "Aiguiere",
               }}
             >
@@ -245,8 +226,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "Aiguiere",
               }}
             >
@@ -256,8 +236,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "Aiguiere",
               }}
             >
@@ -267,8 +246,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "CaSePrepare",
               }}
             >
@@ -278,8 +256,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "CaSePrepare",
               }}
             >
@@ -289,8 +266,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "CaSePrepare",
               }}
             >
@@ -300,8 +276,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "UneAutreEpoque",
               }}
             >
@@ -311,8 +286,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "UneAutreEpoque",
               }}
             >
@@ -322,8 +296,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "UneAutreEpoque",
               }}
             >
@@ -336,8 +309,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "VinDeSavoie",
               }}
             >
@@ -347,8 +319,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "VinDeSavoie",
               }}
             >
@@ -358,8 +329,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "VinDeSavoie",
               }}
             >
@@ -369,8 +339,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "RefletsDeSavoie",
               }}
             >
@@ -380,8 +349,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "RefletsDeSavoie",
               }}
             >
@@ -391,8 +359,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "RefletsDeSavoie",
               }}
             >
@@ -402,8 +369,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "OrangesEtDentelle",
               }}
             >
@@ -413,8 +379,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "OrangesEtDentelle",
               }}
             >
@@ -424,8 +389,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "OrangesEtDentelle",
               }}
             >
@@ -435,8 +399,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "UnPetitCreux",
               }}
             >
@@ -446,8 +409,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "UnPetitCreux",
               }}
             >
@@ -457,8 +419,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "UnPetitCreux",
               }}
             >
@@ -468,8 +429,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "PlumeEhrefeufDargent",
               }}
             >
@@ -479,8 +439,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "PlumeEhrefeufDargent",
               }}
             >
@@ -490,8 +449,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "PlumeEhrefeufDargent",
               }}
             >
@@ -501,8 +459,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "LeTempsDeslumieres",
               }}
             >
@@ -512,8 +469,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "LeTempsDeslumieres",
               }}
             >
@@ -523,8 +479,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "LeTempsDeslumieres",
               }}
             >
@@ -534,8 +489,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "VieillesDentelles",
               }}
             >
@@ -545,8 +499,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "VieillesDentelles",
               }}
             >
@@ -556,8 +509,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "VieillesDentelles",
               }}
             >
@@ -567,8 +519,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "ChocolatChaud",
               }}
             >
@@ -578,8 +529,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "ChocolatChaud",
               }}
             >
@@ -589,8 +539,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "ChocolatChaud",
               }}
             >
@@ -600,8 +549,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "UnPtitNoir",
               }}
             >
@@ -611,8 +559,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "UnPtitNoir",
               }}
             >
@@ -622,8 +569,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "UnPtitNoir",
               }}
             >
@@ -633,8 +579,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "Cristaux",
               }}
             >
@@ -644,8 +589,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "Cristaux",
               }}
             >
@@ -655,8 +599,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "Cristaux",
               }}
             >
@@ -666,8 +609,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "CafeEtChocolat",
               }}
             >
@@ -677,8 +619,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "CafeEtChocolat",
               }}
             >
@@ -688,8 +629,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "CafeEtChocolat",
               }}
             >
@@ -702,8 +642,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "Felins",
               }}
             >
@@ -713,8 +652,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "Felins",
               }}
             >
@@ -724,8 +662,7 @@ function Infos() {
           <div className="grid-item">
             <Link
               to={{
-                pathname:
-                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                pathname: "/MesCreations",
                 hash: "Felins",
               }}
             >

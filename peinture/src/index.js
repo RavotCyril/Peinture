@@ -32,15 +32,15 @@ root.render(
         <Router>
             <Header />
             <Routes>
-                <Route path="http://jpqlxdm.cluster030.hosting.ovh.net/Presentation" element={< Presentation />} />
-                <Route path="http://jpqlxdm.cluster030.hosting.ovh.net/Signup" element={<Signup />} />
-                <Route path="http://jpqlxdm.cluster030.hosting.ovh.net/Login" element={<Login />} />
-                <Route path="http://jpqlxdm.cluster030.hosting.ovh.net/Fiche" element={< Fiche />} />
-                <Route path="http://jpqlxdm.cluster030.hosting.ovh.net/Infos" element={< Infos />} />
-                <Route path="http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations" element={< MesCreations />} />
-                <Route path="http://jpqlxdm.cluster030.hosting.ovh.net/Vendue" element={< Vendue />} />
-                <Route path="http://jpqlxdm.cluster030.hosting.ovh.net/VosDesirs" element={< VosDesirs />} />
-                <Route path="http://jpqlxdm.cluster030.hosting.ovh.net/RevueDePresse" element={< RevueDePresse />} />
+                <Route path="/Presentation" element={< Presentation />} />
+                <Route path="/Signup" element={<Signup />} />
+                <Route path="/Login" element={<Login />} />
+                <Route path="/Fiche" element={< Fiche />} />
+                <Route path="/Infos" element={< Infos />} />
+                <Route path="/MesCreations" element={< MesCreations />} />
+                <Route path="/Vendue" element={< Vendue />} />
+                <Route path="/VosDesirs" element={< VosDesirs />} />
+                <Route path="/RevueDePresse" element={< RevueDePresse />} />
                 <Route path="*" element={< Error />} />
             </Routes>
             <Footer />

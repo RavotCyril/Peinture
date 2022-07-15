@@ -39,62 +39,36 @@ function Header() {
             id="Visibilite"
             className="collapse navbar-collapse justify-content-end"
           ></div>
-          <NavLink to="http://jpqlxdm.cluster030.hosting.ovh.net/Presentation">
-            Présentation
-          </NavLink>
-          <NavLink to="http://jpqlxdm.cluster030.hosting.ovh.net/Mescreations">
-            Mes Créations
-          </NavLink>
-          <NavLink to="http://jpqlxdm.cluster030.hosting.ovh.net/VosDesirs">
-            Vos Désirs
-          </NavLink>
-          <NavLink to="http://jpqlxdm.cluster030.hosting.ovh.net/RevueDePresse">
-            Revue De Presse
-          </NavLink>
-          <NavLink to="http://jpqlxdm.cluster030.hosting.ovh.net/Infos">
-            Infos
-          </NavLink>
+          <NavLink to="/Presentation">Présentation</NavLink>
+          <NavLink to="/Mescreations">Mes Créations</NavLink>
+          <NavLink to="/VosDesirs">Vos Désirs</NavLink>
+          <NavLink to="/RevueDePresse">Revue De Presse</NavLink>
+          <NavLink to="/Infos">Infos</NavLink>
         </nav>
         <nav className="Navigation-Desktop">
           <ul className="Balise-Presentation">
             <li className="Nav-List-Items">
-              <NavLink to="http://jpqlxdm.cluster030.hosting.ovh.net/Presentation">
-                Présentation
-              </NavLink>
+              <NavLink to="/Presentation">Présentation</NavLink>
             </li>
             <li className="Nav-List-Items">
-              <NavLink to="http://jpqlxdm.cluster030.hosting.ovh.net/Mescreations">
-                Mes Créations
-              </NavLink>
+              <NavLink to="/Mescreations">Mes Créations</NavLink>
             </li>
             <li className="Nav-List-Items">
-              <NavLink to="http://jpqlxdm.cluster030.hosting.ovh.net/VosDesirs">
-                Vos Désirs
-              </NavLink>
+              <NavLink to="/VosDesirs">Vos Désirs</NavLink>
             </li>
             <li className="Nav-List-Items">
-              <NavLink to="http://jpqlxdm.cluster030.hosting.ovh.net/RevueDePresse">
-                Revue De Presse
-              </NavLink>
+              <NavLink to="/RevueDePresse">Revue De Presse</NavLink>
             </li>
             <li className="Nav-List-Items">
-              <NavLink to="http://jpqlxdm.cluster030.hosting.ovh.net/Infos">
-                Infos
-              </NavLink>
+              <NavLink to="/Infos">Infos</NavLink>
             </li>
             <li className="Nav-List-Items">
-              <NavLink
-                to="http://jpqlxdm.cluster030.hosting.ovh.net/Signup"
-                className="navbar-brand"
-              >
+              <NavLink to="/Signup" className="navbar-brand">
                 Inscription
               </NavLink>
             </li>
             <li className="Nav-List-Items">
-              <NavLink
-                to="http://jpqlxdm.cluster030.hosting.ovh.net/Login"
-                className="navbar-brand"
-              >
+              <NavLink to="/Login" className="navbar-brand">
                 Connexion
               </NavLink>
             </li>

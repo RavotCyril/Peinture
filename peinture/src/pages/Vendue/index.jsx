@@ -2,6 +2,155 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+import Theiere from "../../images/TableauxVendu/1995/Theiere.jpg";
+import FraisesEtPlatEnEtain from "../../images/TableauxVendu/1995/Fraises-Et-Plat-En-Etain.jpg";
+import CoupeAbricots from "../../images/TableauxVendu/1995/Coupe-Abricots.jpg";
+import PainEtOeufCoque from "../../images/TableauxVendu/1996/Pain-Et-Oeuf-Coque.jpg";
+import ConfitureDes4FruitsRouges from "../../images/TableauxVendu/1996/Confiture-Des-4-Fruits-Rouges.jpg";
+import PainVinEtLaguiole from "../../images/TableauxVendu/1996/Pain-Vin-Et-Laguiole.jpg";
+import CarafeEtPetitsGateaux from "../../images/TableauxVendu/1996/Carafe-Et-Petits-Gateaux.jpg";
+import VaseLaqueEtPivoines from "../../images/TableauxVendu/1996/Vase-Laque-Et-Pivoines.jpg";
+import BelleEpoque from "../../images/TableauxVendu/1997/Belle-Epoque.jpg";
+import BriocheEtChampagne from "../../images/TableauxVendu/1997/Brioche-Et-Champagne.jpg";
+import BriocheEtPotALait from "../../images/TableauxVendu/1997/Brioche-Et-Pot-A-Lait.jpg";
+import ChopeEnEtainEtOlives from "../../images/TableauxVendu/1997/Chope-En-Etain-Et-Olives.jpg";
+import ConfitureAbricot from "../../images/TableauxVendu/1997/Confiture-Abricot.jpg";
+import CorbeilleAbricots from "../../images/TableauxVendu/1997/Corbeille-Abricots.jpg";
+import CrucheEngres from "../../images/TableauxVendu/1997/Cruche-Engres.jpg";
+import GrandPere from "../../images/TableauxVendu/1997/Grand-Pere.jpg";
+import JambonEtPain from "../../images/TableauxVendu/1997/Jambon-Et-Pain.jpg";
+import LePainEtLeVin from "../../images/TableauxVendu/1997/Le-Pain-Et-Le-Vin.jpg";
+import PainCuivreEtCouteau from "../../images/TableauxVendu/1997/Pain-Cuivre-Et-Couteau.jpg";
+import PainCuivreEtOeufs from "../../images/TableauxVendu/1997/Pain-Cuivre-Et-Oeufs.jpg";
+import PanierDeFruits from "../../images/TableauxVendu/1997/Panier-De-Fruits.jpg";
+import PauseCafe from "../../images/TableauxVendu/1997/Pause-Cafe.jpg";
+import Peches from "../../images/TableauxVendu/1997/Peches.jpg";
+import PommesEtPotEnLaiton from "../../images/TableauxVendu/1997/Pommes-Et-Pot-En-Laiton.jpg";
+import PotPourrisEtDentelle from "../../images/TableauxVendu/1997/Pot-Pourris-Et-Dentelle.jpg";
+import PousseCafe from "../../images/TableauxVendu/1997/Pousse-Cafe.jpg";
+import Provence from "../../images/TableauxVendu/1997/Provence.jpg";
+import SourceDeVie from "../../images/TableauxVendu/1997/Source-De-Vie.jpg";
+import CadreBleuPorcelaine from "../../images/TableauxVendu/1998/Cadre-Bleu-Porcelaine.jpg";
+import CadreSouvenirsMarin from "../../images/TableauxVendu/1998/Cadre-Souvenirs-Marin.jpg";
+import CadreTerroirsDeFrance from "../../images/TableauxVendu/1998/Cadre-Terroirs-De-France.jpg";
+import CarafeEtRaisins from "../../images/TableauxVendu/1998/Carafe-Et-Raisins.jpg";
+import Cerises from "../../images/TableauxVendu/1998/Cerises.jpg";
+import Chardons from "../../images/TableauxVendu/1998/Chardons.jpg";
+import JeuxDhier from "../../images/TableauxVendu/1998/Jeux-Dhier.jpg";
+import LesOeufs from "../../images/TableauxVendu/1998/Les-Oeufs.jpg";
+import LheureDuThe from "../../images/TableauxVendu/1998/Lheure-Du-The.jpg";
+import OeufCoqueEtPoussin from "../../images/TableauxVendu/1998/Oeuf-Coque-Et-Poussin.jpg";
+import Calligraphie from "../../images/TableauxVendu/1999/Calligraphie.jpg";
+import CerisesEtWhisky from "../../images/TableauxVendu/1999/Cerises-Et-Whisky.jpg";
+import Degustation from "../../images/TableauxVendu/1999/Degustation.jpg";
+import FleursDeLys from "../../images/TableauxVendu/1999/Fleurs-De-Lys.jpg";
+import LePetitBouchon from "../../images/TableauxVendu/1999/Le-Petit-Bouchon.jpg";
+import LeRomanDesDeuxRoses from "../../images/TableauxVendu/1999/Le-Roman-Des-Deux-Roses.jpg";
+import LesCerises from "../../images/TableauxVendu/1999/Les-Cerises.jpg";
+import LesFraises from "../../images/TableauxVendu/1999/Les-Fraises.jpg";
+import Nocturne from "../../images/TableauxVendu/1999/Nocturne.jpg";
+import PageDecriture from "../../images/TableauxVendu/1999/Page-Decriture.jpg";
+import PommeEtNoix from "../../images/TableauxVendu/1999/Pomme-Et-Noix.jpg";
+import VaseBleu from "../../images/TableauxVendu/1999/Vase-Bleu.jpg";
+import AutomneII from "../../images/TableauxVendu/2000/Automne-II.jpg";
+import Automne1 from "../../images/TableauxVendu/2000/Automne1.jpg";
+import AutourDuVinII from "../../images/TableauxVendu/2000/Autour-Du-Vin-II.jpg";
+import AutourDuVin from "../../images/TableauxVendu/2000/Autour-Du-Vin.jpg";
+import Cognac from "../../images/TableauxVendu/2000/Cognac.jpg";
+import Correspondance from "../../images/TableauxVendu/2000/Correspondance.jpg";
+import CuivreEtPainII from "../../images/TableauxVendu/2000/Cuivre-Et-Pain-II.jpg";
+import LaDourneEnEtain from "../../images/TableauxVendu/2000/La-Dourne-En-Etain.jpg";
+import LartDuVin from "../../images/TableauxVendu/2000/Lart-Du-Vin.jpg";
+import LeCidre from "../../images/TableauxVendu/2000/Le-Cidre.jpg";
+import LeGouter from "../../images/TableauxVendu/2000/Le-Gouter.jpg";
+import LeVerreDeVin from "../../images/TableauxVendu/2000/Le-Verre-De-Vin.jpg";
+import CadreReflets from "../../images/TableauxVendu/2001/Cadre-Reflets.jpg";
+import CuivreEtRaisin from "../../images/TableauxVendu/2001/Cuivre-Et-Raisin.jpg";
+import Fraicheur from "../../images/TableauxVendu/2001/Fraicheur.jpg";
+import LartDeVivre from "../../images/TableauxVendu/2001/Lart-De-Vivre.jpg";
+import LoiseauDeCristal from "../../images/TableauxVendu/2001/Loiseau-De-Cristal.jpg";
+import Londres1924 from "../../images/TableauxVendu/2001/Londres-1924.jpg";
+import MatinBonheur from "../../images/TableauxVendu/2001/Matin-Bonheur.jpg";
+import PetitesBoites from "../../images/TableauxVendu/2001/Petites-Boites.jpg";
+import Quietude from "../../images/TableauxVendu/2001/Quietude.jpg";
+import TimbaleAuxCerises from "../../images/TableauxVendu/2001/Timbale-Aux-Cerises.jpg";
+import TimbaleAuxFraises from "../../images/TableauxVendu/2001/Timbale-Aux-Fraises.jpg";
+import TimbaleAuxFramboises from "../../images/TableauxVendu/2001/Timbale-Aux-Framboises.jpg";
+import VerreEscargot from "../../images/TableauxVendu/2001/Verre-Escargot.jpg";
+import CadreUneAutreEpoque from "../../images/TableauxVendu/2002/Cadre-Une-Autre-Epoque.jpg";
+import CuivreVaseBleu from "../../images/TableauxVendu/2002/Cuivre-Vase-Bleu.jpg";
+import Dentiste from "../../images/TableauxVendu/2002/Dentiste.jpg";
+import Exotique from "../../images/TableauxVendu/2002/Exotique.jpg";
+import LeConfiturier from "../../images/TableauxVendu/2002/Le-Confiturier.jpg";
+import PainEtConfiture from "../../images/TableauxVendu/2002/Pain-Et-Confiture.jpg";
+import PasseTemps from "../../images/TableauxVendu/2002/Passe-Temps.jpg";
+import Senteur from "../../images/TableauxVendu/2002/Senteur.jpg";
+import TelsQuilsFurent from "../../images/TableauxVendu/2002/Tels-Quils-Furent.jpg";
+import TimbaleALaPipe from "../../images/TableauxVendu/2002/Timbale-A-La-Pipe.jpg";
+import Vendange from "../../images/TableauxVendu/2002/Vendange.jpg";
+import AlpageLepage from "../../images/TableauxVendu/2003/Alpage-Lepage.jpg";
+import CoupeDeRaisin from "../../images/TableauxVendu/2003/Coupe-De-Raisin.jpg";
+import Douceurs from "../../images/TableauxVendu/2003/Douceurs.jpg";
+import Ensavoie from "../../images/TableauxVendu/2003/En-savoie.jpg";
+import FruitsDete from "../../images/TableauxVendu/2003/Fruits-Dete.jpg";
+import Lecture from "../../images/TableauxVendu/2003/Lecture.jpg";
+import LesDeuxTomesDesavoie from "../../images/TableauxVendu/2003/Les-Deux-Tomes-De-savoie.jpg";
+import LesTroisGres from "../../images/TableauxVendu/2003/Les-Trois-Gres.jpg";
+import ReveilMatin from "../../images/TableauxVendu/2003/Reveil-Matin.jpg";
+import SouvenirsDeSavoie from "../../images/TableauxVendu/2003/Souvenirs-De-Savoie.jpg";
+import Souvenirs from "../../images/TableauxVendu/2003/Souvenirs.jpg";
+import AlcoolEtDentelle from "../../images/TableauxVendu/2004/Alcool-Et-Dentelle.jpg";
+import Alcools from "../../images/TableauxVendu/2004/Alcools.jpg";
+import AndrosacesAvecOpinel from "../../images/TableauxVendu/2004/Androsaces-Avec-Opinel.jpg";
+import AvantLeDepart from "../../images/TableauxVendu/2004/Avant-Le-Depart.jpg";
+import CadreDameJeanne from "../../images/TableauxVendu/2004/Cadre-Dame-Jeanne.jpg";
+import CasseCrouteSavoyard from "../../images/TableauxVendu/2004/Casse-Croute-Savoyard.jpg";
+import CerisesEtFraise from "../../images/TableauxVendu/2004/Cerises-Et-Fraise.jpg";
+import DegustationEnsavoie from "../../images/TableauxVendu/2004/Degustation-En-savoie.jpg";
+import EncrierEtTimbale from "../../images/TableauxVendu/2004/Encrier-Et-Timbale.jpg";
+import FleurDeternite from "../../images/TableauxVendu/2004/Fleur-Deternite.jpg";
+import FleurEtFramboises from "../../images/TableauxVendu/2004/Fleur-Et-Framboises.jpg";
+import FleurEtFruits from "../../images/TableauxVendu/2004/Fleur-Et-Fruits.jpg";
+import FruitsRouges from "../../images/TableauxVendu/2004/Fruits-Rouges.jpg";
+import Inspiration from "../../images/TableauxVendu/2004/Inspiration.jpg";
+import LesPlaisirsDefendus from "../../images/TableauxVendu/2004/Les-Plaisirs-Defendus.jpg";
+import MignonneAllonsVoirSiLaRose from "../../images/TableauxVendu/2004/Mignonne-Allons-Voir-Si-La-Rose.jpg";
+import PainEtOeufs from "../../images/TableauxVendu/2004/Pain-Et-oeufs.jpg";
+import PauseCasseCroute from "../../images/TableauxVendu/2004/Pause-casse-Croute.jpg";
+import PauseLecture from "../../images/TableauxVendu/2004/Pause-Lecture.jpg";
+import PommeEtCroissants from "../../images/TableauxVendu/2004/Pomme-Et-Croissants.jpg";
+import Printemps from "../../images/TableauxVendu/2004/Printemps.jpg";
+import RefletsDeSavoies from "../../images/TableauxVendu/2004/Reflets-De-savoies.jpg";
+import SagesseDeLorient from "../../images/TableauxVendu/2004/Sagesse-De-Lorient.jpg";
+import TommeEtCarlines from "../../images/TableauxVendu/2004/Tomme-Et-Carlines.jpg";
+import UnGrandBol from "../../images/TableauxVendu/2004/Un-Grand-Bol.jpg";
+import Aladin from "../../images/TableauxVendu/2005/Aladin.jpg";
+import CadreCaSePrepare from "../../images/TableauxVendu/2005/Cadre-Ca-Se-Prepare.jpg";
+import EncrierI from "../../images/TableauxVendu/2005/Encrier-I.jpg";
+import EncrierII from "../../images/TableauxVendu/2005/Encrier-II.jpg";
+import PauseCasseCrouteII from "../../images/TableauxVendu/2005/Pause-Casse-Croute-II.jpg";
+import PipeEtPichetDoree from "../../images/TableauxVendu/2005/Pipe-Et-Pichet-Doree.jpg";
+import UnPetitCroissant from "../../images/TableauxVendu/2005/Un-Petit-Croissant.jpg";
+import UnPichetDore from "../../images/TableauxVendu/2005/Un-Pichet-Dore.jpg";
+import Bonjour from "../../images/TableauxVendu/2006/Bonjour.jpg";
+import CadreUnPtitNoir from "../../images/TableauxVendu/2006/Cadre-Un-Ptit-Noir.jpg";
+import CognacEtDentelle from "../../images/TableauxVendu/2006/Cognac-Et-Dentelle.jpg";
+import FruitsRougesEtConfiture from "../../images/TableauxVendu/2006/Fruits-Rouges-Et-Confiture.jpg";
+import LivresEtRose from "../../images/TableauxVendu/2006/Livres-Et-Rose.jpg";
+import PommeEtChocolat from "../../images/TableauxVendu/2006/Pomme-Et-Chocolat.jpg";
+import UnPetitVerre from "../../images/TableauxVendu/2006/Un-Petit-Verre.jpg";
+import CadreFelins from "../../images/TableauxVendu/2007/Cadre-Felins.jpg";
+import CadreOutilsDantan from "../../images/TableauxVendu/2007/Cadre-Outils-dantan.jpg";
+import CadrePlumeEtOeufDargent from "../../images/TableauxVendu/2007/Cadre-Plume-Et-oeuf-Dargent.jpg";
+import CadreVieillesDentelle from "../../images/TableauxVendu/2007/Cadre-Vieilles-Dentelles.jpg";
+import CasseCrouteEnMontagne from "../../images/TableauxVendu/2007/Casse-Croute-En-Montagne.jpg";
+import CadreCafeChocolat from "../../images/TableauxVendu/2008/Cadre-Cafe-Chocolat.jpg";
+import CadreChocolatChaud from "../../images/TableauxVendu/2008/Cadre-Chocolat-Chaud.jpg";
+import CadreLeTempsDesLumieres from "../../images/TableauxVendu/2008/Cadre-Le-Temps-Des-Lumieres.jpg";
+import CadreVinDeSavoie from "../../images/TableauxVendu/2008/Cadre-Vin-De-Savoie.jpg";
+import ConfitureEtFruits from "../../images/TableauxVendu/2008/Confiture-Et-Fruits.jpg";
+import Litterature from "../../images/TableauxVendu/2008/Litterature.jpg";
+
 function Vendue() {
   return (
     <main>
@@ -39,9 +188,9 @@ function Vendue() {
           </figure>
           <figure id="Fraises-Et-Plat-En-Etain">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1995/Fraises-Et-Plat-En-Etain.jpg">
+              <NavLink to={FraisesEtPlatEnEtain}>
                 <img
-                  src="../../images/TableauxVendu/1995/Fraises-Et-Plat-En-Etain.jpg"
+                  src={FraisesEtPlatEnEtain}
                   alt="Fraises et plat en étain"
                   title="Cliquez pour agrandir"
                 />
