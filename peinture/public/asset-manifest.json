@@ -70,8 +70,5 @@
     "main.c9e86c17.css.map": "/Presentation/static/css/main.c9e86c17.css.map",
     "main.7b376ae9.js.map": "/Presentation/static/js/main.7b376ae9.js.map"
   },
-  "entrypoints": [
-    "static/css/main.c9e86c17.css",
-    "static/js/main.7b376ae9.js"
-  ]
+  "entrypoints": ["static/css/main.c9e86c17.css", "static/js/main.7b376ae9.js"]
 }
