@@ -1004,6 +1004,7 @@ footer a {
 /* Page-Creation  Titre Nature Morte */
 
 .Titre-Nature-Morte {
+    color: black;
     display: flex;
     justify-content: center;
     margin: 0px auto 50px auto;

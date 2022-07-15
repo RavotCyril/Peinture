@@ -89,13 +89,13 @@ Pour connaitre les tableaux les plus populaires de la page creation */
       <section className="Galerie">
         <h2 className="Titre-Nature-Morte">
           <span className="Lien-Nature-Morte-En-Vente">
-            Nature morte /<NavLink to="#velour">&nbsp;Velours en vente</NavLink>
+            Nature morte /<a href="#velour">&nbsp;Velours en vente</a>
             &nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <NavLink className="Lien-Nature-Morte-Vendu" to="vendue.html">
+          <a className="Lien-Nature-Morte-Vendu" href="Vendue">
             <i className="fas fa-chevron-circle-right"></i>&nbsp; Nature morte /
             &nbsp;Velours vendu
-          </NavLink>
+          </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
         </h2>
         <h3>Nature-Morte-Galerie n ° 1</h3>
