@@ -34,135 +34,299 @@ function Infos() {
           <div className="grid-item">55x46</div>
           <div className="grid-item">980€</div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "BleuPorcelain" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "BleuPorcelain",
+              }}
+            >
               10P
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "BleuPorcelain" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "BleuPorcelain",
+              }}
+            >
               55x38
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "BleuPorcelain" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "BleuPorcelain",
+              }}
+            >
               890€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "DameJeanne" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "DameJeanne",
+              }}
+            >
               8F
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "DameJeanne" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "DameJeanne",
+              }}
+            >
               46x38
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "DameJeanne" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "DameJeanne",
+              }}
+            >
               800€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "SouvenirsMarins" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "SouvenirsMarins",
+              }}
+            >
               8F
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "SouvenirsMarins" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "SouvenirsMarins",
+              }}
+            >
               46x38
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "SouvenirsMarins" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "SouvenirsMarins",
+              }}
+            >
               800€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "OutilsDantan" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "OutilsDantan",
+              }}
+            >
               8P
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "OutilsDantan" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "OutilsDantan",
+              }}
+            >
               46x38
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "OutilsDantan" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "OutilsDantan",
+              }}
+            >
               780€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "CuivreEtRaisin" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "CuivreEtRaisin",
+              }}
+            >
               8P
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "CuivreEtRaisin" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "CuivreEtRaisin",
+              }}
+            >
               46x38
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "CuivreEtRaisin" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "CuivreEtRaisin",
+              }}
+            >
               780€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "AvantLeDepart" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "AvantLeDepart",
+              }}
+            >
               8P
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "AvantLeDepart" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "AvantLeDepart",
+              }}
+            >
               46x38
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "AvantLeDepart" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "AvantLeDepart",
+              }}
+            >
               780€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "Aiguiere" }}>6F</Link>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "Aiguiere",
+              }}
+            >
+              6F
+            </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "Aiguiere" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "Aiguiere",
+              }}
+            >
               41x33
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "Aiguiere" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "Aiguiere",
+              }}
+            >
               690€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "CaSePrepare" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "CaSePrepare",
+              }}
+            >
               6P
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "CaSePrepare" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "CaSePrepare",
+              }}
+            >
               41x27
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "CaSePrepare" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "CaSePrepare",
+              }}
+            >
               650€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "UneAutreEpoque" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "UneAutreEpoque",
+              }}
+            >
               5F
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "UneAutreEpoque" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "UneAutreEpoque",
+              }}
+            >
               35x27
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "UneAutreEpoque" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "UneAutreEpoque",
+              }}
+            >
               580€
             </Link>
           </div>
@@ -170,177 +334,365 @@ function Infos() {
           <div className="grid-item">35x24</div>
           <div className="grid-item">550€</div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "VinDeSavoie" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "VinDeSavoie",
+              }}
+            >
               4F
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "VinDeSavoie" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "VinDeSavoie",
+              }}
+            >
               33x24
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "VinDeSavoie" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "VinDeSavoie",
+              }}
+            >
               480€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "RefletsDeSavoie" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "RefletsDeSavoie",
+              }}
+            >
               4F
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "RefletsDeSavoie" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "RefletsDeSavoie",
+              }}
+            >
               33x24
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "RefletsDeSavoie" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "RefletsDeSavoie",
+              }}
+            >
               480€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "OrangesEtDentelle" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "OrangesEtDentelle",
+              }}
+            >
               4P
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "OrangesEtDentelle" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "OrangesEtDentelle",
+              }}
+            >
               33x22
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "OrangesEtDentelle" }}>
-              450€
-            </Link>
-          </div>
-          <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "UnPetitCreux" }}>
-              4P
-            </Link>
-          </div>
-          <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "UnPetitCreux" }}>
-              33x22
-            </Link>
-          </div>
-          <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "UnPetitCreux" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "OrangesEtDentelle",
+              }}
+            >
               450€
             </Link>
           </div>
           <div className="grid-item">
             <Link
-              to={{ pathname: "/MesCreations", hash: "PlumeEhrefeufDargent" }}
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "UnPetitCreux",
+              }}
+            >
+              4P
+            </Link>
+          </div>
+          <div className="grid-item">
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "UnPetitCreux",
+              }}
+            >
+              33x22
+            </Link>
+          </div>
+          <div className="grid-item">
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "UnPetitCreux",
+              }}
+            >
+              450€
+            </Link>
+          </div>
+          <div className="grid-item">
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "PlumeEhrefeufDargent",
+              }}
             >
               3F
             </Link>
           </div>
           <div className="grid-item">
             <Link
-              to={{ pathname: "/MesCreations", hash: "PlumeEhrefeufDargent" }}
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "PlumeEhrefeufDargent",
+              }}
             >
               27x22
             </Link>
           </div>
           <div className="grid-item">
             <Link
-              to={{ pathname: "/MesCreations", hash: "PlumeEhrefeufDargent" }}
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "PlumeEhrefeufDargent",
+              }}
             >
               380€
             </Link>
           </div>
           <div className="grid-item">
             <Link
-              to={{ pathname: "/MesCreations", hash: "LeTempsDeslumieres" }}
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "LeTempsDeslumieres",
+              }}
             >
               3F
             </Link>
           </div>
           <div className="grid-item">
             <Link
-              to={{ pathname: "/MesCreations", hash: "LeTempsDeslumieres" }}
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "LeTempsDeslumieres",
+              }}
             >
               27x22
             </Link>
           </div>
           <div className="grid-item">
             <Link
-              to={{ pathname: "/MesCreations", hash: "LeTempsDeslumieres" }}
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "LeTempsDeslumieres",
+              }}
             >
               380€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "VieillesDentelles" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "VieillesDentelles",
+              }}
+            >
               3P
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "VieillesDentelles" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "VieillesDentelles",
+              }}
+            >
               27x19
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "VieillesDentelles" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "VieillesDentelles",
+              }}
+            >
               350€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "ChocolatChaud" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "ChocolatChaud",
+              }}
+            >
               3P
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "ChocolatChaud" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "ChocolatChaud",
+              }}
+            >
               27x19
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "ChocolatChaud" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "ChocolatChaud",
+              }}
+            >
               350€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "UnPtitNoir" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "UnPtitNoir",
+              }}
+            >
               2F
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "UnPtitNoir" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "UnPtitNoir",
+              }}
+            >
               24x19
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "UnPtitNoir" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "UnPtitNoir",
+              }}
+            >
               310€
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "Cristaux" }}>2F</Link>
-          </div>
-          <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "Cristaux" }}>
-              24x19
-            </Link>
-          </div>
-          <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "Cristaux" }}>
-              310€
-            </Link>
-          </div>
-          <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "CafeEtChocolat" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "Cristaux",
+              }}
+            >
               2F
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "CafeEtChocolat" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "Cristaux",
+              }}
+            >
               24x19
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "CafeEtChocolat" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "Cristaux",
+              }}
+            >
+              310€
+            </Link>
+          </div>
+          <div className="grid-item">
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "CafeEtChocolat",
+              }}
+            >
+              2F
+            </Link>
+          </div>
+          <div className="grid-item">
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "CafeEtChocolat",
+              }}
+            >
+              24x19
+            </Link>
+          </div>
+          <div className="grid-item">
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "CafeEtChocolat",
+              }}
+            >
               310€
             </Link>
           </div>
@@ -348,15 +700,37 @@ function Infos() {
           <div className="grid-item">24x16</div>
           <div className="grid-item">290€</div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "Felins" }}>1F</Link>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "Felins",
+              }}
+            >
+              1F
+            </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "Felins" }}>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "Felins",
+              }}
+            >
               22x16
             </Link>
           </div>
           <div className="grid-item">
-            <Link to={{ pathname: "/MesCreations", hash: "Felins" }}>250€</Link>
+            <Link
+              to={{
+                pathname:
+                  "http://jpqlxdm.cluster030.hosting.ovh.net/MesCreations",
+                hash: "Felins",
+              }}
+            >
+              250€
+            </Link>
           </div>
         </div>
       </section>
