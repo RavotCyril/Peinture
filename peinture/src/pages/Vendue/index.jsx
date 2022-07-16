@@ -10,11 +10,9 @@ import ConfitureDes4FruitsRouges from "../../images/TableauxVendu/1996/Confiture
 import PainVinEtLaguiole from "../../images/TableauxVendu/1996/Pain-Vin-Et-Laguiole.jpg";
 import CarafeEtPetitsGateaux from "../../images/TableauxVendu/1996/Carafe-Et-Petits-Gateaux.jpg";
 import VaseLaqueEtPivoines from "../../images/TableauxVendu/1996/Vase-Laque-Et-Pivoines.jpg";
-import BelleEpoque from "../../images/TableauxVendu/1997/Belle-Epoque.jpg";
 import BriocheEtChampagne from "../../images/TableauxVendu/1997/Brioche-Et-Champagne.jpg";
 import BriocheEtPotALait from "../../images/TableauxVendu/1997/Brioche-Et-Pot-A-Lait.jpg";
 import ChopeEnEtainEtOlives from "../../images/TableauxVendu/1997/Chope-En-Etain-Et-Olives.jpg";
-import ConfitureAbricot from "../../images/TableauxVendu/1997/Confiture-Abricot.jpg";
 import CorbeilleAbricots from "../../images/TableauxVendu/1997/Corbeille-Abricots.jpg";
 import CrucheEngres from "../../images/TableauxVendu/1997/Cruche-Engres.jpg";
 import GrandPere from "../../images/TableauxVendu/1997/Grand-Pere.jpg";
@@ -27,12 +25,8 @@ import PauseCafe from "../../images/TableauxVendu/1997/Pause-Cafe.jpg";
 import Peches from "../../images/TableauxVendu/1997/Peches.jpg";
 import PommesEtPotEnLaiton from "../../images/TableauxVendu/1997/Pommes-Et-Pot-En-Laiton.jpg";
 import PotPourrisEtDentelle from "../../images/TableauxVendu/1997/Pot-Pourris-Et-Dentelle.jpg";
-import PousseCafe from "../../images/TableauxVendu/1997/Pousse-Cafe.jpg";
 import Provence from "../../images/TableauxVendu/1997/Provence.jpg";
 import SourceDeVie from "../../images/TableauxVendu/1997/Source-De-Vie.jpg";
-import CadreBleuPorcelaine from "../../images/TableauxVendu/1998/Cadre-Bleu-Porcelaine.jpg";
-import CadreSouvenirsMarin from "../../images/TableauxVendu/1998/Cadre-Souvenirs-Marin.jpg";
-import CadreTerroirsDeFrance from "../../images/TableauxVendu/1998/Cadre-Terroirs-De-France.jpg";
 import CarafeEtRaisins from "../../images/TableauxVendu/1998/Carafe-Et-Raisins.jpg";
 import Cerises from "../../images/TableauxVendu/1998/Cerises.jpg";
 import Chardons from "../../images/TableauxVendu/1998/Chardons.jpg";
@@ -59,15 +53,16 @@ import AutourDuVin from "../../images/TableauxVendu/2000/Autour-Du-Vin.jpg";
 import Cognac from "../../images/TableauxVendu/2000/Cognac.jpg";
 import Correspondance from "../../images/TableauxVendu/2000/Correspondance.jpg";
 import CuivreEtPainII from "../../images/TableauxVendu/2000/Cuivre-Et-Pain-II.jpg";
-import LaDourneEnEtain from "../../images/TableauxVendu/2000/La-Dourne-En-Etain.jpg";
-import LartDuVin from "../../images/TableauxVendu/2000/Lart-Du-Vin.jpg";
-import LeCidre from "../../images/TableauxVendu/2000/Le-Cidre.jpg";
 import LeGouter from "../../images/TableauxVendu/2000/Le-Gouter.jpg";
 import LeVerreDeVin from "../../images/TableauxVendu/2000/Le-Verre-De-Vin.jpg";
+import Liqueur from "../../images/TableauxVendu/2000/Liqueur.jpg";
+import LartDuVin from "../../images/TableauxVendu/2000/Lart-Du-Vin.jpg";
+import PainEtPichet from "../../images/TableauxVendu/2000/Pain-Et-Pichet.jpg";
+import LeCidre from "../../images/TableauxVendu/2000/Le-Cidre.jpg";
+import PetitDejeuner from "../../images/TableauxVendu/2000/Petit-Dejeuner.jpg";
+import TireBouchon from "../../images/TableauxVendu/2000/Tire-Bouchon.jpg";
 import CadreReflets from "../../images/TableauxVendu/2001/Cadre-Reflets.jpg";
-import CuivreEtRaisin from "../../images/TableauxVendu/2001/Cuivre-Et-Raisin.jpg";
 import Fraicheur from "../../images/TableauxVendu/2001/Fraicheur.jpg";
-import LartDeVivre from "../../images/TableauxVendu/2001/Lart-De-Vivre.jpg";
 import LoiseauDeCristal from "../../images/TableauxVendu/2001/Loiseau-De-Cristal.jpg";
 import Londres1924 from "../../images/TableauxVendu/2001/Londres-1924.jpg";
 import MatinBonheur from "../../images/TableauxVendu/2001/Matin-Bonheur.jpg";
@@ -76,13 +71,10 @@ import Quietude from "../../images/TableauxVendu/2001/Quietude.jpg";
 import TimbaleAuxCerises from "../../images/TableauxVendu/2001/Timbale-Aux-Cerises.jpg";
 import TimbaleAuxFraises from "../../images/TableauxVendu/2001/Timbale-Aux-Fraises.jpg";
 import TimbaleAuxFramboises from "../../images/TableauxVendu/2001/Timbale-Aux-Framboises.jpg";
-import VerreEscargot from "../../images/TableauxVendu/2001/Verre-Escargot.jpg";
-import CadreUneAutreEpoque from "../../images/TableauxVendu/2002/Cadre-Une-Autre-Epoque.jpg";
 import CuivreVaseBleu from "../../images/TableauxVendu/2002/Cuivre-Vase-Bleu.jpg";
 import Dentiste from "../../images/TableauxVendu/2002/Dentiste.jpg";
 import Exotique from "../../images/TableauxVendu/2002/Exotique.jpg";
 import LeConfiturier from "../../images/TableauxVendu/2002/Le-Confiturier.jpg";
-import PainEtConfiture from "../../images/TableauxVendu/2002/Pain-Et-Confiture.jpg";
 import PasseTemps from "../../images/TableauxVendu/2002/Passe-Temps.jpg";
 import Senteur from "../../images/TableauxVendu/2002/Senteur.jpg";
 import TelsQuilsFurent from "../../images/TableauxVendu/2002/Tels-Quils-Furent.jpg";
@@ -102,15 +94,12 @@ import Souvenirs from "../../images/TableauxVendu/2003/Souvenirs.jpg";
 import AlcoolEtDentelle from "../../images/TableauxVendu/2004/Alcool-Et-Dentelle.jpg";
 import Alcools from "../../images/TableauxVendu/2004/Alcools.jpg";
 import AndrosacesAvecOpinel from "../../images/TableauxVendu/2004/Androsaces-Avec-Opinel.jpg";
-import AvantLeDepart from "../../images/TableauxVendu/2004/Avant-Le-Depart.jpg";
-import CadreDameJeanne from "../../images/TableauxVendu/2004/Cadre-Dame-Jeanne.jpg";
 import CasseCrouteSavoyard from "../../images/TableauxVendu/2004/Casse-Croute-Savoyard.jpg";
 import CerisesEtFraise from "../../images/TableauxVendu/2004/Cerises-Et-Fraise.jpg";
 import DegustationEnsavoie from "../../images/TableauxVendu/2004/Degustation-En-savoie.jpg";
 import EncrierEtTimbale from "../../images/TableauxVendu/2004/Encrier-Et-Timbale.jpg";
 import FleurDeternite from "../../images/TableauxVendu/2004/Fleur-Deternite.jpg";
 import FleurEtFramboises from "../../images/TableauxVendu/2004/Fleur-Et-Framboises.jpg";
-import FleurEtFruits from "../../images/TableauxVendu/2004/Fleur-Et-Fruits.jpg";
 import FruitsRouges from "../../images/TableauxVendu/2004/Fruits-Rouges.jpg";
 import Inspiration from "../../images/TableauxVendu/2004/Inspiration.jpg";
 import LesPlaisirsDefendus from "../../images/TableauxVendu/2004/Les-Plaisirs-Defendus.jpg";
@@ -120,34 +109,24 @@ import PauseCasseCroute from "../../images/TableauxVendu/2004/Pause-casse-Croute
 import PauseLecture from "../../images/TableauxVendu/2004/Pause-Lecture.jpg";
 import PommeEtCroissants from "../../images/TableauxVendu/2004/Pomme-Et-Croissants.jpg";
 import Printemps from "../../images/TableauxVendu/2004/Printemps.jpg";
-import RefletsDeSavoies from "../../images/TableauxVendu/2004/Reflets-De-savoies.jpg";
 import SagesseDeLorient from "../../images/TableauxVendu/2004/Sagesse-De-Lorient.jpg";
 import TommeEtCarlines from "../../images/TableauxVendu/2004/Tomme-Et-Carlines.jpg";
 import UnGrandBol from "../../images/TableauxVendu/2004/Un-Grand-Bol.jpg";
 import Aladin from "../../images/TableauxVendu/2005/Aladin.jpg";
-import CadreCaSePrepare from "../../images/TableauxVendu/2005/Cadre-Ca-Se-Prepare.jpg";
 import EncrierI from "../../images/TableauxVendu/2005/Encrier-I.jpg";
 import EncrierII from "../../images/TableauxVendu/2005/Encrier-II.jpg";
 import PauseCasseCrouteII from "../../images/TableauxVendu/2005/Pause-Casse-Croute-II.jpg";
 import PipeEtPichetDoree from "../../images/TableauxVendu/2005/Pipe-Et-Pichet-Doree.jpg";
 import UnPetitCroissant from "../../images/TableauxVendu/2005/Un-Petit-Croissant.jpg";
 import UnPichetDore from "../../images/TableauxVendu/2005/Un-Pichet-Dore.jpg";
+import UnPetitNoir from "../../images/TableauxVendu/2006/Cadre-Un-Ptit-Noir.jpg";
 import Bonjour from "../../images/TableauxVendu/2006/Bonjour.jpg";
-import CadreUnPtitNoir from "../../images/TableauxVendu/2006/Cadre-Un-Ptit-Noir.jpg";
 import CognacEtDentelle from "../../images/TableauxVendu/2006/Cognac-Et-Dentelle.jpg";
 import FruitsRougesEtConfiture from "../../images/TableauxVendu/2006/Fruits-Rouges-Et-Confiture.jpg";
 import LivresEtRose from "../../images/TableauxVendu/2006/Livres-Et-Rose.jpg";
 import PommeEtChocolat from "../../images/TableauxVendu/2006/Pomme-Et-Chocolat.jpg";
-import UnPetitVerre from "../../images/TableauxVendu/2006/Un-Petit-Verre.jpg";
-import CadreFelins from "../../images/TableauxVendu/2007/Cadre-Felins.jpg";
-import CadreOutilsDantan from "../../images/TableauxVendu/2007/Cadre-Outils-dantan.jpg";
-import CadrePlumeEtOeufDargent from "../../images/TableauxVendu/2007/Cadre-Plume-Et-oeuf-Dargent.jpg";
-import CadreVieillesDentelle from "../../images/TableauxVendu/2007/Cadre-Vieilles-Dentelles.jpg";
 import CasseCrouteEnMontagne from "../../images/TableauxVendu/2007/Casse-Croute-En-Montagne.jpg";
-import CadreCafeChocolat from "../../images/TableauxVendu/2008/Cadre-Cafe-Chocolat.jpg";
-import CadreChocolatChaud from "../../images/TableauxVendu/2008/Cadre-Chocolat-Chaud.jpg";
 import CadreLeTempsDesLumieres from "../../images/TableauxVendu/2008/Cadre-Le-Temps-Des-Lumieres.jpg";
-import CadreVinDeSavoie from "../../images/TableauxVendu/2008/Cadre-Vin-De-Savoie.jpg";
 import ConfitureEtFruits from "../../images/TableauxVendu/2008/Confiture-Et-Fruits.jpg";
 import Litterature from "../../images/TableauxVendu/2008/Litterature.jpg";
 
@@ -165,9 +144,9 @@ function Vendue() {
         <div className="Galerie1-Nature-Morte-Vente">
           <figure id="Theiere">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1995/Theiere.jpg">
+              <NavLink to={Theiere}>
                 <img
-                  src="../../images/TableauxVendu/1995/Theiere.jpg"
+                  src={Theiere}
                   alt="Théière"
                   title="Cliquez pour agrandir"
                 />
@@ -211,9 +190,9 @@ function Vendue() {
           </figure>
           <figure id="Coupe-Dabricots">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1995/Coupe-Abricots.jpg">
+              <NavLink to={CoupeAbricots}>
                 <img
-                  src="../../images/TableauxVendu/1995/Coupe-Abricots.jpg"
+                  src={CoupeAbricots}
                   alt="Coupe d'Abricots"
                   title="Cliquez pour agrandir"
                 />
@@ -234,9 +213,9 @@ function Vendue() {
           </figure>
           <figure id="Pain-Et-Oeuf-Coque">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1996/Pain-Et-Oeuf-Coque.jpg">
+              <NavLink to={PainEtOeufCoque}>
                 <img
-                  src="../../images/TableauxVendu/1996/Pain-Et-Oeuf-Coque.jpg"
+                  src={PainEtOeufCoque}
                   alt="Pain et oeuf coque"
                   title="Cliquez pour agrandir"
                 />
@@ -257,9 +236,9 @@ function Vendue() {
           </figure>
           <figure id="Confiture-Des-4-Fuits-Rouges">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1996/Confiture-Des-4-Fruits-Rouges.jpg">
+              <NavLink to={ConfitureDes4FruitsRouges}>
                 <img
-                  src="../../images/TableauxVendu/1996/Confiture-Des-4-Fruits-Rouges.jpg"
+                  src={ConfitureDes4FruitsRouges}
                   alt="Confiture des 4 fruits rouges"
                   title="Cliquez pour agrandir"
                 />
@@ -280,9 +259,9 @@ function Vendue() {
           </figure>
           <figure id="Pain-Vin-Et-Laguiole">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1996/Pain-Vin-Et-Laguiole.jpg">
+              <NavLink to={PainVinEtLaguiole}>
                 <img
-                  src="../../images/TableauxVendu/1996/Pain-Vin-Et-Laguiole.jpg"
+                  src={PainVinEtLaguiole}
                   alt="Pain vin et laguiole"
                   title="Cliquez pour agrandir"
                 />
@@ -303,9 +282,9 @@ function Vendue() {
           </figure>
           <figure id="Carafe-Et-Petits-Gateaux">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1996/Carafe-Et-Petits-Gateaux.jpg">
+              <NavLink to={CarafeEtPetitsGateaux}>
                 <img
-                  src="../../images/TableauxVendu/1996/Carafe-Et-Petits-Gateaux.jpg"
+                  src={CarafeEtPetitsGateaux}
                   alt="Carafe et petits gâteaux"
                   title="Cliquez pour agrandir"
                 />
@@ -326,9 +305,9 @@ function Vendue() {
           </figure>
           <figure id="Vase-laque-Et-Pivoines">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1996/Vase-Laque-Et-Pivoines.jpg">
+              <NavLink to={VaseLaqueEtPivoines}>
                 <img
-                  src="../../images/TableauxVendu/1996/Vase-Laque-Et-Pivoines.jpg"
+                  src={VaseLaqueEtPivoines}
                   alt="Vase laqué et pivoines"
                   title="Cliquez pour agrandir"
                 />
@@ -349,9 +328,9 @@ function Vendue() {
           </figure>
           <figure id="Brioche-Et-Pot-A-Lait">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Brioche-Et-Pot-A-Lait.jpg">
+              <NavLink to={BriocheEtPotALait}>
                 <img
-                  src="../../images/TableauxVendu/1997/Brioche-Et-Pot-A-Lait.jpg"
+                  src={BriocheEtPotALait}
                   alt="Brioche et pot à lait"
                   title="Cliquez pour agrandir"
                 />
@@ -372,9 +351,9 @@ function Vendue() {
           </figure>
           <figure id="Corbeille-Abricots">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Corbeille-Abricots.jpg">
+              <NavLink to={CorbeilleAbricots}>
                 <img
-                  src="../../images/TableauxVendu/1997/Corbeille-Abricots.jpg"
+                  src={CorbeilleAbricots}
                   alt="Corbeille d'abricots"
                   title="Cliquez pour agrandir"
                 />
@@ -395,9 +374,9 @@ function Vendue() {
           </figure>
           <figure id="Chope-En-Etain-Et-Olives">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Chope-En-Etain-Et-Olives.jpg">
+              <NavLink to={ChopeEnEtainEtOlives}>
                 <img
-                  src="../../images/TableauxVendu/1997/Chope-En-Etain-Et-Olives.jpg"
+                  src={ChopeEnEtainEtOlives}
                   alt="Chope en étain et olives"
                   title="Cliquez pour agrandir"
                 />
@@ -418,9 +397,9 @@ function Vendue() {
           </figure>
           <figure id="BriocheEtChampagne">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Brioche-Et-Champagne.jpg">
+              <NavLink to={BriocheEtChampagne}>
                 <img
-                  src="../../images/TableauxVendu/1997/Brioche-Et-Champagne.jpg"
+                  src={BriocheEtChampagne}
                   alt="Brioche et champagne"
                   title="Cliquez pour agrandir"
                 />
@@ -441,9 +420,9 @@ function Vendue() {
           </figure>
           <figure id="ConfitureDabricot">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Confiture-Abricot.jpg">
+              <NavLink to={ConfitureDabricot}>
                 <img
-                  src="../../images/TableauxVendu/1997/Confiture-Abricot.jpg"
+                  src={ConfitureDabricot}
                   alt="Confiture d'abricot"
                   title="Cliquez pour agrandir"
                 />
@@ -464,12 +443,8 @@ function Vendue() {
           </figure>
           <figure id="Peches">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Peches.jpg">
-                <img
-                  src="../../images/TableauxVendu/1997/Peches.jpg"
-                  alt="Pêches"
-                  title="Cliquez pour agrandir"
-                />
+              <NavLink to={Peches}>
+                <img src={Peches} alt="Pêches" title="Cliquez pour agrandir" />
               </NavLink>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
@@ -487,9 +462,9 @@ function Vendue() {
           </figure>
           <figure id="Le-Pain-Et-Le-Vin">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Le-Pain-Et-Le-Vin.jpg">
+              <NavLink to={LePainEtLeVin}>
                 <img
-                  src="../../images/TableauxVendu/1997/Le-Pain-Et-Le-Vin.jpg"
+                  src={LePainEtLeVin}
                   alt="Le pain et le vin"
                   title="Cliquez pour agrandir"
                 />
@@ -510,9 +485,9 @@ function Vendue() {
           </figure>
           <figure id="Pain-Cuivre-et-oeufs">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Pain-Cuivre-Et-Oeufs.jpg">
+              <NavLink to={PainCuivreEtOeufs}>
                 <img
-                  src="../../images/TableauxVendu/1997/Pain-Cuivre-Et-Oeufs.jpg"
+                  src={PainCuivreEtOeufs}
                   alt="Pain Cuivre et oeufs"
                   title="Cliquez pour agrandir"
                 />
@@ -533,9 +508,9 @@ function Vendue() {
           </figure>
           <figure id="Pommes-et-pot-en-laiton">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Pommes-Et-Pot-En-Laiton.jpg">
+              <NavLink to={PommesEtPotEnLaiton}>
                 <img
-                  src="../../images/TableauxVendu/1997/Pommes-Et-Pot-En-Laiton.jpg"
+                  src={PommesEtPotEnLaiton}
                   alt="Pommes et pot en laiton"
                   title="Cliquez pour agrandir"
                 />
@@ -556,9 +531,9 @@ function Vendue() {
           </figure>
           <figure id="Jambon et pain">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Jambon-Et-Pain.jpg">
+              <NavLink to={JambonEtPain}>
                 <img
-                  src="../../images/TableauxVendu/1997/Jambon-Et-Pain.jpg"
+                  src={JambonEtPain}
                   alt="Jambon et pain"
                   title="Cliquez pour agrandir"
                 />
@@ -579,9 +554,9 @@ function Vendue() {
           </figure>
           <figure id="Panier-de-fruits">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Panier-De-Fruits.jpg">
+              <NavLink to={PanierDeFruits}>
                 <img
-                  src="../../images/TableauxVendu/1997/Panier-De-Fruits.jpg"
+                  src={PanierDeFruitss}
                   alt="Panier de fruits"
                   title="Cliquez pour agrandir"
                 />
@@ -602,9 +577,9 @@ function Vendue() {
           </figure>
           <figure id="Pause-Cafe">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Pause-Cafe.jpg">
+              <NavLink to={PauseCafe}>
                 <img
-                  src="../../images/TableauxVendu/1997/Pause-Cafe.jpg"
+                  src={PauseCafe}
                   alt="Pause café"
                   title="Cliquez pour agrandir"
                 />
@@ -625,9 +600,9 @@ function Vendue() {
           </figure>
           <figure id="Pot-Pourris-Et-Dentelle">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Pot-Pourris-Et-Dentelle.jpg">
+              <NavLink to={PotPourrisEtDentelle}>
                 <img
-                  src="../../images/TableauxVendu/1997/Pot-Pourris-Et-Dentelle.jpg"
+                  src={PotPourrisEtDentelle}
                   alt="Pot pourris et dentelle"
                   title="Cliquez pour agrandir"
                 />
@@ -648,9 +623,9 @@ function Vendue() {
           </figure>
           <figure id="Grand-Pere">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Grand-Pere.jpg">
+              <NavLink to={GrandPere}>
                 <img
-                  src="../../images/TableauxVendu/1997/Grand-Pere.jpg"
+                  src={GrandPere}
                   alt="Grand père"
                   title="Cliquez pour agrandir"
                 />
@@ -671,9 +646,9 @@ function Vendue() {
           </figure>
           <figure id="Source-De-Vie">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Source-De-Vie.jpg">
+              <NavLink to={SourceDeVie}>
                 <img
-                  src="../../images/TableauxVendu/1997/Source-De-Vie.jpg"
+                  src={SourceDeVie}
                   alt="Source de vie"
                   title="Cliquez pour agrandir"
                 />
@@ -694,9 +669,9 @@ function Vendue() {
           </figure>
           <figure id="Provence">
             <div className="Div-Reserve">
-              <NavLink to="../../images/TableauxVendu/1997/Provence.jpg">
+              <NavLink to={Provence}>
                 <img
-                  src="../../images/TableauxVendu/1997/Provence.jpg"
+                  src={Provence}
                   alt="Provence"
                   title="Cliquez pour agrandir"
                 />
@@ -717,9 +692,9 @@ function Vendue() {
           </figure>
           <figure id="Cruche-En-gres">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Cruche-Engres.jpg">
+              <NavLink to={CrucheEngres}>
                 <img
-                  src="../../images/TableauxVendu/1997/Cruche-Engres.jpg"
+                  src={CrucheEngres}
                   alt="Cruche engrès"
                   title="Cliquez pour agrandir"
                 />
@@ -740,9 +715,9 @@ function Vendue() {
           </figure>
           <figure id="Pain-Cuivre-Et-Couteau">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1997/Pain-Cuivre-Et-Couteau.jpg">
+              <NavLink to={PainCuivreEtCouteau}>
                 <img
-                  src="../../images/TableauxVendu/1997/Pain-Cuivre-Et-Couteau.jpg"
+                  src={PainCuivreEtCouteau}
                   alt="Pain cuivre et couteau"
                   title="Cliquez pour agrandir"
                 />
@@ -763,9 +738,9 @@ function Vendue() {
           </figure>
           <figure id="Jeux-Dhier">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1998/Jeux-Dhier.jpg">
+              <NavLink to={JeuxDhier}>
                 <img
-                  src="../../images/TableauxVendu/1998/Jeux-Dhier.jpg"
+                  src={JeuxDhier}
                   alt="Jeux d'hier"
                   title="Cliquez pour agrandir"
                 />
@@ -786,9 +761,9 @@ function Vendue() {
           </figure>
           <figure id="Oeuf-Coque-Et-Poussin">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1998/Oeuf-Coque-Et-Poussin.jpg">
+              <NavLink to={OeufCoqueEtPoussin}>
                 <img
-                  src="../../images/TableauxVendu/1998/Oeuf-Coque-Et-Poussin.jpg"
+                  src={OeufCoqueEtPoussin}
                   alt="Oeuf coque et poussin"
                   title="Cliquez pour agrandir"
                 />
@@ -809,9 +784,9 @@ function Vendue() {
           </figure>
           <figure id="Lheure-Du-The">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1998/Lheure-Du-The.jpg">
+              <NavLink to={LheureDuThe}>
                 <img
-                  src="../../images/TableauxVendu/1998/Lheure-Du-The.jpg"
+                  src={LheureDuThe}
                   alt="L'heure du Thé"
                   title="Cliquez pour agrandir"
                 />
@@ -832,9 +807,9 @@ function Vendue() {
           </figure>
           <figure id="Chardons">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1998/Chardons.jpg">
+              <NavLink to={Chardons}>
                 <img
-                  src="../../images/TableauxVendu/1998/Chardons.jpg"
+                  src={Chardons}
                   alt="Chardons"
                   title="Cliquez pour agrandir"
                 />
@@ -855,9 +830,9 @@ function Vendue() {
           </figure>
           <figure id="Carafe-Et-Raisins">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1998/Carafe-Et-Raisins.jpg">
+              <NavLink to={CarafeEtRaisins}>
                 <img
-                  src="../../images/TableauxVendu/1998/Carafe-Et-Raisins.jpg"
+                  src={CarafeEtRaisins}
                   alt="Carafe et raisins"
                   title="Cliquez pour agrandir"
                 />
@@ -878,9 +853,9 @@ function Vendue() {
           </figure>
           <figure id="Cerises">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1998/Cerises.jpg">
+              <NavLink to={Cerises}>
                 <img
-                  src="../../images/TableauxVendu/1998/Cerises.jpg"
+                  src={Cerises}
                   alt="Cerises"
                   title="Cliquez pour agrandir"
                 />
@@ -901,9 +876,9 @@ function Vendue() {
           </figure>
           <figure id="Les-Oeufs">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1998/Les-Oeufs.jpg">
+              <NavLink to={LesOeufs}>
                 <img
-                  src="../../images/TableauxVendu/1998/Les-Oeufs.jpg"
+                  src={LesOeufs}
                   alt="Les oeufs"
                   title="Cliquez pour agrandir"
                 />
@@ -924,9 +899,9 @@ function Vendue() {
           </figure>
           <figure id="Degustation">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Degustation.jpg">
+              <NavLink to={Degustation}>
                 <img
-                  src="../../images/TableauxVendu/1999/Degustation.jpg"
+                  src={Degustation}
                   alt="Dégustation"
                   title="Cliquez pour agrandir"
                 />
@@ -947,9 +922,9 @@ function Vendue() {
           </figure>
           <figure id="Page-Decriture">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Page-Decriture.jpg">
+              <NavLink to={PageDecriture}>
                 <img
-                  src="../../images/TableauxVendu/1999/Page-Decriture.jpg"
+                  src={PageDecriture}
                   alt="Page d'écriture"
                   title="Cliquez pour agrandir"
                 />
@@ -970,9 +945,9 @@ function Vendue() {
           </figure>
           <figure id="Vase-Bleu">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Vase-Bleu.jpg">
+              <NavLink to={VaseBleu}>
                 <img
-                  src="../../images/TableauxVendu/1999/Vase-Bleu.jpg"
+                  src={VaseBleu}
                   alt="Vase Bleu"
                   title="Cliquez pour agrandir"
                 />
@@ -993,9 +968,9 @@ function Vendue() {
           </figure>
           <figure id="Calligraphie">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Calligraphie.jpg">
+              <NavLink to={Calligraphie}>
                 <img
-                  src="../../images/TableauxVendu/1999/Calligraphie.jpg"
+                  src={Calligraphie}
                   alt="Calligraphie"
                   title="Cliquez pour agrandir"
                 />
@@ -1016,9 +991,9 @@ function Vendue() {
           </figure>
           <figure id="Le-Roman-Des-Deux-Roses">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Le-Roman-Des-Deux-Roses.jpg">
+              <NavLink to={LeRomanDesDeuxRoses}>
                 <img
-                  src="../../images/TableauxVendu/1999/Le-Roman-Des-Deux-Roses.jpg"
+                  src={LeRomanDesDeuxRoses}
                   alt="Le Roman des deux roses"
                   title="Cliquez pour agrandir"
                 />
@@ -1039,9 +1014,9 @@ function Vendue() {
           </figure>
           <figure id="Les-Fraises">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Les-Fraises.jpg">
+              <NavLink to={LesFraises}>
                 <img
-                  src="../../images/TableauxVendu/1999/Les-Fraises.jpg"
+                  src={LesFraises}
                   alt="Les fraises"
                   title="Cliquez pour agrandir"
                 />
@@ -1062,9 +1037,9 @@ function Vendue() {
           </figure>
           <figure id="Les-Cerises">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Les-Cerises.jpg">
+              <NavLink to={LesCerises}>
                 <img
-                  src="../../images/TableauxVendu/1999/Les-Cerises.jpg"
+                  src={LesCerises}
                   alt="Les cerises"
                   title="Cliquez pour agrandir"
                 />
@@ -1085,9 +1060,9 @@ function Vendue() {
           </figure>
           <figure id="Cerises-Et-Whisky">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Cerises-Et-Whisky.jpg">
+              <NavLink to={CerisesEtWhisky}>
                 <img
-                  src="../../images/TableauxVendu/1999/Cerises-Et-Whisky.jpg"
+                  src={CerisesEtWhisky}
                   alt="Cerises et whisky"
                   title="Cliquez pour agrandir"
                 />
@@ -1108,9 +1083,9 @@ function Vendue() {
           </figure>
           <figure id="Nocturne">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Nocturne.jpg">
+              <NavLink to={Nocturne}>
                 <img
-                  src="../../images/TableauxVendu/1999/Nocturne.jpg"
+                  src={Nocturne}
                   alt="Nocturne"
                   title="Cliquez pour agrandir"
                 />
@@ -1131,9 +1106,9 @@ function Vendue() {
           </figure>
           <figure id="Le-Petit-Bouchon">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Le-Petit-Bouchon.jpg">
+              <NavLink to={LePetitBouchon}>
                 <img
-                  src="../../images/TableauxVendu/1999/Le-Petit-Bouchon.jpg"
+                  src={LePetitBouchon}
                   alt="Le petit bouchon"
                   title="Cliquez pour agrandir"
                 />
@@ -1154,9 +1129,9 @@ function Vendue() {
           </figure>
           <figure id="Pomme-Et-Noix">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Pomme-Et-Noix.jpg">
+              <NavLink to={PommeEtNoix}>
                 <img
-                  src="../../images/TableauxVendu/1999/Pomme-Et-Noix.jpg"
+                  src={PommeEtNoix}
                   alt="Pomme et noix"
                   title="Cliquez pour agrandir"
                 />
@@ -1177,9 +1152,9 @@ function Vendue() {
           </figure>
           <figure id="Fleurs-De-Lys">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/1999/Fleurs-De-Lys.jpg">
+              <NavLink to={FleursDeLys}>
                 <img
-                  src="../../images/TableauxVendu/1999/Fleurs-De-Lys.jpg"
+                  src={FleursDeLys}
                   alt="Fleurs de lys"
                   title="Cliquez pour agrandir"
                 />
@@ -1200,9 +1175,9 @@ function Vendue() {
           </figure>
           <figure id="Autour-Du-Vin">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Autour-Du-Vin.jpg">
+              <NavLink to={AutourDuVin}>
                 <img
-                  src="../../images/TableauxVendu/2000/Autour-Du-Vin.jpg"
+                  src={AutourDuVin}
                   alt="Autour du vin"
                   title="Cliquez pour agrandir"
                 />
@@ -1223,9 +1198,9 @@ function Vendue() {
           </figure>
           <figure id="Correspondance">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Correspondance.jpg">
+              <NavLink to={Correspondance}>
                 <img
-                  src="../../images/TableauxVendu/2000/Correspondance.jpg"
+                  src={Correspondance}
                   alt="Correspondance"
                   title="Cliquez pour agrandir"
                 />
@@ -1246,9 +1221,9 @@ function Vendue() {
           </figure>
           <figure id="Liqueur">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Automne1.jpg">
+              <NavLink to={Liqueur}>
                 <img
-                  src="../../images/TableauxVendu/2000/Liqueur.jpg"
+                  src={Liqueur}
                   alt="Liqueur"
                   title="Cliquez pour agrandir"
                 />
@@ -1269,9 +1244,9 @@ function Vendue() {
           </figure>
           <figure id="Autour-Du-Vin-II">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Autour-Du-Vin-II.jpg">
+              <NavLink to={AutourDuVinII}>
                 <img
-                  src="../../images/TableauxVendu/2000/Autour-Du-Vin-II.jpg"
+                  src={AutourDuVinII}
                   alt="Autour du vin II"
                   title="Cliquez pour agrandir"
                 />
@@ -1292,9 +1267,9 @@ function Vendue() {
           </figure>
           <figure id="Le-Cidre">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Le-Cidre.jpg">
+              <NavLink to={LeCidre}>
                 <img
-                  src="../../images/TableauxVendu/2000/Le-Cidre.jpg"
+                  src={LeCidre}
                   alt="Le cidre"
                   title="Cliquez pour agrandir"
                 />
@@ -1313,34 +1288,11 @@ function Vendue() {
               </span>
             </figcaption>
           </figure>
-          <figure id="Cuivre-Et-Pain-II">
-            <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Cuivre-Et-Pain-II.jpg">
-                <img
-                  src="../../images/TableauxVendu/2000/Cuivre-Et-Pain-II.jpg"
-                  alt="Cuivre et pain II"
-                  title="Cliquez pour agrandir"
-                />
-              </NavLink>
-              <span className="Mot-Vendue-Image">Vendu</span>
-            </div>
-            <figcaption>
-              <h4>Cuivre et pain II</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
-                <span className="Coeur-Vide-Menu">
-                  <i className="far fa-heart"></i>
-                </span>
-                <span className="Coeur-Plein-Menu">
-                  <i className="fas fa-heart"></i>
-                </span>
-              </span>
-            </figcaption>
-          </figure>
           <figure id="Le-Verre-De-Vin">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Le-Verre-De-Vin.jpg">
+              <NavLink to={LeVerreDeVin}>
                 <img
-                  src="../../images/TableauxVendu/2000/Le-Verre-De-Vin.jpg"
+                  src={LeVerreDeVin}
                   alt="Le verre de vin"
                   title="Cliquez pour agrandir"
                 />
@@ -1361,9 +1313,9 @@ function Vendue() {
           </figure>
           <figure id="Tire-Bouchon">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Tire-Bouchon.jpg">
+              <NavLink to={TireBouchon}>
                 <img
-                  src="../../images/TableauxVendu/2000/Le-Gouter.jpg"
+                  src={TireBouchon}
                   alt="Tire-bouchon"
                   title="Cliquez pour agrandir"
                 />
@@ -1384,9 +1336,9 @@ function Vendue() {
           </figure>
           <figure id="Lart-Du-Vin">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Lart-Du-Vin.jpg">
+              <NavLink to={LartDuVin}>
                 <img
-                  src="../../images/TableauxVendu/2000/Lart-Du-Vin.jpg"
+                  src={LartDuVin}
                   alt="L'art du vin"
                   title="Cliquez pour agrandir"
                 />
@@ -1407,9 +1359,9 @@ function Vendue() {
           </figure>
           <figure id="Le-Gouter">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Le-Gouter.jpg">
+              <NavLink to={LeGouter}>
                 <img
-                  src="../../images/TableauxVendu/2000/Le-Gouter.jpg"
+                  src={LeGouter}
                   alt="Le Goûter"
                   title="Cliquez pour agrandir"
                 />
@@ -1430,12 +1382,8 @@ function Vendue() {
           </figure>
           <figure id="Cognac">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Cognac.jpg">
-                <img
-                  src="../../images/TableauxVendu/2000/Cognac.jpg"
-                  alt="Cognac"
-                  title="Cliquez pour agrandir"
-                />
+              <NavLink to={Cognac}>
+                <img src={Cognac} alt="Cognac" title="Cliquez pour agrandir" />
               </NavLink>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
@@ -1453,9 +1401,9 @@ function Vendue() {
           </figure>
           <figure id="Petit-Dejeuner">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Petit-Dejeuner.jpg">
+              <NavLink to={PetitDejeuner}>
                 <img
-                  src="../../images/TableauxVendu/2000/Petit-Dejeuner.jpg"
+                  src={PetitDejeuner}
                   alt="Petit déjeuner"
                   title="Cliquez pour agrandir"
                 />
@@ -1476,9 +1424,9 @@ function Vendue() {
           </figure>
           <figure id="Cuivre-Et-Pain-II">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Cuivre-Et-Pain-II.jpg">
+              <NavLink to={CuivreEtPainII}>
                 <img
-                  src="../../images/TableauxVendu/2000/Cuivre-Et-Pain-II.jpg"
+                  src={CuivreEtPainII}
                   alt="Cuivre et pain II"
                   title="Cliquez pour agrandir"
                 />
@@ -1499,9 +1447,9 @@ function Vendue() {
           </figure>
           <figure id="Automne1">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Automne1.jpg">
+              <NavLink to={Automne1}>
                 <img
-                  src="../../images/TableauxVendu/2000/Automne1.jpg"
+                  src={Automne1}
                   alt="Automne1"
                   title="Cliquez pour agrandir"
                 />
@@ -1522,9 +1470,9 @@ function Vendue() {
           </figure>
           <figure id="Automne-II">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Automne-II.jpg">
+              <NavLink to={AutomneII}>
                 <img
-                  src="../../images/TableauxVendu/2000/Automne-II.jpg"
+                  src={AutomneII}
                   alt="Automne-II"
                   title="Cliquez pour agrandir"
                 />
@@ -1545,9 +1493,9 @@ function Vendue() {
           </figure>
           <figure id="Pain-Et-Pichet">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2000/Pain-Et-Pichet.jpg">
+              <NavLink to={PainEtPichet}>
                 <img
-                  src="../../images/TableauxVendu/2000/Pain-Et-Pichet.jpg"
+                  src={PainEtPichet}
                   alt="Pain et pichet"
                   title="Cliquez pour agrandir"
                 />
@@ -1568,9 +1516,9 @@ function Vendue() {
           </figure>
           <figure id="Matin-Bonheur">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2001/Matin-Bonheur.jpg">
+              <NavLink to={MatinBonheur}>
                 <img
-                  src="../../images/TableauxVendu/2001/Matin-Bonheur.jpg"
+                  src={MatinBonheur}
                   alt="Matin bonheur"
                   title="Cliquez pour agrandir"
                 />
@@ -1591,9 +1539,9 @@ function Vendue() {
           </figure>
           <figure id="Quietude">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2001/Quietude.jpg">
+              <NavLink to={Quietude}>
                 <img
-                  src="../../images/TableauxVendu/2001/Quietude.jpg"
+                  src={Quietude}
                   alt="Quiètude"
                   title="Cliquez pour agrandir"
                 />
@@ -1614,9 +1562,9 @@ function Vendue() {
           </figure>
           <figure id="Reflets">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2001/Cadre-Reflets.jpg">
+              <NavLink to={CadreReflets}>
                 <img
-                  src="../../images/TableauxVendu/2001/Cadre-Reflets.jpg"
+                  src={CadreReflets}
                   alt="Reflets"
                   title="Cliquez pour agrandir"
                 />
@@ -1637,9 +1585,9 @@ function Vendue() {
           </figure>
           <figure id="Fraicheur">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2001/Fraicheur.jpg">
+              <NavLink to={Fraicheur}>
                 <img
-                  src="../../images/TableauxVendu/2001/Fraicheur.jpg"
+                  src={Fraicheur}
                   alt="Fraicheur"
                   title="Cliquez pour agrandir"
                 />
@@ -1660,9 +1608,9 @@ function Vendue() {
           </figure>
           <figure id="Tinbale-Aux-Fraises">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2001/Timbale-Aux-Fraises.jpg">
+              <NavLink to={TimbaleAuxFraises}>
                 <img
-                  src="../../images/TableauxVendu/2001/Timbale-Aux-Fraises.jpg"
+                  src={TimbaleAuxFraises}
                   alt="Timbale aux fraises"
                   title="Cliquez pour agrandir"
                 />
@@ -1683,9 +1631,9 @@ function Vendue() {
           </figure>
           <figure id="Timbale-Aux-Cerises">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2001/Timbale-Aux-Cerises.jpg">
+              <NavLink to={TimbaleAuxCerises}>
                 <img
-                  src="../../images/TableauxVendu/2001/Timbale-Aux-Cerises.jpg"
+                  src={TimbaleAuxCerises}
                   alt="Tinbale aux cerises"
                   title="Cliquez pour agrandir"
                 />
@@ -1706,9 +1654,9 @@ function Vendue() {
           </figure>
           <figure id="Timbale-Aux-Framboises">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2001/Timbale-Aux-Framboises.jpg">
+              <NavLink to={TimbaleAuxFramboises}>
                 <img
-                  src="../../images/TableauxVendu/2001/Timbale-Aux-Framboises.jpg"
+                  src={TimbaleAuxFramboises}
                   alt="Timbale aux framboises"
                   title="Cliquez pour agrandir"
                 />
@@ -1729,9 +1677,9 @@ function Vendue() {
           </figure>
           <figure id="Petite-Boites">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2001/Petites-Boites.jpg">
+              <NavLink to={PetitesBoites}>
                 <img
-                  src="../../images/TableauxVendu/2001/Petites-Boites.jpg"
+                  src={PetitesBoites}
                   alt="Petite boîtes"
                   title="Cliquez pour agrandir"
                 />
@@ -1752,9 +1700,9 @@ function Vendue() {
           </figure>
           <figure id="Loiseau-De-Cristal">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2001/Loiseau-De-Cristal.jpg">
+              <NavLink to={LoiseauDeCristal}>
                 <img
-                  src="../../images/TableauxVendu/2001/Loiseau-De-Cristal.jpg"
+                  src={LoiseauDeCristal}
                   alt="L'oiseau de cristal"
                   title="Cliquez pour agrandir"
                 />
@@ -1775,9 +1723,9 @@ function Vendue() {
           </figure>
           <figure id="Londres-1924">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2001/Londres-1924.jpg">
+              <NavLink to={Londres1924}>
                 <img
-                  src="../../images/TableauxVendu/2001/Londres-1924.jpg"
+                  src={Londres1924}
                   alt="Londres 1924"
                   title="Cliquez pour agrandir"
                 />
@@ -1798,9 +1746,9 @@ function Vendue() {
           </figure>
           <figure id="Dentiste">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2002/Dentiste.jpg">
+              <NavLink to={Dentiste}>
                 <img
-                  src="../../images/TableauxVendu/2002/Dentiste.jpg"
+                  src={Dentiste}
                   alt="Dentiste"
                   title="Cliquez pour agrandir"
                 />
@@ -1821,9 +1769,9 @@ function Vendue() {
           </figure>
           <figure id="Senteur">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2002/Senteur.jpg">
+              <NavLink to={Senteur}>
                 <img
-                  src="../../images/TableauxVendu/2002/Senteur.jpg"
+                  src={Senteur}
                   alt="Senteur"
                   title="Cliquez pour agrandir"
                 />
@@ -1844,9 +1792,9 @@ function Vendue() {
           </figure>
           <figure id="Exotique">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2002/Exotique.jpg">
+              <NavLink to={Exotique}>
                 <img
-                  src="../../images/TableauxVendu/2002/Exotique.jpg"
+                  src={Exotique}
                   alt="Exotique"
                   title="Cliquez pour agrandir"
                 />
@@ -1867,9 +1815,9 @@ function Vendue() {
           </figure>
           <figure id="Passe-Temps">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2002/Passe-Temps.jpg">
+              <NavLink to={PasseTemps}>
                 <img
-                  src="../../images/TableauxVendu/2002/Passe-Temps.jpg"
+                  src={PasseTemps}
                   alt="Passe-temps"
                   title="Cliquez pour agrandir"
                 />
@@ -1890,9 +1838,9 @@ function Vendue() {
           </figure>
           <figure id="Tel-Quils-Furent">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2002/Tels-Quils-Furent.jpg">
+              <NavLink to={TelsQuilsFurent}>
                 <img
-                  src="../../images/TableauxVendu/2002/Tels-Quils-Furent.jpg"
+                  src={TelsQuilsFurent}
                   alt="Tel qu'ils furent"
                   title="Cliquez pour agrandir"
                 />
@@ -1913,9 +1861,9 @@ function Vendue() {
           </figure>
           <figure id="TimbaleAlaPipe">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2002/Timbale-A-La-Pipe.jpg">
+              <NavLink to={TimbaleALaPipe}>
                 <img
-                  src="../../images/TableauxVendu/2002/Timbale-A-La-Pipe.jpg"
+                  src={TimbaleALaPipe}
                   alt="Timbale à la pipe"
                   title="Cliquez pour agrandir"
                 />
@@ -1936,9 +1884,9 @@ function Vendue() {
           </figure>
           <figure id="Vendange">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2002/Vendange.jpg">
+              <NavLink to={Vendange}>
                 <img
-                  src="../../images/TableauxVendu/2002/Vendange.jpg"
+                  src={Vendange}
                   alt="Vendange"
                   title="Cliquez pour agrandir"
                 />
@@ -1959,9 +1907,9 @@ function Vendue() {
           </figure>
           <figure id="LeConfiturier">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2002/Le-Confiturier.jpg">
+              <NavLink to={LeConfiturier}>
                 <img
-                  src="../../images/TableauxVendu/2002/Le-Confiturier.jpg"
+                  src={LeConfiturier}
                   alt="Le confiturier"
                   title="Cliquez pour agrandir"
                 />
@@ -1982,9 +1930,9 @@ function Vendue() {
           </figure>
           <figure id="Cuivre-Vase-Bleu">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2002/Cuivre-Vase-Bleu.jpg">
+              <NavLink to={CuivreVaseBleu}>
                 <img
-                  src="../../images/TableauxVendu/2002/Cuivre-Vase-Bleu.jpg"
+                  src={CuivreVaseBleu}
                   alt="Cuivre et vase bleu"
                   title="Cliquez pour agrandir"
                 />
@@ -2005,9 +1953,9 @@ function Vendue() {
           </figure>
           <figure id="Souvenirs">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2003/Souvenirs.jpg">
+              <NavLink to={Souvenirs}>
                 <img
-                  src="../../images/TableauxVendu/2003/Souvenirs.jpg"
+                  src={Souvenirs}
                   alt="Souvenirs"
                   title="Cliquez pour agrandir"
                 />
@@ -2028,9 +1976,9 @@ function Vendue() {
           </figure>
           <figure id="Reveil-Matin">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2003/Reveil-Matin.jpg">
+              <NavLink to={ReveilMatin}>
                 <img
-                  src="../../images/TableauxVendu/2003/Reveil-Matin.jpg"
+                  src={ReveilMatin}
                   alt="Reveil-Matin"
                   title="Cliquez pour agrandir"
                 />
@@ -2051,9 +1999,9 @@ function Vendue() {
           </figure>
           <figure id="Douceurs">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2003/Douceurs.jpg">
+              <NavLink to={Douceurs}>
                 <img
-                  src="../../images/TableauxVendu/2003/Douceurs.jpg"
+                  src={Douceurs}
                   alt="Douceurs"
                   title="Cliquez pour agrandir"
                 />
@@ -2074,9 +2022,9 @@ function Vendue() {
           </figure>
           <figure id="Lecture">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2003/Lecture.jpg">
+              <NavLink to={Lecture}>
                 <img
-                  src="../../images/TableauxVendu/2003/Lecture.jpg"
+                  src={Lecture}
                   alt="Lecture"
                   title="Cliquez pour agrandir"
                 />
@@ -2097,9 +2045,9 @@ function Vendue() {
           </figure>
           <figure id="Les-Deux-Tomes-De-Savoie">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2003/Les-Deux-Tomes-De-savoie.jpg">
+              <NavLink to={LesDeuxTomesDesavoie}>
                 <img
-                  src="../../images/TableauxVendu/2003/Les-Deux-Tomes-De-savoie.jpg"
+                  src={LesDeuxTomesDesavoie}
                   alt="Les deux tomes de savoie"
                   title="Cliquez pour agrandir"
                 />
@@ -2120,9 +2068,9 @@ function Vendue() {
           </figure>
           <figure id="Souvenirs-De-Savoie">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2003/Souvenirs-De-Savoie.jpg">
+              <NavLink to={SouvenirsDeSavoie}>
                 <img
-                  src="../../images/TableauxVendu/2003/Souvenirs-De-Savoie.jpg"
+                  src={SouvenirsDeSavoie}
                   alt="Souvenirs de Savoie"
                   title="Cliquez pour agrandir"
                 />
@@ -2143,9 +2091,9 @@ function Vendue() {
           </figure>
           <figure id="Alpage-Lepage">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2003/Alpage-Lepage.jpg">
+              <NavLink to={AlpageLepage}>
                 <img
-                  src="../../images/TableauxVendu/2003/Alpage-Lepage.jpg"
+                  src={AlpageLepage}
                   alt="Alpage-Lepage"
                   title="Cliquez pour agrandir"
                 />
@@ -2166,9 +2114,9 @@ function Vendue() {
           </figure>
           <figure id="En savoie">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2003/En-savoie.jpg">
+              <NavLink to={Ensavoie}>
                 <img
-                  src="../../images/TableauxVendu/2003/En-savoie.jpg"
+                  src={Ensavoie}
                   alt="En savoie"
                   title="Cliquez pour agrandir"
                 />
@@ -2189,9 +2137,9 @@ function Vendue() {
           </figure>
           <figure id="Coupe-De-Raisin">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2003/Coupe-De-Raisin.jpg">
+              <NavLink to={CoupeDeRaisin}>
                 <img
-                  src="../../images/TableauxVendu/2003/Coupe-De-Raisin.jpg"
+                  src={CoupeDeRaisin}
                   alt="Coupe de raisin"
                   title="Cliquez pour agrandir"
                 />
@@ -2212,9 +2160,9 @@ function Vendue() {
           </figure>
           <figure id="Les-Trois-Gres">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2003/Les-Trois-Gres.jpg">
+              <NavLink to={LesTroisGres}>
                 <img
-                  src="../../images/TableauxVendu/2003/Les-Trois-Gres.jpg"
+                  src={LesTroisGres}
                   alt="Les trois grès"
                   title="Cliquez pour agrandir"
                 />
@@ -2235,9 +2183,9 @@ function Vendue() {
           </figure>
           <figure id="Fruits-Dete">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2003/Fruits-Dete.jpg">
+              <NavLink to={FruitsDete}>
                 <img
-                  src="../../images/TableauxVendu/2003/Fruits-Dete.jpg"
+                  src={FruitsDete}
                   alt="Fruits d'été"
                   title="Cliquez pour agrandir"
                 />
@@ -2258,9 +2206,9 @@ function Vendue() {
           </figure>
           <figure id="Alcools">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Alcools.jpg">
+              <NavLink to={Alcools}>
                 <img
-                  src="../../images/TableauxVendu/2004/Alcools.jpg"
+                  src={Alcools}
                   alt="Alcools"
                   title="Cliquez pour agrandir"
                 />
@@ -2281,9 +2229,9 @@ function Vendue() {
           </figure>
           <figure id="Inspiration">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Inspiration.jpg">
+              <NavLink to={Inspiration}>
                 <img
-                  src="../../images/TableauxVendu/2004/Inspiration.jpg"
+                  src={Inspiration}
                   alt="inspiration"
                   title="Cliquez pour agrandir"
                 />
@@ -2304,9 +2252,9 @@ function Vendue() {
           </figure>
           <figure id="Alcool-Et-Dentelle">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Alcool-Et-Dentelle.jpg">
+              <NavLink to={AlcoolEtDentelle}>
                 <img
-                  src="../../images/TableauxVendu/2004/Alcool-Et-Dentelle.jpg"
+                  src={AlcoolEtDentelle}
                   alt="Alcool et dentelle"
                   title="Cliquez pour agrandir"
                 />
@@ -2327,9 +2275,9 @@ function Vendue() {
           </figure>
           <figure id="PommesEtCroissants">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Pomme-Et-Croissants.jpg">
+              <NavLink to={PommeEtCroissants}>
                 <img
-                  src="../../images/TableauxVendu/2004/Pomme-Et-Croissants.jpg"
+                  src={PommeEtCroissants}
                   alt="Pommes et croissants"
                   title="Cliquez pour agrandir"
                 />
@@ -2350,9 +2298,9 @@ function Vendue() {
           </figure>
           <figure id="EncrierEtTimbale">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Encrier-Et-Timbale.jpg">
+              <NavLink to={EncrierEtTimbale}>
                 <img
-                  src="../../images/TableauxVendu/2004/Encrier-Et-Timbale.jpg"
+                  src={EncrierEtTimbale}
                   alt="Encrier et timbale"
                   title="Cliquez pour agrandir"
                 />
@@ -2373,9 +2321,9 @@ function Vendue() {
           </figure>
           <figure id="FleursEtFramboises">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Fleur-Et-Framboises.jpg">
+              <NavLink to={FleurEtFramboises}>
                 <img
-                  src="../../images/TableauxVendu/2004/Fleur-Et-Framboises.jpg"
+                  src={FleurEtFramboises}
                   alt="Fleur et framboises"
                   title="Cliquez pour agrandir"
                 />
@@ -2396,9 +2344,9 @@ function Vendue() {
           </figure>
           <figure id="FleurDeternite">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Fleur-Deternite.jpg">
+              <NavLink to={FleurDeternite}>
                 <img
-                  src="../../images/TableauxVendu/2004/Fleur-Deternite.jpg"
+                  src={FleurDeternite}
                   alt="Fleur d'éternité"
                   title="Cliquez pour agrandir"
                 />
@@ -2419,9 +2367,9 @@ function Vendue() {
           </figure>
           <figure id="Androsaces-Avec-Opinel">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Androsaces-Avec-Opinel.jpg">
+              <NavLink to={AndrosacesAvecOpinel}>
                 <img
-                  src="../../images/TableauxVendu/2004/Androsaces-Avec-Opinel.jpg"
+                  src={AndrosacesAvecOpinel}
                   alt="Androsaces avec opinel"
                   title="Cliquez pour agrandir"
                 />
@@ -2442,9 +2390,9 @@ function Vendue() {
           </figure>
           <figure id="Printemps">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Printemps.jpg">
+              <NavLink to={Printemps}>
                 <img
-                  src="../../images/TableauxVendu/2004/Printemps.jpg"
+                  src={Printemps}
                   alt="Printemps"
                   title="Cliquez pour agrandir"
                 />
@@ -2465,9 +2413,9 @@ function Vendue() {
           </figure>
           <figure id="Pause-Casse-Croute">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Pause-casse-Croute.jpg">
+              <NavLink to={PauseCasseCroute}>
                 <img
-                  src="../../images/TableauxVendu/2004/Pause-casse-Croute.jpg"
+                  src={PauseCasseCroute}
                   alt="Pause Casse-Croute"
                   title="Cliquez pour agrandir"
                 />
@@ -2488,9 +2436,9 @@ function Vendue() {
           </figure>
           <figure id="Pause-Lecture">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Pause-Lecture.jpg">
+              <NavLink to={PauseLecture}>
                 <img
-                  src="../../images/TableauxVendu/2004/Pause-Lecture.jpg"
+                  src={PauseLecture}
                   alt="Pause lecture"
                   title="Cliquez pour agrandir"
                 />
@@ -2511,9 +2459,9 @@ function Vendue() {
           </figure>
           <figure id="Fruits-Rouges">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Fruits-Rouges.jpg">
+              <NavLink to={FruitsRouges}>
                 <img
-                  src="../../images/TableauxVendu/2004/Fruits-Rouges.jpg"
+                  src={FruitsRouges}
                   alt="Fruits rouges"
                   title="Cliquez pour agrandir"
                 />
@@ -2534,9 +2482,9 @@ function Vendue() {
           </figure>
           <figure id="LesPlaisirsDefendus">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Les-Plaisirs-Defendus.jpg">
+              <NavLink to={LesPlaisirsDefendus}>
                 <img
-                  src="../../images/TableauxVendu/2004/Les-Plaisirs-Defendus.jpg"
+                  src={LesPlaisirsDefendus}
                   alt="Les plaisirs défendus"
                   title="Cliquez pour agrandir"
                 />
@@ -2557,9 +2505,9 @@ function Vendue() {
           </figure>
           <figure id="Sagesse-De-Lorient">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Sagesse-De-Lorient.jpg">
+              <NavLink to={SagesseDeLorient}>
                 <img
-                  src="../../images/TableauxVendu/2004/Sagesse-De-Lorient.jpg"
+                  src={SagesseDeLorient}
                   alt="Sagesse de l'orient"
                   title="Cliquez pour agrandir"
                 />
@@ -2580,9 +2528,9 @@ function Vendue() {
           </figure>
           <figure id="Mignonne-Allons-Voir-Si-La-Rose">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Mignonne-Allons-Voir-Si-La-Rose.jpg">
+              <NavLink to={MignonneAllonsVoirSiLaRose}>
                 <img
-                  src="../../images/TableauxVendu/2004/Mignonne-Allons-Voir-Si-La-Rose.jpg"
+                  src={MignonneAllonsVoirSiLaRose}
                   alt="Mignonne allons voir si la rose ..."
                   title="Cliquez pour agrandir"
                 />
@@ -2603,9 +2551,9 @@ function Vendue() {
           </figure>
           <figure id="CasseCrouteSavoyard">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Casse-Croute-Savoyard.jpg">
+              <NavLink to={CasseCrouteSavoyard}>
                 <img
-                  src="../../images/TableauxVendu/2004/Pain-Et-oeufs.jpg"
+                  src={CasseCrouteSavoyard}
                   alt="Casse-Croûte Savoyard"
                   title="Cliquez pour agrandir"
                 />
@@ -2626,9 +2574,9 @@ function Vendue() {
           </figure>
           <figure id="CerisesEtFraise">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Cerises-Et-Fraise.jpg">
+              <NavLink to={CerisesEtFraise}>
                 <img
-                  src="../../images/TableauxVendu/2004/Cerises-Et-Fraise.jpg"
+                  src={CerisesEtFraise}
                   alt="Cerise et fraise"
                   title="Cliquez pour agrandir"
                 />
@@ -2649,9 +2597,9 @@ function Vendue() {
           </figure>
           <figure id="DegustationEnSavoie">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Degustation-En-savoie.jpg">
+              <NavLink to={DegustationEnsavoie}>
                 <img
-                  src="../../images/TableauxVendu/2004/Degustation-En-savoie.jpg"
+                  src={DegustationEnsavoie}
                   alt="Degustations en Savoie"
                   title="Cliquez pour agrandir"
                 />
@@ -2672,9 +2620,9 @@ function Vendue() {
           </figure>
           <figure id="Tomme-Et-Carlines">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Prinptemps.jpg">
+              <NavLink to={TommeEtCarlines}>
                 <img
-                  src="../../images/TableauxVendu/2004/Tomme-Et-Carlines.jpg"
+                  src={TommeEtCarlines}
                   alt="Tomme et Carlines"
                   title="Cliquez pour agrandir"
                 />
@@ -2695,9 +2643,9 @@ function Vendue() {
           </figure>
           <figure id="UnGrandBol">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Un-Grand-Bol.jpg">
+              <NavLink to={UnGrandBol}>
                 <img
-                  src="../../images/TableauxVendu/2004/Un-Grand-Bol.jpg"
+                  src={UnGrandBol}
                   alt="Un grand bol"
                   title="Cliquez pour agrandir"
                 />
@@ -2718,9 +2666,9 @@ function Vendue() {
           </figure>
           <figure id="PainEtOeufs">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2004/Pain-Et-oeufs.jpg">
+              <NavLink to={PainEtOeufs}>
                 <img
-                  src="../../images/TableauxVendu/2004/Pain-Et-oeufs.jpg"
+                  src={PainEtOeufs}
                   alt="Pain et oeufs"
                   title="Cliquez pour agrandir"
                 />
@@ -2741,9 +2689,9 @@ function Vendue() {
           </figure>
           <figure id="EncrierI">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2005/Encrier-I.jpg">
+              <NavLink to={EncrierI}>
                 <img
-                  src="../../images/TableauxVendu/2005/Encrier-I.jpg"
+                  src={EncrierI}
                   alt="Encrier I"
                   title="Cliquez pour agrandir"
                 />
@@ -2764,9 +2712,9 @@ function Vendue() {
           </figure>
           <figure id="UnPichetDore">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2005/Un-Pichet-Dore.jpg">
+              <NavLink to={UnPichetDore}>
                 <img
-                  src="../../images/TableauxVendu/2005/Un-Pichet-Dore.jpg"
+                  src={UnPichetDore}
                   alt="Un pichet doré"
                   title="Cliquez pour agrandir"
                 />
@@ -2787,12 +2735,8 @@ function Vendue() {
           </figure>
           <figure id="Aladin">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2005/Aladin.jpg">
-                <img
-                  src="../../images/TableauxVendu/2005/Aladin.jpg"
-                  alt="Aladin"
-                  title="Cliquez pour agrandir"
-                />
+              <NavLink to={Aladin}>
+                <img src={Aladin} alt="Aladin" title="Cliquez pour agrandir" />
               </NavLink>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
@@ -2810,9 +2754,9 @@ function Vendue() {
           </figure>
           <figure id="EncrierII">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2005/Encrier-II.jpg">
+              <NavLink to={EncrierII}>
                 <img
-                  src="../../images/TableauxVendu/2005/Encrier-II.jpg"
+                  src={EncrierII}
                   alt="Encrier II"
                   title="Cliquez pour agrandir"
                 />
@@ -2833,9 +2777,9 @@ function Vendue() {
           </figure>
           <figure id="PipeEtunPichetDore">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2005/Pipe-Et-Pichet-Doree.jpg">
+              <NavLink to={PipeEtPichetDoree}>
                 <img
-                  src="../../images/TableauxVendu/2005/Pipe-Et-Pichet-Doree.jpg"
+                  src={PipeEtPichetDoree}
                   alt="Pipe et pichet doré"
                   title="Cliquez pour agrandir"
                 />
@@ -2856,9 +2800,9 @@ function Vendue() {
           </figure>
           <figure id="Pause-Casse-Croute-II">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2005/Pause-Casse-Croute-II.jpg">
+              <NavLink to={PauseCasseCrouteII}>
                 <img
-                  src="../../images/TableauxVendu/2005/Pause-Casse-Croute-II.jpg"
+                  src={PauseCasseCrouteII}
                   alt="Pause casse-croûte II"
                   title="Cliquez pour agrandir"
                 />
@@ -2879,9 +2823,9 @@ function Vendue() {
           </figure>
           <figure id="UnPetitCroissant">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2005/Un-Petit-Croissant.jpg">
+              <NavLink to={UnPetitCroissant}>
                 <img
-                  src="../../images/TableauxVendu/2005/Un-Petit-Croissant.jpg"
+                  src={UnPetitCroissant}
                   alt="Un P'tit croissant"
                   title="Cliquez pour agrandir"
                 />
@@ -2902,9 +2846,9 @@ function Vendue() {
           </figure>
           <figure id="Un-Ptit-Noir">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2006/Cadre-Un-Ptit-Noir.jpg">
+              <NavLink to={UnPetitNoir}>
                 <img
-                  src="../../images/TableauxVendu/2006/Cadre-Un-Ptit-Noir.jpg"
+                  src={UnPetitNoir}
                   alt="Un P'tit noir"
                   title="Cliquez pour agrandir"
                 />
@@ -2925,9 +2869,9 @@ function Vendue() {
           </figure>
           <figure id="CognacEtDentelle">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2006/Cognac-Et-Dentelle.jpg">
+              <NavLink to={CognacEtDentelle}>
                 <img
-                  src="../../images/TableauxVendu/2006/Cognac-Et-Dentelle.jpg"
+                  src={CognacEtDentelle}
                   alt="Cognac et dentelle"
                   title="Cliquez pour agrandir"
                 />
@@ -2948,9 +2892,9 @@ function Vendue() {
           </figure>
           <figure id="PommeEtChocolat">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2006/Pomme-Et-Chocolat.jpg">
+              <NavLink to={PommeEtChocolat}>
                 <img
-                  src="../../images/TableauxVendu/2006/Pomme-Et-Chocolat.jpg"
+                  src={PommeEtChocolat}
                   alt="Pomme et chocolat"
                   title="Cliquez pour agrandir"
                 />
@@ -2971,9 +2915,9 @@ function Vendue() {
           </figure>
           <figure id="FruitsRougesEtConfiture">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2006/Fruits-Rouges-Et-Confiture.jpg">
+              <NavLink to={FruitsRougesEtConfiture}>
                 <img
-                  src="../../images/TableauxVendu/2006/Fruits-Rouges-Et-Confiture.jpg"
+                  src={FruitsRougesEtConfiture}
                   alt="Fruits rouges et confiture"
                   title="Cliquez pour agrandir"
                 />
@@ -2994,9 +2938,9 @@ function Vendue() {
           </figure>
           <figure id="Bonjour">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2006/Bonjour.jpg">
+              <NavLink to={Bonjour}>
                 <img
-                  src="../../images/TableauxVendu/2006/Bonjour.jpg"
+                  src={Bonjour}
                   alt="Bonjour"
                   title="Cliquez pour agrandir"
                 />
@@ -3017,9 +2961,9 @@ function Vendue() {
           </figure>
           <figure id="LivresEtRose">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2006/Livres-Et-Rose.jpg">
+              <NavLink to={LivresEtRose}>
                 <img
-                  src="../../images/TableauxVendu/2006/Livres-Et-Rose.jpg"
+                  src={LivresEtRose}
                   alt="Livres et rose"
                   title="Cliquez pour agrandir"
                 />
@@ -3040,9 +2984,9 @@ function Vendue() {
           </figure>
           <figure id="CasseCrouteEnMontagne">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2007/Casse-Croute-En-Montagne.jpg">
+              <NavLink to={CasseCrouteEnMontagne}>
                 <img
-                  src="../../images/TableauxVendu/2007/Casse-Croute-En-Montagne.jpg"
+                  src={CasseCrouteEnMontagne}
                   alt="Casse-Croûte en montagne"
                   title="Cliquez pour agrandir"
                 />
@@ -3063,9 +3007,9 @@ function Vendue() {
           </figure>
           <figure id="LeTempsDeslumieres">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2008/Cadre-Le-Temps-Des-Lumieres.jpg">
+              <NavLink to={CadreLeTempsDesLumieres}>
                 <img
-                  src="../../images/TableauxVendu/2008/Cadre-Le-Temps-Des-Lumieres.jpg"
+                  src={CadreLeTempsDesLumieres}
                   alt="Le temps des lumières"
                   title="Cliquez pour agrandir"
                 />
@@ -3086,9 +3030,9 @@ function Vendue() {
           </figure>
           <figure id="LitTerrature">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2008/Litterature.jpg">
+              <NavLink to={Litterature}>
                 <img
-                  src="../../images/TableauxVendu/2008/Litterature.jpg"
+                  src={Litterature}
                   alt="Littérature"
                   title="Cliquez pour agrandir"
                 />
@@ -3109,9 +3053,9 @@ function Vendue() {
           </figure>
           <figure id="ConfitureEtfruits">
             <div className="Div-vendue">
-              <NavLink to="../../images/TableauxVendu/2008/Confiture-Et-Fruits.jpg">
+              <NavLink to={ConfitureEtFruits}>
                 <img
-                  src="../../images/TableauxVendu/2008/Confiture-Et-Fruits.jpg"
+                  src={ConfitureEtFruits}
                   alt="Confiture et fruits"
                   title="Cliquez pour agrandir"
                 />
