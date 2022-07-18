@@ -155,7 +155,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Théière</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -178,7 +178,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Fraises et plat en étain</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -201,7 +201,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Coupe d'abricots</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -224,7 +224,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pain et oeuf coque</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -247,7 +247,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Confiture des 4 fruits rouges</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -270,7 +270,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pain-Vin-Et-Laguiole</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -293,7 +293,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Carafe et petits gâteaux</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -316,7 +316,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Vase laqué et pivoines</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -339,7 +339,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Brioche et pot à lait</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -362,7 +362,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Corbeille d'abricots</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -385,7 +385,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Chope en étain et olives</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -408,7 +408,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Brioche et champagne</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -431,7 +431,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Confiture d'abricot</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -450,7 +450,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pêches</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -473,7 +473,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Le pain et le vin</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -496,7 +496,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pain Cuivre et oeufs</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -519,7 +519,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pommes et pot en laiton</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -542,7 +542,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Jambon et pain</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -565,7 +565,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Panier de fruits</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -588,7 +588,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pause café</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -611,7 +611,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pot pourris et dentelle</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -634,7 +634,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Grand-père</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -657,7 +657,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Source de vie</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -680,7 +680,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Provence</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -703,7 +703,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Cruche en grès</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -726,7 +726,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pain cuivre et couteau</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -749,7 +749,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Jeux d'hier</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -772,7 +772,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Oeuf coque et poussin</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -795,7 +795,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>L'heure du thé</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -818,7 +818,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Chardons</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -841,7 +841,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Carafe et raisins</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -864,7 +864,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Cerises</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -887,7 +887,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Les oeufs</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -910,7 +910,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Dégustation</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -933,7 +933,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Page d'écriture</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -956,7 +956,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Vase Bleu</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -979,7 +979,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Calligraphie</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1002,7 +1002,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Le roman des deux roses</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1025,7 +1025,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Les fraises</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1048,7 +1048,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Les cerises</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1071,7 +1071,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Cerises et whisky</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1094,7 +1094,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Nocturne</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1117,7 +1117,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Le petit bouchon</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1140,7 +1140,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pomme et noix</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1163,7 +1163,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Fleurs de lys</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1186,7 +1186,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Autour du vin</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1209,7 +1209,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Correspondance</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1232,7 +1232,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Liqueur</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1255,7 +1255,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Autour du vin II</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1278,7 +1278,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Le cidre</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1301,7 +1301,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Le verre de vin </h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1324,7 +1324,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Tire-Bouchon</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1347,7 +1347,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>L'art du vin</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1370,7 +1370,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Le goûter</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1389,7 +1389,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Cognac</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1412,7 +1412,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Petit déjeuner</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1435,7 +1435,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Cuivre et pain II</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1458,7 +1458,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Automne1</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1481,7 +1481,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Automne-II</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1504,7 +1504,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pain et pichet</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1527,7 +1527,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Matin et bonheur</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1550,7 +1550,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Quiètude</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1573,7 +1573,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Reflets</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1596,7 +1596,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Fraicheur</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1619,7 +1619,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Tinbale aux fraises</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1642,7 +1642,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Timbale aux cerises</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1665,7 +1665,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Timbale aux framboises</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1688,7 +1688,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Petite boîtes</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1711,7 +1711,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>L'oiseau de cristal</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1734,7 +1734,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Londres 1924</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1757,7 +1757,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Dentiste</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1780,7 +1780,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Senteur</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1803,7 +1803,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Exotique</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1826,7 +1826,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Passe-temps</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1849,7 +1849,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Tels qu'ils furent</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1872,7 +1872,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Timbale à la pipe</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1895,7 +1895,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Vendange</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1918,7 +1918,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Le confiturier</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1941,7 +1941,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Cuivre vase bleu</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1964,7 +1964,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Souvenirs</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1987,7 +1987,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Reveil-Matin</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2010,7 +2010,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Douceurs</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2033,7 +2033,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Lecture</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2056,7 +2056,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Les deux tomes de savoie</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2079,7 +2079,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Souvenirs de Savoie</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2102,7 +2102,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Alpage-Lepage</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2125,7 +2125,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>En savoie</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2148,7 +2148,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Coupe de raisin</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2171,7 +2171,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Les trois grès</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2194,7 +2194,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Fruits d'été</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2217,7 +2217,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Alcools</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2240,7 +2240,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Inspiration</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2263,7 +2263,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Alcool et dentelle</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2286,7 +2286,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pommes et croissants</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2309,7 +2309,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Encrier et timbale</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2332,7 +2332,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Fleurs et framboises</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2355,7 +2355,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Fleur d'éternité</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2378,7 +2378,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Androsaces avec opinel</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2401,7 +2401,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Printemps</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2424,7 +2424,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pause casse croute</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2447,7 +2447,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pause lecture</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2470,7 +2470,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Fruits rouges</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2493,7 +2493,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Les plaisirs défendus</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2516,7 +2516,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Sagesse de l'orient</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2539,7 +2539,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Mignonne allons voir si la rose...</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2562,7 +2562,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Casse-croûte savoyard</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2585,7 +2585,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Cerises et fraise</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2608,7 +2608,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Degustations en Savoie</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2631,7 +2631,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Tomme et Carlines</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2654,7 +2654,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Un grand bol</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2677,7 +2677,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pain et oeufs</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2700,7 +2700,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Encrier I</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2723,7 +2723,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Un pichet dorée</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2742,7 +2742,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Aladin</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2765,7 +2765,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Encrier II</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2788,7 +2788,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pipe et un pichet doré</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2811,7 +2811,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pause casse-croûte II </h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2834,7 +2834,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Un P'tit croissant</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2857,7 +2857,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Un P'tit Noir</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2880,7 +2880,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Cognac et dentelle</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2903,7 +2903,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Pomme et chocolat</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2926,7 +2926,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Fruits rouges et confiture</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2949,7 +2949,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Bonjour</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2972,7 +2972,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Livres et rose</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -2995,7 +2995,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Casse-croûte en montagne</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -3018,7 +3018,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Le temps des lumières</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -3041,7 +3041,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Littérature</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -3064,7 +3064,7 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Confiture et fruits</h4>
-              <span className="Dimension-Coeur Compteur " onClick="Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>

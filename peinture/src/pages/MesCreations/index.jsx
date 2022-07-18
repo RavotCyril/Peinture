@@ -116,7 +116,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -138,7 +138,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -164,7 +164,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -190,7 +190,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -216,7 +216,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -238,7 +238,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -267,7 +267,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink id="SavoirPlus" to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -289,7 +289,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -315,7 +315,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -341,7 +341,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -367,7 +367,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -389,7 +389,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -418,7 +418,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -440,7 +440,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -466,7 +466,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -492,7 +492,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -518,7 +518,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -544,7 +544,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -573,7 +573,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -599,7 +599,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -624,7 +624,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -650,7 +650,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -679,7 +679,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -701,7 +701,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -723,7 +723,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -749,7 +749,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -778,7 +778,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
             <figcaption>
               <h4>Cheval</h4>
               <span className="Prix">35€</span>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu ">
                   <i className="far fa-heart "></i>
                 </span>
@@ -801,7 +801,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
             <figcaption>
               <h4>Chien</h4>
               <span className="Prix ">50€</span>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu ">
                   <i className="far fa-heart "></i>
                 </span>
@@ -824,7 +824,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
             <figcaption>
               <h4>Iris</h4>
               <span className="Prix ">70€</span>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu ">
                   <i className="far fa-heart "></i>
                 </span>
@@ -852,7 +852,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -877,7 +877,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -902,7 +902,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -927,7 +927,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -952,7 +952,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -977,7 +977,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1002,7 +1002,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1027,7 +1027,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <NavLink to="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1053,7 +1053,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
 
-              <span className="Dimension-Coeur Compteur " onClick={Compteur}>
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
@@ -1079,7 +1079,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </NavLink>
 
-              <span className="Dimension-Coeur Compteur " onClick=" Compteur()">
+              <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>

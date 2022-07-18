@@ -57,10 +57,7 @@ function VosDesirs() {
                 <NavLink to="Fiche">
                   <span className="En-Savoir-Plus">En savoir plus</span>
                 </NavLink>
-                <span
-                  className="Dimension-Coeur Compteur "
-                  onClick="Compteur()"
-                >
+                <span className="Dimension-Coeur Compteur ">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>
                   </span>
@@ -84,10 +81,7 @@ function VosDesirs() {
                 <NavLink to="Fiche">
                   <span className="En-Savoir-Plus">En savoir plus</span>
                 </NavLink>
-                <span
-                  className="Dimension-Coeur Compteur "
-                  onClick="Compteur()"
-                >
+                <span className="Dimension-Coeur Compteur ">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>
                   </span>
@@ -115,10 +109,7 @@ function VosDesirs() {
                 <NavLink to="Fiche">
                   <span className="En-Savoir-Plus">En savoir plus</span>
                 </NavLink>
-                <span
-                  className="Dimension-Coeur Compteur "
-                  onClick="Compteur()"
-                >
+                <span className="Dimension-Coeur Compteur ">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>
                   </span>
@@ -144,10 +135,7 @@ function VosDesirs() {
               </div>
               <figcaption>
                 <h4>Dentiste</h4>
-                <span
-                  className="Dimension-Coeur Compteur "
-                  onClick="Compteur()"
-                >
+                <span className="Dimension-Coeur Compteur ">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>
                   </span>
@@ -175,10 +163,7 @@ function VosDesirs() {
                 <NavLink to="Fiche">
                   <span className="En-Savoir-Plus">En savoir plus</span>
                 </NavLink>
-                <span
-                  className="Dimension-Coeur Compteur "
-                  onClick="Compteur()"
-                >
+                <span className="Dimension-Coeur Compteur ">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>
                   </span>
