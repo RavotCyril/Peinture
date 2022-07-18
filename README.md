@@ -1,6 +1,6 @@
 # Peinture
 
-Projet réalisé avec React.   HTLM + CSS + Js + Express + Node Js + Base de données Mongodb.
+Projet réalisé avec React.   HTLM + CSS + Js + Express + Node Js + Base de données MySQL.
 
 Créer un Site E-Commerce de vente de Peinture
 
