@@ -1,6 +1,5 @@
 /* Importations Bibliothèques React-router-dom  */
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 import AvantLeDepart from "../../images/Grande-Images/Grande-Image-Avant-Le-Départ.webp";
 import ChocolatChaud from "../../images/Grande-Images/Grande-Cafe-Et-Chocolat.webp";
@@ -48,15 +47,15 @@ function VosDesirs() {
             <h2 className="Montagne">Thème Montagne</h2>
             <figure className="Figure-Vos-Desirs1">
               <div>
-                <NavLink to={AvantLeDepart}>
+                <a href={AvantLeDepart}>
                   <img src={AvantLeDepart} alt="Avant Le Départ"></img>
-                </NavLink>
+                </a>
               </div>
               <figcaption>
                 <h4>Avant le départ</h4>
-                <NavLink to="Fiche">
+                <a href="Fiche">
                   <span className="En-Savoir-Plus">En savoir plus</span>
-                </NavLink>
+                </a>
                 <span className="Dimension-Coeur Compteur ">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>
@@ -72,15 +71,15 @@ function VosDesirs() {
             <h2 className="Au-Quotidien">Thème Au Quotidien</h2>
             <figure className="Figure-Vos-Desirs2">
               <div>
-                <NavLink to={ChocolatChaud}>
+                <a href={ChocolatChaud}>
                   <img src={ChocolatChaud} alt="Chocolat chaud"></img>
-                </NavLink>
+                </a>
               </div>
               <figcaption>
                 <h4>Chocolat chaud</h4>
-                <NavLink to="Fiche">
+                <a href="Fiche">
                   <span className="En-Savoir-Plus">En savoir plus</span>
-                </NavLink>
+                </a>
                 <span className="Dimension-Coeur Compteur ">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>
@@ -96,19 +95,19 @@ function VosDesirs() {
             <h2 className="Marin">Thème Divers</h2>
             <figure id="Souvenirs-Marins" className="Figure-Vos-Desirs3">
               <div>
-                <NavLink to={SouvenirsMarin}>
+                <a href={SouvenirsMarin}>
                   <img
                     src={SouvenirsMarin}
                     alt="Souvenirs Marins"
                     title="Cliquez pour agrandir"
                   />
-                </NavLink>
+                </a>
               </div>
               <figcaption>
                 <h4>Souvenirs marins</h4>
-                <NavLink to="Fiche">
+                <a href="Fiche">
                   <span className="En-Savoir-Plus">En savoir plus</span>
-                </NavLink>
+                </a>
                 <span className="Dimension-Coeur Compteur ">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>
@@ -124,13 +123,13 @@ function VosDesirs() {
             <h2 className="Dentiste">Thème Divers</h2>
             <figure id="Dentiste" className="Figure-Vos-Desirs1">
               <div className="Div-Reserve">
-                <NavLink to={Dentiste}>
+                <a href={Dentiste}>
                   <img
                     src={Dentiste}
                     alt="Dentiste"
                     title="Cliquez pour agrandir"
                   />
-                </NavLink>
+                </a>
                 <span className="Mot-Reserve-Image">Reservé</span>
               </div>
               <figcaption>
@@ -150,19 +149,19 @@ function VosDesirs() {
             <h2 className="Dentiste">Thème Divers</h2>
             <figure id="BelleEpoque" className="Figure-Vos-Desirs3">
               <div className="Div-Reserve">
-                <NavLink to={BelleEpoque}>
+                <a href={BelleEpoque}>
                   <img
                     src={BelleEpoque}
                     alt="Belle époque"
                     title="Cliquez pour agrandir"
                   />
-                </NavLink>
+                </a>
               </div>
               <figcaption>
                 <h4>Belle époque</h4>
-                <NavLink to="Fiche">
+                <a href="Fiche">
                   <span className="En-Savoir-Plus">En savoir plus</span>
-                </NavLink>
+                </a>
                 <span className="Dimension-Coeur Compteur ">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>

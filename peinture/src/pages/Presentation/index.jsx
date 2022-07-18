@@ -254,7 +254,7 @@ function Presentation() {
               </div>
               <figcaption>
                 <h4>Jambon et pain</h4>
-                <span className="Dimension-Coeur Compteur" onclick="Compteur()">
+                <span className="Dimension-Coeur Compteur">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>
                   </span>

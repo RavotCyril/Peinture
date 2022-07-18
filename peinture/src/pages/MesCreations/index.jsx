@@ -1,6 +1,5 @@
 /* Importations Bibliothèques React-router-dom  */
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 import OrangesEtDentelle from "../../images/Sans-Bordure/SansBordure-Grande-Oranges-Et-Dentelle.jpg";
 import GrandeAiguiere from "../../images/Grande-Images/Grande-Aiguiere.webp";
@@ -102,20 +101,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
         <div className="Galerie1-Nature-Morte">
           <figure id="OrangesEtDentelle">
             <div className="Div-En-Vente">
-              <NavLink to={OrangesEtDentelle}>
+              <a href={OrangesEtDentelle}>
                 <img
                   src={OrangesEtDentelle}
                   alt="Oranges Et Dentelles"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Oranges et dentelle</h4>
               <span className="Prix">450€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -128,16 +127,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="Aiguiere">
             <div className="Div-En-Vente">
-              <NavLink to={GrandeAiguiere}>
-                <img src={GrandeAiguiere} alt="Grande Aiguiere"></img>
-              </NavLink>
+              <a href={GrandeAiguiere}>
+                <img src={GrandeAiguiere} alt="Grande Aiguiere" />
+              </a>
             </div>
             <figcaption>
               <h4>Aiguière</h4>
               <span className="Prix">690€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -150,20 +149,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="Terroirs-De-France">
             <div className="Div-En-Vente">
-              <NavLink to={TerroirDeFrance}>
+              <a href={TerroirDeFrance}>
                 <img
                   src={TerroirDeFrance}
                   alt="Terroirs de France"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Terroirs de France</h4>
               <span className="Prix">1500€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -176,20 +175,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="Bleu-Porcelaine">
             <div className="Div-En-Vente">
-              <NavLink to={BleuPorcelaine}>
+              <a href={BleuPorcelaine}>
                 <img
                   src={BleuPorcelaine}
                   alt="Bleu Porcelaine"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Bleu porcelaine</h4>
               <span className="Prix">890€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -202,20 +201,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="Dame-Jeanne">
             <div className="Div-En-Vente">
-              <NavLink to={CadreDameJeanne}>
+              <a href={CadreDameJeanne}>
                 <img
                   src={CadreDameJeanne}
                   alt="Dame Jeanne"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Dame Jeanne</h4>
               <span className="Prix">800€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -228,16 +227,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="UnPtitNoir">
             <div className="Div-En-Vente">
-              <NavLink to={UnPetitNoir}>
-                <img src={UnPetitNoir} alt="Un ptit noir"></img>
-              </NavLink>
+              <a href={UnPetitNoir}>
+                <img src={UnPetitNoir} alt="Un ptit noir" />
+              </a>
             </div>
             <figcaption>
               <h4>Un p'tit noir</h4>
               <span className="Prix">310€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -253,20 +252,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
         <div className="Galerie2-Nature-Morte">
           <figure id="PlumeEtOeufDargent">
             <div className="Div-En-Vente">
-              <NavLink to={PlumeOeufDargent}>
+              <a href={PlumeOeufDargent}>
                 <img
                   src={PlumeOeufDargent}
                   alt="Plume et oeuf d'argent"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Plume et oeuf d'argent</h4>
               <span className="Prix">380€</span>
-              <NavLink id="SavoirPlus" to="Fiche">
+              <a id="SavoirPlus" href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -279,16 +278,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="Cristaux">
             <div className="Div-En-Vente">
-              <NavLink to={GrandeCristaux}>
-                <img src={GrandeCristaux} alt="Grande Cristaux"></img>
-              </NavLink>
+              <a href={GrandeCristaux}>
+                <img src={GrandeCristaux} alt="Grande Cristaux" />
+              </a>
             </div>
             <figcaption>
               <h4>Cristaux</h4>
               <span className="Prix">310€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -301,20 +300,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="VieillesDentelles">
             <div className="Div-En-Vente">
-              <NavLink to={VieilleDentelles}>
+              <a href={VieilleDentelles}>
                 <img
                   src={VieilleDentelles}
                   alt="Vieilles dentelles"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Vieilles dentelles</h4>
               <span className="Prix">350€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -327,20 +326,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="ChocolatChaud">
             <div className="Div-En-Vente">
-              <NavLink to={ChocolatChaud}>
+              <a href={ChocolatChaud}>
                 <img
                   src={ChocolatChaud}
                   alt="Chocolat chaud"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Chocolat chaud</h4>
               <span className="Prix">350€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -353,20 +352,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="CafeEtChocolat">
             <div className="Div-En-Vente">
-              <NavLink to={CafeChocolat}>
+              <a href={CafeChocolat}>
                 <img
                   src={CafeChocolat}
                   alt="Café et chocolat"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Café et chocolat</h4>
               <span className="Prix">310€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -379,16 +378,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="SouvenirsMarins">
             <div className="Div-En-Vente">
-              <NavLink to={SouvenirsMarins}>
-                <img src={SouvenirsMarins} alt="Souvenirs Marins"></img>
-              </NavLink>
+              <a href={SouvenirsMarins}>
+                <img src={SouvenirsMarins} alt="Souvenirs Marins" />
+              </a>
             </div>
             <figcaption>
               <h4>Souvenirs marins</h4>
               <span className="Prix">800€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -404,20 +403,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
         <div className="Galerie3-Nature-Morte">
           <figure id="Avant-Le-Depart">
             <div className="Div-En-Vente">
-              <NavLink to={AvantLeDepart}>
+              <a href={AvantLeDepart}>
                 <img
                   src={AvantLeDepart}
                   alt="Avant le départ"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Avant le départ</h4>
               <span className="Prix">780€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -430,16 +429,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="UnPetitCreux">
             <div className="Div-En-Vente">
-              <NavLink to={UnPetitCreux}>
-                <img src={UnPetitCreux} alt="Un Petit Creux"></img>
-              </NavLink>
+              <a href={UnPetitCreux}>
+                <img src={UnPetitCreux} alt="Un Petit Creux" />
+              </a>
             </div>
             <figcaption>
               <h4>Un petit creux</h4>
               <span className="Prix">450€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -452,20 +451,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="VinDeSavoie">
             <div className="Div-En-Vente">
-              <NavLink to={VinDeSavoie}>
+              <a href={VinDeSavoie}>
                 <img
                   src={VinDeSavoie}
                   alt="Vin de savoie"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Vin de savoie</h4>
               <span className="Prix">480€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -478,20 +477,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="RefletsDeSavoie">
             <div className="Div-En-Vente">
-              <NavLink to={RefletsDeSavoies}>
+              <a href={RefletsDeSavoies}>
                 <img
                   src={RefletsDeSavoies}
                   alt="Reflets de savoie"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Reflets de Savoie</h4>
               <span className="Prix">480€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -504,20 +503,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="CaSeprepare">
             <div className="Div-En-Vente">
-              <NavLink to={CaSePrepare}>
+              <a href={CaSePrepare}>
                 <img
                   src={CaSePrepare}
                   alt="Çà se prépare"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Ca se prépare</h4>
               <span className="Prix">650€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -530,20 +529,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="OutilsDantan">
             <div className="Div-En-Vente">
-              <NavLink to={OutilsDantan}>
+              <a href={OutilsDantan}>
                 <img
                   src={OutilsDantan}
                   alt="Outils d'antan"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Outils d'antan</h4>
               <span className="Prix">780€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -559,20 +558,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
         <div className="Galerie4-Nature-Morte">
           <figure id="PainEtConfiture">
             <div className="Div-En-Vente">
-              <NavLink to={PainEtConfiture}>
+              <a href={PainEtConfiture}>
                 <img
                   src={PainEtConfiture}
                   alt="Pain et confiture"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Pain et confiture</h4>
               <span className="Prix">720€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -585,20 +584,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="Une-AutreEpoque">
             <div className="Div-En-Vente">
-              <NavLink to={UneAutreEpoque}>
+              <a href={UneAutreEpoque}>
                 <img
                   src={UneAutreEpoque}
                   alt="Une autre époque"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Une autre époque</h4>
               <span className="Prix">580€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -611,19 +610,19 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="LeTempsDeslumieres">
             <div className="Div-En-Vente">
-              <NavLink to={LeTempsDesLumieres}>
+              <a href={LeTempsDesLumieres}>
                 <img
                   src={LeTempsDesLumieres}
                   alt="Le Temps Des Lumieres Desir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Le temps des lumières</h4>
               <span className="Prix">380€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -636,20 +635,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="Felins">
             <div className="Div-En-Vente">
-              <NavLink to={Felins}>
-                <img
-                  src={Felins}
-                  alt="Félins"
-                  title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+              <a href={Felins}>
+                <img src={Felins} alt="Félins" title="Cliquez pour agrandir" />
+              </a>
             </div>
             <figcaption>
               <h4>Felins</h4>
               <span className="Prix">250€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -665,20 +660,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
         <div className="Galerie5-Nature-Morte">
           <figure id="CerisesEtFraises">
             <div className="Div-En-Vente">
-              <NavLink to={CerisesEtFraises}>
+              <a href={CerisesEtFraises}>
                 <img
                   src={CerisesEtFraises}
                   alt="Cerises Et fraises"
                   title="Cliquez pour agrandir "
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Cerises et Fraises</h4>
               <span className="Prix">350€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -691,16 +686,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="Fruits-Dautomne">
             <div className="Div-En-Vente">
-              <NavLink to={GrandeFruitsDautomne}>
-                <img src={GrandeFruitsDautomne} alt="Fruits D'automne"></img>
-              </NavLink>
+              <a href={GrandeFruitsDautomne}>
+                <img src={GrandeFruitsDautomne} alt="Fruits D'automne" />
+              </a>
             </div>
             <figcaption>
               <h4>Fruits d'automne</h4>
               <span className="Prix">250€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -713,16 +708,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="EnLhonneurDeBacchus">
             <div className="Div-En-Vente">
-              <NavLink to={EnLhonneurDeBacchus}>
-                <img src={EnLhonneurDeBacchus} alt="L'Honneur De Bacchus"></img>
-              </NavLink>
+              <a href={EnLhonneurDeBacchus}>
+                <img src={EnLhonneurDeBacchus} alt="L'Honneur De Bacchus" />
+              </a>
             </div>
             <figcaption>
               <h4>En l'honneur de Bacchus</h4>
               <span className="Prix">480€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -735,20 +730,20 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="CuivreEtRaisin">
             <div className="Div-En-Vente">
-              <NavLink to={CuivreEtRaisinDesir}>
+              <a href={CuivreEtRaisinDesir}>
                 <img
                   src={CuivreEtRaisinDesir}
                   alt="Cuivre et raisin"
                   title="Cliquez pour agrandir"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Cuivre et raisin</h4>
               <span className="Prix">780€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -767,13 +762,13 @@ Pour connaitre les tableaux les plus populaires de la page creation */
         <div className="Velours-Galerie1">
           <figure id="Cheval">
             <div className="Div-En-Vente">
-              <NavLink to={Cheval}>
+              <a href={Cheval}>
                 <img
                   src={Cheval}
                   className="galeriePresentation"
                   alt="Cheval"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Cheval</h4>
@@ -790,13 +785,9 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="Chien">
             <div className="Div-En-Vente">
-              <NavLink to={Chien}>
-                <img
-                  className="galeriePresentation"
-                  src={Chien}
-                  alt="Chien"
-                ></img>
-              </NavLink>
+              <a href={Chien}>
+                <img className="galeriePresentation" src={Chien} alt="Chien" />
+              </a>
             </div>
             <figcaption>
               <h4>Chien</h4>
@@ -813,13 +804,9 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure id="Iris">
             <div className="Div-En-Vente">
-              <NavLink to={Iris}>
-                <img
-                  className="galeriePresentation"
-                  src={Iris}
-                  alt="Iris"
-                ></img>
-              </NavLink>
+              <a href={Iris}>
+                <img className="galeriePresentation" src={Iris} alt="Iris" />
+              </a>
             </div>
             <figcaption>
               <h4>Iris</h4>
@@ -839,19 +826,19 @@ Pour connaitre les tableaux les plus populaires de la page creation */
         <div className="Velours-Galerie2">
           <figure className="Caniche-Abricot">
             <div className="Div-En-Vente">
-              <NavLink to={CanicheAbricotSurVelours}>
+              <a href={CanicheAbricotSurVelours}>
                 <img
                   src={CanicheAbricotSurVelours}
                   alt="Portrait Caniche Abricot Sur Velours"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Portrait de caniche abricot sur velours</h4>
               <span className="Prix">20€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -864,19 +851,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure>
             <div className="Div-En-Vente">
-              <NavLink to={TeckelSurVelours}>
-                <img
-                  src={TeckelSurVelours}
-                  alt="Jeune Teckel Sur Velours"
-                ></img>
-              </NavLink>
+              <a href={TeckelSurVelours}>
+                <img src={TeckelSurVelours} alt="Jeune Teckel Sur Velours" />
+              </a>
             </div>
             <figcaption>
               <h4>Jeune teckel sur velours</h4>
               <span className="Prix">20€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -889,19 +873,19 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure>
             <div className="Div-En-Vente">
-              <NavLink to={BebeYorkshireSurVelours}>
+              <a href={BebeYorkshireSurVelours}>
                 <img
                   src={BebeYorkshireSurVelours}
                   alt="Bebe Yorkshire Sur Velours"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Bébé yorkshire sur velours </h4>
               <span className="Prix">20€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -914,19 +898,19 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure>
             <div className="Div-En-Vente">
-              <NavLink to={CanicheBlancSurVelours}>
+              <a href={CanicheBlancSurVelours}>
                 <img
                   src={CanicheBlancSurVelours}
                   alt="Caniche Blanc Sur Velours"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Caniche blanc sur velours</h4>
               <span className="Prix">20€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -939,19 +923,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure>
             <div className="Div-En-Vente">
-              <NavLink to={YorkshireSurVelours}>
-                <img
-                  src={YorkshireSurVelours}
-                  alt="Yorkshire Sur Velours"
-                ></img>
-              </NavLink>
+              <a href={YorkshireSurVelours}>
+                <img src={YorkshireSurVelours} alt="Yorkshire Sur Velours" />
+              </a>
             </div>
             <figcaption>
               <h4>Yorkshire sur velours</h4>
               <span className="Prix">20€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -967,16 +948,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
         <div className="Velours-Galerie3">
           <figure>
             <div className="Div-En-Vente">
-              <NavLink to={GuepierSurVelours}>
-                <img src={GuepierSurVelours} alt="Guepier Sur Velours"></img>
-              </NavLink>
+              <a href={GuepierSurVelours}>
+                <img src={GuepierSurVelours} alt="Guepier Sur Velours" />
+              </a>
             </div>
             <figcaption>
               <h4>Guêpier sur velours</h4>
               <span className="Prix">20€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -989,19 +970,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure>
             <div className="Div-En-Vente">
-              <NavLink to={OiseauBleuSurVelours}>
-                <img
-                  src={OiseauBleuSurVelours}
-                  alt="Oiseau Bleu Sur Velours"
-                ></img>
-              </NavLink>
+              <a href={OiseauBleuSurVelours}>
+                <img src={OiseauBleuSurVelours} alt="Oiseau Bleu Sur Velours" />
+              </a>
             </div>
             <figcaption>
               <h4>Oiseau bleu sur velours</h4>
               <span className="Prix">20€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -1014,19 +992,19 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure>
             <div className="Div-En-Vente">
-              <NavLink to={GrandeChouetteSurVelours}>
+              <a href={GrandeChouetteSurVelours}>
                 <img
                   src={GrandeChouetteSurVelours}
                   alt="Chouette Sur Velours"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Chouette sur velours</h4>
               <span className="Prix">20€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -1039,19 +1017,19 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure>
             <div className="Div-En-Vente">
-              <NavLink to={CanicheGrisSurVelours}>
+              <a href={CanicheGrisSurVelours}>
                 <img
                   src={CanicheGrisSurVelours}
                   alt="Caniche Gris Sur Velours"
-                ></img>
-              </NavLink>
+                />
+              </a>
             </div>
             <figcaption>
               <h4>Caniche gris sur velours</h4>
               <span className="Prix">20€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
 
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
@@ -1065,19 +1043,16 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           </figure>
           <figure>
             <div className="Div-En-Vente">
-              <NavLink to={HamsterSurVelours}>
-                <img
-                  src={HamsterSurVelours}
-                  alt="Grande Hamster Sur Velours"
-                ></img>
-              </NavLink>
+              <a href={HamsterSurVelours}>
+                <img src={HamsterSurVelours} alt="Grande Hamster Sur Velours" />
+              </a>
             </div>
             <figcaption>
               <h4>Hamster sur velours</h4>
               <span className="Prix">20€</span>
-              <NavLink to="Fiche">
+              <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
-              </NavLink>
+              </a>
 
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">

@@ -1,6 +1,5 @@
 /* Importations Bibliothèques React-router-dom  */
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 import Theiere from "../../images/TableauxVendu/1995/Theiere.jpg";
 import FraisesEtPlatEnEtain from "../../images/TableauxVendu/1995/Fraises-Et-Plat-En-Etain.jpg";
@@ -13,6 +12,7 @@ import VaseLaqueEtPivoines from "../../images/TableauxVendu/1996/Vase-Laque-Et-P
 import BriocheEtChampagne from "../../images/TableauxVendu/1997/Brioche-Et-Champagne.jpg";
 import BriocheEtPotALait from "../../images/TableauxVendu/1997/Brioche-Et-Pot-A-Lait.jpg";
 import ChopeEnEtainEtOlives from "../../images/TableauxVendu/1997/Chope-En-Etain-Et-Olives.jpg";
+import ConfitureDabricot from "../../images/TableauxVendu/1997/Confiture-Abricot.jpg";
 import CorbeilleAbricots from "../../images/TableauxVendu/1997/Corbeille-Abricots.jpg";
 import CrucheEngres from "../../images/TableauxVendu/1997/Cruche-Engres.jpg";
 import GrandPere from "../../images/TableauxVendu/1997/Grand-Pere.jpg";
@@ -144,13 +144,13 @@ function Vendue() {
         <div className="Galerie1-Nature-Morte-Vente">
           <figure id="Theiere">
             <div className="Div-vendue">
-              <NavLink to={Theiere}>
+              <a href={Theiere}>
                 <img
                   src={Theiere}
                   alt="Théière"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -167,13 +167,13 @@ function Vendue() {
           </figure>
           <figure id="Fraises-Et-Plat-En-Etain">
             <div className="Div-vendue">
-              <NavLink to={FraisesEtPlatEnEtain}>
+              <a href={FraisesEtPlatEnEtain}>
                 <img
                   src={FraisesEtPlatEnEtain}
                   alt="Fraises et plat en étain"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -190,13 +190,13 @@ function Vendue() {
           </figure>
           <figure id="Coupe-Dabricots">
             <div className="Div-vendue">
-              <NavLink to={CoupeAbricots}>
+              <a href={CoupeAbricots}>
                 <img
                   src={CoupeAbricots}
                   alt="Coupe d'Abricots"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -213,13 +213,13 @@ function Vendue() {
           </figure>
           <figure id="Pain-Et-Oeuf-Coque">
             <div className="Div-vendue">
-              <NavLink to={PainEtOeufCoque}>
+              <a href={PainEtOeufCoque}>
                 <img
                   src={PainEtOeufCoque}
                   alt="Pain et oeuf coque"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -236,13 +236,13 @@ function Vendue() {
           </figure>
           <figure id="Confiture-Des-4-Fuits-Rouges">
             <div className="Div-vendue">
-              <NavLink to={ConfitureDes4FruitsRouges}>
+              <a href={ConfitureDes4FruitsRouges}>
                 <img
                   src={ConfitureDes4FruitsRouges}
                   alt="Confiture des 4 fruits rouges"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -259,13 +259,13 @@ function Vendue() {
           </figure>
           <figure id="Pain-Vin-Et-Laguiole">
             <div className="Div-vendue">
-              <NavLink to={PainVinEtLaguiole}>
+              <a href={PainVinEtLaguiole}>
                 <img
                   src={PainVinEtLaguiole}
                   alt="Pain vin et laguiole"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -282,13 +282,13 @@ function Vendue() {
           </figure>
           <figure id="Carafe-Et-Petits-Gateaux">
             <div className="Div-vendue">
-              <NavLink to={CarafeEtPetitsGateaux}>
+              <a href={CarafeEtPetitsGateaux}>
                 <img
                   src={CarafeEtPetitsGateaux}
                   alt="Carafe et petits gâteaux"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -305,13 +305,13 @@ function Vendue() {
           </figure>
           <figure id="Vase-laque-Et-Pivoines">
             <div className="Div-vendue">
-              <NavLink to={VaseLaqueEtPivoines}>
+              <a href={VaseLaqueEtPivoines}>
                 <img
                   src={VaseLaqueEtPivoines}
                   alt="Vase laqué et pivoines"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -328,13 +328,13 @@ function Vendue() {
           </figure>
           <figure id="Brioche-Et-Pot-A-Lait">
             <div className="Div-vendue">
-              <NavLink to={BriocheEtPotALait}>
+              <a href={BriocheEtPotALait}>
                 <img
                   src={BriocheEtPotALait}
                   alt="Brioche et pot à lait"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -351,13 +351,13 @@ function Vendue() {
           </figure>
           <figure id="Corbeille-Abricots">
             <div className="Div-vendue">
-              <NavLink to={CorbeilleAbricots}>
+              <a href={CorbeilleAbricots}>
                 <img
                   src={CorbeilleAbricots}
                   alt="Corbeille d'abricots"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -374,13 +374,13 @@ function Vendue() {
           </figure>
           <figure id="Chope-En-Etain-Et-Olives">
             <div className="Div-vendue">
-              <NavLink to={ChopeEnEtainEtOlives}>
+              <a href={ChopeEnEtainEtOlives}>
                 <img
                   src={ChopeEnEtainEtOlives}
                   alt="Chope en étain et olives"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -397,13 +397,13 @@ function Vendue() {
           </figure>
           <figure id="BriocheEtChampagne">
             <div className="Div-vendue">
-              <NavLink to={BriocheEtChampagne}>
+              <a href={BriocheEtChampagne}>
                 <img
                   src={BriocheEtChampagne}
                   alt="Brioche et champagne"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -420,13 +420,13 @@ function Vendue() {
           </figure>
           <figure id="ConfitureDabricot">
             <div className="Div-vendue">
-              <NavLink to={ConfitureDabricot}>
+              <a href={ConfitureDabricot}>
                 <img
                   src={ConfitureDabricot}
                   alt="Confiture d'abricot"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -443,9 +443,9 @@ function Vendue() {
           </figure>
           <figure id="Peches">
             <div className="Div-vendue">
-              <NavLink to={Peches}>
+              <a href={Peches}>
                 <img src={Peches} alt="Pêches" title="Cliquez pour agrandir" />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -462,13 +462,13 @@ function Vendue() {
           </figure>
           <figure id="Le-Pain-Et-Le-Vin">
             <div className="Div-vendue">
-              <NavLink to={LePainEtLeVin}>
+              <a href={LePainEtLeVin}>
                 <img
                   src={LePainEtLeVin}
                   alt="Le pain et le vin"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -485,13 +485,13 @@ function Vendue() {
           </figure>
           <figure id="Pain-Cuivre-et-oeufs">
             <div className="Div-vendue">
-              <NavLink to={PainCuivreEtOeufs}>
+              <a href={PainCuivreEtOeufs}>
                 <img
                   src={PainCuivreEtOeufs}
                   alt="Pain Cuivre et oeufs"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -508,13 +508,13 @@ function Vendue() {
           </figure>
           <figure id="Pommes-et-pot-en-laiton">
             <div className="Div-vendue">
-              <NavLink to={PommesEtPotEnLaiton}>
+              <a href={PommesEtPotEnLaiton}>
                 <img
                   src={PommesEtPotEnLaiton}
                   alt="Pommes et pot en laiton"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -531,13 +531,13 @@ function Vendue() {
           </figure>
           <figure id="Jambon et pain">
             <div className="Div-vendue">
-              <NavLink to={JambonEtPain}>
+              <a href={JambonEtPain}>
                 <img
                   src={JambonEtPain}
                   alt="Jambon et pain"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -554,13 +554,13 @@ function Vendue() {
           </figure>
           <figure id="Panier-de-fruits">
             <div className="Div-vendue">
-              <NavLink to={PanierDeFruits}>
+              <a href={PanierDeFruits}>
                 <img
-                  src={PanierDeFruitss}
+                  src={PanierDeFruits}
                   alt="Panier de fruits"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -577,13 +577,13 @@ function Vendue() {
           </figure>
           <figure id="Pause-Cafe">
             <div className="Div-vendue">
-              <NavLink to={PauseCafe}>
+              <a href={PauseCafe}>
                 <img
                   src={PauseCafe}
                   alt="Pause café"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -600,13 +600,13 @@ function Vendue() {
           </figure>
           <figure id="Pot-Pourris-Et-Dentelle">
             <div className="Div-vendue">
-              <NavLink to={PotPourrisEtDentelle}>
+              <a href={PotPourrisEtDentelle}>
                 <img
                   src={PotPourrisEtDentelle}
                   alt="Pot pourris et dentelle"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -623,13 +623,13 @@ function Vendue() {
           </figure>
           <figure id="Grand-Pere">
             <div className="Div-vendue">
-              <NavLink to={GrandPere}>
+              <a href={GrandPere}>
                 <img
                   src={GrandPere}
                   alt="Grand père"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -646,13 +646,13 @@ function Vendue() {
           </figure>
           <figure id="Source-De-Vie">
             <div className="Div-vendue">
-              <NavLink to={SourceDeVie}>
+              <a href={SourceDeVie}>
                 <img
                   src={SourceDeVie}
                   alt="Source de vie"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -669,13 +669,13 @@ function Vendue() {
           </figure>
           <figure id="Provence">
             <div className="Div-Reserve">
-              <NavLink to={Provence}>
+              <a href={Provence}>
                 <img
                   src={Provence}
                   alt="Provence"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Reserve-Image">Reservé</span>
             </div>
             <figcaption>
@@ -692,13 +692,13 @@ function Vendue() {
           </figure>
           <figure id="Cruche-En-gres">
             <div className="Div-vendue">
-              <NavLink to={CrucheEngres}>
+              <a href={CrucheEngres}>
                 <img
                   src={CrucheEngres}
                   alt="Cruche engrès"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -715,13 +715,13 @@ function Vendue() {
           </figure>
           <figure id="Pain-Cuivre-Et-Couteau">
             <div className="Div-vendue">
-              <NavLink to={PainCuivreEtCouteau}>
+              <a href={PainCuivreEtCouteau}>
                 <img
                   src={PainCuivreEtCouteau}
                   alt="Pain cuivre et couteau"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -738,13 +738,13 @@ function Vendue() {
           </figure>
           <figure id="Jeux-Dhier">
             <div className="Div-vendue">
-              <NavLink to={JeuxDhier}>
+              <a href={JeuxDhier}>
                 <img
                   src={JeuxDhier}
                   alt="Jeux d'hier"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -761,13 +761,13 @@ function Vendue() {
           </figure>
           <figure id="Oeuf-Coque-Et-Poussin">
             <div className="Div-vendue">
-              <NavLink to={OeufCoqueEtPoussin}>
+              <a href={OeufCoqueEtPoussin}>
                 <img
                   src={OeufCoqueEtPoussin}
                   alt="Oeuf coque et poussin"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -784,13 +784,13 @@ function Vendue() {
           </figure>
           <figure id="Lheure-Du-The">
             <div className="Div-vendue">
-              <NavLink to={LheureDuThe}>
+              <a href={LheureDuThe}>
                 <img
                   src={LheureDuThe}
                   alt="L'heure du Thé"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -807,13 +807,13 @@ function Vendue() {
           </figure>
           <figure id="Chardons">
             <div className="Div-vendue">
-              <NavLink to={Chardons}>
+              <a href={Chardons}>
                 <img
                   src={Chardons}
                   alt="Chardons"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -830,13 +830,13 @@ function Vendue() {
           </figure>
           <figure id="Carafe-Et-Raisins">
             <div className="Div-vendue">
-              <NavLink to={CarafeEtRaisins}>
+              <a href={CarafeEtRaisins}>
                 <img
                   src={CarafeEtRaisins}
                   alt="Carafe et raisins"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -853,13 +853,13 @@ function Vendue() {
           </figure>
           <figure id="Cerises">
             <div className="Div-vendue">
-              <NavLink to={Cerises}>
+              <a href={Cerises}>
                 <img
                   src={Cerises}
                   alt="Cerises"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -876,13 +876,13 @@ function Vendue() {
           </figure>
           <figure id="Les-Oeufs">
             <div className="Div-vendue">
-              <NavLink to={LesOeufs}>
+              <a href={LesOeufs}>
                 <img
                   src={LesOeufs}
                   alt="Les oeufs"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -899,13 +899,13 @@ function Vendue() {
           </figure>
           <figure id="Degustation">
             <div className="Div-vendue">
-              <NavLink to={Degustation}>
+              <a href={Degustation}>
                 <img
                   src={Degustation}
                   alt="Dégustation"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -922,13 +922,13 @@ function Vendue() {
           </figure>
           <figure id="Page-Decriture">
             <div className="Div-vendue">
-              <NavLink to={PageDecriture}>
+              <a href={PageDecriture}>
                 <img
                   src={PageDecriture}
                   alt="Page d'écriture"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -945,13 +945,13 @@ function Vendue() {
           </figure>
           <figure id="Vase-Bleu">
             <div className="Div-vendue">
-              <NavLink to={VaseBleu}>
+              <a href={VaseBleu}>
                 <img
                   src={VaseBleu}
                   alt="Vase Bleu"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -968,13 +968,13 @@ function Vendue() {
           </figure>
           <figure id="Calligraphie">
             <div className="Div-vendue">
-              <NavLink to={Calligraphie}>
+              <a href={Calligraphie}>
                 <img
                   src={Calligraphie}
                   alt="Calligraphie"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -991,13 +991,13 @@ function Vendue() {
           </figure>
           <figure id="Le-Roman-Des-Deux-Roses">
             <div className="Div-vendue">
-              <NavLink to={LeRomanDesDeuxRoses}>
+              <a href={LeRomanDesDeuxRoses}>
                 <img
                   src={LeRomanDesDeuxRoses}
                   alt="Le Roman des deux roses"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1014,13 +1014,13 @@ function Vendue() {
           </figure>
           <figure id="Les-Fraises">
             <div className="Div-vendue">
-              <NavLink to={LesFraises}>
+              <a href={LesFraises}>
                 <img
                   src={LesFraises}
                   alt="Les fraises"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1037,13 +1037,13 @@ function Vendue() {
           </figure>
           <figure id="Les-Cerises">
             <div className="Div-vendue">
-              <NavLink to={LesCerises}>
+              <a href={LesCerises}>
                 <img
                   src={LesCerises}
                   alt="Les cerises"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1060,13 +1060,13 @@ function Vendue() {
           </figure>
           <figure id="Cerises-Et-Whisky">
             <div className="Div-vendue">
-              <NavLink to={CerisesEtWhisky}>
+              <a href={CerisesEtWhisky}>
                 <img
                   src={CerisesEtWhisky}
                   alt="Cerises et whisky"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1083,13 +1083,13 @@ function Vendue() {
           </figure>
           <figure id="Nocturne">
             <div className="Div-vendue">
-              <NavLink to={Nocturne}>
+              <a href={Nocturne}>
                 <img
                   src={Nocturne}
                   alt="Nocturne"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1106,13 +1106,13 @@ function Vendue() {
           </figure>
           <figure id="Le-Petit-Bouchon">
             <div className="Div-vendue">
-              <NavLink to={LePetitBouchon}>
+              <a href={LePetitBouchon}>
                 <img
                   src={LePetitBouchon}
                   alt="Le petit bouchon"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1129,13 +1129,13 @@ function Vendue() {
           </figure>
           <figure id="Pomme-Et-Noix">
             <div className="Div-vendue">
-              <NavLink to={PommeEtNoix}>
+              <a href={PommeEtNoix}>
                 <img
                   src={PommeEtNoix}
                   alt="Pomme et noix"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1152,13 +1152,13 @@ function Vendue() {
           </figure>
           <figure id="Fleurs-De-Lys">
             <div className="Div-vendue">
-              <NavLink to={FleursDeLys}>
+              <a href={FleursDeLys}>
                 <img
                   src={FleursDeLys}
                   alt="Fleurs de lys"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1175,13 +1175,13 @@ function Vendue() {
           </figure>
           <figure id="Autour-Du-Vin">
             <div className="Div-vendue">
-              <NavLink to={AutourDuVin}>
+              <a href={AutourDuVin}>
                 <img
                   src={AutourDuVin}
                   alt="Autour du vin"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1198,13 +1198,13 @@ function Vendue() {
           </figure>
           <figure id="Correspondance">
             <div className="Div-vendue">
-              <NavLink to={Correspondance}>
+              <a href={Correspondance}>
                 <img
                   src={Correspondance}
                   alt="Correspondance"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1221,13 +1221,13 @@ function Vendue() {
           </figure>
           <figure id="Liqueur">
             <div className="Div-vendue">
-              <NavLink to={Liqueur}>
+              <a href={Liqueur}>
                 <img
                   src={Liqueur}
                   alt="Liqueur"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1244,13 +1244,13 @@ function Vendue() {
           </figure>
           <figure id="Autour-Du-Vin-II">
             <div className="Div-vendue">
-              <NavLink to={AutourDuVinII}>
+              <a href={AutourDuVinII}>
                 <img
                   src={AutourDuVinII}
                   alt="Autour du vin II"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1267,13 +1267,13 @@ function Vendue() {
           </figure>
           <figure id="Le-Cidre">
             <div className="Div-vendue">
-              <NavLink to={LeCidre}>
+              <a href={LeCidre}>
                 <img
                   src={LeCidre}
                   alt="Le cidre"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1290,13 +1290,13 @@ function Vendue() {
           </figure>
           <figure id="Le-Verre-De-Vin">
             <div className="Div-vendue">
-              <NavLink to={LeVerreDeVin}>
+              <a href={LeVerreDeVin}>
                 <img
                   src={LeVerreDeVin}
                   alt="Le verre de vin"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1313,13 +1313,13 @@ function Vendue() {
           </figure>
           <figure id="Tire-Bouchon">
             <div className="Div-vendue">
-              <NavLink to={TireBouchon}>
+              <a href={TireBouchon}>
                 <img
                   src={TireBouchon}
                   alt="Tire-bouchon"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1336,13 +1336,13 @@ function Vendue() {
           </figure>
           <figure id="Lart-Du-Vin">
             <div className="Div-vendue">
-              <NavLink to={LartDuVin}>
+              <a href={LartDuVin}>
                 <img
                   src={LartDuVin}
                   alt="L'art du vin"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1359,13 +1359,13 @@ function Vendue() {
           </figure>
           <figure id="Le-Gouter">
             <div className="Div-vendue">
-              <NavLink to={LeGouter}>
+              <a href={LeGouter}>
                 <img
                   src={LeGouter}
                   alt="Le Goûter"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1382,9 +1382,9 @@ function Vendue() {
           </figure>
           <figure id="Cognac">
             <div className="Div-vendue">
-              <NavLink to={Cognac}>
+              <a href={Cognac}>
                 <img src={Cognac} alt="Cognac" title="Cliquez pour agrandir" />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1401,13 +1401,13 @@ function Vendue() {
           </figure>
           <figure id="Petit-Dejeuner">
             <div className="Div-vendue">
-              <NavLink to={PetitDejeuner}>
+              <a href={PetitDejeuner}>
                 <img
                   src={PetitDejeuner}
                   alt="Petit déjeuner"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1424,13 +1424,13 @@ function Vendue() {
           </figure>
           <figure id="Cuivre-Et-Pain-II">
             <div className="Div-vendue">
-              <NavLink to={CuivreEtPainII}>
+              <a href={CuivreEtPainII}>
                 <img
                   src={CuivreEtPainII}
                   alt="Cuivre et pain II"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1447,13 +1447,13 @@ function Vendue() {
           </figure>
           <figure id="Automne1">
             <div className="Div-vendue">
-              <NavLink to={Automne1}>
+              <a href={Automne1}>
                 <img
                   src={Automne1}
                   alt="Automne1"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1470,13 +1470,13 @@ function Vendue() {
           </figure>
           <figure id="Automne-II">
             <div className="Div-vendue">
-              <NavLink to={AutomneII}>
+              <a href={AutomneII}>
                 <img
                   src={AutomneII}
                   alt="Automne-II"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1493,13 +1493,13 @@ function Vendue() {
           </figure>
           <figure id="Pain-Et-Pichet">
             <div className="Div-vendue">
-              <NavLink to={PainEtPichet}>
+              <a href={PainEtPichet}>
                 <img
                   src={PainEtPichet}
                   alt="Pain et pichet"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1516,13 +1516,13 @@ function Vendue() {
           </figure>
           <figure id="Matin-Bonheur">
             <div className="Div-vendue">
-              <NavLink to={MatinBonheur}>
+              <a href={MatinBonheur}>
                 <img
                   src={MatinBonheur}
                   alt="Matin bonheur"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1539,13 +1539,13 @@ function Vendue() {
           </figure>
           <figure id="Quietude">
             <div className="Div-vendue">
-              <NavLink to={Quietude}>
+              <a href={Quietude}>
                 <img
                   src={Quietude}
                   alt="Quiètude"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1562,13 +1562,13 @@ function Vendue() {
           </figure>
           <figure id="Reflets">
             <div className="Div-vendue">
-              <NavLink to={CadreReflets}>
+              <a href={CadreReflets}>
                 <img
                   src={CadreReflets}
                   alt="Reflets"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1585,13 +1585,13 @@ function Vendue() {
           </figure>
           <figure id="Fraicheur">
             <div className="Div-vendue">
-              <NavLink to={Fraicheur}>
+              <a href={Fraicheur}>
                 <img
                   src={Fraicheur}
                   alt="Fraicheur"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1608,13 +1608,13 @@ function Vendue() {
           </figure>
           <figure id="Tinbale-Aux-Fraises">
             <div className="Div-vendue">
-              <NavLink to={TimbaleAuxFraises}>
+              <a href={TimbaleAuxFraises}>
                 <img
                   src={TimbaleAuxFraises}
                   alt="Timbale aux fraises"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1631,13 +1631,13 @@ function Vendue() {
           </figure>
           <figure id="Timbale-Aux-Cerises">
             <div className="Div-vendue">
-              <NavLink to={TimbaleAuxCerises}>
+              <a href={TimbaleAuxCerises}>
                 <img
                   src={TimbaleAuxCerises}
                   alt="Tinbale aux cerises"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1654,13 +1654,13 @@ function Vendue() {
           </figure>
           <figure id="Timbale-Aux-Framboises">
             <div className="Div-vendue">
-              <NavLink to={TimbaleAuxFramboises}>
+              <a href={TimbaleAuxFramboises}>
                 <img
                   src={TimbaleAuxFramboises}
                   alt="Timbale aux framboises"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1677,13 +1677,13 @@ function Vendue() {
           </figure>
           <figure id="Petite-Boites">
             <div className="Div-vendue">
-              <NavLink to={PetitesBoites}>
+              <a href={PetitesBoites}>
                 <img
                   src={PetitesBoites}
                   alt="Petite boîtes"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1700,13 +1700,13 @@ function Vendue() {
           </figure>
           <figure id="Loiseau-De-Cristal">
             <div className="Div-vendue">
-              <NavLink to={LoiseauDeCristal}>
+              <a href={LoiseauDeCristal}>
                 <img
                   src={LoiseauDeCristal}
                   alt="L'oiseau de cristal"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1723,13 +1723,13 @@ function Vendue() {
           </figure>
           <figure id="Londres-1924">
             <div className="Div-vendue">
-              <NavLink to={Londres1924}>
+              <a href={Londres1924}>
                 <img
                   src={Londres1924}
                   alt="Londres 1924"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1746,13 +1746,13 @@ function Vendue() {
           </figure>
           <figure id="Dentiste">
             <div className="Div-vendue">
-              <NavLink to={Dentiste}>
+              <a href={Dentiste}>
                 <img
                   src={Dentiste}
                   alt="Dentiste"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Reserve-Image">Reservé</span>
             </div>
             <figcaption>
@@ -1769,13 +1769,13 @@ function Vendue() {
           </figure>
           <figure id="Senteur">
             <div className="Div-vendue">
-              <NavLink to={Senteur}>
+              <a href={Senteur}>
                 <img
                   src={Senteur}
                   alt="Senteur"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1792,13 +1792,13 @@ function Vendue() {
           </figure>
           <figure id="Exotique">
             <div className="Div-vendue">
-              <NavLink to={Exotique}>
+              <a href={Exotique}>
                 <img
                   src={Exotique}
                   alt="Exotique"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1815,13 +1815,13 @@ function Vendue() {
           </figure>
           <figure id="Passe-Temps">
             <div className="Div-vendue">
-              <NavLink to={PasseTemps}>
+              <a href={PasseTemps}>
                 <img
                   src={PasseTemps}
                   alt="Passe-temps"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1838,13 +1838,13 @@ function Vendue() {
           </figure>
           <figure id="Tel-Quils-Furent">
             <div className="Div-vendue">
-              <NavLink to={TelsQuilsFurent}>
+              <a href={TelsQuilsFurent}>
                 <img
                   src={TelsQuilsFurent}
                   alt="Tel qu'ils furent"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1861,13 +1861,13 @@ function Vendue() {
           </figure>
           <figure id="TimbaleAlaPipe">
             <div className="Div-vendue">
-              <NavLink to={TimbaleALaPipe}>
+              <a href={TimbaleALaPipe}>
                 <img
                   src={TimbaleALaPipe}
                   alt="Timbale à la pipe"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1884,13 +1884,13 @@ function Vendue() {
           </figure>
           <figure id="Vendange">
             <div className="Div-vendue">
-              <NavLink to={Vendange}>
+              <a href={Vendange}>
                 <img
                   src={Vendange}
                   alt="Vendange"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1907,13 +1907,13 @@ function Vendue() {
           </figure>
           <figure id="LeConfiturier">
             <div className="Div-vendue">
-              <NavLink to={LeConfiturier}>
+              <a href={LeConfiturier}>
                 <img
                   src={LeConfiturier}
                   alt="Le confiturier"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1930,13 +1930,13 @@ function Vendue() {
           </figure>
           <figure id="Cuivre-Vase-Bleu">
             <div className="Div-vendue">
-              <NavLink to={CuivreVaseBleu}>
+              <a href={CuivreVaseBleu}>
                 <img
                   src={CuivreVaseBleu}
                   alt="Cuivre et vase bleu"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1953,13 +1953,13 @@ function Vendue() {
           </figure>
           <figure id="Souvenirs">
             <div className="Div-vendue">
-              <NavLink to={Souvenirs}>
+              <a href={Souvenirs}>
                 <img
                   src={Souvenirs}
                   alt="Souvenirs"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1976,13 +1976,13 @@ function Vendue() {
           </figure>
           <figure id="Reveil-Matin">
             <div className="Div-vendue">
-              <NavLink to={ReveilMatin}>
+              <a href={ReveilMatin}>
                 <img
                   src={ReveilMatin}
                   alt="Reveil-Matin"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -1999,13 +1999,13 @@ function Vendue() {
           </figure>
           <figure id="Douceurs">
             <div className="Div-vendue">
-              <NavLink to={Douceurs}>
+              <a href={Douceurs}>
                 <img
                   src={Douceurs}
                   alt="Douceurs"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2022,13 +2022,13 @@ function Vendue() {
           </figure>
           <figure id="Lecture">
             <div className="Div-vendue">
-              <NavLink to={Lecture}>
+              <a href={Lecture}>
                 <img
                   src={Lecture}
                   alt="Lecture"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2045,13 +2045,13 @@ function Vendue() {
           </figure>
           <figure id="Les-Deux-Tomes-De-Savoie">
             <div className="Div-vendue">
-              <NavLink to={LesDeuxTomesDesavoie}>
+              <a href={LesDeuxTomesDesavoie}>
                 <img
                   src={LesDeuxTomesDesavoie}
                   alt="Les deux tomes de savoie"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2068,13 +2068,13 @@ function Vendue() {
           </figure>
           <figure id="Souvenirs-De-Savoie">
             <div className="Div-vendue">
-              <NavLink to={SouvenirsDeSavoie}>
+              <a href={SouvenirsDeSavoie}>
                 <img
                   src={SouvenirsDeSavoie}
                   alt="Souvenirs de Savoie"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Reserve-Image">Reservé</span>
             </div>
             <figcaption>
@@ -2091,13 +2091,13 @@ function Vendue() {
           </figure>
           <figure id="Alpage-Lepage">
             <div className="Div-vendue">
-              <NavLink to={AlpageLepage}>
+              <a href={AlpageLepage}>
                 <img
                   src={AlpageLepage}
                   alt="Alpage-Lepage"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2114,13 +2114,13 @@ function Vendue() {
           </figure>
           <figure id="En savoie">
             <div className="Div-vendue">
-              <NavLink to={Ensavoie}>
+              <a href={Ensavoie}>
                 <img
                   src={Ensavoie}
                   alt="En savoie"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2137,13 +2137,13 @@ function Vendue() {
           </figure>
           <figure id="Coupe-De-Raisin">
             <div className="Div-vendue">
-              <NavLink to={CoupeDeRaisin}>
+              <a href={CoupeDeRaisin}>
                 <img
                   src={CoupeDeRaisin}
                   alt="Coupe de raisin"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2160,13 +2160,13 @@ function Vendue() {
           </figure>
           <figure id="Les-Trois-Gres">
             <div className="Div-vendue">
-              <NavLink to={LesTroisGres}>
+              <a href={LesTroisGres}>
                 <img
                   src={LesTroisGres}
                   alt="Les trois grès"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2183,13 +2183,13 @@ function Vendue() {
           </figure>
           <figure id="Fruits-Dete">
             <div className="Div-vendue">
-              <NavLink to={FruitsDete}>
+              <a href={FruitsDete}>
                 <img
                   src={FruitsDete}
                   alt="Fruits d'été"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2206,13 +2206,13 @@ function Vendue() {
           </figure>
           <figure id="Alcools">
             <div className="Div-vendue">
-              <NavLink to={Alcools}>
+              <a href={Alcools}>
                 <img
                   src={Alcools}
                   alt="Alcools"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2229,13 +2229,13 @@ function Vendue() {
           </figure>
           <figure id="Inspiration">
             <div className="Div-vendue">
-              <NavLink to={Inspiration}>
+              <a href={Inspiration}>
                 <img
                   src={Inspiration}
                   alt="inspiration"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2252,13 +2252,13 @@ function Vendue() {
           </figure>
           <figure id="Alcool-Et-Dentelle">
             <div className="Div-vendue">
-              <NavLink to={AlcoolEtDentelle}>
+              <a href={AlcoolEtDentelle}>
                 <img
                   src={AlcoolEtDentelle}
                   alt="Alcool et dentelle"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2275,13 +2275,13 @@ function Vendue() {
           </figure>
           <figure id="PommesEtCroissants">
             <div className="Div-vendue">
-              <NavLink to={PommeEtCroissants}>
+              <a href={PommeEtCroissants}>
                 <img
                   src={PommeEtCroissants}
                   alt="Pommes et croissants"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2298,13 +2298,13 @@ function Vendue() {
           </figure>
           <figure id="EncrierEtTimbale">
             <div className="Div-vendue">
-              <NavLink to={EncrierEtTimbale}>
+              <a href={EncrierEtTimbale}>
                 <img
                   src={EncrierEtTimbale}
                   alt="Encrier et timbale"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2321,13 +2321,13 @@ function Vendue() {
           </figure>
           <figure id="FleursEtFramboises">
             <div className="Div-vendue">
-              <NavLink to={FleurEtFramboises}>
+              <a href={FleurEtFramboises}>
                 <img
                   src={FleurEtFramboises}
                   alt="Fleur et framboises"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2344,13 +2344,13 @@ function Vendue() {
           </figure>
           <figure id="FleurDeternite">
             <div className="Div-vendue">
-              <NavLink to={FleurDeternite}>
+              <a href={FleurDeternite}>
                 <img
                   src={FleurDeternite}
                   alt="Fleur d'éternité"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2367,13 +2367,13 @@ function Vendue() {
           </figure>
           <figure id="Androsaces-Avec-Opinel">
             <div className="Div-vendue">
-              <NavLink to={AndrosacesAvecOpinel}>
+              <a href={AndrosacesAvecOpinel}>
                 <img
                   src={AndrosacesAvecOpinel}
                   alt="Androsaces avec opinel"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2390,13 +2390,13 @@ function Vendue() {
           </figure>
           <figure id="Printemps">
             <div className="Div-vendue">
-              <NavLink to={Printemps}>
+              <a href={Printemps}>
                 <img
                   src={Printemps}
                   alt="Printemps"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Reserve-Image">Reservé</span>
             </div>
             <figcaption>
@@ -2413,13 +2413,13 @@ function Vendue() {
           </figure>
           <figure id="Pause-Casse-Croute">
             <div className="Div-vendue">
-              <NavLink to={PauseCasseCroute}>
+              <a href={PauseCasseCroute}>
                 <img
                   src={PauseCasseCroute}
                   alt="Pause Casse-Croute"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2436,13 +2436,13 @@ function Vendue() {
           </figure>
           <figure id="Pause-Lecture">
             <div className="Div-vendue">
-              <NavLink to={PauseLecture}>
+              <a href={PauseLecture}>
                 <img
                   src={PauseLecture}
                   alt="Pause lecture"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2459,13 +2459,13 @@ function Vendue() {
           </figure>
           <figure id="Fruits-Rouges">
             <div className="Div-vendue">
-              <NavLink to={FruitsRouges}>
+              <a href={FruitsRouges}>
                 <img
                   src={FruitsRouges}
                   alt="Fruits rouges"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2482,13 +2482,13 @@ function Vendue() {
           </figure>
           <figure id="LesPlaisirsDefendus">
             <div className="Div-vendue">
-              <NavLink to={LesPlaisirsDefendus}>
+              <a href={LesPlaisirsDefendus}>
                 <img
                   src={LesPlaisirsDefendus}
                   alt="Les plaisirs défendus"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2505,13 +2505,13 @@ function Vendue() {
           </figure>
           <figure id="Sagesse-De-Lorient">
             <div className="Div-vendue">
-              <NavLink to={SagesseDeLorient}>
+              <a href={SagesseDeLorient}>
                 <img
                   src={SagesseDeLorient}
                   alt="Sagesse de l'orient"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2528,13 +2528,13 @@ function Vendue() {
           </figure>
           <figure id="Mignonne-Allons-Voir-Si-La-Rose">
             <div className="Div-vendue">
-              <NavLink to={MignonneAllonsVoirSiLaRose}>
+              <a href={MignonneAllonsVoirSiLaRose}>
                 <img
                   src={MignonneAllonsVoirSiLaRose}
                   alt="Mignonne allons voir si la rose ..."
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2551,13 +2551,13 @@ function Vendue() {
           </figure>
           <figure id="CasseCrouteSavoyard">
             <div className="Div-vendue">
-              <NavLink to={CasseCrouteSavoyard}>
+              <a href={CasseCrouteSavoyard}>
                 <img
                   src={CasseCrouteSavoyard}
                   alt="Casse-Croûte Savoyard"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2574,13 +2574,13 @@ function Vendue() {
           </figure>
           <figure id="CerisesEtFraise">
             <div className="Div-vendue">
-              <NavLink to={CerisesEtFraise}>
+              <a href={CerisesEtFraise}>
                 <img
                   src={CerisesEtFraise}
                   alt="Cerise et fraise"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2597,13 +2597,13 @@ function Vendue() {
           </figure>
           <figure id="DegustationEnSavoie">
             <div className="Div-vendue">
-              <NavLink to={DegustationEnsavoie}>
+              <a href={DegustationEnsavoie}>
                 <img
                   src={DegustationEnsavoie}
                   alt="Degustations en Savoie"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2620,13 +2620,13 @@ function Vendue() {
           </figure>
           <figure id="Tomme-Et-Carlines">
             <div className="Div-vendue">
-              <NavLink to={TommeEtCarlines}>
+              <a href={TommeEtCarlines}>
                 <img
                   src={TommeEtCarlines}
                   alt="Tomme et Carlines"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2643,13 +2643,13 @@ function Vendue() {
           </figure>
           <figure id="UnGrandBol">
             <div className="Div-vendue">
-              <NavLink to={UnGrandBol}>
+              <a href={UnGrandBol}>
                 <img
                   src={UnGrandBol}
                   alt="Un grand bol"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2666,13 +2666,13 @@ function Vendue() {
           </figure>
           <figure id="PainEtOeufs">
             <div className="Div-vendue">
-              <NavLink to={PainEtOeufs}>
+              <a href={PainEtOeufs}>
                 <img
                   src={PainEtOeufs}
                   alt="Pain et oeufs"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2689,13 +2689,13 @@ function Vendue() {
           </figure>
           <figure id="EncrierI">
             <div className="Div-vendue">
-              <NavLink to={EncrierI}>
+              <a href={EncrierI}>
                 <img
                   src={EncrierI}
                   alt="Encrier I"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2712,13 +2712,13 @@ function Vendue() {
           </figure>
           <figure id="UnPichetDore">
             <div className="Div-vendue">
-              <NavLink to={UnPichetDore}>
+              <a href={UnPichetDore}>
                 <img
                   src={UnPichetDore}
                   alt="Un pichet doré"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2735,9 +2735,9 @@ function Vendue() {
           </figure>
           <figure id="Aladin">
             <div className="Div-vendue">
-              <NavLink to={Aladin}>
+              <a href={Aladin}>
                 <img src={Aladin} alt="Aladin" title="Cliquez pour agrandir" />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2754,13 +2754,13 @@ function Vendue() {
           </figure>
           <figure id="EncrierII">
             <div className="Div-vendue">
-              <NavLink to={EncrierII}>
+              <a href={EncrierII}>
                 <img
                   src={EncrierII}
                   alt="Encrier II"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2777,13 +2777,13 @@ function Vendue() {
           </figure>
           <figure id="PipeEtunPichetDore">
             <div className="Div-vendue">
-              <NavLink to={PipeEtPichetDoree}>
+              <a href={PipeEtPichetDoree}>
                 <img
                   src={PipeEtPichetDoree}
                   alt="Pipe et pichet doré"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2800,13 +2800,13 @@ function Vendue() {
           </figure>
           <figure id="Pause-Casse-Croute-II">
             <div className="Div-vendue">
-              <NavLink to={PauseCasseCrouteII}>
+              <a href={PauseCasseCrouteII}>
                 <img
                   src={PauseCasseCrouteII}
                   alt="Pause casse-croûte II"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2823,13 +2823,13 @@ function Vendue() {
           </figure>
           <figure id="UnPetitCroissant">
             <div className="Div-vendue">
-              <NavLink to={UnPetitCroissant}>
+              <a href={UnPetitCroissant}>
                 <img
                   src={UnPetitCroissant}
                   alt="Un P'tit croissant"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2846,13 +2846,13 @@ function Vendue() {
           </figure>
           <figure id="Un-Ptit-Noir">
             <div className="Div-vendue">
-              <NavLink to={UnPetitNoir}>
+              <a href={UnPetitNoir}>
                 <img
                   src={UnPetitNoir}
                   alt="Un P'tit noir"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2869,13 +2869,13 @@ function Vendue() {
           </figure>
           <figure id="CognacEtDentelle">
             <div className="Div-vendue">
-              <NavLink to={CognacEtDentelle}>
+              <a href={CognacEtDentelle}>
                 <img
                   src={CognacEtDentelle}
                   alt="Cognac et dentelle"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2892,13 +2892,13 @@ function Vendue() {
           </figure>
           <figure id="PommeEtChocolat">
             <div className="Div-vendue">
-              <NavLink to={PommeEtChocolat}>
+              <a href={PommeEtChocolat}>
                 <img
                   src={PommeEtChocolat}
                   alt="Pomme et chocolat"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2915,13 +2915,13 @@ function Vendue() {
           </figure>
           <figure id="FruitsRougesEtConfiture">
             <div className="Div-vendue">
-              <NavLink to={FruitsRougesEtConfiture}>
+              <a href={FruitsRougesEtConfiture}>
                 <img
                   src={FruitsRougesEtConfiture}
                   alt="Fruits rouges et confiture"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2938,13 +2938,13 @@ function Vendue() {
           </figure>
           <figure id="Bonjour">
             <div className="Div-vendue">
-              <NavLink to={Bonjour}>
+              <a href={Bonjour}>
                 <img
                   src={Bonjour}
                   alt="Bonjour"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2961,13 +2961,13 @@ function Vendue() {
           </figure>
           <figure id="LivresEtRose">
             <div className="Div-vendue">
-              <NavLink to={LivresEtRose}>
+              <a href={LivresEtRose}>
                 <img
                   src={LivresEtRose}
                   alt="Livres et rose"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -2984,13 +2984,13 @@ function Vendue() {
           </figure>
           <figure id="CasseCrouteEnMontagne">
             <div className="Div-vendue">
-              <NavLink to={CasseCrouteEnMontagne}>
+              <a href={CasseCrouteEnMontagne}>
                 <img
                   src={CasseCrouteEnMontagne}
                   alt="Casse-Croûte en montagne"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -3007,13 +3007,13 @@ function Vendue() {
           </figure>
           <figure id="LeTempsDeslumieres">
             <div className="Div-vendue">
-              <NavLink to={CadreLeTempsDesLumieres}>
+              <a href={CadreLeTempsDesLumieres}>
                 <img
                   src={CadreLeTempsDesLumieres}
                   alt="Le temps des lumières"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -3030,13 +3030,13 @@ function Vendue() {
           </figure>
           <figure id="LitTerrature">
             <div className="Div-vendue">
-              <NavLink to={Litterature}>
+              <a href={Litterature}>
                 <img
                   src={Litterature}
                   alt="Littérature"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>
@@ -3053,13 +3053,13 @@ function Vendue() {
           </figure>
           <figure id="ConfitureEtfruits">
             <div className="Div-vendue">
-              <NavLink to={ConfitureEtFruits}>
+              <a href={ConfitureEtFruits}>
                 <img
                   src={ConfitureEtFruits}
                   alt="Confiture et fruits"
                   title="Cliquez pour agrandir"
                 />
-              </NavLink>
+              </a>
               <span className="Mot-Vendue-Image">Vendu</span>
             </div>
             <figcaption>

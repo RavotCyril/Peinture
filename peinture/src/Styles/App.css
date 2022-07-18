@@ -27,6 +27,11 @@ header {
     margin-top: 150px;
 }
 
+.Inscription h1 {
+    font-family: Helvetica Neue;
+    color: #975600;
+}
+
 /* Titre Principal h1 de toutes les pages */
 
 .TitreH1-Toute-Page {
@@ -1209,6 +1214,7 @@ footer a {
 /* -> Page Desirs Class pour mettre des styles à la section Description des désirs */
 
 .VosDesirs {
+    color: black;
     margin: 0px auto;
     text-align: justify;
     padding: 135px 5% 20px 5%;
