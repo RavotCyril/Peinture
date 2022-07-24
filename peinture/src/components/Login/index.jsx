@@ -126,7 +126,7 @@ function Login() {
           setPassword(null);
           setServeur(null);
           window.setTimeout(function () {
-            window.location.href = "http://localhost:3001/Article";
+            window.location.href = "http://localhost:3001/Presentation";
           }, 1500);
         })
         .catch((err) => {
@@ -153,12 +153,6 @@ function Login() {
         <h1 className="form-group H1Login col-12 mx-auto">
           Pour vous connectez veuillez remplir le formulaire de connexion !
         </h1>
-        <p className="invalid">
-          {errorEmail}
-          <br></br>
-          {errorPassword}
-          {errorServeur}
-        </p>
         <div className="row">
           <div className="form-group col-8 my-4 mx-auto">
             <label htmlFor="Email">Email</label>
@@ -174,6 +168,7 @@ function Login() {
               onKeyDown={emailHandleKeyDown}
             />
           </div>
+          <p className="invalid">{errorEmail}</p>
           <div className="form-group col-8 my-4 mx-auto">
             <label htmlFor="Password">Mot de passe</label>
             <input
@@ -187,6 +182,10 @@ function Login() {
               onKeyDown={passwordHandleKeyDown}
             />
           </div>
+          <p className="invalid">
+            {errorPassword}
+            {errorServeur}
+          </p>
           <div className="row">
             <input
               type="button"

@@ -41,7 +41,7 @@ header {
     font-size: 2.5rem;
     text-align: center;
     margin: 0px;
-    box-shadow: inset 0px 0px 3px 3px sienna;
+    box-shadow: inset 0px 0px 3px 3px #431601;
     color: black;
     ;
 }
@@ -174,10 +174,20 @@ header {
 
 /* Class des liens dans les Li dans la navigation avec une couleur au hover ( Les liens de toutes les pages ) */
 
-.Nav-List-Items:hover a {
+.Nav-List-Items:hover a,
+.Profil a:hover,
+.navbar-dark .navbar-brand:hover {
     color: #5b1202;
 }
 
+.Profil,
+.navbar-dark .navbar-brand {
+    color: black;
+}
+
+.Profil a {
+    color: black;
+}
 
 /* Toutes les pages -> Span pour afficher la page selectionné et la rendre plus voyante et esthétique. Pour bien montrer que l'on est bien situé sur la page selectionné */
 
@@ -672,6 +682,15 @@ header {
     flex-direction: column;
 }
 
+#deconnexion .dropdown-item:focus {
+    border-bottom: 3px solid rgb(0, 84, 180);
+    background: grey;
+}
+
+#deconnexion .dropdown-item:hover {
+    background: rgb(0, 84, 180);
+    width: 90%;
+}
 
 /* Class pour mettre les formulaires au centre */
 

@@ -2,30 +2,20 @@
 
 /* Framework node.js */
 const express = require('express');
-/* Rend les interactions fluides entre MongoDB et Node.Js */
-const mongoose = require('mongoose');
+/* Rend les interactions fluides entre MongoDB ou d'autres base de données avec Node.Js */
+// const mongoose = require('mongoose');
 /* Dotenv est un module sans dépendance qui charge les variables d'environnement 
 d'un fichier .env dans process.env.
 Le stockage de la configuration dans l'environnement séparé du code est basé sur
 la méthodologie de l'application Twelve-Factor. */
 require('dotenv').config()
-    /* Définit des en têtes http supplémentaires securisés  */
+/* Définit des en têtes http supplémentaires securisés  */
 const helmet = require('helmet');
 /* Donne accès au chemin de nos fichiers. */
 const path = require('path');
-/* Importe les routes User et Sauces */
+/* Importe les routes User et articles */
 const userRoutes = require('./routes/user');
-const peintureRoutes = require('./routes/peinture');
-
-mongoose.connect("mongodb+srv://" + process.env.DB_USER + ":" + process.env.DB_PASSWORD + "@" + process.env.DB_NAME + ".lwef4.mongodb.net/Peinture?retryWrites=true&w=majority",  {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    })
-    .then(() => console.log('Connexion à MongoDB réussie !'))
-    .catch(() => console.log('Connexion à MongoDB échouée !'));
-
-    // Lancement d'express 
-
+const ficheRoutes = require('./routes/fiche');
 const app = express();
 
 // Middlewares
@@ -70,12 +60,18 @@ app.use(helmet.xssFilter());
 */
 app.use(helmet());
 
-// Routes Images-Fiche Peinture - Authentication 
+// Routes Images-article - Authentication 
 
 /* Gestion des fichiers images */
+// Journalisation du champ rejeté à partir d'une erreur de multer
+app.use(express.urlencoded({ extended: false }));
 app.use('/images', express.static(path.join(__dirname, 'images')));
-/* Enregistre les routes fiches - peintures et auth de l'application */
-app.use('/api/peinture', peintureRoutes);
+/* Enregistre les routes des articles et auth de l'application */
 app.use('/api/auth', userRoutes);
+app.use('/api/user', userRoutes);
+
+app.use('/api/admin', ficheRoutes);
+app.use('/api/fiche', ficheRoutes);
+
 
 module.exports = app;
