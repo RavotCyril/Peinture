@@ -65,7 +65,12 @@ app.use(helmet());
 /* Gestion des fichiers images */
 // Journalisation du champ rejeté à partir d'une erreur de multer
 app.use(express.urlencoded({ extended: false }));
-app.use('/images', express.static(path.join(__dirname, 'images')));
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.get('/', function (req, res) {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+// app.use('/images', express.static(path.join(__dirname, 'images')));
 /* Enregistre les routes des articles et auth de l'application */
 app.use('/api/auth', userRoutes);
 app.use('/api/user', userRoutes);
