@@ -36,4 +36,4 @@ exports.User = User;
 //l'utilisateur à un rôle.
 User.belongsTo(Role); //l'utilisateur à un rôle.
 // User.hasOne(Role,{foreignKey: 'roleId', foreignKeyConstraint:true});
-sequelize.sync({ force: true });
+// sequelize.sync({ force: true });

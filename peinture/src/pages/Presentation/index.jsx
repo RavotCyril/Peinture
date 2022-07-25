@@ -58,12 +58,12 @@ function Presentation() {
           On peut trouver&nbsp;
           <span className="bold">
             deux signatures présentes sur les tableaux pour deux périodes de ma
-            vie.
+            vie. Sur 169 tableaux réalisés de 1995 à 2015 il ne reste plus
+            que&nbsp;
           </span>
           <span className="bold">
-            Sur 169 tableaux réalisés de 1995 à 2015 il ne reste plus que&nbsp;
-            <span className="Souligner">23 toiles disponibles</span>
-            .N'hésitez plus à vous faire plaisir !
+            <span className="Souligner">23 toiles disponibles</span>. N'hésitez
+            plus à vous faire plaisir !
           </span>
         </p>
       </section>

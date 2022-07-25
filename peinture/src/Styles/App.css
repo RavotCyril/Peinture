@@ -147,6 +147,7 @@ header {
 .Balise-Presentation {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     padding: 0px;
     list-style: none;
     font-size: 1.5rem;
@@ -155,12 +156,12 @@ header {
 
 /* Class des Li dans la navigation */
 
-.Nav-List-Items {
+.Nav-List-Items,
+.Icon-User {
     color: rgb(31, 30, 30);
-    width: 14%;
     margin: 10px 0px 10px 0px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 
@@ -180,13 +181,49 @@ header {
     color: #5b1202;
 }
 
+.navbar-dark .navbar-brand:focus {
+    color: #5b1202;
+}
+
 .Profil,
 .navbar-dark .navbar-brand {
+    display: flex;
     color: black;
+    justify-content: right;
 }
 
 .Profil a {
     color: black;
+}
+
+.AdminIcon {
+    position: absolute;
+    color: black;
+    top: 1px;
+    right: 2px;
+    background: none;
+    border: none;
+}
+
+.AdminIcon:hover {
+    color: red;
+}
+
+.Icon-User {
+    display: flex;
+    justify-content: right;
+    padding: 10px 0px;
+}
+
+.Message-Bienvenue {
+    color: black;
+    font-size: 1.2rem;
+    width: 200px;
+}
+
+.Message-Bienvenue {
+    font-size: 1.5rem;
+    padding: 10px 0px;
 }
 
 /* Toutes les pages -> Span pour afficher la page selectionné et la rendre plus voyante et esthétique. Pour bien montrer que l'on est bien situé sur la page selectionné */
@@ -198,7 +235,6 @@ header {
     background: rgba(230, 230, 230, 0.733);
     box-shadow: 1px 5px;
 }
-
 
 /* -> Page Index ( Présentation ) Main partie principale de la page pour mettre un padding de 50px */
 
@@ -682,13 +718,8 @@ header {
     flex-direction: column;
 }
 
-#deconnexion .dropdown-item:focus {
-    border-bottom: 3px solid rgb(0, 84, 180);
-    background: grey;
-}
-
 #deconnexion .dropdown-item:hover {
-    background: rgb(0, 84, 180);
+    background: white;
     width: 90%;
 }
 
@@ -1490,7 +1521,8 @@ footer a {
     }
 
     /* Class des Li dans la navigation */
-    .Nav-List-Items {
+    .Nav-List-Items,
+    .Icon-User {
         font-size: 0.8rem;
     }
 
@@ -1516,6 +1548,10 @@ footer a {
         height: auto;
         overflow: hidden;
         margin: 0px auto;
+    }
+
+    .TitreH1-Toute-Page {
+        font-size: 2rem;
     }
 
     /* Page-Creations Titre Nature Morte*/
@@ -1603,7 +1639,8 @@ footer a {
     }
 
     /* Class des Li dans la navigation */
-    .Nav-List-Items {
+    .Nav-List-Items,
+    .Icon-User {
         font-size: 0.7rem;
     }
 
@@ -1671,6 +1708,7 @@ footer a {
         margin: 5px 0px;
     }
 
+
     /* Style pour mettre l'icon Coeur plein en position absolute avec une couleur transparente et un font size " */
 
     .Coeur-Plein-Menu,
@@ -1688,10 +1726,6 @@ footer a {
         width: 260px;
     }
 
-    .Navigation-Desktop {
-        display: none;
-    }
-
     .NavListSelectionne {
         display: block;
         width: 97%;
@@ -1699,6 +1733,16 @@ footer a {
         margin: 0px 0px 5px 0px;
         padding: 1%;
         text-align: center;
+    }
+
+    /* Class de la balise Ul dans la navigation */
+
+    .Balise-Presentation {
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        list-style: none;
+        font-size: 1.5rem;
     }
 
     .Navigation-Mobile {
@@ -1731,6 +1775,11 @@ footer a {
         float: none;
         display: block;
         text-align: center;
+    }
+
+    /* Permet de mettre un margin-top au main du component inscription */
+    .Inscription {
+        margin-top: 0px;
     }
 
     .TitreH1 {
@@ -2015,10 +2064,6 @@ footer a {
         font-size: 1rem;
     }
 
-    .Navigation-Desktop {
-        display: none;
-    }
-
     .Navigation-Mobile {
         display: block;
     }
@@ -2255,6 +2300,11 @@ footer a {
 
     .grid-item {
         font-size: 1rem;
+    }
+
+    /* Permet de mettre un margin-top au main du component inscription */
+    .Inscription {
+        margin-top: 0px;
     }
 
     /* -> Page Revue De presse Tout les titres h2-h3 en 1rem*/

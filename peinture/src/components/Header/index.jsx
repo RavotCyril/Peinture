@@ -77,7 +77,7 @@ function Header() {
           <h1 className="TitreH1-Toute-Page">
             Mireille Rossignol / Artiste Peintre
           </h1>
-          <nav className="Navigation-Desktop navbar navbar-expand-sm navbar-dark">
+          <nav className="Navigation-Desktop navbar navbar-expand-md navbar-dark">
             <button
               className="navbar-toggler"
               type="button"
@@ -90,7 +90,7 @@ function Header() {
               <span className="navbar-toggler-icon "></span>
             </button>
             <div id="Visibilite" className="collapse navbar-collapse">
-              <ul class="Balise-Presentation">
+              <ul className="Balise-Presentation">
                 {localStorage.getItem("Identification") === null ? (
                   <>
                     <li className="Nav-List-Items">
@@ -109,14 +109,10 @@ function Header() {
                       <NavLink to="/Infos">Infos</NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Signup" className="navbar-brand">
-                        Inscription
-                      </NavLink>
+                      <NavLink to="/Signup">Inscription</NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Login" className="navbar-brand">
-                        Connexion
-                      </NavLink>
+                      <NavLink to="/Login">Connexion</NavLink>
                     </li>
                   </>
                 ) : (
@@ -136,32 +132,33 @@ function Header() {
                     <li className="Nav-List-Items">
                       <NavLink to="/Infos">Infos</NavLink>
                     </li>
+                    {localStorage.getItem("Identification") != null ? (
+                      <div className="Profil">
+                        <p className="Message-Bienvenue">
+                          Bienvenue {"\u00A0"} {user && user.firstname}
+                        </p>
+                        <div className="Icon-User">
+                          <div>
+                            <FontAwesomeIcon icon={faUser} />
+                          </div>
+                          <div className="Profil">
+                            <NavDropdown title="Mon Profil">
+                              <NavDropdown.Item>Mes favoris</NavDropdown.Item>
+                              <NavDropdown.Item>Mon panier</NavDropdown.Item>
+                              <NavDropdown.Item onClick={logOut}>
+                                Déconnexion
+                              </NavDropdown.Item>
+                              <NavDropdown.Item onClick={toUnsubscribe}>
+                                Supprimer mon compte
+                              </NavDropdown.Item>
+                            </NavDropdown>
+                          </div>
+                        </div>
+                      </div>
+                    ) : null}
                   </>
                 )}
               </ul>
-              {localStorage.getItem("Identification") != null ? (
-                <div className="Profil">
-                  <p className="Message-Bienvenue">
-                    Bienvenue {"\u00A0"} {user && user.firstname}
-                  </p>
-                  <div className="d-flex">
-                    <div className="Icon-User">
-                      <FontAwesomeIcon size="lg" icon={faUser} />
-                    </div>
-                    <div className="Profil">
-                      <NavDropdown title="Mon Profil">
-                        {"\u00A0"} {"\u00A0"} {"\u00A0"} {user && user.email}
-                        <NavDropdown.Item onClick={logOut}>
-                          Déconnexion
-                        </NavDropdown.Item>
-                        <NavDropdown.Item onClick={toUnsubscribe}>
-                          Supprimer mon compte
-                        </NavDropdown.Item>
-                      </NavDropdown>
-                    </div>
-                  </div>
-                </div>
-              ) : null}
             </div>
           </nav>
         </div>
