@@ -2,7 +2,7 @@
   "name": "peinture",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/Presentation",
+  "homepage": "/https://www.rossignol-peinture.fr/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.2.0",

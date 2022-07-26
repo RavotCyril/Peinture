@@ -94,43 +94,67 @@ function Header() {
                 {localStorage.getItem("Identification") === null ? (
                   <>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Presentation">Présentation</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/">
+                        Présentation
+                      </NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Mescreations">Mes Créations</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/Mescreations">
+                        Mes Créations
+                      </NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/VosDesirs">Vos Désirs</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/VosDesirs">
+                        Vos Désirs
+                      </NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/RevueDePresse">Revue De Presse</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/RevueDePresse">
+                        Revue De Presse
+                      </NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Infos">Infos</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/Infos">
+                        Infos
+                      </NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Signup">Inscription</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/Signup">
+                        Inscription
+                      </NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Login">Connexion</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/Login">
+                        Connexion
+                      </NavLink>
                     </li>
                   </>
                 ) : (
                   <>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Presentation">Présentation</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/Presentation">
+                        Présentation
+                      </NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Mescreations">Mes Créations</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/Mescreations">
+                        Mes Créations
+                      </NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/VosDesirs">Vos Désirs</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/VosDesirs">
+                        Vos Désirs
+                      </NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/RevueDePresse">Revue De Presse</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/RevueDePresse">
+                        Revue De Presse
+                      </NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Infos">Infos</NavLink>
+                      <NavLink to="/https://www.rossignol-peinture.fr/Infos">
+                        Infos
+                      </NavLink>
                     </li>
                     {localStorage.getItem("Identification") != null ? (
                       <div className="Profil">
