@@ -32,15 +32,15 @@ root.render(
         <Router>
             <Header />
             <Routes>
-                <Route path="/https://www.rossignol-peinture.fr/" element={< Presentation />} />
-                <Route path="/https://www.rossignol-peinture.fr/Signup" element={<Signup />} />
-                <Route path="/https://www.rossignol-peinture.fr/Login" element={<Login />} />
-                <Route path="/https://www.rossignol-peinture.fr/Fiche" element={< Fiche />} />
-                <Route path="/https://www.rossignol-peinture.fr/Infos" element={< Infos />} />
-                <Route path="/https://www.rossignol-peinture.fr/MesCreations" element={< MesCreations />} />
-                <Route path="/https://www.rossignol-peinture.fr/Vendue" element={< Vendue />} />
-                <Route path="/https://www.rossignol-peinture.fr/VosDesirs" element={< VosDesirs />} />
-                <Route path="/https://www.rossignol-peinture.fr/RevueDePresse" element={< RevueDePresse />} />
+                <Route path="/" element={< Presentation />} />
+                <Route path="/Signup" element={<Signup />} />
+                <Route path="/Login" element={<Login />} />
+                <Route path="/Fiche" element={< Fiche />} />
+                <Route path="/Infos" element={< Infos />} />
+                <Route path="/MesCreations" element={< MesCreations />} />
+                <Route path="/Vendue" element={< Vendue />} />
+                <Route path="/VosDesirs" element={< VosDesirs />} />
+                <Route path="/RevueDePresse" element={< RevueDePresse />} />
                 <Route path="*" element={< Error />} />
             </Routes>
             <Footer />
