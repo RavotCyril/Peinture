@@ -132,7 +132,7 @@ function Header() {
                 ) : (
                   <>
                     <li className="Nav-List-Items">
-                      <NavLink to="/https://www.rossignol-peinture.fr/Presentation">
+                      <NavLink to="/https://www.rossignol-peinture.fr">
                         Présentation
                       </NavLink>
                     </li>
