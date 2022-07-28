@@ -1,6 +1,7 @@
 /* Importations Bibliothèques React-router-dom  */
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import Loader from "../../components/Loader";
 
 import EnLhonneurDeBacchus from "../../images/Sans-Bordure/SansBordure-Grande-En-Lhonneur-De-Bacchus.jpg";
 import PanierDeFruits from "../../images/TableauxVendu/1997/Panier-De-Fruits.jpg";
@@ -26,7 +27,11 @@ function Presentation() {
   const [isActiveNatureMorte, setIsActiveNatureMorte] = useState(false);
   const [isActiveVelours, setIsActiveVelours] = useState(false);
   const { theme } = useTheme();
+  const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    setLoading(true);
+  }, []);
   var StyledDiv = styled.div`
     filter: ${({ theme }) =>
       theme === "light" ? "grayscale(0%)" : "grayscale(100%)"};
@@ -45,6 +50,7 @@ function Presentation() {
   /* ---------------------- Function Navigation Illustration Page Présentation Fin-------------------------------------*/
   return (
     <main className="MainPartiePrincipalePresentation">
+      {loading ? <Loader /> : null}
       <section className="Bibliographie">
         <h2 className="H2-Bibliographie">L'&nbsp;auteur</h2>
         <p>

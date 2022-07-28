@@ -8,6 +8,7 @@ import Error from "./components/Error";
 import Footer from "./components/Footer";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+import Loader from "./components/Loader";
 
 /* Importations Pages */
 
@@ -36,6 +37,7 @@ root.render(
                     <Header />
                     <Routes>
                         <Route path="/" element={< Presentation />} />
+                        <Route path="/Loader" element={< Loader />} />
                         <Route path="/Signup" element={<Signup />} />
                         <Route path="/Login" element={<Login />} />
                         <Route path="/Fiche" element={< Fiche />} />
