@@ -81,6 +81,16 @@ function Loader() {
           alt="Titre présentation Mireille Rossignol"
         ></img>
         <img
+          id="YorkshireSurVeloursPresentation"
+          src={YorkshireSurVeloursPresentation}
+          alt="Titre présentation Mireille Rossignol"
+        ></img>
+        <img
+          id="GuepierSurVeloursPresentation"
+          src={GuepierSurVeloursPresentation}
+          alt="Titre présentation Mireille Rossignol"
+        ></img>
+        <img
           id="GrandeCristauxPresentation"
           src={GrandeCristauxPresentation}
           alt="Titre présentation Mireille Rossignol"
@@ -96,53 +106,8 @@ function Loader() {
           alt="Titre présentation Mireille Rossignol"
         ></img>
         <img
-          id="ChienPresentation"
-          src={ChienPresentation}
-          alt="Titre présentation Mireille Rossignol"
-        ></img>
-        <img
-          id="ChevalPresentation"
-          src={ChevalPresentation}
-          alt="Titre présentation Mireille Rossignol"
-        ></img>
-        <img
-          id="IrisPresentation"
-          src={IrisPresentation}
-          alt="Titre présentation Mireille Rossignol"
-        ></img>
-        <img
           id="NocturnePresentation"
           src={NocturnePresentation}
-          alt="Titre présentation Mireille Rossignol"
-        ></img>
-        <img
-          id="TeckelSurVeloursPresentation"
-          src={TeckelSurVeloursPresentation}
-          alt="Titre présentation Mireille Rossignol"
-        ></img>
-        <img
-          id="BebeYorkshireSurVeloursPresentation"
-          src={BebeYorkshireSurVeloursPresentation}
-          alt="Titre présentation Mireille Rossignol"
-        ></img>
-        <img
-          id="CanicheAbricotSurVeloursPresentation"
-          src={CanicheAbricotSurVeloursPresentation}
-          alt="Titre présentation Mireille Rossignol"
-        ></img>
-        <img
-          id="CanicheBlancSurVeloursPresentation"
-          src={CanicheBlancSurVeloursPresentation}
-          alt="Titre présentation Mireille Rossignol"
-        ></img>
-        <img
-          id="CanicheGrisSurVeloursPresentation"
-          src={CanicheGrisSurVeloursPresentation}
-          alt="Titre présentation Mireille Rossignol"
-        ></img>
-        <img
-          id="GrandeChouetteSurVeloursPresentation"
-          src={GrandeChouetteSurVeloursPresentation}
           alt="Titre présentation Mireille Rossignol"
         ></img>
         <img
@@ -151,18 +116,8 @@ function Loader() {
           alt="Titre présentation Mireille Rossignol"
         ></img>
         <img
-          id="YorkshireSurVeloursPresentation"
-          src={YorkshireSurVeloursPresentation}
-          alt="Titre présentation Mireille Rossignol"
-        ></img>
-        <img
-          id="GuepierSurVeloursPresentation"
-          src={GuepierSurVeloursPresentation}
-          alt="Titre présentation Mireille Rossignol"
-        ></img>
-        <img
-          id="OiseauBleuSurVeloursPresentation"
-          src={OiseauBleuSurVeloursPresentation}
+          id="AvantLeDepartPresentation"
+          src={AvantLeDepartPresentation}
           alt="Titre présentation Mireille Rossignol"
         ></img>
         <img
@@ -171,8 +126,8 @@ function Loader() {
           alt="Titre présentation Mireille Rossignol"
         ></img>
         <img
-          id="AvantLeDepartPresentation"
-          src={AvantLeDepartPresentation}
+          id="OiseauBleuSurVeloursPresentation"
+          src={OiseauBleuSurVeloursPresentation}
           alt="Titre présentation Mireille Rossignol"
         ></img>
         <img
@@ -203,6 +158,51 @@ function Loader() {
         <img
           id="CaSePreparePresentation"
           src={CaSePreparePresentation}
+          alt="Titre présentation Mireille Rossignol"
+        ></img>
+        <img
+          id="ChienPresentation"
+          src={ChienPresentation}
+          alt="Titre présentation Mireille Rossignol"
+        ></img>
+        <img
+          id="ChevalPresentation"
+          src={ChevalPresentation}
+          alt="Titre présentation Mireille Rossignol"
+        ></img>
+        <img
+          id="IrisPresentation"
+          src={IrisPresentation}
+          alt="Titre présentation Mireille Rossignol"
+        ></img>
+        <img
+          id="TeckelSurVeloursPresentation"
+          src={TeckelSurVeloursPresentation}
+          alt="Titre présentation Mireille Rossignol"
+        ></img>
+        <img
+          id="BebeYorkshireSurVeloursPresentation"
+          src={BebeYorkshireSurVeloursPresentation}
+          alt="Titre présentation Mireille Rossignol"
+        ></img>
+        <img
+          id="CanicheAbricotSurVeloursPresentation"
+          src={CanicheAbricotSurVeloursPresentation}
+          alt="Titre présentation Mireille Rossignol"
+        ></img>
+        <img
+          id="CanicheBlancSurVeloursPresentation"
+          src={CanicheBlancSurVeloursPresentation}
+          alt="Titre présentation Mireille Rossignol"
+        ></img>
+        <img
+          id="CanicheGrisSurVeloursPresentation"
+          src={CanicheGrisSurVeloursPresentation}
+          alt="Titre présentation Mireille Rossignol"
+        ></img>
+        <img
+          id="GrandeChouetteSurVeloursPresentation"
+          src={GrandeChouetteSurVeloursPresentation}
           alt="Titre présentation Mireille Rossignol"
         ></img>
       </div>
