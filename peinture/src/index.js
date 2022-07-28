@@ -19,7 +19,7 @@ import RevueDePresse from "./pages/RevueDePresse";
 import Infos from "./pages/Infos";
 import Fiche from "./pages/Fiche";
 import Vendue from "./pages/Vendue"
-import { ThemeProvider, SurveyProvider } from "../src/utils/context";
+import { ThemeProvider } from "../src/utils/context";
 
 // /* Importations des pages de styles + logo + images */
 
@@ -33,23 +33,21 @@ root.render(
     <React.StrictMode>
         <Router>
             <ThemeProvider>
-                <SurveyProvider>
-                    <Header />
-                    <Routes>
-                        <Route path="/" element={< Presentation />} />
-                        <Route path="/Loader" element={< Loader />} />
-                        <Route path="/Signup" element={<Signup />} />
-                        <Route path="/Login" element={<Login />} />
-                        <Route path="/Fiche" element={< Fiche />} />
-                        <Route path="/Infos" element={< Infos />} />
-                        <Route path="/MesCreations" element={< MesCreations />} />
-                        <Route path="/Vendue" element={< Vendue />} />
-                        <Route path="/VosDesirs" element={< VosDesirs />} />
-                        <Route path="/RevueDePresse" element={< RevueDePresse />} />
-                        <Route path="*" element={< Error />} />
-                    </Routes>
-                    <Footer />
-                </SurveyProvider>
+                <Header />
+                <Routes>
+                    <Route path="/" element={< Presentation />} />
+                    <Route path="/Loader" element={< Loader />} />
+                    <Route path="/Signup" element={<Signup />} />
+                    <Route path="/Login" element={<Login />} />
+                    <Route path="/Fiche" element={< Fiche />} />
+                    <Route path="/Infos" element={< Infos />} />
+                    <Route path="/MesCreations" element={< MesCreations />} />
+                    <Route path="/Vendue" element={< Vendue />} />
+                    <Route path="/VosDesirs" element={< VosDesirs />} />
+                    <Route path="/RevueDePresse" element={< RevueDePresse />} />
+                    <Route path="*" element={< Error />} />
+                </Routes>
+                <Footer />
             </ThemeProvider>
         </Router>
     </React.StrictMode>
