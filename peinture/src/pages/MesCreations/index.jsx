@@ -57,7 +57,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
 
   async function getArticles() {
     try {
-      let resultat = await fetch("http://localhost:3000/api/peinture/");
+      let resultat = await fetch("http://localhost:3000/api/fiche/");
       return await resultat.json();
     } catch (error) {
       console.log(

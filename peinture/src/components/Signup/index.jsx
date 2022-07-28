@@ -41,8 +41,7 @@ function Signup() {
         })
         // enregistrer le hash et permet de sécuriser le mot de passe et de le remplacer ( Crypté ).
         .then((res) => {
-          window.location.href =
-            "http://localhost:3001/https://www.rossignol-peinture.fr/login";
+          window.location.href = "http://localhost:3001/login";
         })
         .catch((err) => {
           if (err.status === 400) {
@@ -75,7 +74,7 @@ function Signup() {
     <main>
       <form className="Inscription container-fluid">
         <h1 className="form-group H1Signup col-8 mx-auto">
-          Envie d'acheter une peinture ? Créer un profil !
+          Envie de vous souvenirs de vos peintures favorites ? Créer un profil !
         </h1>
         <div className="row">
           <div className="form-group col-8 mx-auto">
