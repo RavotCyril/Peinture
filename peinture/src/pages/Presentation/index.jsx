@@ -29,7 +29,7 @@ function Presentation() {
 
   var StyledDiv = styled.div`
     filter: ${({ theme }) =>
-      theme === "light" ? "grayscale(100%)" : "grayscale(0%)"};
+      theme === "light" ? "grayscale(0%)" : "grayscale(100%)"};
   `;
 
   const handleClickNatureMorte = (event) => {

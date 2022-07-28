@@ -18,6 +18,96 @@ header {
     z-index: 1;
 }
 
+#loader-Container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background: white;
+    animation: Loader-Finish 3s both;
+}
+
+#loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+}
+
+#loader #GifMireilleRossignol {
+    width: 1500px;
+}
+
+#GifMireilleRossignol {
+    border: 1px solid black;
+}
+
+#OrangesEtDentelle,
+#GrandeAiguiere,
+#SouvenirsMarins,
+#CerisesEtFraises,
+#UnPetitNoir,
+#LeTempsDesLumieres,
+#UnPetitCreux,
+#GrandeCristaux,
+#CuivreEtRaisinDesir,
+#GrandeFruitsDautomne,
+#Chien,
+#Cheval,
+#Iris,
+#TeckelSurVelours,
+#BebeYorkshireSurVelours,
+#CanicheAbricotSurVelours,
+#CanicheBlancSurVelours,
+#CanicheGrisSurVelours,
+#GrandeChouetteSurVelours,
+#EnLhonneurDeBacchus,
+#YorkshireSurVelours,
+#GuepierSurVelours,
+#OiseauBleuSurVelours,
+#HamsterSurVelours,
+#AvantLeDepart,
+#ChocolatChaud,
+#SouvenirsMarin,
+#Dentiste,
+#CaSePrepare,
+#BelleEpoque,
+#Nocturne,
+#CadreDameJeanne {
+    width: 187px;
+    height: 135px;
+    border: 1px solid black;
+}
+
+/* #GrandeAiguiere {
+    width: 180px;
+    height: auto;
+    border: 1px solid black;
+} */
+
+@keyframes Loader-Finish {
+    from {
+        transform: scale(1);
+        opacity: 1 ease-in-out visibility 1s hidden;
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1 ease-in-out visibility 1s hidden;
+    }
+
+    75% {
+        transform: scale(1);
+        opacity: 0.9 ease-in-out visibility 1s hidden;
+    }
+
+    to {
+        transform: scale(0);
+        opacity: 0 ease-in-out visibility 1s hidden;
+    }
+}
+
 #Main-Partie-Principale-de-La-Page a {
     text-decoration: none;
 }
