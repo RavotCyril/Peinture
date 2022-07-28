@@ -149,13 +149,13 @@ function Login() {
   }
   return (
     <main>
-      <form className="container-fluid" onKeyDown={emailPasswordHandleKeyDown}>
-        <h1 className="form-group H1Login col-12 mx-auto">
+      <form
+        className="Login container-fluid"
+        onKeyDown={emailPasswordHandleKeyDown}
+      >
+        <h1 className="form-group H1Login col-12 text-center mx-auto">
           Pour vous connectez veuillez remplir le formulaire de connexion !
         </h1>
-        <br></br>
-        <br></br>
-        <br></br>
         <div className="row">
           <div className="form-group col-8 my-4 mx-auto">
             <label htmlFor="Email">Email</label>

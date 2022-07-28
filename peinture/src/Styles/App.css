@@ -22,12 +22,8 @@ header {
     text-decoration: none;
 }
 
-/* Permet de mettre un margin-top au main du component inscription */
-.Inscription {
-    margin-top: 150px;
-}
-
-.Inscription h1 {
+.Inscription h1,
+.H1Login {
     font-family: Helvetica Neue;
     color: #975600;
 }
@@ -192,6 +188,10 @@ header {
     justify-content: right;
 }
 
+.navbar-toggler-icon {
+    background: black;
+}
+
 .Profil a {
     color: black;
 }
@@ -251,10 +251,23 @@ header {
     width: 100%;
     margin: 0px auto;
     text-align: justify;
-    padding: 150px 10% 10px 10%;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    padding-left: 10%;
     background: #ba967b;
 }
 
+/* Mettre un padding-Bottom à toutes les sections de toutes les pages */
+
+.Bibliographie,
+.Galerie,
+.VosDesirs,
+.Revue-De-Presse,
+.Tarifs,
+.Inscription,
+.Login {
+    padding-top: 200px;
+}
 
 /* Page Index  Titre h2 de selection des thèmes de peintures - Nature morte ou Velours*/
 
@@ -496,7 +509,7 @@ header {
 .Galerie {
     width: 100%;
     margin: 0px auto;
-    padding: 150px 0px 50px 0px;
+    padding-bottom: 50px;
     background: #ba967b;
 }
 
@@ -544,7 +557,7 @@ header {
     width: 100%;
     margin: 0px auto;
     text-align: justify;
-    padding: 155px 0px 10px 0px;
+    padding-bottom: 10px;
     background: darkgrey;
 }
 
@@ -764,7 +777,6 @@ label {
 
 .Tarifs {
     background: bisque;
-    padding: 155px 0px 0px 0px;
 }
 
 
@@ -1258,6 +1270,8 @@ footer a {
 
 .Vos-Desirs-Titre-H2-Principal {
     text-align: center;
+    font-family: Helvetica Neue;
+    color: #975600;
 }
 
 
@@ -1267,10 +1281,11 @@ footer a {
     color: black;
     margin: 0px auto;
     text-align: justify;
-    padding: 135px 5% 20px 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 20px;
     background: bisque;
 }
-
 
 /* Page-Vos Desirs la Section galerie*/
 
@@ -1657,6 +1672,11 @@ footer a {
     /* -> Page Index ( Présentation ) Class pour mettre la section de la bibliographie à 60 % en width */
     .Bibliographie {
         padding: 10px 10% 20px 10%;
+    }
+
+    .Inscription,
+    .Login {
+        padding-top: 0px;
     }
 
     /* Page-Présentation  Style pour la div de l'image de la peinture d'illustration */
@@ -2064,6 +2084,13 @@ footer a {
         font-size: 1rem;
     }
 
+    /* Class de la balise Ul dans la navigation */
+
+    .Balise-Presentation {
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+
     .Navigation-Mobile {
         display: block;
     }
@@ -2137,6 +2164,16 @@ footer a {
     /* Page-Creations Class pour mettre des styles à la Section Galerie  */
     .Galerie {
         padding: 10px 0px 50px 0px;
+    }
+
+    .Inscription,
+    .Login {
+        padding-top: 0px;
+    }
+
+    .H1Signup,
+    .H1Login {
+        padding: 50px 0px;
     }
 
     /* Page-Creations Class pour mettre des styles aux H3 des galeries */

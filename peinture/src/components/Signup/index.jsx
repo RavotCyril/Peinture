@@ -73,8 +73,9 @@ function Signup() {
   return (
     <main>
       <form className="Inscription container-fluid">
-        <h1 className="form-group H1Signup col-8 mx-auto">
-          Envie de vous souvenirs de vos peintures favorites ? Créer un profil !
+        <h1 className="form-group H1Signup col-12 text-center mx-auto">
+          Envie de vous rappelez de vos peintures favorites ? <br></br>
+          Créer un profil !
         </h1>
         <div className="row">
           <div className="form-group col-8 mx-auto">

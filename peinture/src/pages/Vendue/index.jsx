@@ -1,5 +1,6 @@
 /* Importations Bibliothèques React-router-dom  */
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import Theiere from "../../images/TableauxVendu/1995/Theiere.jpg";
 import FraisesEtPlatEnEtain from "../../images/TableauxVendu/1995/Fraises-Et-Plat-En-Etain.jpg";
@@ -135,10 +136,10 @@ function Vendue() {
     <main>
       <section className="Galerie">
         <h2 className="Titre-Nature-Morte">
-          <a href="MesCreations">
+          <NavLink to="/MesCreations">
             <i className="fas fa-chevron-circle-right"></i>
             &nbsp; Nature morte / &nbsp;Velours en vente&nbsp;&nbsp;&nbsp;&nbsp;
-          </a>
+          </NavLink>
         </h2>
         <h3>Nature-Morte-Galerie Vendu</h3>
         <div className="Galerie1-Nature-Morte-Vente">

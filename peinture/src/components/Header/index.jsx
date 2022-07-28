@@ -8,11 +8,21 @@ import axios from "axios";
 /* Styles CSS  Profil ( Prénom plus inscription - deconnection ) + Fermeture Article Admin  */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { useTheme } from "../../utils/hooks";
+import styled from "styled-components";
+import colors from "../../utils/style/colors";
 
 function Header() {
   /* Permet de récupérer les données ( valeurs ) de l'utilisateur pendant son inscription ( Prénom - Email ... ) 
   avec la clef inscription du local Storage */
-
+  const { toggleTheme, theme } = useTheme();
+  const NightModeButton = styled.button`
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: ${colors.dark};
+    padding-top: 30px;
+  `;
   const [user, setUser] = useState([]);
 
   var user_id = JSON.parse(localStorage.getItem("user_id"));
@@ -77,6 +87,10 @@ function Header() {
           <h1 className="TitreH1-Toute-Page">
             Mireille Rossignol / Artiste Peintre
           </h1>
+          <NightModeButton onClick={() => toggleTheme()}>
+            Peinture en Couleur ou effet Noir/ Blanc :
+            {theme === "light" ? "☀️" : "🌙"}
+          </NightModeButton>
           <nav className="Navigation-Desktop navbar navbar-expand-md navbar-dark">
             <button
               className="navbar-toggler"

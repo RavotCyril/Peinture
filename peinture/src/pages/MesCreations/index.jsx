@@ -1,5 +1,6 @@
 /* Importations Bibliothèques React-router-dom  */
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import OrangesEtDentelle from "../../images/Sans-Bordure/SansBordure-Grande-Oranges-Et-Dentelle.jpg";
 import GrandeAiguiere from "../../images/Grande-Images/Grande-Aiguiere.webp";
@@ -91,10 +92,10 @@ Pour connaitre les tableaux les plus populaires de la page creation */
             Nature morte /<a href="#velour">&nbsp;Velours en vente</a>
             &nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <a className="Lien-Nature-Morte-Vendu" href="Vendue">
+          <NavLink className="Lien-Nature-Morte-Vendu" to="/Vendue">
             <i className="fas fa-chevron-circle-right"></i>&nbsp; Nature morte /
             &nbsp;Velours vendu
-          </a>
+          </NavLink>
           &nbsp;&nbsp;&nbsp;&nbsp;
         </h2>
         <h3>Nature-Morte-Galerie n ° 1</h3>

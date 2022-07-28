@@ -22,7 +22,7 @@ function footer() {
       </div>
       <div>
         {"\n"}
-        <h3 className="Titre-Footer">Développeur Web : Ravot Cyril</h3>
+        <h3 className="Titre-Footer">Développeur Web : CYRIL RAVOT</h3>
       </div>
     </footer>
   );

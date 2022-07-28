@@ -18,11 +18,19 @@ import FruitsDautomne from "../../images/Sans-Bordure/SansBordure-Grande-Fruits-
 import Chien from "../../images/Grande-Images/Chien.webp";
 import Cheval from "../../images/Grande-Images/Cheval.webp";
 import Iris from "../../images/Grande-Images/Iris.webp";
+import { useTheme } from "../../utils/hooks";
+import styled from "styled-components";
 
 function Presentation() {
   /* ---------------------- Function Navigation Illustration Page Présentation début-------------------------------------*/
   const [isActiveNatureMorte, setIsActiveNatureMorte] = useState(false);
   const [isActiveVelours, setIsActiveVelours] = useState(false);
+  const { theme } = useTheme();
+
+  var StyledDiv = styled.div`
+    filter: ${({ theme }) =>
+      theme === "light" ? "grayscale(100%)" : "grayscale(0%)"};
+  `;
 
   const handleClickNatureMorte = (event) => {
     //  bascule l'état isActive au clic sur les natures mortes
@@ -159,7 +167,7 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={EnLhonneurDeBacchus}>
                   <img
                     className="galeriePresentation "
@@ -167,7 +175,7 @@ function Presentation() {
                     alt="En L 'honneur De Bacchus"
                   ></img>
                 </a>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>En L'honneur De Bacchus</h4>
                 <span className="Dimension-Coeur Compteur">
@@ -185,7 +193,7 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={PanierDeFruits}>
                   <img
                     className="galeriePresentation"
@@ -195,7 +203,7 @@ function Presentation() {
                   ></img>
                 </a>
                 <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Panier de fruits</h4>
                 <span className="Dimension-Coeur Compteur">
@@ -213,7 +221,7 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={PotPourrisDentelles}>
                   <img
                     className="galeriePresentation"
@@ -223,7 +231,7 @@ function Presentation() {
                   ></img>
                 </a>
                 <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Pot pourris et dentelle</h4>
                 <span className="Dimension-Coeur Compteur">
@@ -241,7 +249,7 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={JambonEtPain}>
                   <img
                     className="galeriePresentation"
@@ -251,7 +259,7 @@ function Presentation() {
                   />
                 </a>
                 <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Jambon et pain</h4>
                 <span className="Dimension-Coeur Compteur">
@@ -269,7 +277,7 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={Nocturne}>
                   <img
                     className="galeriePresentation"
@@ -279,7 +287,7 @@ function Presentation() {
                   ></img>
                 </a>
                 <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Nocturne</h4>
                 <span className="Dimension-Coeur Compteur">
@@ -297,7 +305,7 @@ function Presentation() {
               className="carousel-item"
               data-interval=" 100000 "
             >
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={LeGouter}>
                   <img
                     className="galeriePresentation"
@@ -307,7 +315,7 @@ function Presentation() {
                   ></img>
                 </a>
                 <span className="Page-Index-Mot-Vendue-Image ">Vendu</span>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Le goûter</h4>
                 <span className="Dimension-Coeur Compteur">
@@ -325,8 +333,8 @@ function Presentation() {
               className="carousel-item active"
               data-interval="100000"
             >
-              <div className="Div-Illustration">
-                <a href={PetitDejeuner}>
+              <StyledDiv theme={theme} className="Div-Illustration">
+                <a theme={theme} href={PetitDejeuner}>
                   <img
                     className="galeriePresentation"
                     src={PetitDejeuner}
@@ -335,7 +343,7 @@ function Presentation() {
                   ></img>
                 </a>
                 <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Petit déjeuner</h4>
                 <span className="Dimension-Coeur Compteur">
@@ -353,7 +361,7 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={Reflets}>
                   <img
                     className="galeriePresentation"
@@ -361,7 +369,7 @@ function Presentation() {
                     alt="Reflets "
                   ></img>
                 </a>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Reflets</h4>
                 <span className="Dimension-Coeur Compteur">
@@ -379,7 +387,7 @@ function Presentation() {
               className="carousel-item "
               data-interval="100000 "
             >
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={RefletsDeSavoie}>
                   <img
                     className="galeriePresentation"
@@ -387,7 +395,7 @@ function Presentation() {
                     alt="Reflets De Savoie "
                   ></img>
                 </a>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Reflets De Savoie</h4>
                 <span className="Dimension-Coeur Compteur ">
@@ -405,7 +413,7 @@ function Presentation() {
               className="carousel-item "
               data-interval="100000 "
             >
-              <div className="Div-Illustration ">
+              <StyledDiv theme={theme} className="Div-Illustration ">
                 <a href={CadreDameJeanne}>
                   <img
                     className="galeriePresentation "
@@ -415,7 +423,7 @@ function Presentation() {
                   ></img>
                 </a>
                 <span className="Page-Index-Mot-Vendue-Image ">Vendu</span>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Dame Jeanne</h4>
                 <span className="Dimension-Coeur Compteur ">
@@ -433,7 +441,7 @@ function Presentation() {
               className="carousel-item "
               data-interval="100000 "
             >
-              <div className="Div-Illustration ">
+              <StyledDiv theme={theme} className="Div-Illustration ">
                 <a href={PichetDoree}>
                   <img
                     className="galeriePresentation "
@@ -443,7 +451,7 @@ function Presentation() {
                   ></img>
                 </a>
                 <span className="Page-Index-Mot-Vendue-Image ">Vendu</span>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Pipe et un pichet doré</h4>
                 <span className="Dimension-Coeur Compteur ">
@@ -461,7 +469,7 @@ function Presentation() {
               className="carousel-item "
               data-interval="100000 "
             >
-              <div className="Div-Illustration ">
+              <StyledDiv theme={theme} className="Div-Illustration ">
                 <a href={CaSePrepare}>
                   <img
                     className="galeriePresentation "
@@ -471,7 +479,7 @@ function Presentation() {
                   ></img>
                 </a>
                 <span className="Page-Index-Mot-Vendue-Image ">Vendu</span>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Çà se prépare</h4>
                 <span className="Dimension-Coeur Compteur ">
@@ -489,7 +497,7 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000 "
             >
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={FruitsDautomne}>
                   <img
                     className="galeriePresentation"
@@ -497,7 +505,7 @@ function Presentation() {
                     alt="Fruits Dautomne"
                   ></img>
                 </a>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Fruits D'automne</h4>
                 <span className="Dimension-Coeur Compteur">
@@ -563,7 +571,7 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={Cheval}>
                   <img
                     className="galeriePresentation"
@@ -571,7 +579,7 @@ function Presentation() {
                     alt="Cheval"
                   ></img>
                 </a>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Cheval</h4>
                 <span className="Prix">35€</span>
@@ -590,7 +598,7 @@ function Presentation() {
               className="carousel-item active"
               data-interval="100000"
             >
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={Chien}>
                   <img
                     className="galeriePresentation"
@@ -598,7 +606,7 @@ function Presentation() {
                     alt="Chien"
                   ></img>
                 </a>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Chien</h4>
                 <span className="Prix ">50€</span>
@@ -613,7 +621,7 @@ function Presentation() {
               </figcaption>
             </figure>
             <figure id="Iris" className="carousel-item" data-interval="100000">
-              <div className="Div-Illustration">
+              <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={Iris}>
                   <img
                     className="galeriePresentation"
@@ -621,7 +629,7 @@ function Presentation() {
                     alt="Iris"
                   ></img>
                 </a>
-              </div>
+              </StyledDiv>
               <figcaption>
                 <h4>Iris</h4>
                 <span className="Prix ">70€</span>

@@ -18,6 +18,7 @@ import RevueDePresse from "./pages/RevueDePresse";
 import Infos from "./pages/Infos";
 import Fiche from "./pages/Fiche";
 import Vendue from "./pages/Vendue"
+import { ThemeProvider, SurveyProvider } from "../src/utils/context";
 
 // /* Importations des pages de styles + logo + images */
 
@@ -30,20 +31,24 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
         <Router>
-            <Header />
-            <Routes>
-                <Route path="/" element={< Presentation />} />
-                <Route path="/Signup" element={<Signup />} />
-                <Route path="/Login" element={<Login />} />
-                <Route path="/Fiche" element={< Fiche />} />
-                <Route path="/Infos" element={< Infos />} />
-                <Route path="/MesCreations" element={< MesCreations />} />
-                <Route path="/Vendue" element={< Vendue />} />
-                <Route path="/VosDesirs" element={< VosDesirs />} />
-                <Route path="/RevueDePresse" element={< RevueDePresse />} />
-                <Route path="*" element={< Error />} />
-            </Routes>
-            <Footer />
+            <ThemeProvider>
+                <SurveyProvider>
+                    <Header />
+                    <Routes>
+                        <Route path="/" element={< Presentation />} />
+                        <Route path="/Signup" element={<Signup />} />
+                        <Route path="/Login" element={<Login />} />
+                        <Route path="/Fiche" element={< Fiche />} />
+                        <Route path="/Infos" element={< Infos />} />
+                        <Route path="/MesCreations" element={< MesCreations />} />
+                        <Route path="/Vendue" element={< Vendue />} />
+                        <Route path="/VosDesirs" element={< VosDesirs />} />
+                        <Route path="/RevueDePresse" element={< RevueDePresse />} />
+                        <Route path="*" element={< Error />} />
+                    </Routes>
+                    <Footer />
+                </SurveyProvider>
+            </ThemeProvider>
         </Router>
     </React.StrictMode>
 );
