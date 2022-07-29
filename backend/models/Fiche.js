@@ -28,6 +28,7 @@ const Fiche = sequelize.define('fiche', {
     reference: { type: Sequelize.STRING(255), allowNull: false, },
     description: { type: Sequelize.STRING(255), allowNull: false, unique: true },
     prix: { type: Sequelize.INTEGER, allowNull: false },
+    date: { type: Sequelize.STRING(255), allowNull: false },
     image: { type: Sequelize.STRING(255), allowNull: false },
     titre: { type: Sequelize.STRING(255), allowNull: false },
 }, { tableName: 'fiche', timestamps: false, underscored: true });

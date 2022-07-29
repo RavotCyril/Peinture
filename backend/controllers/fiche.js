@@ -3,36 +3,47 @@ const Model = require('../models/fiche');
 const fs = require('fs');
 
 
-/* Exporte la fonction Administrateur pour supprimer les articles des utilisateurs*/
+/* Exporte la fonction Administrateur pour supprimer les Fiches des utilisateurs*/
 
 exports.deleteAdminModelsFiche = (req, res, next) => {
-    Model.Article.findOne({ where: { article_id: req.params.id } })
+    Model.Fiche.findOne({ where: { userId: req.params.id } })
         .then(models => {
             const filename = models.image.split('/images/')[1];
             fs.unlink(`images/${filename}`, () => {
-                Models.Article.destroy({ where: { article_id: req.params.id } })
-                    .then(() => res.status(200).json({ message: 'article supprimé !' }))
+                Model.Fiche.destroy({ where: { userId: req.params.id } })
+                    .then(() => res.status(200).json({ message: 'Fiche supprimé !' }))
                     .catch(error => res.status(400).json({ error }));
             });
         })
         .catch(error => res.status(500).json({ error }));
 };
 
-
-
 exports.createFiche = (req, res, next) => {
-    // Appel du body de la sauce.
-    let peinture = (req.body);
+    var date = new Date();
+    // date = date.toString("MMM,yyy");
+    const dateParser = (date) => {
+        let newDate = new Date(date).toLocaleDateString("fr-FR", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+            hour: "numeric",
+            minute: "numeric",
+            second: "numeric",
+        });
+        return newDate;
+    };
+    date = dateParser(date);
 
-    const model = new Model({
-        ...peinture,
-        image: `${req.protocol}://${req.get('host')}/images/SansBordure-Grande-Oranges-Et-Dentelle.jpg`,
-        likes: 0,
-        usersLiked: [],
-    });
-    model.save()
-        .then(() => res.status(201).json({ message: 'Objet enregistré !' }))
-        .catch(error => res.status(400).json({ error }));
+    Model.Fiche.create({
+        userId: req.body.userId,
+        reference: req.body.reference,
+        description: req.body.description,
+        prix: req.body.prix,
+        date: date,
+        image: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`,
+        titre: req.body.titre,
+    }).then(() => res.status(201).json({ message: 'Fiche créé !' }))
+        .catch(error => res.status(400).json({ message: error.message }));
 };
 
 exports.getOneFiche = (req, res, next) => {

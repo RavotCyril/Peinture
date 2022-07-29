@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { NavDropdown } from "react-bootstrap";
 import axios from "axios";
+import { ReactComponent as ClockIcon } from "../icons/clock.svg";
+import { ReactComponent as CalenderIcon } from "../icons/calendar.svg";
 
 // /* Importations des pages de styles + images */
 /* Styles CSS  Profil ( Prénom plus inscription - deconnection ) + Fermeture Article Admin  */
@@ -12,24 +14,34 @@ import { useTheme } from "../../utils/hooks";
 import styled from "styled-components";
 import colors from "../../utils/style/colors";
 
+const NightModeButton = styled.button`
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: ${colors.dark};
+  padding-top: 30px;
+`;
 function Header() {
-  /* Permet de récupérer les données ( valeurs ) de l'utilisateur pendant son inscription ( Prénom - Email ... ) 
-  avec la clef inscription du local Storage */
+  // const [dateState, setDateState] = useState(new Date());
+  // useEffect(() => {
+  //   setInterval(() => setDateState(new Date()), 1);
+  // }, []);
+
+  /* Permet de créer un effet icone ( soleil - nuit pour l'effet couleur - Noir / Blanc ) */
   const { toggleTheme, theme } = useTheme();
-  const NightModeButton = styled.button`
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    color: ${colors.dark};
-    padding-top: 30px;
-  `;
+
+  /* Permet de récupérer les données ( valeurs ) de l'utilisateur pendant son inscription ( Prénom - Email ... ) 
+  avec la clef inscription du local Storage + créeation du panier */
+
   const [user, setUser] = useState([]);
-
-  var user_id = JSON.parse(localStorage.getItem("user_id"));
-
+  const savedBasket = localStorage.getItem("basket");
+  const [basket, updateBasket] = useState(
+    savedBasket ? JSON.parse(savedBasket) : []
+  );
   useEffect(() => {
-    // Run! Like go get some data from an API.
-  }, []);
+    localStorage.setItem("basket", JSON.stringify(basket));
+  }, [basket]);
+  var user_id = JSON.parse(localStorage.getItem("user_id"));
 
   var configData = {
     headers: {
@@ -91,10 +103,33 @@ function Header() {
           <h1 className="TitreH1-Toute-Page">
             Mireille Rossignol / Artiste Peintre
           </h1>
-          <NightModeButton onClick={() => toggleTheme()}>
-            Peinture en Couleur ou effet Noir/ Blanc :
-            {theme === "light" ? "☀️" : "🌙"}
-          </NightModeButton>
+          <div className="DivButtonDate col-12">
+            <NightModeButton id="NightModeButton" onClick={() => toggleTheme()}>
+              Peinture en Couleur ou effet Noir/ Blanc :
+              {theme === "light" ? "☀️" : "🌙"}
+            </NightModeButton>
+          </div>
+          <div className="Article-date" type="text" name="date">
+            <CalenderIcon />
+            <p>
+              {dateState.toLocaleDateString("fr-FR", {
+                day: "numeric",
+                month: "short",
+                year: "numeric",
+                hour: "numeric",
+                minute: "numeric",
+                second: "numeric",
+              })}
+            </p>
+            <ClockIcon />
+            <p>
+              {dateState.toLocaleString("en-US", {
+                hour: "numeric",
+                minute: "numeric",
+                hour12: true,
+              })}
+            </p>
+          </div>
           <nav className="Navigation-Desktop navbar navbar-expand-md navbar-dark">
             <button
               className="navbar-toggler"
@@ -162,7 +197,7 @@ function Header() {
                           <div className="Profil">
                             <NavDropdown title="Mon Profil">
                               <NavDropdown.Item>Mes favoris</NavDropdown.Item>
-                              <NavDropdown.Item>Mon panier</NavDropdown.Item>
+                              <NavDropdown.Item>Panier</NavDropdown.Item>
                               <NavDropdown.Item onClick={logOut}>
                                 Déconnexion
                               </NavDropdown.Item>

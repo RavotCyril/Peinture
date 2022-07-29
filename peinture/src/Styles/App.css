@@ -18,6 +18,27 @@ header {
     z-index: 1;
 }
 
+.DivButtonDate {
+    padding: 10px 0px;
+}
+
+#NightModeButton {
+    font-size: 1.25rem;
+    margin-left: 10px;
+    padding: 0px;
+    text-align: left;
+}
+
+.Article-date {
+    display: flex;
+    justify-content: right;
+    padding: 0px 100px 5px 0px;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
 #loader-Container {
     position: fixed;
     width: 100%;
@@ -1764,6 +1785,18 @@ footer a {
         padding: 10px 10% 20px 10%;
     }
 
+    #NightModeButton {
+        font-size: 1rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .Article-date {
+        padding: 0px 25px 0px 0px;
+        font-size: 1rem;
+    }
+
     .Inscription,
     .Login {
         padding-top: 0px;
@@ -2108,6 +2141,15 @@ footer a {
     /* -> Page Index ( Présentation ) Class pour mettre la section de la bibliographie à 60 % en width */
     .Bibliographie {
         padding: 10px 10% 20px 10%;
+    }
+
+    #NightModeButton {
+        font-size: 1rem;
+    }
+
+    .Article-date {
+        padding: 0px 25px 0px 0px;
+        font-size: 1rem;
     }
 
     /* Page-Présentation  Style pour la div de l'image de la peinture d'illustration */

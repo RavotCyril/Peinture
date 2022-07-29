@@ -22,6 +22,10 @@ import Iris from "../../images/Grande-Images/Iris.webp";
 import { useTheme } from "../../utils/hooks";
 import styled from "styled-components";
 
+var StyledDiv = styled.div`
+  filter: ${({ theme }) =>
+    theme === "light" ? "grayscale(0%)" : "grayscale(100%)"};
+`;
 function Presentation() {
   /* ---------------------- Function Navigation Illustration Page Présentation début-------------------------------------*/
   const [isActiveNatureMorte, setIsActiveNatureMorte] = useState(false);
@@ -32,10 +36,6 @@ function Presentation() {
   useEffect(() => {
     setLoading(true);
   }, []);
-  var StyledDiv = styled.div`
-    filter: ${({ theme }) =>
-      theme === "light" ? "grayscale(0%)" : "grayscale(100%)"};
-  `;
 
   const handleClickNatureMorte = (event) => {
     //  bascule l'état isActive au clic sur les natures mortes
