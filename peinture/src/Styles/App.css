@@ -102,7 +102,7 @@ header {
 #BelleEpoquePresentation,
 #NocturnePresentation,
 #CadreDameJeannePresentation {
-    width: 187px;
+    width: 187.5px;
     height: 135px;
     border: 1px solid black;
 }
@@ -1589,6 +1589,9 @@ footer a {
 /* styles pour tablettes*/
 
     {
+    #loader #GifMireilleRossignol {
+        display: none;
+    }
 
     /* Page-Creation Div1-Div2-Div3-Div4-Div5  Galerie1-Galerie2-Galerie3-Galerie4-Galerie5 + Velours  images */
     .Galerie1,
@@ -1672,6 +1675,9 @@ footer a {
 /* styles pour tablettes*/
 
     {
+    #loader #GifMireilleRossignol {
+        display: none;
+    }
 
     /* Page-Présentation  Style pour la div de l'image de la peinture d'illustration */
     .Div-Illustration {
@@ -1784,6 +1790,9 @@ footer a {
 /* styles pour mobile paysage*/
 
     {
+    #loader #GifMireilleRossignol {
+        display: none;
+    }
 
     /* -> Page Index ( Présentation ) Class pour mettre la section de la bibliographie à 60 % en width */
     .Bibliographie {
@@ -2139,6 +2148,9 @@ footer a {
 /* styles pour mobiles portrait */
 
     {
+    #loader #GifMireilleRossignol {
+        display: none;
+    }
 
     /* -> Page Index ( Présentation ) Class pour mettre la section de la bibliographie à 60 % en width */
     .Bibliographie {
@@ -2543,6 +2555,10 @@ footer a {
     /* styles pour mobiles portrait  
     très petit (ancienne génération) 
     */
+    #loader #GifMireilleRossignol {
+        display: none;
+    }
+
     /* Page-Présentation  Style pour la div de l'image de la peinture d'illustration */
     .Div-Illustration {
         width: auto;

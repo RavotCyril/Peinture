@@ -32,9 +32,12 @@ function Presentation() {
   const [isActiveVelours, setIsActiveVelours] = useState(false);
   const { theme } = useTheme();
   const [loading, setLoading] = useState(false);
+  const mediaQuery1500_1900 = window.matchMedia(
+    "(min-width:1500px) and (max-width:1900px)"
+  );
 
   useEffect(() => {
-    setLoading(true);
+    if (mediaQuery1500_1900.matches === true) setLoading(true);
   }, []);
 
   const handleClickNatureMorte = (event) => {

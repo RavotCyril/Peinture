@@ -2,6 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 /* Importations Components */
 import Header from "./components/Header";
 import Error from "./components/Error";
@@ -24,7 +25,6 @@ import { ThemeProvider } from "../src/utils/context";
 // /* Importations des pages de styles + logo + images */
 
 import "../src/Styles/App.css";
-
 
 /* Prop de rendu de la page Index avec toute les routes des components - pages de l'application  */
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -50,5 +50,5 @@ root.render(
                 <Footer />
             </ThemeProvider>
         </Router>
-    </React.StrictMode>
+    </React.StrictMode >
 );
