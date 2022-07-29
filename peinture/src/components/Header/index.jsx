@@ -22,10 +22,10 @@ const NightModeButton = styled.button`
   padding-top: 30px;
 `;
 function Header() {
-  // const [dateState, setDateState] = useState(new Date());
-  // useEffect(() => {
-  //   setInterval(() => setDateState(new Date()), 1);
-  // }, []);
+  const [dateState, setDateState] = useState(new Date());
+  useEffect(() => {
+    setInterval(() => setDateState(new Date()), 1);
+  }, []);
 
   /* Permet de créer un effet icone ( soleil - nuit pour l'effet couleur - Noir / Blanc ) */
   const { toggleTheme, theme } = useTheme();
