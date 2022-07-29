@@ -110,23 +110,20 @@ function Header() {
             </NightModeButton>
           </div>
           <div className="Article-date" type="text" name="date">
-            <CalenderIcon />
+            <CalenderIcon className="IconCalenderClock" />
             <p>
               {dateState.toLocaleDateString("fr-FR", {
                 day: "numeric",
                 month: "short",
                 year: "numeric",
+              })}
+            </p>
+            <ClockIcon className="IconCalenderClock" />
+            <p>
+              {dateState.toLocaleString("fr-FR", {
                 hour: "numeric",
                 minute: "numeric",
                 second: "numeric",
-              })}
-            </p>
-            <ClockIcon />
-            <p>
-              {dateState.toLocaleString("en-US", {
-                hour: "numeric",
-                minute: "numeric",
-                hour12: true,
               })}
             </p>
           </div>
