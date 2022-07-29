@@ -11,7 +11,7 @@ body
 }
 
 header {
-    background: url(../images/Background-Image/ors.jpg);
+    background: url(../images/Background-Image/luxe.jpg);
     position: fixed;
     width: 100%;
     top: 0px;
@@ -227,7 +227,7 @@ header {
 
 .Navigation-Mobile {
     display: none;
-    background: url(../images/Background-Image/ors.jpg);
+    background: url(../images/Background-Image/luxe.jpg);
 }
 
 .Navigation-Mobile a {
@@ -389,7 +389,7 @@ header {
 
 .TitrePresentationIllustration {
     display: flex;
-    background: url(../images/Background-Image/ors.jpg);
+    background: url(../images/Background-Image/luxe.jpg);
     color: #000;
     padding: 15px 0px;
     text-transform: uppercase;
@@ -969,7 +969,7 @@ label {
 }
 
 footer {
-    background: url(../images/Background-Image/ors.jpg);
+    background: url(../images/Background-Image/luxe.jpg);
     background-position-x: 35%;
 }
 
