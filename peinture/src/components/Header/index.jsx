@@ -38,6 +38,7 @@ function Header() {
   const [basket, updateBasket] = useState(
     savedBasket ? JSON.parse(savedBasket) : []
   );
+
   useEffect(() => {
     localStorage.setItem("basket", JSON.stringify(basket));
   }, [basket]);
@@ -49,6 +50,11 @@ function Header() {
         "bearer " + JSON.parse(localStorage.getItem("Identification")),
     },
   };
+  const handleClickBouttonNavigation = (event) => {
+    //  bascule l'état isActive au clic sur les natures mortes
+    setIsActiveNatureMorte((current) => !current);
+  };
+
   /* Permet de récupérer les données ( valeurs ) de l'utilisateur pendant son inscription ( Prénom - Email ... ) 
   avec la base de données */
   useEffect(() => {
@@ -100,36 +106,9 @@ function Header() {
     <header id="deconnexion">
       <div className="container-fluid Menu m-0">
         <div className="row">
-          <h1 className="TitreH1-Toute-Page">
-            Mireille Rossignol / Artiste Peintre
-          </h1>
-          <div className="DivButtonDate col-12">
-            <NightModeButton id="NightModeButton" onClick={() => toggleTheme()}>
-              Peinture en Couleur ou effet Noir/ Blanc :
-              {theme === "light" ? "☀️" : "🌙"}
-            </NightModeButton>
-          </div>
-          <div className="Article-date" type="text" name="date">
-            <CalenderIcon className="IconCalenderClock" />
-            <p>
-              {dateState.toLocaleDateString("fr-FR", {
-                day: "numeric",
-                month: "short",
-                year: "numeric",
-              })}
-            </p>
-            <ClockIcon className="IconCalenderClock" />
-            <p>
-              {dateState.toLocaleString("fr-FR", {
-                hour: "numeric",
-                minute: "numeric",
-                second: "numeric",
-              })}
-            </p>
-          </div>
-          <nav className="Navigation-Desktop navbar navbar-expand-md navbar-dark">
+          <nav className="Navigation-Desktop navbar navbar-dark">
             <button
-              className="navbar-toggler"
+              className="ButtonNavigation navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#Visibilite"
@@ -139,7 +118,43 @@ function Header() {
             >
               <span className="navbar-toggler-icon "></span>
             </button>
+            <h1 className="TitreH1-Toute-Page">
+              Mireille Rossignol / Artiste Peintre
+            </h1>
             <div id="Visibilite" className="collapse navbar-collapse">
+              <div className="DivButtonDate col-12 col-sm-12">
+                <div>
+                  <NightModeButton
+                    id="NightModeButton"
+                    onClick={() => toggleTheme()}
+                  >
+                    Peinture en Couleur ou effet Noir/ Blanc :
+                    {theme === "light" ? "☀️" : "🌙"}
+                  </NightModeButton>
+                </div>
+                <div className="Article-date" type="text" name="date">
+                  <CalenderIcon
+                    className="IconCalenderClock"
+                    type="text"
+                    name="date"
+                  />
+                  <p>
+                    {dateState.toLocaleDateString("fr-FR", {
+                      day: "numeric",
+                      month: "short",
+                      year: "numeric",
+                    })}
+                  </p>
+                  <ClockIcon className="IconCalenderClock" />
+                  <p>
+                    {dateState.toLocaleString("fr-FR", {
+                      hour: "numeric",
+                      minute: "numeric",
+                      second: "numeric",
+                    })}
+                  </p>
+                </div>
+              </div>
               <ul className="Balise-Presentation">
                 {localStorage.getItem("Identification") === null ? (
                   <>

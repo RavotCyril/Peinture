@@ -126,7 +126,7 @@ function Login() {
           setPassword(null);
           setServeur(null);
           window.setTimeout(function () {
-            window.location.href = "http://localhost:3001/MesCreations";
+            window.location.href = "http://localhost:3001/";
           }, 1500);
         })
         .catch((err) => {

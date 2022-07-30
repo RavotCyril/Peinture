@@ -2,8 +2,7 @@
 
 /* Framework node.js */
 const express = require('express');
-/* Rend les interactions fluides entre MongoDB ou d'autres base de données avec Node.Js */
-// const mongoose = require('mongoose');
+
 /* Dotenv est un module sans dépendance qui charge les variables d'environnement 
 d'un fichier .env dans process.env.
 Le stockage de la configuration dans l'environnement séparé du code est basé sur
