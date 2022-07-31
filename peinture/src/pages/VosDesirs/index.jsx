@@ -6,6 +6,7 @@ import ChocolatChaud from "../../images/Grande-Images/Grande-Cafe-Et-Chocolat.we
 import SouvenirsMarin from "../../images/TableauxVendu/1998/Cadre-Souvenirs-Marin.jpg";
 import Dentiste from "../../images/TableauxVendu/2002/Dentiste.jpg";
 import BelleEpoque from "../../images/TableauxVendu/1997/Belle-Epoque.jpg";
+import Services from "../Services";
 
 function VosDesirs() {
   return (
@@ -175,6 +176,7 @@ function VosDesirs() {
           </div>
         </div>
       </section>
+      <Services />
     </main>
   );
 }
