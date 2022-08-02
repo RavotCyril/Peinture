@@ -41,6 +41,7 @@ import OutilsDantan from "../../images/TableauxVendu/2007/Cadre-Outils-dantan.jp
 import PainEtConfiture from "../../images/TableauxVendu/2002/Pain-Et-Confiture.jpg";
 import UneAutreEpoque from "../../images/TableauxVendu/2002/Cadre-Une-Autre-Epoque.jpg";
 import Felins from "../../images/TableauxVendu/2007/Cadre-Felins.jpg";
+
 function MesCreations() {
   /* Function pour compter le Nombres de click sur les coeurs. 
 Pour connaitre les tableaux les plus populaires de la page creation */

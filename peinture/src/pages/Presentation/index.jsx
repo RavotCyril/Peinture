@@ -65,13 +65,15 @@ function Presentation() {
     <main className="MainPartiePrincipalePresentation">
       {loading ? <Loader /> : null}
       <section className="Bibliographie">
-        <h2 className="H2-Bibliographie">L'&nbsp;auteur</h2>
-        <div>
+        <h2>
           <NightModeButton id="NightModeButton" onClick={() => toggleTheme()}>
-            Peinture en Couleur ou effet Noir/ Blanc :
-            {theme === "light" ? "☀️" : "🌙"}
+            <span className="NightModeButtonSpan">
+              Peinture en Couleur ou effet Noir/ Blanc :
+              {theme === "light" ? "☀️" : "🌙"}
+            </span>
           </NightModeButton>
-        </div>
+        </h2>
+        <h2 className="H2-Bibliographie">L'&nbsp;auteur</h2>
         <p>
           Née en <span className="bold">1956</span>, j’ai été attirée par le
           dessin et la peinture dès mon plus jeune âge. Après avoir obtenu mon

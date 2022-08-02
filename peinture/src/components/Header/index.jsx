@@ -137,7 +137,7 @@ function Header() {
                       <NavLink to="/">Présentation</NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Mescreations">Mes Créations</NavLink>
+                      <NavLink to="/MesCreations">Mes Créations</NavLink>
                     </li>
                     <li className="Nav-List-Items">
                       <NavLink to="/VosDesirs">Vos Désirs</NavLink>
@@ -161,7 +161,7 @@ function Header() {
                       <NavLink to="">Présentation</NavLink>
                     </li>
                     <li className="Nav-List-Items">
-                      <NavLink to="/Mescreations">Mes Créations</NavLink>
+                      <NavLink to="/MesCreations">Mes Créations</NavLink>
                     </li>
                     <li className="Nav-List-Items">
                       <NavLink to="/VosDesirs">Vos Désirs</NavLink>

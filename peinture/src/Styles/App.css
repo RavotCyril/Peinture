@@ -20,20 +20,28 @@ header {
 
 .ButtonNavigation {
     position: absolute;
-    height: 50px;
-    top: 5px;
-    right: 50px;
+    font-size: 1.5rem;
+    top: 12px;
+    right: 15px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .DivButtonDate {
     display: flex;
     justify-content: space-between;
+    padding: 20px 0px;
 }
 
 #NightModeButton {
     font-size: 1.25rem;
     margin-left: 10px;
     padding: 0px;
+}
+
+#NightModeButton .NightModeButtonSpan {
+    color: black;
+    font-weight: bold;
 }
 
 .IconCalenderClock {
@@ -44,7 +52,7 @@ header {
 
 .Article-date {
     display: flex;
-    margin: 0px 50px 0px 0px;
+    margin: 0px;
     font-size: 1.25rem;
     color: black;
     font-weight: bold;
@@ -355,7 +363,7 @@ header {
 .Tarifs,
 .Inscription,
 .Login {
-    padding-top: 185px;
+    padding-top: 220px;
 }
 
 /* Page Index  Titre h2 de selection des thèmes de peintures - Nature morte ou Velours*/
@@ -1633,8 +1641,14 @@ footer a {
         display: none;
     }
 
+    .ButtonNavigation {
+        font-size: 1.5rem;
+        top: 8px;
+        right: 12px;
+    }
+
     .Article-date {
-        padding: 10px 10px 10px;
+        padding: 0px;
         font-size: 1rem;
     }
 
@@ -1647,7 +1661,7 @@ footer a {
     }
 
     .Article-date {
-        padding: 0px 25px 0px 0px;
+        padding: 0px;
         font-size: 1rem;
     }
 
@@ -1759,6 +1773,12 @@ footer a {
         padding: 10px 10% 20px 10%;
     }
 
+    .ButtonNavigation {
+        font-size: 1.15rem;
+        top: 8px;
+        right: 12px;
+    }
+
     #NightModeButton {
         font-size: 1rem;
     }
@@ -1769,7 +1789,7 @@ footer a {
     }
 
     .Article-date {
-        padding: 10px 10px 10px;
+        padding: 0px;
         font-size: 1rem;
         min-width: 255px;
     }
@@ -1806,6 +1826,7 @@ footer a {
     }
 
     .TitreH1-Toute-Page {
+        width: 365px;
         font-size: 1.5rem;
     }
 
@@ -2092,6 +2113,12 @@ footer a {
         display: none;
     }
 
+    .ButtonNavigation {
+        font-size: 1.15rem;
+        top: 55px;
+        right: 15px;
+    }
+
     /* -> Page Index ( Présentation ) Class pour mettre la section de la bibliographie à 60 % en width */
     .Bibliographie {
         padding: 10px 10% 20px 10%;
@@ -2107,8 +2134,13 @@ footer a {
         flex-direction: column;
     }
 
+    .container-fluid {
+        padding: 0px;
+    }
+
     .Article-date {
-        padding: 23px 0px;
+        padding: 0px;
+        margin: 20px 0px 0px 0px;
         font-size: 1rem;
     }
 
@@ -2133,6 +2165,7 @@ footer a {
     }
 
     .TitreH1-Toute-Page {
+        width: 200px;
         font-size: 1.1rem;
     }
 
@@ -2459,37 +2492,5 @@ footer a {
     .PeintresAmateurs {
         height: auto;
         width: auto;
-    }
-}
-
-@media screen and (max-width:180px) {
-
-    /* styles pour mobiles portrait  
-    très petit (ancienne génération) 
-    */
-    #loader #GifMireilleRossignol {
-        display: none;
-    }
-
-    /* Page-Présentation  Style pour la div de l'image de la peinture d'illustration */
-    .Div-Illustration {
-        width: auto;
-        height: auto;
-        overflow: hidden;
-        margin: 0px auto;
-    }
-
-    /* -> Page mentions légales Main Partie principale de la page pour mettres les paragraphes en Pointillés */
-    .Adresse-Email p {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    /* Style pour mettre l'icon Coeur plein en position absolute avec une couleur transparente et un font size " */
-
-    .Coeur-Plein-Menu {
-        bottom: 0px;
-        right: 5px;
     }
 }
