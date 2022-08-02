@@ -21,16 +21,26 @@ import Cheval from "../../images/Grande-Images/Cheval.webp";
 import Iris from "../../images/Grande-Images/Iris.webp";
 import { useTheme } from "../../utils/hooks";
 import styled from "styled-components";
+import colors from "../../utils/style/colors";
 
 var StyledDiv = styled.div`
   filter: ${({ theme }) =>
     theme === "light" ? "grayscale(0%)" : "grayscale(100%)"};
 `;
+
+const NightModeButton = styled.button`
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: ${colors.dark};
+  padding-top: 30px;
+`;
 function Presentation() {
-  /* ---------------------- Function Navigation Illustration Page Présentation début-------------------------------------*/
   const [isActiveNatureMorte, setIsActiveNatureMorte] = useState(false);
   const [isActiveVelours, setIsActiveVelours] = useState(false);
-  const { theme } = useTheme();
+  /* Permet de créer un effet icone ( soleil - nuit pour l'effet couleur - Noir / Blanc ) */
+  const { toggleTheme, theme } = useTheme();
+
   const [loading, setLoading] = useState(false);
   const mediaQuery1500_1900 = window.matchMedia(
     "(min-width:1500px) and (max-width:1900px)"
@@ -56,6 +66,12 @@ function Presentation() {
       {loading ? <Loader /> : null}
       <section className="Bibliographie">
         <h2 className="H2-Bibliographie">L'&nbsp;auteur</h2>
+        <div>
+          <NightModeButton id="NightModeButton" onClick={() => toggleTheme()}>
+            Peinture en Couleur ou effet Noir/ Blanc :
+            {theme === "light" ? "☀️" : "🌙"}
+          </NightModeButton>
+        </div>
         <p>
           Née en <span className="bold">1956</span>, j’ai été attirée par le
           dessin et la peinture dès mon plus jeune âge. Après avoir obtenu mon

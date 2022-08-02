@@ -11,24 +11,12 @@ import { ReactComponent as CalenderIcon } from "../icons/calendar.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { useTheme } from "../../utils/hooks";
-import styled from "styled-components";
-import colors from "../../utils/style/colors";
 
-const NightModeButton = styled.button`
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  color: ${colors.dark};
-  padding-top: 30px;
-`;
 function Header() {
   const [dateState, setDateState] = useState(new Date());
   useEffect(() => {
     setInterval(() => setDateState(new Date()), 1);
   }, []);
-
-  /* Permet de créer un effet icone ( soleil - nuit pour l'effet couleur - Noir / Blanc ) */
-  const { toggleTheme, theme } = useTheme();
 
   /* Permet de récupérer les données ( valeurs ) de l'utilisateur pendant son inscription ( Prénom - Email ... ) 
   avec la clef inscription du local Storage + créeation du panier */
@@ -49,10 +37,6 @@ function Header() {
       Authorization:
         "bearer " + JSON.parse(localStorage.getItem("Identification")),
     },
-  };
-  const handleClickBouttonNavigation = (event) => {
-    //  bascule l'état isActive au clic sur les natures mortes
-    setIsActiveNatureMorte((current) => !current);
   };
 
   /* Permet de récupérer les données ( valeurs ) de l'utilisateur pendant son inscription ( Prénom - Email ... ) 
@@ -123,15 +107,6 @@ function Header() {
             </h1>
             <div id="Visibilite" className="collapse navbar-collapse">
               <div className="DivButtonDate col-12 col-sm-12">
-                <div>
-                  <NightModeButton
-                    id="NightModeButton"
-                    onClick={() => toggleTheme()}
-                  >
-                    Peinture en Couleur ou effet Noir/ Blanc :
-                    {theme === "light" ? "☀️" : "🌙"}
-                  </NightModeButton>
-                </div>
                 <div className="Article-date" type="text" name="date">
                   <CalenderIcon
                     className="IconCalenderClock"
