@@ -11,10 +11,10 @@ function Infos() {
         </h2>
         <div className="Legende">
           <p className="PeintureNonDisponible">
-            *Peinture non disponile à la vente
+            *Peinture non disponible à la vente
           </p>
           {"\n"}
-          <p className="PeintureDisponible">*Peinture disponile à la vente</p>
+          <p className="PeintureDisponible">*Peinture disponible à la vente</p>
           {"\n"}
           <p className="PeintureDisponibleLien">
             *Lien de la peinture selectionnée
