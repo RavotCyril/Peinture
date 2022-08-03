@@ -5,7 +5,6 @@ import { NavDropdown } from "react-bootstrap";
 import axios from "axios";
 import { ReactComponent as ClockIcon } from "../icons/clock.svg";
 import { ReactComponent as CalenderIcon } from "../icons/calendar.svg";
-import Services from "../../pages/Services";
 
 // /* Importations des pages de styles + images */
 /* Styles CSS  Profil ( Prénom plus inscription - deconnection ) + Fermeture Article Admin  */
@@ -103,7 +102,7 @@ function Header() {
               <span className="navbar-toggler-icon "></span>
             </button>
             <h1 className="TitreH1-Toute-Page">
-              Mireille Rossignol / Artiste Peintre
+              Mireill Rossignol / Artiste Peintre
             </h1>
             <div id="Visibilite" className="collapse navbar-collapse">
               <div className="DivButtonDate col-12 col-sm-12">
@@ -203,7 +202,6 @@ function Header() {
           </nav>
         </div>
       </div>
-      {localStorage.getItem("Identification") === null ? null : <Services />}
     </header>
   );
 }

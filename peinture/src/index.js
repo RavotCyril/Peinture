@@ -9,7 +9,7 @@ import Error from "./components/Error";
 import Footer from "./components/Footer";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
-import Loader from "./components/Loader";
+const Loader = React.lazy(() => import("./components/Loader"));
 
 /* Importations Pages */
 

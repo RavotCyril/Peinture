@@ -19,6 +19,8 @@ function Services() {
   var token = JSON.parse(localStorage.getItem("Identification"));
   var date = Math.round(new Date().getTime() / 1000);
   var decoded = jwt_decode(token);
+  console.log(decoded);
+
   const [isTokenValid, setisTokenValid] = useState(false);
 
   if (date < decoded.exp) {
@@ -41,7 +43,7 @@ function Services() {
 
     window.setTimeout(function () {
       localStorage.clear();
-      window.location.href = "http://localhost:3001/Login";
+      window.location.href = "/";
     }, 5000);
   }
 
