@@ -13,6 +13,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
+  useEffect(() => {
+    if ("caches" in window) {
+      caches.keys().then((names) => {
+        names.forEach((name) => {
+          caches.delete(name);
+        });
+      });
+    }
+  }, []);
+
   const [dateState, setDateState] = useState(new Date());
   useEffect(() => {
     setInterval(() => setDateState(new Date()), 1);
@@ -44,7 +54,7 @@ function Header() {
   useEffect(() => {
     axios({
       method: "get",
-      url: "http://localhost:3000/api/user/" + user_id,
+      url: "http://localhost/api/user/" + user_id,
     })
       .then((user) => {
         setUser(user.data);
@@ -62,11 +72,11 @@ function Header() {
 
   function toUnsubscribe() {
     axios
-      .delete("http://localhost:3000/api/user/" + user_id, configData)
+      .delete("http://localhost/api/user/" + user_id, configData)
       .then((user) => {
         console.log(user);
         localStorage.clear();
-        window.location.href = "http://localhost:3001/Signup";
+        window.location.href = "http://localhost:3000/Signup";
       })
       .catch((err) => {
         if (err.response.status === 400) {

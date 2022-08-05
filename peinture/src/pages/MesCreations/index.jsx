@@ -47,16 +47,16 @@ function MesCreations() {
 Pour connaitre les tableaux les plus populaires de la page creation */
   // Variable -> Déclaration  -> Balise body-Main-Logo-Nav-Liens-Titre-Article-... - Html de la page.
   (async function getAllParaElems() {
-    const articles = await getArticles();
-    // console.log(articles);
-    for (let i in articles) {
-      console.log(articles[i]);
-      displayArticle(articles[i]);
+    const fiches = await getFiches();
+    // console.log(fiches);
+    for (let i in fiches) {
+      console.log(fiches[i]);
+      displayArticle(fiches[i]);
     }
   })();
-  // Fonction pour appeller les articles de L'API.
+  // Fonction pour appeller les Fiches de L'API.
 
-  async function getArticles() {
+  async function getFiches() {
     try {
       let resultat = await fetch("http://localhost:3000/api/fiche/");
       return await resultat.json();
@@ -120,7 +120,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -142,7 +142,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -168,7 +168,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -194,7 +194,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -220,7 +220,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -242,7 +242,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -271,7 +271,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -293,7 +293,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -319,7 +319,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -345,7 +345,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -371,7 +371,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -393,7 +393,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -422,7 +422,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -444,7 +444,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -470,7 +470,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -496,7 +496,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -522,7 +522,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -548,7 +548,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -577,7 +577,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -603,7 +603,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -628,7 +628,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -650,7 +650,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -679,7 +679,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -701,7 +701,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -723,7 +723,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -749,7 +749,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -778,7 +778,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu ">
                   <i className="far fa-heart "></i>
                 </span>
-                <span className="Coeur-Plein-Menu ">
+                <span className="Coeur-Plein-Menu-Creations ">
                   <i className="fas fa-heart "></i>
                 </span>
               </span>
@@ -797,7 +797,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu ">
                   <i className="far fa-heart "></i>
                 </span>
-                <span className="Coeur-Plein-Menu ">
+                <span className="Coeur-Plein-Menu-Creations ">
                   <i className="fas fa-heart "></i>
                 </span>
               </span>
@@ -816,7 +816,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu ">
                   <i className="far fa-heart "></i>
                 </span>
-                <span className="Coeur-Plein-Menu ">
+                <span className="Coeur-Plein-Menu-Creations ">
                   <i className="fas fa-heart "></i>
                 </span>
               </span>
@@ -844,7 +844,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -866,7 +866,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -891,7 +891,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -916,7 +916,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -938,7 +938,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -963,7 +963,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -985,7 +985,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -1010,7 +1010,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -1036,7 +1036,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
@@ -1059,7 +1059,7 @@ Pour connaitre les tableaux les plus populaires de la page creation */
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
                 </span>
-                <span className="Coeur-Plein-Menu">
+                <span className="Coeur-Plein-Menu-Creations">
                   <i className="fas fa-heart"></i>
                 </span>
               </span>
