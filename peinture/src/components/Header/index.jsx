@@ -54,7 +54,7 @@ function Header() {
   useEffect(() => {
     axios({
       method: "get",
-      url: "http://localhost/api/user/" + user_id,
+      url: "http://localhost:3000/api/user/" + user_id,
     })
       .then((user) => {
         setUser(user.data);
@@ -72,11 +72,11 @@ function Header() {
 
   function toUnsubscribe() {
     axios
-      .delete("http://localhost/api/user/" + user_id, configData)
+      .delete("http://localhost:3000/api/user/" + user_id, configData)
       .then((user) => {
         console.log(user);
         localStorage.clear();
-        window.location.href = "http://localhost:3000/Signup";
+        window.location.href = "http://localhost:3001/Signup";
       })
       .catch((err) => {
         if (err.response.status === 400) {
@@ -99,7 +99,7 @@ function Header() {
   return (
     <header id="deconnexion">
       <div className="container-fluid Menu m-0">
-        <div className="row">
+        <div className="row-fluid">
           <nav className="Navigation-Desktop navbar navbar-dark">
             <button
               className="ButtonNavigation navbar-toggler"

@@ -53,7 +53,7 @@ function Login() {
       emailRegex.test(email)
     ) {
       axios
-        .post("http://localhost/api/auth/login", {
+        .post("http://localhost:3000/api/auth/login", {
           password,
           email,
         })
@@ -78,7 +78,7 @@ function Login() {
           setPassword(null);
           setServeur(null);
           window.setTimeout(function () {
-            window.location.href = "http://localhost:3000/Signup";
+            window.location.href = "http://localhost:3001/Signup";
           }, 1500);
         })
         .catch((err) => {
@@ -101,7 +101,7 @@ function Login() {
   function testLogin() {
     if (password && email) {
       axios
-        .post("http://localhost/api/auth/login", {
+        .post("http://localhost:3000/api/auth/login", {
           password,
           email,
         })
@@ -126,7 +126,7 @@ function Login() {
           setPassword(null);
           setServeur(null);
           window.setTimeout(function () {
-            window.location.href = "http://localhost:3000/";
+            window.location.href = "http://localhost:3001/";
           }, 1500);
         })
         .catch((err) => {

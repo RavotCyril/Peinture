@@ -377,7 +377,7 @@ header {
 .Balise-Presentation {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px;
     list-style: none;
     font-size: 1.5rem;

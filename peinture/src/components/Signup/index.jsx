@@ -33,7 +33,7 @@ function Signup() {
     permet d'être sur que les données sont valides au préalable  */
     if (firstName && email && password) {
       axios
-        .post("http://localhost/api/auth/signup", {
+        .post("http://localhost:3000/api/auth/signup", {
           firstName,
           email,
           password,
@@ -41,7 +41,7 @@ function Signup() {
         })
         // enregistrer le hash et permet de sécuriser le mot de passe et de le remplacer ( Crypté ).
         .then((res) => {
-          window.location.href = "http://localhost:3000/login";
+          window.location.href = "http://localhost:3001/login";
         })
         .catch((err) => {
           if (err.status === 400) {

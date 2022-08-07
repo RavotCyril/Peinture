@@ -16,7 +16,6 @@ const path = require('path');
 const userRoutes = require('./routes/user');
 const ficheRoutes = require('./routes/fiche');
 const app = express();
-
 // Middlewares
 /*   
 Configuration des cors (Cross-origin resource sharing) 

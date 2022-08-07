@@ -1,5 +1,5 @@
 /* Protocole de communication client-serveur */
-const http = require('http');
+const https = require('https');
 /* Application */
 const app = require('./app');
 /* Dotenv est un module sans dépendance qui charge les variables d'environnement d'un fichier 
@@ -17,7 +17,7 @@ const normalizePort = val => {
     }
     return false;
 };
-const port = normalizePort(process.env.PORT || '80');
+const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 const errorHandler = error => {
@@ -42,7 +42,7 @@ const errorHandler = error => {
     }
 };
 
-const server = http.createServer(app);
+const server = https.createServer(app);
 
 server.on('error', errorHandler);
 server.on('listening', () => {
