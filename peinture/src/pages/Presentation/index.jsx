@@ -6,12 +6,13 @@ import Loader from "../../components/Loader";
 import EnLhonneurDeBacchus from "../../images/Sans-Bordure/SansBordure-Grande-En-Lhonneur-De-Bacchus.webp";
 import PanierDeFruits from "../../images/TableauxVendu/1997/Panier-De-Fruits.webp";
 import PotPourrisDentelles from "../../images/TableauxVendu/1997/Pot-Pourris-Et-Dentelle.webp";
+import Calligraphie from "../../images/TableauxVendu/1999/Calligraphie.webp";
 import JambonEtPain from "../../images/TableauxVendu/1997/Jambon-Et-Pain.webp";
 import Nocturne from "../../images/TableauxVendu/1999/Nocturne.webp";
 import LeGouter from "../../images/TableauxVendu/2000/Le-Gouter.webp";
 import PetitDejeuner from "../../images/TableauxVendu/2000//Petit-Dejeuner.webp";
-import Reflets from "../../images/Grande-Images/Grande-Reflets-De-Savoie.webp";
-import RefletsDeSavoie from "../../images/Sans-Bordure/SansBordure-Grande-Reflets-De-Savoie.webp";
+import JeuxDhier from "../../images/TableauxVendu/1998/Jeux-Dhier.webp";
+import Reflets from "../../images/Sans-Bordure/SansBordure-Grande-Reflets.webp";
 import CadreDameJeanne from "../../images/TableauxVendu/2004/Cadre-Dame-Jeanne.webp";
 import PichetDoree from "../../images/TableauxVendu/2005/Pipe-Et-Pichet-Doree.webp";
 import CaSePrepare from "../../images/TableauxVendu/2005/Cadre-Ca-Se-Prepare.webp";
@@ -186,26 +187,31 @@ function Presentation() {
               data-target="#carouselControlsNatureMorte"
               data-slide-to="12"
             ></li>
+            <li
+              data-target="#carouselControlsNatureMorte"
+              data-slide-to="13"
+            ></li>
           </ul>
 
           <div className="carousel-inner">
             <figure
-              id="En-Lhonneur-De-Bacchus"
+              id="Jambon et pain"
               className="carousel-item"
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={EnLhonneurDeBacchus}>
+                <a href={JambonEtPain}>
                   <img
                     className="galeriePresentation"
-                    src={EnLhonneurDeBacchus}
-                    alt="En L'honneur De Bacchus"
+                    src={JambonEtPain}
+                    alt="Jambon et pain"
                     title="Cliquez pour agrandir"
-                  ></img>
+                  />
                 </a>
+                <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
               </StyledDiv>
               <figcaption>
-                <h4>En L'honneur De Bacchus</h4>
+                <h4>Jambon et pain</h4>
                 <span className="Dimension-Coeur Compteur">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>
@@ -273,23 +279,50 @@ function Presentation() {
               </figcaption>
             </figure>
             <figure
-              id="Jambon et pain"
+              id="JeuxDhier"
               className="carousel-item"
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={JambonEtPain}>
+                <a href={JeuxDhier}>
                   <img
                     className="galeriePresentation"
-                    src={JambonEtPain}
-                    alt="Jambon et pain"
-                    title="Cliquez pour agrandir"
-                  />
+                    src={JeuxDhier}
+                    alt="Jeux D'hier "
+                  ></img>
                 </a>
                 <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
               </StyledDiv>
               <figcaption>
-                <h4>Jambon et pain</h4>
+                <h4>Jeux D'hier</h4>
+                <span className="Dimension-Coeur Compteur">
+                  <span className="Coeur-Vide-Menu ">
+                    <i className="far fa-heart "></i>
+                  </span>
+                  <span className="Coeur-Plein-Menu-index">
+                    <i className="fas fa-heart "></i>
+                  </span>
+                </span>
+              </figcaption>
+            </figure>
+            <figure
+              id="Calligraphie"
+              className="carousel-item"
+              data-interval="100000"
+            >
+              <StyledDiv theme={theme} className="Div-Illustration">
+                <a href={Calligraphie}>
+                  <img
+                    className="galeriePresentation"
+                    src={Calligraphie}
+                    alt="Calligraphie"
+                    title="Cliquez pour agrandir"
+                  ></img>
+                </a>
+                <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+              </StyledDiv>
+              <figcaption>
+                <h4>Calligraphie</h4>
                 <span className="Dimension-Coeur Compteur">
                   <span className="Coeur-Vide-Menu">
                     <i className="far fa-heart"></i>
@@ -386,43 +419,18 @@ function Presentation() {
             </figure>
             <figure
               id="Reflets"
-              className="carousel-item"
-              data-interval="100000"
+              className="carousel-item "
+              data-interval="100000 "
             >
               <StyledDiv theme={theme} className="Div-Illustration">
                 <a href={Reflets}>
                   <img
                     className="galeriePresentation"
                     src={Reflets}
-                    alt="Reflets "
+                    alt="Reflets"
                   ></img>
                 </a>
-              </StyledDiv>
-              <figcaption>
-                <h4>Reflets</h4>
-                <span className="Dimension-Coeur Compteur">
-                  <span className="Coeur-Vide-Menu ">
-                    <i className="far fa-heart "></i>
-                  </span>
-                  <span className="Coeur-Plein-Menu-index">
-                    <i className="fas fa-heart "></i>
-                  </span>
-                </span>
-              </figcaption>
-            </figure>
-            <figure
-              id="Reflets-De-Savoie "
-              className="carousel-item "
-              data-interval="100000 "
-            >
-              <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={RefletsDeSavoie}>
-                  <img
-                    className="galeriePresentation"
-                    src={RefletsDeSavoie}
-                    alt="Reflets De Savoie "
-                  ></img>
-                </a>
+                <span className="Page-Index-Mot-Vendue-Image ">Vendu</span>
               </StyledDiv>
               <figcaption>
                 <h4>Reflets De Savoie</h4>
@@ -450,7 +458,6 @@ function Presentation() {
                     title="Cliquez pour agrandir "
                   ></img>
                 </a>
-                <span className="Page-Index-Mot-Vendue-Image ">Vendu</span>
               </StyledDiv>
               <figcaption>
                 <h4>Dame Jeanne</h4>
@@ -506,7 +513,6 @@ function Presentation() {
                     title="Cliquez pour agrandir "
                   ></img>
                 </a>
-                <span className="Page-Index-Mot-Vendue-Image ">Vendu</span>
               </StyledDiv>
               <figcaption>
                 <h4>Çà se prépare</h4>
@@ -516,6 +522,36 @@ function Presentation() {
                   </span>
                   <span className="Coeur-Plein-Menu-index ">
                     <i className="fas fa-heart "></i>
+                  </span>
+                </span>
+              </figcaption>
+            </figure>
+            <figure
+              id="En-Lhonneur-De-Bacchus"
+              className="carousel-item"
+              data-interval="100000"
+            >
+              <StyledDiv
+                theme={theme}
+                className="Div-Illustration zoom-in-out-box"
+              >
+                <a href={EnLhonneurDeBacchus}>
+                  <img
+                    className="galeriePresentation"
+                    src={EnLhonneurDeBacchus}
+                    alt="En L'honneur De Bacchus"
+                    title="Cliquez pour agrandir"
+                  ></img>
+                </a>
+              </StyledDiv>
+              <figcaption>
+                <h4>En L'honneur De Bacchus</h4>
+                <span className="Dimension-Coeur Compteur">
+                  <span className="Coeur-Vide-Menu">
+                    <i className="far fa-heart"></i>
+                  </span>
+                  <span className="Coeur-Plein-Menu-index">
+                    <i className="fas fa-heart"></i>
                   </span>
                 </span>
               </figcaption>
