@@ -11,7 +11,7 @@ body
 }
 
 header {
-    background: url(../images/Background-Image/luxe.jpg);
+    background: url(../images/Background-Image/luxe.webp);
     position: fixed;
     width: 100%;
     top: 0px;
@@ -507,7 +507,7 @@ header {
 
 .TitrePresentationIllustration {
     display: flex;
-    background: url(../images/Background-Image/luxe.jpg);
+    background: url(../images/Background-Image/luxe.webp);
     color: #000;
     padding: 15px 0px;
     text-transform: uppercase;
@@ -686,6 +686,10 @@ header {
     color: black;
 }
 
+.Zoom {
+    width: 2880px;
+    height: 2160px;
+}
 
 /* Page-Présentation  style pour l'image de la peinture d'illustration */
 
@@ -1087,7 +1091,7 @@ label {
 }
 
 footer {
-    background: url(../images/Background-Image/luxe.jpg);
+    background: url(../images/Background-Image/luxe.webp);
     background-position-x: 35%;
 }
 

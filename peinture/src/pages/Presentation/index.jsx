@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import Loader from "../../components/Loader";
-import InnerImageZoom from "react-inner-image-zoom";
 
 import EnLhonneurDeBacchus from "../../images/Sans-Bordure/SansBordure-Grande-En-Lhonneur-De-Bacchus.webp";
 import PanierDeFruits from "../../images/TableauxVendu/1997/Panier-De-Fruits.webp";
@@ -196,14 +195,14 @@ function Presentation() {
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <InnerImageZoom
-                  className="galeriePresentation "
-                  src={EnLhonneurDeBacchus}
-                  alt="En L 'honneur De Bacchus"
-                  zoomSrc="test.webp"
-                  title="Cliquer pour zoomé"
-                  fullscreenOnMobile={false}
-                />
+                <a href={EnLhonneurDeBacchus}>
+                  <img
+                    className="galeriePresentation"
+                    src={EnLhonneurDeBacchus}
+                    alt="En L'honneur De Bacchus"
+                    title="Cliquez pour agrandir"
+                  ></img>
+                </a>
               </StyledDiv>
               <figcaption>
                 <h4>En L'honneur De Bacchus</h4>

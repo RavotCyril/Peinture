@@ -54,7 +54,7 @@ function Header() {
   useEffect(() => {
     axios({
       method: "get",
-      url: "http://localhost:3000/api/user/" + user_id,
+      url: "https://localhost:3000/api/user/" + user_id,
     })
       .then((user) => {
         setUser(user.data);
@@ -72,11 +72,11 @@ function Header() {
 
   function toUnsubscribe() {
     axios
-      .delete("http://localhost:3000/api/user/" + user_id, configData)
+      .delete("https://localhost:3000/api/user/" + user_id, configData)
       .then((user) => {
         console.log(user);
         localStorage.clear();
-        window.location.href = "http://localhost:3001/Signup";
+        window.location.href = "https://localhost:3001/Signup";
       })
       .catch((err) => {
         if (err.response.status === 400) {
