@@ -3,9 +3,9 @@ import React from "react";
 
 import AvantLeDepart from "../../images/Grande-Images/Grande-Image-Avant-Le-Départ.webp";
 import ChocolatChaud from "../../images/Grande-Images/Grande-Cafe-Et-Chocolat.webp";
-import SouvenirsMarin from "../../images/TableauxVendu/1998/Cadre-Souvenirs-Marin.jpg";
-import Dentiste from "../../images/TableauxVendu/2002/Dentiste.jpg";
-import BelleEpoque from "../../images/TableauxVendu/1997/Belle-Epoque.jpg";
+import SouvenirsMarin from "../../images/TableauxVendu/1998/Cadre-Souvenirs-Marin.webp";
+import Dentiste from "../../images/TableauxVendu/2002/Dentiste.webp";
+import BelleEpoque from "../../images/TableauxVendu/1997/Belle-Epoque.webp";
 
 function VosDesirs() {
   return (

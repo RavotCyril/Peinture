@@ -2,14 +2,14 @@
 import React from "react";
 
 /* Importations Images  */
-import PrixMireilleRossignol from "../../PhotosRevueDePresse/Prix-Mireille-Rossignol.jpg";
-import PrixPeintureTerroirDeFrance from "../../PhotosRevueDePresse/Prix-Peinture-Terroir-De-France.jpg";
-import DeuxVourloisAuLUCAO from "../../PhotosRevueDePresse/Deux-Vourlois-A-LUCAO.jpg";
-import LaMontagneSaccroche from "../../PhotosRevueDePresse/La-Montagne-Saccroche.jpg";
-import UnePaletteDePeintureAmateur from "../../PhotosRevueDePresse/Une-Palette-De-Peintre-Amateur.jpg";
-import TroisArtistesVourloisALaMaisonDePays from "../../PhotosRevueDePresse/Trois-Artistes-Vourlois-A-La-Maison-De-Pays.jpg";
-import AuCoeurDeVourlesLePetitDejeuner from "../../PhotosRevueDePresse/Au-Coeur-De-Vourles-Le-Petit-Dejeuner.jpg";
-import PremierPrix2006PeintureCaSePrepare from "../../PhotosRevueDePresse/1er-Prix-2006-Peinture-Ca-Se-Prepare.jpg";
+import PrixMireilleRossignol from "../../PhotosRevueDePresse/Prix-Mireille-Rossignol.webp";
+import PrixPeintureTerroirDeFrance from "../../PhotosRevueDePresse/Prix-Peinture-Terroir-De-France.webp";
+import DeuxVourloisAuLUCAO from "../../PhotosRevueDePresse/Deux-Vourlois-A-LUCAO.webp";
+import LaMontagneSaccroche from "../../PhotosRevueDePresse/La-Montagne-Saccroche.webp";
+import UnePaletteDePeintureAmateur from "../../PhotosRevueDePresse/Une-Palette-De-Peintre-Amateur.webp";
+import TroisArtistesVourloisALaMaisonDePays from "../../PhotosRevueDePresse/Trois-Artistes-Vourlois-A-La-Maison-De-Pays.webp";
+import AuCoeurDeVourlesLePetitDejeuner from "../../PhotosRevueDePresse/Au-Coeur-De-Vourles-Le-Petit-Dejeuner.webp";
+import PremierPrix2006PeintureCaSePrepare from "../../PhotosRevueDePresse/1er-Prix-2006-Peinture-Ca-Se-Prepare.webp";
 
 function RevueDePresse() {
   return (
