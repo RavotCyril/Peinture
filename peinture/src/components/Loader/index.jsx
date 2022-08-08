@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import GifMireilleRossignol from "../../images/Animations/Vanilla-1s-1920px.png";
+import GifMireilleRossignol from "../../images/Animations/Vanilla-1s-1920px.webp";
 import OrangesEtDentellePresentation from "../../images/Sans-Bordure/SansBordure-Grande-Oranges-Et-Dentelle.webp";
 import GrandeAiguierePresentation from "../../images/Sans-Bordure/SansBordure-Grande-Aiguiere.webp";
 import SouvenirsMarinsPresentation from "../../images/Sans-Bordure/SansBordure-Grande-Image-Souvenirs-Marins.webp";
