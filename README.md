@@ -1,4 +1,4 @@
-Peinture
+# Peinture
 
 Pour démarrer le projet.
 
