@@ -464,6 +464,17 @@ header {
     margin: 0px auto;
 }
 
+#carouselControlsNatureMorte a,
+#carouselControlsVelours a {
+    color: black;
+}
+
+.FullScreen {
+    font-size: 2.5rem;
+    bottom: 65px;
+    right: 33px;
+    position: absolute;
+}
 
 /* Les listes d'indications ou on se situe dans le carousel  (Nature Morte + Velours )*/
 
@@ -1284,7 +1295,6 @@ footer a {
     font-size: 0.8rem;
 }
 
-
 /* Page-Index Span du mot Vendue en absolue pour le mettre sur les photos des peintures*/
 
 .Page-Index-Mot-Vendue-Image {
@@ -1812,6 +1822,13 @@ footer a {
         margin: 0px auto;
     }
 
+    .FullScreen {
+        font-size: 1.5rem;
+        bottom: 85px;
+        right: 33px;
+        position: absolute;
+    }
+
     /* Page-Présentation paragraphe du figcaption */
     .Illustration figcaption h2 {
         text-align: center;
@@ -2149,6 +2166,13 @@ footer a {
         height: auto;
         overflow: hidden;
         margin: 0px auto;
+    }
+
+    .FullScreen {
+        font-size: 1rem;
+        top: 30px;
+        right: 18px;
+        position: absolute;
     }
 
     /* Page-Présentation paragraphe du figcaption */

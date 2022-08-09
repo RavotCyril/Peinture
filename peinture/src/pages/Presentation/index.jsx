@@ -6,6 +6,10 @@ import {
   TransformComponent,
   TransformWrapper,
 } from "@pronestor/react-zoom-pan-pinch";
+// /* Importations des pages de styles + images */
+/* Styles CSS  Profil ( Prénom plus inscription - deconnection ) + Fermeture Article Admin  */
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExpand } from "@fortawesome/free-solid-svg-icons";
 
 import EnLhonneurDeBacchus from "../../images/Sans-Bordure/SansBordure-Grande-En-Lhonneur-De-Bacchus.webp";
 import PanierDeFruits from "../../images/TableauxVendu/1997/Panier-De-Fruits.webp";
@@ -203,6 +207,11 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
+              <a href={JambonEtPain}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
@@ -235,18 +244,21 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
+              <a href={PanierDeFruits}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={PanierDeFruits}>
-                        <img
-                          className="galeriePresentation"
-                          src={PanierDeFruits}
-                          alt="Panier de fruits"
-                          title="Cliquez pour agrandir"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={PanierDeFruits}
+                        alt="Panier de fruits"
+                        title="Cliquez pour agrandir"
+                      ></img>
                       <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
                     </TransformComponent>
                   </React.Fragment>
@@ -269,18 +281,21 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
+              <a href={PotPourrisDentelles}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={PotPourrisDentelles}>
-                        <img
-                          className="galeriePresentation"
-                          src={PotPourrisDentelles}
-                          alt="Pot pourris et dentelle"
-                          title="Cliquez pour agrandir"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={PotPourrisDentelles}
+                        alt="Pot pourris et dentelle"
+                        title="Cliquez pour agrandir"
+                      ></img>
                       <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
                     </TransformComponent>
                   </React.Fragment>
@@ -303,17 +318,20 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
+              <a href={JeuxDhier}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={JeuxDhier}>
-                        <img
-                          className="galeriePresentation"
-                          src={JeuxDhier}
-                          alt="Jeux D'hier "
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={JeuxDhier}
+                        alt="Jeux D'hier "
+                      ></img>
                       <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
                     </TransformComponent>
                   </React.Fragment>
@@ -336,18 +354,21 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
+              <a href={Calligraphie}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={Calligraphie}>
-                        <img
-                          className="galeriePresentation"
-                          src={Calligraphie}
-                          alt="Calligraphie"
-                          title="Cliquez pour agrandir"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={Calligraphie}
+                        alt="Calligraphie"
+                        title="Cliquez pour agrandir"
+                      ></img>
                       <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
                     </TransformComponent>
                   </React.Fragment>
@@ -370,18 +391,21 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
+              <a href={Nocturne}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={Nocturne}>
-                        <img
-                          className="galeriePresentation"
-                          src={Nocturne}
-                          alt="Nocturne"
-                          title="Cliquez pour agrandir"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={Nocturne}
+                        alt="Nocturne"
+                        title="Cliquez pour agrandir"
+                      ></img>
                       <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
                     </TransformComponent>
                   </React.Fragment>
@@ -404,18 +428,21 @@ function Presentation() {
               className="carousel-item"
               data-interval=" 100000 "
             >
+              <a href={LeGouter}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={LeGouter}>
-                        <img
-                          className="galeriePresentation"
-                          src={LeGouter}
-                          alt="Le Goûter"
-                          title="Cliquez pour agrandir"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={LeGouter}
+                        alt="Le Goûter"
+                        title="Cliquez pour agrandir"
+                      ></img>
                       <span className="Page-Index-Mot-Vendue-Image ">
                         Vendu
                       </span>
@@ -440,18 +467,21 @@ function Presentation() {
               className="carousel-item active"
               data-interval="100000"
             >
+              <a theme={theme} href={PetitDejeuner}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a theme={theme} href={PetitDejeuner}>
-                        <img
-                          className="galeriePresentation"
-                          src={PetitDejeuner}
-                          alt="Petit déjeuner"
-                          title="Cliquez pour agrandir"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={PetitDejeuner}
+                        alt="Petit déjeuner"
+                        title="Cliquez pour agrandir"
+                      ></img>
                       <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
                     </TransformComponent>
                   </React.Fragment>
@@ -474,17 +504,20 @@ function Presentation() {
               className="carousel-item "
               data-interval="100000 "
             >
+              <a href={Reflets}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={Reflets}>
-                        <img
-                          className="galeriePresentation"
-                          src={Reflets}
-                          alt="Reflets"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={Reflets}
+                        alt="Reflets"
+                      ></img>
                       <span className="Page-Index-Mot-Vendue-Image ">
                         Vendu
                       </span>
@@ -505,22 +538,25 @@ function Presentation() {
               </figcaption>
             </figure>
             <figure
-              id="Dame-Jeanne "
-              className="carousel-item "
-              data-interval="100000 "
+              id="Dame-Jeanne"
+              className="carousel-item"
+              data-interval="100000"
             >
+              <a href={CadreDameJeanne}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration ">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={CadreDameJeanne}>
-                        <img
-                          className="galeriePresentation "
-                          src={CadreDameJeanne}
-                          alt="Dame Jeanne "
-                          title="Cliquez pour agrandir "
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation "
+                        src={CadreDameJeanne}
+                        alt="Dame Jeanne "
+                        title="Cliquez pour agrandir "
+                      ></img>
                     </TransformComponent>
                   </React.Fragment>
                 </TransformWrapper>
@@ -542,18 +578,21 @@ function Presentation() {
               className="carousel-item "
               data-interval="100000 "
             >
+              <a href={PichetDoree}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration ">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={PichetDoree}>
-                        <img
-                          className="galeriePresentation "
-                          src={PichetDoree}
-                          alt="Pipe et pichet doré "
-                          title="Cliquez pour agrandir "
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation "
+                        src={PichetDoree}
+                        alt="Pipe et pichet doré "
+                        title="Cliquez pour agrandir "
+                      ></img>
                       <span className="Page-Index-Mot-Vendue-Image ">
                         Vendu
                       </span>
@@ -578,18 +617,21 @@ function Presentation() {
               className="carousel-item "
               data-interval="100000 "
             >
+              <a href={CaSePrepare}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration ">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={CaSePrepare}>
-                        <img
-                          className="galeriePresentation "
-                          src={CaSePrepare}
-                          alt="Çà se prépare "
-                          title="Cliquez pour agrandir "
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation "
+                        src={CaSePrepare}
+                        alt="Çà se prépare "
+                        title="Cliquez pour agrandir "
+                      ></img>
                     </TransformComponent>
                   </React.Fragment>
                 </TransformWrapper>
@@ -611,6 +653,11 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
+              <a href={EnLhonneurDeBacchus}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv
                 theme={theme}
                 className="Div-Illustration zoom-in-out-box"
@@ -618,14 +665,12 @@ function Presentation() {
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={EnLhonneurDeBacchus}>
-                        <img
-                          className="galeriePresentation"
-                          src={EnLhonneurDeBacchus}
-                          alt="En L'honneur De Bacchus"
-                          title="Cliquez pour agrandir"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={EnLhonneurDeBacchus}
+                        alt="En L'honneur De Bacchus"
+                        title="Cliquez pour agrandir"
+                      ></img>
                     </TransformComponent>
                   </React.Fragment>
                 </TransformWrapper>
@@ -647,17 +692,20 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000 "
             >
+              <a href={FruitsDautomne}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={FruitsDautomne}>
-                        <img
-                          className="galeriePresentation"
-                          src={FruitsDautomne}
-                          alt="Fruits Dautomne"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={FruitsDautomne}
+                        alt="Fruits Dautomne"
+                      ></img>
                     </TransformComponent>
                   </React.Fragment>
                 </TransformWrapper>
@@ -727,17 +775,20 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
+              <a href={Cheval}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={Cheval}>
-                        <img
-                          className="galeriePresentation"
-                          src={Cheval}
-                          alt="Cheval"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={Cheval}
+                        alt="Cheval"
+                      ></img>
                     </TransformComponent>
                   </React.Fragment>
                 </TransformWrapper>
@@ -760,17 +811,20 @@ function Presentation() {
               className="carousel-item active"
               data-interval="100000"
             >
+              <a href={Chien}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={Chien}>
-                        <img
-                          className="galeriePresentation"
-                          src={Chien}
-                          alt="Chien"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={Chien}
+                        alt="Chien"
+                      ></img>
                     </TransformComponent>
                   </React.Fragment>
                 </TransformWrapper>
@@ -789,17 +843,20 @@ function Presentation() {
               </figcaption>
             </figure>
             <figure id="Iris" className="carousel-item" data-interval="100000">
+              <a href={Iris}>
+                <div className="FullScreen" title="Mode plein écran">
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
+              </a>
               <StyledDiv theme={theme} className="Div-Illustration">
                 <TransformWrapper>
                   <React.Fragment>
                     <TransformComponent>
-                      <a href={Iris}>
-                        <img
-                          className="galeriePresentation"
-                          src={Iris}
-                          alt="Iris"
-                        ></img>
-                      </a>
+                      <img
+                        className="galeriePresentation"
+                        src={Iris}
+                        alt="Iris"
+                      ></img>
                     </TransformComponent>
                   </React.Fragment>
                 </TransformWrapper>
