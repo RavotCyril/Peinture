@@ -5,6 +5,7 @@ Pour démarrer le projet.
 Installation de Npm ou Yarn. ( En global ou dans le dossier du projet ).
 
 Npm Install ou Yarn Start
+
 frontend :
 
 Allé dans le dossier peinture. A la racine du projet faire cd peinture
