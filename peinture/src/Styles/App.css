@@ -554,11 +554,12 @@ header {
 .galeriePresentation {
     width: 100%;
     height: 100%;
-    object-position: center;
     object-fit: cover;
-    cursor: zoom-in;
 }
 
+.react-transform-component {
+    cursor: zoom-in;
+}
 
 /* -> Page Index ( Présentation ) Class pour mettre le H2 principal de la section de la bibliographie en majuscule */
 

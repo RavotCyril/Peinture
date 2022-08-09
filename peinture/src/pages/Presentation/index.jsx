@@ -2,6 +2,10 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import Loader from "../../components/Loader";
+import {
+  TransformComponent,
+  TransformWrapper,
+} from "@pronestor/react-zoom-pan-pinch";
 
 import EnLhonneurDeBacchus from "../../images/Sans-Bordure/SansBordure-Grande-En-Lhonneur-De-Bacchus.webp";
 import PanierDeFruits from "../../images/TableauxVendu/1997/Panier-De-Fruits.webp";
@@ -200,15 +204,19 @@ function Presentation() {
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={JambonEtPain}>
-                  <img
-                    className="galeriePresentation"
-                    src={JambonEtPain}
-                    alt="Jambon et pain"
-                    title="Cliquez pour agrandir"
-                  />
-                </a>
-                <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <img
+                        className="galeriePresentation"
+                        src={JambonEtPain}
+                        alt="Jambon et pain"
+                        title="Cliquez pour agrandir"
+                      />
+                      <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Jambon et pain</h4>
@@ -228,15 +236,21 @@ function Presentation() {
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={PanierDeFruits}>
-                  <img
-                    className="galeriePresentation"
-                    src={PanierDeFruits}
-                    alt="Panier de fruits"
-                    title="Cliquez pour agrandir"
-                  ></img>
-                </a>
-                <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={PanierDeFruits}>
+                        <img
+                          className="galeriePresentation"
+                          src={PanierDeFruits}
+                          alt="Panier de fruits"
+                          title="Cliquez pour agrandir"
+                        ></img>
+                      </a>
+                      <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Panier de fruits</h4>
@@ -256,15 +270,21 @@ function Presentation() {
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={PotPourrisDentelles}>
-                  <img
-                    className="galeriePresentation"
-                    src={PotPourrisDentelles}
-                    alt="Pot pourris et dentelle"
-                    title="Cliquez pour agrandir"
-                  ></img>
-                </a>
-                <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={PotPourrisDentelles}>
+                        <img
+                          className="galeriePresentation"
+                          src={PotPourrisDentelles}
+                          alt="Pot pourris et dentelle"
+                          title="Cliquez pour agrandir"
+                        ></img>
+                      </a>
+                      <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Pot pourris et dentelle</h4>
@@ -284,14 +304,20 @@ function Presentation() {
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={JeuxDhier}>
-                  <img
-                    className="galeriePresentation"
-                    src={JeuxDhier}
-                    alt="Jeux D'hier "
-                  ></img>
-                </a>
-                <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={JeuxDhier}>
+                        <img
+                          className="galeriePresentation"
+                          src={JeuxDhier}
+                          alt="Jeux D'hier "
+                        ></img>
+                      </a>
+                      <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Jeux D'hier</h4>
@@ -311,15 +337,21 @@ function Presentation() {
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={Calligraphie}>
-                  <img
-                    className="galeriePresentation"
-                    src={Calligraphie}
-                    alt="Calligraphie"
-                    title="Cliquez pour agrandir"
-                  ></img>
-                </a>
-                <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={Calligraphie}>
+                        <img
+                          className="galeriePresentation"
+                          src={Calligraphie}
+                          alt="Calligraphie"
+                          title="Cliquez pour agrandir"
+                        ></img>
+                      </a>
+                      <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Calligraphie</h4>
@@ -339,15 +371,21 @@ function Presentation() {
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={Nocturne}>
-                  <img
-                    className="galeriePresentation"
-                    src={Nocturne}
-                    alt="Nocturne"
-                    title="Cliquez pour agrandir"
-                  ></img>
-                </a>
-                <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={Nocturne}>
+                        <img
+                          className="galeriePresentation"
+                          src={Nocturne}
+                          alt="Nocturne"
+                          title="Cliquez pour agrandir"
+                        ></img>
+                      </a>
+                      <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Nocturne</h4>
@@ -367,15 +405,23 @@ function Presentation() {
               data-interval=" 100000 "
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={LeGouter}>
-                  <img
-                    className="galeriePresentation"
-                    src={LeGouter}
-                    alt="Le Goûter"
-                    title="Cliquez pour agrandir"
-                  ></img>
-                </a>
-                <span className="Page-Index-Mot-Vendue-Image ">Vendu</span>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={LeGouter}>
+                        <img
+                          className="galeriePresentation"
+                          src={LeGouter}
+                          alt="Le Goûter"
+                          title="Cliquez pour agrandir"
+                        ></img>
+                      </a>
+                      <span className="Page-Index-Mot-Vendue-Image ">
+                        Vendu
+                      </span>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Le goûter</h4>
@@ -395,15 +441,21 @@ function Presentation() {
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a theme={theme} href={PetitDejeuner}>
-                  <img
-                    className="galeriePresentation"
-                    src={PetitDejeuner}
-                    alt="Petit déjeuner"
-                    title="Cliquez pour agrandir"
-                  ></img>
-                </a>
-                <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a theme={theme} href={PetitDejeuner}>
+                        <img
+                          className="galeriePresentation"
+                          src={PetitDejeuner}
+                          alt="Petit déjeuner"
+                          title="Cliquez pour agrandir"
+                        ></img>
+                      </a>
+                      <span className="Page-Index-Mot-Vendue-Image">Vendu</span>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Petit déjeuner</h4>
@@ -423,14 +475,22 @@ function Presentation() {
               data-interval="100000 "
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={Reflets}>
-                  <img
-                    className="galeriePresentation"
-                    src={Reflets}
-                    alt="Reflets"
-                  ></img>
-                </a>
-                <span className="Page-Index-Mot-Vendue-Image ">Vendu</span>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={Reflets}>
+                        <img
+                          className="galeriePresentation"
+                          src={Reflets}
+                          alt="Reflets"
+                        ></img>
+                      </a>
+                      <span className="Page-Index-Mot-Vendue-Image ">
+                        Vendu
+                      </span>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Reflets De Savoie</h4>
@@ -450,14 +510,20 @@ function Presentation() {
               data-interval="100000 "
             >
               <StyledDiv theme={theme} className="Div-Illustration ">
-                <a href={CadreDameJeanne}>
-                  <img
-                    className="galeriePresentation "
-                    src={CadreDameJeanne}
-                    alt="Dame Jeanne "
-                    title="Cliquez pour agrandir "
-                  ></img>
-                </a>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={CadreDameJeanne}>
+                        <img
+                          className="galeriePresentation "
+                          src={CadreDameJeanne}
+                          alt="Dame Jeanne "
+                          title="Cliquez pour agrandir "
+                        ></img>
+                      </a>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Dame Jeanne</h4>
@@ -477,15 +543,23 @@ function Presentation() {
               data-interval="100000 "
             >
               <StyledDiv theme={theme} className="Div-Illustration ">
-                <a href={PichetDoree}>
-                  <img
-                    className="galeriePresentation "
-                    src={PichetDoree}
-                    alt="Pipe et pichet doré "
-                    title="Cliquez pour agrandir "
-                  ></img>
-                </a>
-                <span className="Page-Index-Mot-Vendue-Image ">Vendu</span>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={PichetDoree}>
+                        <img
+                          className="galeriePresentation "
+                          src={PichetDoree}
+                          alt="Pipe et pichet doré "
+                          title="Cliquez pour agrandir "
+                        ></img>
+                      </a>
+                      <span className="Page-Index-Mot-Vendue-Image ">
+                        Vendu
+                      </span>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Pipe et un pichet doré</h4>
@@ -505,14 +579,20 @@ function Presentation() {
               data-interval="100000 "
             >
               <StyledDiv theme={theme} className="Div-Illustration ">
-                <a href={CaSePrepare}>
-                  <img
-                    className="galeriePresentation "
-                    src={CaSePrepare}
-                    alt="Çà se prépare "
-                    title="Cliquez pour agrandir "
-                  ></img>
-                </a>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={CaSePrepare}>
+                        <img
+                          className="galeriePresentation "
+                          src={CaSePrepare}
+                          alt="Çà se prépare "
+                          title="Cliquez pour agrandir "
+                        ></img>
+                      </a>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Çà se prépare</h4>
@@ -535,14 +615,20 @@ function Presentation() {
                 theme={theme}
                 className="Div-Illustration zoom-in-out-box"
               >
-                <a href={EnLhonneurDeBacchus}>
-                  <img
-                    className="galeriePresentation"
-                    src={EnLhonneurDeBacchus}
-                    alt="En L'honneur De Bacchus"
-                    title="Cliquez pour agrandir"
-                  ></img>
-                </a>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={EnLhonneurDeBacchus}>
+                        <img
+                          className="galeriePresentation"
+                          src={EnLhonneurDeBacchus}
+                          alt="En L'honneur De Bacchus"
+                          title="Cliquez pour agrandir"
+                        ></img>
+                      </a>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>En L'honneur De Bacchus</h4>
@@ -562,13 +648,19 @@ function Presentation() {
               data-interval="100000 "
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={FruitsDautomne}>
-                  <img
-                    className="galeriePresentation"
-                    src={FruitsDautomne}
-                    alt="Fruits Dautomne"
-                  ></img>
-                </a>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={FruitsDautomne}>
+                        <img
+                          className="galeriePresentation"
+                          src={FruitsDautomne}
+                          alt="Fruits Dautomne"
+                        ></img>
+                      </a>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Fruits D'automne</h4>
@@ -636,13 +728,19 @@ function Presentation() {
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={Cheval}>
-                  <img
-                    className="galeriePresentation"
-                    src={Cheval}
-                    alt="Cheval"
-                  ></img>
-                </a>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={Cheval}>
+                        <img
+                          className="galeriePresentation"
+                          src={Cheval}
+                          alt="Cheval"
+                        ></img>
+                      </a>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Cheval</h4>
@@ -663,13 +761,19 @@ function Presentation() {
               data-interval="100000"
             >
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={Chien}>
-                  <img
-                    className="galeriePresentation"
-                    src={Chien}
-                    alt="Chien"
-                  ></img>
-                </a>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={Chien}>
+                        <img
+                          className="galeriePresentation"
+                          src={Chien}
+                          alt="Chien"
+                        ></img>
+                      </a>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Chien</h4>
@@ -686,13 +790,19 @@ function Presentation() {
             </figure>
             <figure id="Iris" className="carousel-item" data-interval="100000">
               <StyledDiv theme={theme} className="Div-Illustration">
-                <a href={Iris}>
-                  <img
-                    className="galeriePresentation"
-                    src={Iris}
-                    alt="Iris"
-                  ></img>
-                </a>
+                <TransformWrapper>
+                  <React.Fragment>
+                    <TransformComponent>
+                      <a href={Iris}>
+                        <img
+                          className="galeriePresentation"
+                          src={Iris}
+                          alt="Iris"
+                        ></img>
+                      </a>
+                    </TransformComponent>
+                  </React.Fragment>
+                </TransformWrapper>
               </StyledDiv>
               <figcaption>
                 <h4>Iris</h4>
