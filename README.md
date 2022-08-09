@@ -15,7 +15,7 @@ Allé dans le dossier peinture. A la racine du projet faire cd peinture
 
 -> yarn start
 
-#backend :
+# backend :
 
 Allé dans le dossier Backend. A la racine du projet faire cd backend
 
@@ -24,7 +24,7 @@ Allé dans le dossier Backend. A la racine du projet faire cd backend
 ->Vérifier que nodemon est bien installé ou l'installer nodemon avec : npm install -g nodemon
 
 -> nodemon server
-Bade de données :
+# Base de données :
 
 Intallation de MySQL :
 
