@@ -465,7 +465,8 @@ header {
 }
 
 #carouselControlsNatureMorte a,
-#carouselControlsVelours a {
+#carouselControlsVelours a,
+.Galerie a {
     color: black;
 }
 
@@ -477,10 +478,8 @@ header {
 }
 
 .FullScreenMesCreations {
+    text-align: right;
     font-size: 1.5rem;
-    top: 0px;
-    right: 33px;
-    position: absolute;
 }
 
 /* Les listes d'indications ou on se situe dans le carousel  (Nature Morte + Velours )*/
@@ -1234,7 +1233,6 @@ footer a {
     height: 100%;
     object-position: center;
     object-fit: cover;
-    cursor: zoom-in;
 }
 
 
@@ -1258,8 +1256,8 @@ footer a {
     margin: 16px 40px;
 }
 
-.Galerie figure {
-    position: relative;
+.Galerie .DivFullScreen {
+    height: 25px;
 }
 
 /* Page-Creation  Div de la Section galerie*/
@@ -1970,6 +1968,12 @@ footer a {
         margin: 0px auto;
         padding: 10px 0px 50px 0px;
         background: #ba967b;
+    }
+
+    /* Page-Creation  Images de la Section galerie*/
+
+    .Galerie img {
+        cursor: zoom-in;
     }
 
     /* Page-Creations Class pour mettre des styles à la Section Galerie  */
