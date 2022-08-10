@@ -41,7 +41,7 @@ function Signup() {
         })
         // enregistrer le hash et permet de sécuriser le mot de passe et de le remplacer ( Crypté ).
         .then((res) => {
-          window.location.href = "https://localhost:3001/login";
+          window.location.href = "https://api.rossignol-peinture.fr/login";
         })
         .catch((err) => {
           if (err.status === 400) {

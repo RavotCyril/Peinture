@@ -76,7 +76,7 @@ function Header() {
       .then((user) => {
         console.log(user);
         localStorage.clear();
-        window.location.href = "https://localhost:3001/Signup";
+        window.location.href = "https://api.rossignol-peinture.fr/Signup";
       })
       .catch((err) => {
         if (err.response.status === 400) {
