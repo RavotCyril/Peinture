@@ -6,8 +6,10 @@ import {
   TransformComponent,
   TransformWrapper,
 } from "@pronestor/react-zoom-pan-pinch";
+
 // /* Importations des pages de styles + images */
-/* Styles CSS  Profil ( Prénom plus inscription - deconnection ) + Fermeture Article Admin  */
+/* Styles CSS  Icon Full Screen   */
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExpand } from "@fortawesome/free-solid-svg-icons";
 

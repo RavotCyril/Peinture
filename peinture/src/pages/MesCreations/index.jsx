@@ -1,9 +1,18 @@
 /* Importations Bibliothèques React-router-dom  */
 import React from "react";
 import { NavLink } from "react-router-dom";
+import {
+  TransformComponent,
+  TransformWrapper,
+} from "@pronestor/react-zoom-pan-pinch";
+// /* Importations des pages de styles + images */
+/* Styles CSS  Icon Full Screen   */
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExpand } from "@fortawesome/free-solid-svg-icons";
 
 import OrangesEtDentelle from "../../images/Sans-Bordure/SansBordure-Grande-Oranges-Et-Dentelle.webp";
-import GrandeAiguiere from "../../images/Grande-Images/Grande-Aiguiere.webp";
+import GrandeAiguiere from "../../images/Sans-Bordure/SansBordure-Grande-Aiguiere.webp";
 import SouvenirsMarins from "../../images/Sans-Bordure/SansBordure-Grande-Image-Souvenirs-Marins.webp";
 import CerisesEtFraises from "../../images/Sans-Bordure/SansBordure-Grande-Cerises-Et-Fraises.webp";
 import UnPetitNoir from "../../images/Sans-Bordure/SansBordure-Grande-Un-ptit-noir.webp";
@@ -15,32 +24,32 @@ import GrandeFruitsDautomne from "../../images/Sans-Bordure/SansBordure-Grande-F
 import Chien from "../../images/Grande-Images/Chien.webp";
 import Cheval from "../../images/Grande-Images/Cheval.webp";
 import Iris from "../../images/Grande-Images/Iris.webp";
-import TeckelSurVelours from "../../images/Grande-Images/Grande-Jeune-Teckel-Sur-Velours.webp";
-import BebeYorkshireSurVelours from "../../images/Grande-Images/Grande-Bebe-Yorkshire-Sur-Velours.webp";
-import CanicheAbricotSurVelours from "../../images/Grande-Images/Grande-Caniche-Abricot-Sur-Velours.webp";
-import CanicheBlancSurVelours from "../../images/Grande-Images/Grande-Caniche-Blanc-Sur-Velours.webp";
-import CanicheGrisSurVelours from "../../images/Grande-Images/Grande-Caniche-Gris-Sur-Velours.webp";
-import GrandeChouetteSurVelours from "../../images/Grande-Images/Grande-Chouette-Sur-Velours.webp";
-import EnLhonneurDeBacchus from "../../images/Grande-Images/Grande-En-Lhonneur-De-Bacchus.webp";
-import YorkshireSurVelours from "../../images/Grande-Images/Grande-Bebe-Yorkshire-Sur-Velours.webp";
-import GuepierSurVelours from "../../images/Grande-Images/Grande-Guepier-Sur-Velours.webp";
-import OiseauBleuSurVelours from "../../images/Grande-Images/Grande-Oiseau-Bleu-Sur-Velours.webp";
-import HamsterSurVelours from "../../images/Grande-Images/Grande-Hamster-Sur-Velours.webp";
-import TerroirDeFrance from "../../images/TableauxVendu/1998/Cadre-Terroirs-De-France.webp";
-import BleuPorcelaine from "../../images/TableauxVendu/1998/Cadre-Bleu-Porcelaine.webp";
-import CadreDameJeanne from "../../images/TableauxVendu/2004/Cadre-Dame-Jeanne.webp";
-import PlumeOeufDargent from "../../images/TableauxVendu/2007/Cadre-Plume-Et-oeuf-Dargent.webp";
-import VieilleDentelles from "../../images/TableauxVendu/2007/Cadre-Vieilles-Dentelles.webp";
-import ChocolatChaud from "../../images/TableauxVendu/2008/Cadre-Chocolat-Chaud.webp";
-import CafeChocolat from "../../images/TableauxVendu/2008/Cadre-Cafe-Chocolat.webp";
-import AvantLeDepart from "../../images/TableauxVendu/2004/Avant-Le-Depart.webp";
-import VinDeSavoie from "../../images/TableauxVendu/2008/Cadre-Vin-De-Savoie.webp";
-import RefletsDeSavoies from "../../images/TableauxVendu/2004/Reflets-De-savoies.webp";
-import CaSePrepare from "../../images/TableauxVendu/2005/Cadre-Ca-Se-Prepare.webp";
-import OutilsDantan from "../../images/TableauxVendu/2007/Cadre-Outils-dantan.webp";
-import PainEtConfiture from "../../images/TableauxVendu/2002/Pain-Et-Confiture.webp";
-import UneAutreEpoque from "../../images/TableauxVendu/2002/Cadre-Une-Autre-Epoque.webp";
-import Felins from "../../images/TableauxVendu/2007/Cadre-Felins.webp";
+import TeckelSurVelours from "../../images/Sans-Bordure/SansBordure-Grande-Jeune-Teckel-Sur-Velours.webp";
+import BebeYorkshireSurVelours from "../../images/Sans-Bordure/SansBordure-Grande-Bebe-Yorkshire-Sur-Velours.webp";
+import CanicheAbricotSurVelours from "../../images/Sans-Bordure/SansBordure-Grande-Caniche-Abricot-Sur-Velours.webp";
+import CanicheBlancSurVelours from "../../images/Sans-Bordure/SansBordure-Grande-Caniche-Blanc-Sur-Velours.webp";
+import CanicheGrisSurVelours from "../../images/Sans-Bordure/SansBordure-Grande-Caniche-Gris-Sur-Velours.webp";
+import GrandeChouetteSurVelours from "../../images/Sans-Bordure/SansBordure-Grande-Chouette-Sur-Velours.webp";
+import EnLhonneurDeBacchus from "../../images/Sans-Bordure/SansBordure-Grande-En-Lhonneur-De-Bacchus.webp";
+import YorkshireSurVelours from "../../images/Sans-Bordure/SansBordure-Grande-Yorkshire-Sur-Velours.webp";
+import GuepierSurVelours from "../../images/Sans-Bordure/SansBordure-Grande-Guepier-Sur-Velours.webp";
+import OiseauBleuSurVelours from "../../images/Sans-Bordure/SansBordure-Grande-Oiseau-Bleu-Sur-Velours.webp";
+import HamsterSurVelours from "../../images/Sans-Bordure/SansBordure-Grande-Hamster-Sur-Velours.webp";
+import TerroirDeFrance from "../../images/Sans-Bordure/SansBordure-Grande-Terroirs-De-France.webp";
+import BleuPorcelaine from "../../images/Sans-Bordure/SansBordure-Grande-Bleu-Porcelaine.webp";
+import CadreDameJeanne from "../../images/Sans-Bordure/SansBordure-Grande-Dame-Jeanne.webp";
+import PlumeOeufDargent from "../../images/Sans-Bordure/SansBordure-Grande-Plume-et-oeuf-dargent.webp";
+import VieilleDentelles from "../../images/Sans-Bordure/SansBordure-Grande-Vieilles-dentelles.webp";
+import ChocolatChaud from "../../images/Sans-Bordure/SansBordure-Grande-Image-Chocolat-chaud.webp";
+import CafeChocolat from "../../images/Sans-Bordure/SansBordure-Grande-Cafe-Et-Chocolat.webp";
+import AvantLeDepart from "../../images/Sans-Bordure/SansBordure-Grande-Image-Avant-Le-Départ.webp";
+import VinDeSavoie from "../../images/Sans-Bordure/SansBordure-Grande-Vin-De-Savoie-Desir.webp";
+import RefletsDeSavoies from "../../images/Sans-Bordure/SansBordure-Grande-Reflets-De-Savoie.webp";
+import CaSePrepare from "../../images/Sans-Bordure/SansBordure-Grande-Ca-Se-Prepare.webp";
+import OutilsDantan from "../../images/Sans-Bordure/SansBordure-Grande-Outils-Dantan.webp";
+import PainEtConfiture from "../../images/Sans-Bordure/SansBordure-Grande-Pain-Et-Confiture.webp";
+import UneAutreEpoque from "../../images/Sans-Bordure/SansBordure-Grande-Une-Autre-Epoque.webp";
+import Felins from "../../images/Sans-Bordure/SansBordure-Grande-Felins.webp";
 
 function MesCreations() {
   /* Function pour compter le Nombres de click sur les coeurs. 
@@ -103,12 +112,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="OrangesEtDentelle">
             <div className="Div-En-Vente">
               <a href={OrangesEtDentelle}>
-                <img
-                  src={OrangesEtDentelle}
-                  alt="Oranges Et Dentelles"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={OrangesEtDentelle}
+                alt="Oranges Et Dentelles"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Oranges et dentelle</h4>
@@ -129,8 +144,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Aiguiere">
             <div className="Div-En-Vente">
               <a href={GrandeAiguiere}>
-                <img src={GrandeAiguiere} alt="Grande Aiguiere" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={GrandeAiguiere} alt="Grande Aiguiere" />
             </div>
             <figcaption>
               <h4>Aiguière</h4>
@@ -151,12 +172,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Terroirs-De-France">
             <div className="Div-En-Vente">
               <a href={TerroirDeFrance}>
-                <img
-                  src={TerroirDeFrance}
-                  alt="Terroirs de France"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={TerroirDeFrance}
+                alt="Terroirs de France"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Terroirs de France</h4>
@@ -177,12 +204,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Bleu-Porcelaine">
             <div className="Div-En-Vente">
               <a href={BleuPorcelaine}>
-                <img
-                  src={BleuPorcelaine}
-                  alt="Bleu Porcelaine"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={BleuPorcelaine}
+                alt="Bleu Porcelaine"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Bleu porcelaine</h4>
@@ -203,12 +236,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Dame-Jeanne">
             <div className="Div-En-Vente">
               <a href={CadreDameJeanne}>
-                <img
-                  src={CadreDameJeanne}
-                  alt="Dame Jeanne"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={CadreDameJeanne}
+                alt="Dame Jeanne"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Dame Jeanne</h4>
@@ -229,8 +268,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="UnPtitNoir">
             <div className="Div-En-Vente">
               <a href={UnPetitNoir}>
-                <img src={UnPetitNoir} alt="Un ptit noir" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={UnPetitNoir} alt="Un ptit noir" />
             </div>
             <figcaption>
               <h4>Un p'tit noir</h4>
@@ -254,12 +299,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="PlumeEtOeufDargent">
             <div className="Div-En-Vente">
               <a href={PlumeOeufDargent}>
-                <img
-                  src={PlumeOeufDargent}
-                  alt="Plume et oeuf d'argent"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={PlumeOeufDargent}
+                alt="Plume et oeuf d'argent"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Plume et oeuf d'argent</h4>
@@ -280,8 +331,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Cristaux">
             <div className="Div-En-Vente">
               <a href={GrandeCristaux}>
-                <img src={GrandeCristaux} alt="Grande Cristaux" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={GrandeCristaux} alt="Grande Cristaux" />
             </div>
             <figcaption>
               <h4>Cristaux</h4>
@@ -302,12 +359,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="VieillesDentelles">
             <div className="Div-En-Vente">
               <a href={VieilleDentelles}>
-                <img
-                  src={VieilleDentelles}
-                  alt="Vieilles dentelles"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={VieilleDentelles}
+                alt="Vieilles dentelles"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Vieilles dentelles</h4>
@@ -328,12 +391,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="ChocolatChaud">
             <div className="Div-En-Vente">
               <a href={ChocolatChaud}>
-                <img
-                  src={ChocolatChaud}
-                  alt="Chocolat chaud"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={ChocolatChaud}
+                alt="Chocolat chaud"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Chocolat chaud</h4>
@@ -354,12 +423,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="CafeEtChocolat">
             <div className="Div-En-Vente">
               <a href={CafeChocolat}>
-                <img
-                  src={CafeChocolat}
-                  alt="Café et chocolat"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={CafeChocolat}
+                alt="Café et chocolat"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Café et chocolat</h4>
@@ -380,8 +455,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="SouvenirsMarins">
             <div className="Div-En-Vente">
               <a href={SouvenirsMarins}>
-                <img src={SouvenirsMarins} alt="Souvenirs Marins" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={SouvenirsMarins} alt="Souvenirs Marins" />
             </div>
             <figcaption>
               <h4>Souvenirs marins</h4>
@@ -405,12 +486,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Avant-Le-Depart">
             <div className="Div-En-Vente">
               <a href={AvantLeDepart}>
-                <img
-                  src={AvantLeDepart}
-                  alt="Avant le départ"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={AvantLeDepart}
+                alt="Avant le départ"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Avant le départ</h4>
@@ -431,8 +518,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="UnPetitCreux">
             <div className="Div-En-Vente">
               <a href={UnPetitCreux}>
-                <img src={UnPetitCreux} alt="Un Petit Creux" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={UnPetitCreux} alt="Un Petit Creux" />
             </div>
             <figcaption>
               <h4>Un petit creux</h4>
@@ -453,12 +546,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="VinDeSavoie">
             <div className="Div-En-Vente">
               <a href={VinDeSavoie}>
-                <img
-                  src={VinDeSavoie}
-                  alt="Vin de savoie"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={VinDeSavoie}
+                alt="Vin de savoie"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Vin de savoie</h4>
@@ -479,12 +578,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="RefletsDeSavoie">
             <div className="Div-En-Vente">
               <a href={RefletsDeSavoies}>
-                <img
-                  src={RefletsDeSavoies}
-                  alt="Reflets de savoie"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={RefletsDeSavoies}
+                alt="Reflets de savoie"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Reflets de Savoie</h4>
@@ -505,12 +610,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="CaSeprepare">
             <div className="Div-En-Vente">
               <a href={CaSePrepare}>
-                <img
-                  src={CaSePrepare}
-                  alt="Çà se prépare"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={CaSePrepare}
+                alt="Çà se prépare"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Ca se prépare</h4>
@@ -531,12 +642,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="OutilsDantan">
             <div className="Div-En-Vente">
               <a href={OutilsDantan}>
-                <img
-                  src={OutilsDantan}
-                  alt="Outils d'antan"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={OutilsDantan}
+                alt="Outils d'antan"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Outils d'antan</h4>
@@ -560,12 +677,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="PainEtConfiture">
             <div className="Div-En-Vente">
               <a href={PainEtConfiture}>
-                <img
-                  src={PainEtConfiture}
-                  alt="Pain et confiture"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={PainEtConfiture}
+                alt="Pain et confiture"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Pain et confiture</h4>
@@ -586,12 +709,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Une-AutreEpoque">
             <div className="Div-En-Vente">
               <a href={UneAutreEpoque}>
-                <img
-                  src={UneAutreEpoque}
-                  alt="Une autre époque"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={UneAutreEpoque}
+                alt="Une autre époque"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Une autre époque</h4>
@@ -612,11 +741,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="LeTempsDeslumieres">
             <div className="Div-En-Vente">
               <a href={LeTempsDesLumieres}>
-                <img
-                  src={LeTempsDesLumieres}
-                  alt="Le Temps Des Lumieres Desir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={LeTempsDesLumieres} alt="Le Temps Des Lumieres Desir" />
             </div>
             <figcaption>
               <h4>Le temps des lumières</h4>
@@ -637,8 +769,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Felins">
             <div className="Div-En-Vente">
               <a href={Felins}>
-                <img src={Felins} alt="Félins" title="Cliquez pour agrandir" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={Felins} alt="Félins" title="Cliquez pour agrandir" />
             </div>
             <figcaption>
               <h4>Felins</h4>
@@ -662,12 +800,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="CerisesEtFraises">
             <div className="Div-En-Vente">
               <a href={CerisesEtFraises}>
-                <img
-                  src={CerisesEtFraises}
-                  alt="Cerises Et fraises"
-                  title="Cliquez pour agrandir "
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={CerisesEtFraises}
+                alt="Cerises Et fraises"
+                title="Cliquez pour agrandir "
+              />
             </div>
             <figcaption>
               <h4>Cerises et Fraises</h4>
@@ -688,8 +832,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Fruits-Dautomne">
             <div className="Div-En-Vente">
               <a href={GrandeFruitsDautomne}>
-                <img src={GrandeFruitsDautomne} alt="Fruits D'automne" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={GrandeFruitsDautomne} alt="Fruits D'automne" />
             </div>
             <figcaption>
               <h4>Fruits d'automne</h4>
@@ -710,8 +860,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="EnLhonneurDeBacchus">
             <div className="Div-En-Vente">
               <a href={EnLhonneurDeBacchus}>
-                <img src={EnLhonneurDeBacchus} alt="L'Honneur De Bacchus" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={EnLhonneurDeBacchus} alt="L'Honneur De Bacchus" />
             </div>
             <figcaption>
               <h4>En l'honneur de Bacchus</h4>
@@ -732,12 +888,18 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="CuivreEtRaisin">
             <div className="Div-En-Vente">
               <a href={CuivreEtRaisinDesir}>
-                <img
-                  src={CuivreEtRaisinDesir}
-                  alt="Cuivre et raisin"
-                  title="Cliquez pour agrandir"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={CuivreEtRaisinDesir}
+                alt="Cuivre et raisin"
+                title="Cliquez pour agrandir"
+              />
             </div>
             <figcaption>
               <h4>Cuivre et raisin</h4>
@@ -764,12 +926,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Cheval">
             <div className="Div-En-Vente">
               <a href={Cheval}>
-                <img
-                  src={Cheval}
-                  className="galeriePresentation"
-                  alt="Cheval"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={Cheval} className="galeriePresentation" alt="Cheval" />
             </div>
             <figcaption>
               <h4>Cheval</h4>
@@ -787,8 +951,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Chien">
             <div className="Div-En-Vente">
               <a href={Chien}>
-                <img className="galeriePresentation" src={Chien} alt="Chien" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img className="galeriePresentation" src={Chien} alt="Chien" />
             </div>
             <figcaption>
               <h4>Chien</h4>
@@ -806,8 +976,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure id="Iris">
             <div className="Div-En-Vente">
               <a href={Iris}>
-                <img className="galeriePresentation" src={Iris} alt="Iris" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img className="galeriePresentation" src={Iris} alt="Iris" />
             </div>
             <figcaption>
               <h4>Iris</h4>
@@ -828,11 +1004,17 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure className="Caniche-Abricot">
             <div className="Div-En-Vente">
               <a href={CanicheAbricotSurVelours}>
-                <img
-                  src={CanicheAbricotSurVelours}
-                  alt="Portrait Caniche Abricot Sur Velours"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={CanicheAbricotSurVelours}
+                alt="Portrait Caniche Abricot Sur Velours"
+              />
             </div>
             <figcaption>
               <h4>Portrait de caniche abricot sur velours</h4>
@@ -853,8 +1035,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure>
             <div className="Div-En-Vente">
               <a href={TeckelSurVelours}>
-                <img src={TeckelSurVelours} alt="Jeune Teckel Sur Velours" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={TeckelSurVelours} alt="Jeune Teckel Sur Velours" />
             </div>
             <figcaption>
               <h4>Jeune teckel sur velours</h4>
@@ -875,11 +1063,17 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure>
             <div className="Div-En-Vente">
               <a href={BebeYorkshireSurVelours}>
-                <img
-                  src={BebeYorkshireSurVelours}
-                  alt="Bebe Yorkshire Sur Velours"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={BebeYorkshireSurVelours}
+                alt="Bebe Yorkshire Sur Velours"
+              />
             </div>
             <figcaption>
               <h4>Bébé yorkshire sur velours </h4>
@@ -900,11 +1094,17 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure>
             <div className="Div-En-Vente">
               <a href={CanicheBlancSurVelours}>
-                <img
-                  src={CanicheBlancSurVelours}
-                  alt="Caniche Blanc Sur Velours"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img
+                src={CanicheBlancSurVelours}
+                alt="Caniche Blanc Sur Velours"
+              />
             </div>
             <figcaption>
               <h4>Caniche blanc sur velours</h4>
@@ -925,8 +1125,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure>
             <div className="Div-En-Vente">
               <a href={YorkshireSurVelours}>
-                <img src={YorkshireSurVelours} alt="Yorkshire Sur Velours" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={YorkshireSurVelours} alt="Yorkshire Sur Velours" />
             </div>
             <figcaption>
               <h4>Yorkshire sur velours</h4>
@@ -950,8 +1156,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure>
             <div className="Div-En-Vente">
               <a href={GuepierSurVelours}>
-                <img src={GuepierSurVelours} alt="Guepier Sur Velours" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={GuepierSurVelours} alt="Guepier Sur Velours" />
             </div>
             <figcaption>
               <h4>Guêpier sur velours</h4>
@@ -972,8 +1184,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure>
             <div className="Div-En-Vente">
               <a href={OiseauBleuSurVelours}>
-                <img src={OiseauBleuSurVelours} alt="Oiseau Bleu Sur Velours" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={OiseauBleuSurVelours} alt="Oiseau Bleu Sur Velours" />
             </div>
             <figcaption>
               <h4>Oiseau bleu sur velours</h4>
@@ -994,11 +1212,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure>
             <div className="Div-En-Vente">
               <a href={GrandeChouetteSurVelours}>
-                <img
-                  src={GrandeChouetteSurVelours}
-                  alt="Chouette Sur Velours"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={GrandeChouetteSurVelours} alt="Chouette Sur Velours" />
             </div>
             <figcaption>
               <h4>Chouette sur velours</h4>
@@ -1019,11 +1240,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure>
             <div className="Div-En-Vente">
               <a href={CanicheGrisSurVelours}>
-                <img
-                  src={CanicheGrisSurVelours}
-                  alt="Caniche Gris Sur Velours"
-                />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={CanicheGrisSurVelours} alt="Caniche Gris Sur Velours" />
             </div>
             <figcaption>
               <h4>Caniche gris sur velours</h4>
@@ -1045,8 +1269,14 @@ Pour connaitre les tableaux les plus populaires de la page creation */
           <figure>
             <div className="Div-En-Vente">
               <a href={HamsterSurVelours}>
-                <img src={HamsterSurVelours} alt="Grande Hamster Sur Velours" />
+                <div
+                  className="FullScreenMesCreations"
+                  title="Mode plein écran"
+                >
+                  <FontAwesomeIcon icon={faExpand} />
+                </div>
               </a>
+              <img src={HamsterSurVelours} alt="Grande Hamster Sur Velours" />
             </div>
             <figcaption>
               <h4>Hamster sur velours</h4>
@@ -1054,7 +1284,6 @@ Pour connaitre les tableaux les plus populaires de la page creation */
               <a href="Fiche">
                 <span className="En-Savoir-Plus">En savoir plus</span>
               </a>
-
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>

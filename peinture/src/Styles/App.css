@@ -476,6 +476,13 @@ header {
     position: absolute;
 }
 
+.FullScreenMesCreations {
+    font-size: 1.5rem;
+    top: 0px;
+    right: 33px;
+    position: absolute;
+}
+
 /* Les listes d'indications ou on se situe dans le carousel  (Nature Morte + Velours )*/
 
 .carousel-indicators li {
@@ -1251,6 +1258,9 @@ footer a {
     margin: 16px 40px;
 }
 
+.Galerie figure {
+    position: relative;
+}
 
 /* Page-Creation  Div de la Section galerie*/
 
