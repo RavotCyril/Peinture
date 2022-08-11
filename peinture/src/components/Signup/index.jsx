@@ -33,7 +33,7 @@ function Signup() {
     permet d'être sur que les données sont valides au préalable  */
     if (firstName && email && password) {
       axios
-        .post("https://localhost:3000/api/auth/signup", {
+        .post("https://rossignol-peinture.fr/api/auth/signup", {
           firstName,
           email,
           password,
