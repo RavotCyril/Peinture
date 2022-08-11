@@ -14,7 +14,7 @@ const helmet = require('helmet');
 const path = require('path');
 /* Importe les routes User et articles */
 const userRoutes = require('./routes/user');
-const ficheRoutes = require('./routes/fiche');
+// const ficheRoutes = require('./routes/fiche');
 const app = express();
 // Middlewares
 /*   
@@ -73,8 +73,8 @@ app.get('/', function (req, res) {
 app.use('/api/auth', userRoutes);
 app.use('/api/user', userRoutes);
 
-app.use('/api/admin', ficheRoutes);
-app.use('/api/fiche', ficheRoutes);
+// app.use('/api/admin', ficheRoutes);
+// app.use('/api/fiche', ficheRoutes);
 
 
 module.exports = app;

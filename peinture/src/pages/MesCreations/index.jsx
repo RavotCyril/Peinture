@@ -55,34 +55,34 @@ function MesCreations() {
   /* Function pour compter le Nombres de click sur les coeurs. 
 Pour connaitre les tableaux les plus populaires de la page creation */
   // Variable -> Déclaration  -> Balise body-Main-Logo-Nav-Liens-Titre-Article-... - Html de la page.
-  (async function getAllParaElems() {
-    const fiches = await getFiches();
-    // console.log(fiches);
-    for (let i in fiches) {
-      console.log(fiches[i]);
-      displayArticle(fiches[i]);
-    }
-  })();
+  // (async function getAllParaElems() {
+  //   const fiches = await getFiches();
+  //   // console.log(fiches);
+  //   for (let i in fiches) {
+  //     console.log(fiches[i]);
+  //     displayArticle(fiches[i]);
+  //   }
+  // })();
   // Fonction pour appeller les Fiches de L'API.
 
-  async function getFiches() {
-    try {
-      let resultat = await fetch("http://localhost:3000/api/fiche/");
-      return await resultat.json();
-    } catch (error) {
-      console.log(
-        "Serveur indisponible.Veuillez contacter l'administrateur du site"
-      );
-    }
-  }
+  // async function getFiches() {
+  //   try {
+  //     let resultat = await fetch("http://localhost:3000/api/fiche/");
+  //     return await resultat.json();
+  //   } catch (error) {
+  //     console.log(
+  //       "Serveur indisponible.Veuillez contacter l'administrateur du site"
+  //     );
+  //   }
+  // }
 
-  function displayArticle(article) {
-    let liensTag = document.getElementById("SavoirPlus");
+  // function displayArticle(article) {
+  //   let liensTag = document.getElementById("SavoirPlus");
 
-    // Appel - Liens -> Id produit - > Id
+  // Appel - Liens -> Id produit - > Id
 
-    liensTag.setAttribute("href", "Fiche?id=" + article.id);
-  }
+  //   liensTag.setAttribute("href", "Fiche?id=" + article.id);
+  // }
 
   /* Function pour compter le Nombres de click sur les coeurs. 
 Pour connaitre les tableaux les plus populaires de la page creation */

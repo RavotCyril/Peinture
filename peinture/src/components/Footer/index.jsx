@@ -17,7 +17,7 @@ function footer() {
             <i className="fas fa-phone-alt"></i>
           </span>
           <span className="bold">Téléphone</span>
-          <span>06-84-20-04-04</span>
+          <span>06 84 20 04 04</span>
         </div>
       </div>
       <div>

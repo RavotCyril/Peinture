@@ -47,6 +47,18 @@ const NightModeButton = styled.button`
   padding-top: 30px;
 `;
 function Presentation() {
+  function zoomin() {
+    var GFG = document.getElementById("geeks");
+    var currWidth = GFG.clientWidth;
+    GFG.style.width = currWidth + 100 + "px";
+  }
+
+  function zoomout() {
+    var GFG = document.getElementById("geeks");
+    var currWidth = GFG.clientWidth;
+    GFG.style.width = currWidth - 100 + "px";
+  }
+
   const [isActiveNatureMorte, setIsActiveNatureMorte] = useState(false);
   const [isActiveVelours, setIsActiveVelours] = useState(false);
   /* Permet de créer un effet icone ( soleil - nuit pour l'effet couleur - Noir / Blanc ) */
@@ -209,7 +221,12 @@ function Presentation() {
               className="carousel-item"
               data-interval="100000"
             >
-              <a href={JambonEtPain}>
+              <a
+                href={JambonEtPain}
+                onClick={(zoomin, zoomout)}
+                GFG="250"
+                id="geeks"
+              >
                 <div className="FullScreen" title="Mode plein écran">
                   <FontAwesomeIcon icon={faExpand} />
                 </div>

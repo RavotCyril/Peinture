@@ -18,7 +18,7 @@ import MesCreations from "./pages/MesCreations";
 import VosDesirs from "./pages/VosDesirs";
 import RevueDePresse from "./pages/RevueDePresse";
 import Infos from "./pages/Infos";
-import Fiche from "./pages/Fiche";
+// import Fiche from "./pages/Fiche";
 import Vendue from "./pages/Vendue"
 import { ThemeProvider } from "../src/utils/context";
 
@@ -39,7 +39,7 @@ root.render(
                     <Route path="/Loader" element={< Loader />} />
                     <Route path="/Signup" element={<Signup />} />
                     <Route path="/Login" element={<Login />} />
-                    <Route path="/Fiche" element={< Fiche />} />
+                    {/* <Route path="/Fiche" element={< Fiche />} /> */}
                     <Route path="/Infos" element={< Infos />} />
                     <Route path="/MesCreations" element={< MesCreations />} />
                     <Route path="/Vendue" element={< Vendue />} />
