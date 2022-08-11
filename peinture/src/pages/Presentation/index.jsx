@@ -114,7 +114,10 @@ function Presentation() {
         </p>
       </section>
       <section className="container">
-        <h2 className="H2-Diaporamas">
+        <h2
+          title="Cliquer sur les boutons ci-dessous 'NATURE MORTE' ou 'VELOURS' pour afficher ou masquer les diaporamas"
+          className="H2-Diaporamas"
+        >
           Diaporamas d'illustration de peintures
         </h2>
         <div
@@ -126,9 +129,16 @@ function Presentation() {
             className="LienNatureMorte"
             onClick={handleClickNatureMorte}
           >
-            <h3>Nature Morte</h3>
+            <h3 title="Cliquer ici pour afficher ou masquer le diaporama des natures mortes">
+              Nature Morte
+            </h3>
           </NavLink>
-          <NavLink to="#" className="LienVelours" onClick={handleClickVelours}>
+          <NavLink
+            title="Cliquer ici pour afficher ou masquer le diaporama des velours"
+            to="#"
+            className="LienVelours"
+            onClick={handleClickVelours}
+          >
             <h3>Velours</h3>
           </NavLink>
         </div>
