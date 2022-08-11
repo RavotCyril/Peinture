@@ -1274,21 +1274,14 @@ footer a {
 
 /* Page-Vendue  Div de la Section galerie*/
 
-.Div-vendue {
+.Div-vendue,
+.Div-Reserve {
     width: 375px;
     height: auto;
     overflow: hidden;
     margin: 0px auto;
     position: relative;
 }
-
-
-/* Page-Desirs-Vendue  Div pour les peintures reservés*/
-
-.Div-Reserve {
-    position: relative;
-}
-
 
 /* Page-Vendue Span du mot Vendue en absolue pour le mettre sur les photos des peintures*/
 
@@ -1747,7 +1740,8 @@ footer a {
     }
 
     /* Page-Creation  Div de la Section galerie*/
-    .Div-vendue {
+    .Div-vendue,
+    .Div-Reserve {
         width: 375px;
         height: auto;
     }
@@ -2026,7 +2020,8 @@ footer a {
     }
 
     /* Page-Creation  Div de la Section galerie*/
-    .Div-vendue {
+    .Div-vendue,
+    .Div-Reserve {
         width: auto;
         height: auto;
     }
@@ -2356,7 +2351,8 @@ footer a {
     }
 
     /* Page-Creation  Div de la Section galerie*/
-    .Div-vendue {
+    .Div-vendue,
+    .Div-Reserve {
         width: auto;
         height: auto;
     }

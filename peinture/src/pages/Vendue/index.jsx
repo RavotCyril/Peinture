@@ -143,6 +143,213 @@ function Vendue() {
         </h2>
         <h3>Nature-Morte-Galerie Vendu</h3>
         <div className="Galerie1-Nature-Morte-Vente">
+          <figure id="Provence">
+            <div className="Div-Reserve">
+              <a href={Provence}>
+                <img
+                  src={Provence}
+                  alt="Provence"
+                  title="Cliquez pour agrandir"
+                />
+              </a>
+              <span className="Mot-Reserve-Image">Reservé</span>
+            </div>
+            <figcaption>
+              <h4>Provence</h4>
+              <span className="Dimension-Coeur Compteur ">
+                <span className="Coeur-Vide-Menu">
+                  <i className="far fa-heart"></i>
+                </span>
+                <span className="Coeur-Plein-Menu">
+                  <i className="fas fa-heart"></i>
+                </span>
+              </span>
+            </figcaption>
+          </figure>
+          <figure id="Dentiste">
+            <div className="Div-Reserve">
+              <a href={Dentiste}>
+                <img
+                  src={Dentiste}
+                  alt="Dentiste"
+                  title="Cliquez pour agrandir"
+                />
+              </a>
+              <span className="Mot-Reserve-Image">Reservé</span>
+            </div>
+            <figcaption>
+              <h4>Dentiste</h4>
+              <span className="Dimension-Coeur Compteur ">
+                <span className="Coeur-Vide-Menu">
+                  <i className="far fa-heart"></i>
+                </span>
+                <span className="Coeur-Plein-Menu">
+                  <i className="fas fa-heart"></i>
+                </span>
+              </span>
+            </figcaption>
+          </figure>
+          <figure id="Souvenirs-De-Savoie">
+            <div className="Div-Reserve">
+              <a href={SouvenirsDeSavoie}>
+                <img
+                  src={SouvenirsDeSavoie}
+                  alt="Souvenirs de Savoie"
+                  title="Cliquez pour agrandir"
+                />
+              </a>
+              <span className="Mot-Reserve-Image">Reservé</span>
+            </div>
+            <figcaption>
+              <h4>Souvenirs de Savoie</h4>
+              <span className="Dimension-Coeur Compteur ">
+                <span className="Coeur-Vide-Menu">
+                  <i className="far fa-heart"></i>
+                </span>
+                <span className="Coeur-Plein-Menu">
+                  <i className="fas fa-heart"></i>
+                </span>
+              </span>
+            </figcaption>
+          </figure>
+          <figure id="Printemps">
+            <div className="Div-Reserve">
+              <a href={Printemps}>
+                <img
+                  src={Printemps}
+                  alt="Printemps"
+                  title="Cliquez pour agrandir"
+                />
+              </a>
+              <span className="Mot-Reserve-Image">Reservé</span>
+            </div>
+            <figcaption>
+              <h4>Printemps</h4>
+              <span className="Dimension-Coeur Compteur ">
+                <span className="Coeur-Vide-Menu">
+                  <i className="far fa-heart"></i>
+                </span>
+                <span className="Coeur-Plein-Menu">
+                  <i className="fas fa-heart"></i>
+                </span>
+              </span>
+            </figcaption>
+          </figure>
+          <figure id="DegustationEnSavoie">
+            <div className="Div-vendue">
+              <a href={DegustationEnsavoie}>
+                <img
+                  src={DegustationEnsavoie}
+                  alt="Degustations en Savoie"
+                  title="Cliquez pour agrandir"
+                />
+              </a>
+              <span className="Mot-Vendue-Image">Vendu</span>
+            </div>
+            <figcaption>
+              <h4>Degustations en Savoie</h4>
+              <span className="Dimension-Coeur Compteur ">
+                <span className="Coeur-Vide-Menu">
+                  <i className="far fa-heart"></i>
+                </span>
+                <span className="Coeur-Plein-Menu">
+                  <i className="fas fa-heart"></i>
+                </span>
+              </span>
+            </figcaption>
+          </figure>
+          <figure id="Le-Cidre">
+            <div className="Div-vendue">
+              <a href={LeCidre}>
+                <img
+                  src={LeCidre}
+                  alt="Le cidre"
+                  title="Cliquez pour agrandir"
+                />
+              </a>
+              <span className="Mot-Vendue-Image">Vendu</span>
+            </div>
+            <figcaption>
+              <h4>Le cidre</h4>
+              <span className="Dimension-Coeur Compteur ">
+                <span className="Coeur-Vide-Menu">
+                  <i className="far fa-heart"></i>
+                </span>
+                <span className="Coeur-Plein-Menu">
+                  <i className="fas fa-heart"></i>
+                </span>
+              </span>
+            </figcaption>
+          </figure>
+          <figure id="Passe-Temps">
+            <div className="Div-vendue">
+              <a href={PasseTemps}>
+                <img
+                  src={PasseTemps}
+                  alt="Passe-temps"
+                  title="Cliquez pour agrandir"
+                />
+              </a>
+              <span className="Mot-Vendue-Image">Vendu</span>
+            </div>
+            <figcaption>
+              <h4>Passe-temps</h4>
+              <span className="Dimension-Coeur Compteur ">
+                <span className="Coeur-Vide-Menu">
+                  <i className="far fa-heart"></i>
+                </span>
+                <span className="Coeur-Plein-Menu">
+                  <i className="fas fa-heart"></i>
+                </span>
+              </span>
+            </figcaption>
+          </figure>
+          <figure id="Loiseau-De-Cristal">
+            <div className="Div-vendue">
+              <a href={LoiseauDeCristal}>
+                <img
+                  src={LoiseauDeCristal}
+                  alt="L'oiseau de cristal"
+                  title="Cliquez pour agrandir"
+                />
+              </a>
+              <span className="Mot-Vendue-Image">Vendu</span>
+            </div>
+            <figcaption>
+              <h4>L'oiseau de cristal</h4>
+              <span className="Dimension-Coeur Compteur ">
+                <span className="Coeur-Vide-Menu">
+                  <i className="far fa-heart"></i>
+                </span>
+                <span className="Coeur-Plein-Menu">
+                  <i className="fas fa-heart"></i>
+                </span>
+              </span>
+            </figcaption>
+          </figure>
+          <figure id="Pot-Pourris-Et-Dentelle">
+            <div className="Div-vendue">
+              <a href={PotPourrisEtDentelle}>
+                <img
+                  src={PotPourrisEtDentelle}
+                  alt="Pot pourris et dentelle"
+                  title="Cliquez pour agrandir"
+                />
+              </a>
+              <span className="Mot-Vendue-Image">Vendu</span>
+            </div>
+            <figcaption>
+              <h4>Pot pourris et dentelle</h4>
+              <span className="Dimension-Coeur Compteur ">
+                <span className="Coeur-Vide-Menu">
+                  <i className="far fa-heart"></i>
+                </span>
+                <span className="Coeur-Plein-Menu">
+                  <i className="fas fa-heart"></i>
+                </span>
+              </span>
+            </figcaption>
+          </figure>
           <figure id="Theiere">
             <div className="Div-vendue">
               <a href={Theiere}>
@@ -599,29 +806,6 @@ function Vendue() {
               </span>
             </figcaption>
           </figure>
-          <figure id="Pot-Pourris-Et-Dentelle">
-            <div className="Div-vendue">
-              <a href={PotPourrisEtDentelle}>
-                <img
-                  src={PotPourrisEtDentelle}
-                  alt="Pot pourris et dentelle"
-                  title="Cliquez pour agrandir"
-                />
-              </a>
-              <span className="Mot-Vendue-Image">Vendu</span>
-            </div>
-            <figcaption>
-              <h4>Pot pourris et dentelle</h4>
-              <span className="Dimension-Coeur Compteur ">
-                <span className="Coeur-Vide-Menu">
-                  <i className="far fa-heart"></i>
-                </span>
-                <span className="Coeur-Plein-Menu">
-                  <i className="fas fa-heart"></i>
-                </span>
-              </span>
-            </figcaption>
-          </figure>
           <figure id="Grand-Pere">
             <div className="Div-vendue">
               <a href={GrandPere}>
@@ -658,29 +842,6 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Source de vie</h4>
-              <span className="Dimension-Coeur Compteur ">
-                <span className="Coeur-Vide-Menu">
-                  <i className="far fa-heart"></i>
-                </span>
-                <span className="Coeur-Plein-Menu">
-                  <i className="fas fa-heart"></i>
-                </span>
-              </span>
-            </figcaption>
-          </figure>
-          <figure id="Provence">
-            <div className="Div-Reserve">
-              <a href={Provence}>
-                <img
-                  src={Provence}
-                  alt="Provence"
-                  title="Cliquez pour agrandir"
-                />
-              </a>
-              <span className="Mot-Reserve-Image">Reservé</span>
-            </div>
-            <figcaption>
-              <h4>Provence</h4>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -1266,29 +1427,6 @@ function Vendue() {
               </span>
             </figcaption>
           </figure>
-          <figure id="Le-Cidre">
-            <div className="Div-vendue">
-              <a href={LeCidre}>
-                <img
-                  src={LeCidre}
-                  alt="Le cidre"
-                  title="Cliquez pour agrandir"
-                />
-              </a>
-              <span className="Mot-Vendue-Image">Vendu</span>
-            </div>
-            <figcaption>
-              <h4>Le cidre</h4>
-              <span className="Dimension-Coeur Compteur ">
-                <span className="Coeur-Vide-Menu">
-                  <i className="far fa-heart"></i>
-                </span>
-                <span className="Coeur-Plein-Menu">
-                  <i className="fas fa-heart"></i>
-                </span>
-              </span>
-            </figcaption>
-          </figure>
           <figure id="Le-Verre-De-Vin">
             <div className="Div-vendue">
               <a href={LeVerreDeVin}>
@@ -1699,29 +1837,6 @@ function Vendue() {
               </span>
             </figcaption>
           </figure>
-          <figure id="Loiseau-De-Cristal">
-            <div className="Div-vendue">
-              <a href={LoiseauDeCristal}>
-                <img
-                  src={LoiseauDeCristal}
-                  alt="L'oiseau de cristal"
-                  title="Cliquez pour agrandir"
-                />
-              </a>
-              <span className="Mot-Vendue-Image">Vendu</span>
-            </div>
-            <figcaption>
-              <h4>L'oiseau de cristal</h4>
-              <span className="Dimension-Coeur Compteur ">
-                <span className="Coeur-Vide-Menu">
-                  <i className="far fa-heart"></i>
-                </span>
-                <span className="Coeur-Plein-Menu">
-                  <i className="fas fa-heart"></i>
-                </span>
-              </span>
-            </figcaption>
-          </figure>
           <figure id="Londres-1924">
             <div className="Div-vendue">
               <a href={Londres1924}>
@@ -1735,29 +1850,6 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Londres 1924</h4>
-              <span className="Dimension-Coeur Compteur ">
-                <span className="Coeur-Vide-Menu">
-                  <i className="far fa-heart"></i>
-                </span>
-                <span className="Coeur-Plein-Menu">
-                  <i className="fas fa-heart"></i>
-                </span>
-              </span>
-            </figcaption>
-          </figure>
-          <figure id="Dentiste">
-            <div className="Div-vendue">
-              <a href={Dentiste}>
-                <img
-                  src={Dentiste}
-                  alt="Dentiste"
-                  title="Cliquez pour agrandir"
-                />
-              </a>
-              <span className="Mot-Reserve-Image">Reservé</span>
-            </div>
-            <figcaption>
-              <h4>Dentiste</h4>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -1804,29 +1896,6 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Exotique</h4>
-              <span className="Dimension-Coeur Compteur ">
-                <span className="Coeur-Vide-Menu">
-                  <i className="far fa-heart"></i>
-                </span>
-                <span className="Coeur-Plein-Menu">
-                  <i className="fas fa-heart"></i>
-                </span>
-              </span>
-            </figcaption>
-          </figure>
-          <figure id="Passe-Temps">
-            <div className="Div-vendue">
-              <a href={PasseTemps}>
-                <img
-                  src={PasseTemps}
-                  alt="Passe-temps"
-                  title="Cliquez pour agrandir"
-                />
-              </a>
-              <span className="Mot-Vendue-Image">Vendu</span>
-            </div>
-            <figcaption>
-              <h4>Passe-temps</h4>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -2057,29 +2126,6 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Les deux tomes de savoie</h4>
-              <span className="Dimension-Coeur Compteur ">
-                <span className="Coeur-Vide-Menu">
-                  <i className="far fa-heart"></i>
-                </span>
-                <span className="Coeur-Plein-Menu">
-                  <i className="fas fa-heart"></i>
-                </span>
-              </span>
-            </figcaption>
-          </figure>
-          <figure id="Souvenirs-De-Savoie">
-            <div className="Div-vendue">
-              <a href={SouvenirsDeSavoie}>
-                <img
-                  src={SouvenirsDeSavoie}
-                  alt="Souvenirs de Savoie"
-                  title="Cliquez pour agrandir"
-                />
-              </a>
-              <span className="Mot-Reserve-Image">Reservé</span>
-            </div>
-            <figcaption>
-              <h4>Souvenirs de Savoie</h4>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
@@ -2389,29 +2435,6 @@ function Vendue() {
               </span>
             </figcaption>
           </figure>
-          <figure id="Printemps">
-            <div className="Div-vendue">
-              <a href={Printemps}>
-                <img
-                  src={Printemps}
-                  alt="Printemps"
-                  title="Cliquez pour agrandir"
-                />
-              </a>
-              <span className="Mot-Reserve-Image">Reservé</span>
-            </div>
-            <figcaption>
-              <h4>Printemps</h4>
-              <span className="Dimension-Coeur Compteur ">
-                <span className="Coeur-Vide-Menu">
-                  <i className="far fa-heart"></i>
-                </span>
-                <span className="Coeur-Plein-Menu">
-                  <i className="fas fa-heart"></i>
-                </span>
-              </span>
-            </figcaption>
-          </figure>
           <figure id="Pause-Casse-Croute">
             <div className="Div-vendue">
               <a href={PauseCasseCroute}>
@@ -2586,29 +2609,6 @@ function Vendue() {
             </div>
             <figcaption>
               <h4>Cerises et fraise</h4>
-              <span className="Dimension-Coeur Compteur ">
-                <span className="Coeur-Vide-Menu">
-                  <i className="far fa-heart"></i>
-                </span>
-                <span className="Coeur-Plein-Menu">
-                  <i className="fas fa-heart"></i>
-                </span>
-              </span>
-            </figcaption>
-          </figure>
-          <figure id="DegustationEnSavoie">
-            <div className="Div-vendue">
-              <a href={DegustationEnsavoie}>
-                <img
-                  src={DegustationEnsavoie}
-                  alt="Degustations en Savoie"
-                  title="Cliquez pour agrandir"
-                />
-              </a>
-              <span className="Mot-Vendue-Image">Vendu</span>
-            </div>
-            <figcaption>
-              <h4>Degustations en Savoie</h4>
               <span className="Dimension-Coeur Compteur ">
                 <span className="Coeur-Vide-Menu">
                   <i className="far fa-heart"></i>
