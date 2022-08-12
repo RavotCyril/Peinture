@@ -53,7 +53,7 @@ function Login() {
       emailRegex.test(email)
     ) {
       axios
-        .post("https://rossignol-peinture.fr/api/auth/login", {
+        .post("https://localhost:3000/api/auth/login", {
           password,
           email,
         })
@@ -101,7 +101,7 @@ function Login() {
   function testLogin() {
     if (password && email) {
       axios
-        .post("https://rossignol-peinture.fr/api/auth/login", {
+        .post("https://localhost:3000/api/auth/login", {
           password,
           email,
         })
