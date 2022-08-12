@@ -78,7 +78,7 @@ function Login() {
           setPassword(null);
           setServeur(null);
           window.setTimeout(function () {
-            window.location.href = "https://api.rossignol-peinture.fr/Signup";
+            window.location.href = "https://localhost:3001/Signup";
           }, 1500);
         })
         .catch((err) => {
@@ -126,7 +126,7 @@ function Login() {
           setPassword(null);
           setServeur(null);
           window.setTimeout(function () {
-            window.location.href = "https://api.rossignol-peinture.fr/";
+            window.location.href = "https://localhost:3001/";
           }, 1500);
         })
         .catch((err) => {
