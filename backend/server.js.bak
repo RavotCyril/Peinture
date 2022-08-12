@@ -1,7 +1,6 @@
 /* Protocole de communication client-serveur */
 const https = require('https');
 /* Application */
-const hostname = 'localhost';
 const app = require('./app');
 /* Dotenv est un module sans dépendance qui charge les variables d'environnement d'un fichier 
 .env dans process.env. Le stockage de la configuration 
@@ -55,6 +54,4 @@ server.on('listening', () => {
 
 });
 
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
-});
+server.listen(port, '82.180.155.199');

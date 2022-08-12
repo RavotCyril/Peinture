@@ -54,7 +54,7 @@ function Header() {
   useEffect(() => {
     axios({
       method: "get",
-      url: "https://rossignol-peinture.fr:3000/api/user/" + user_id,
+      url: "https://api.rossignol-peinture.fr/api/user/" + user_id,
     })
       .then((user) => {
         setUser(user.data);
@@ -73,13 +73,13 @@ function Header() {
   function toUnsubscribe() {
     axios
       .delete(
-        "https://rossignol-peinture.fr:3000/api/user/" + user_id,
+        "https://api.rossignol-peinture.fr/api/user/" + user_id,
         configData
       )
       .then((user) => {
         console.log(user);
         localStorage.clear();
-        window.location.href = "https://api.rossignol-peinture.fr/Signup";
+        window.location.href = "https://rossignol-peinture.fr/Signup";
       })
       .catch((err) => {
         if (err.response.status === 400) {

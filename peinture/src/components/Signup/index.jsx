@@ -33,7 +33,7 @@ function Signup() {
     permet d'être sur que les données sont valides au préalable  */
     if (firstName && email && password) {
       axios
-        .post("https://rossignol-peinture.fr/api/auth/signup", {
+        .post("https://api.rossignol-peinture.fr/api/auth/signup", {
           firstName,
           email,
           password,
@@ -41,7 +41,7 @@ function Signup() {
         })
         // enregistrer le hash et permet de sécuriser le mot de passe et de le remplacer ( Crypté ).
         .then((res) => {
-          window.location.href = "https://api.rossignol-peinture.fr/login";
+          window.location.href = "https://rossignol-peinture.fr/login";
         })
         .catch((err) => {
           if (err.status === 400) {
