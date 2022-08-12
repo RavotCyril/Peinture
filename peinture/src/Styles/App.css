@@ -1281,6 +1281,10 @@ footer a {
     position: relative;
 }
 
+.Div-ReserveDesir {
+    position: relative;
+}
+
 /* Page-Vendue Span du mot Vendue en absolue pour le mettre sur les photos des peintures*/
 
 .Mot-Vendue-Image {
@@ -1318,6 +1322,21 @@ footer a {
     padding: 2px;
     bottom: 23px;
     right: 4px;
+    position: absolute;
+    color: #0230ff;
+    border: 1px solid #0230ff;
+    background: #fff;
+    box-shadow: 1px 1px #2753cc;
+    transform: translateY(0px) translateX(0px) skew(380deg, 325deg);
+    font-size: 0.8rem;
+}
+
+/* Page-Vendue Span du mot Reservé en absolue pour le mettre sur les photos des peintures*/
+
+.Mot-Reserve-ImageDesir {
+    padding: 0px;
+    bottom: 16px;
+    right: 3px;
     position: absolute;
     color: #0230ff;
     border: 1px solid #0230ff;
@@ -2259,6 +2278,12 @@ footer a {
         margin: 0px 0px 5px 0px;
         padding: 1%;
         text-align: center;
+    }
+
+    .Mot-Reserve-ImageDesir {
+        font-size: 0.6rem;
+        bottom: 12px;
+        right: 1px;
     }
 
     /* Page-Vos Desirs Titre des figures*/

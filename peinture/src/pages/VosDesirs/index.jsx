@@ -122,7 +122,7 @@ function VosDesirs() {
           <div className="Div-Dentiste">
             <h2 className="Dentiste">Thème Divers</h2>
             <figure id="Dentiste" className="Figure-Vos-Desirs1">
-              <div className="Div-Reserve">
+              <div className="Div-ReserveDesir">
                 <a href={Dentiste}>
                   <img
                     src={Dentiste}
@@ -130,7 +130,7 @@ function VosDesirs() {
                     title="Cliquez pour agrandir"
                   />
                 </a>
-                <span className="Mot-Reserve-Image">Reservé</span>
+                <span className="Mot-Reserve-ImageDesir">Reservé</span>
               </div>
               <figcaption>
                 <h4>Dentiste</h4>
@@ -148,7 +148,7 @@ function VosDesirs() {
           <div className="Div-Belle-Epoque">
             <h2 className="Dentiste">Thème Divers</h2>
             <figure id="BelleEpoque" className="Figure-Vos-Desirs3">
-              <div className="Div-Reserve">
+              <div>
                 <a href={BelleEpoque}>
                   <img
                     src={BelleEpoque}

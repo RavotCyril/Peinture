@@ -1,10 +1,10 @@
 /* Importations Bibliothèques React-router-dom  */
 import React from "react";
 import { NavLink } from "react-router-dom";
-import {
-  TransformComponent,
-  TransformWrapper,
-} from "@pronestor/react-zoom-pan-pinch";
+// import {
+//   TransformComponent,
+//   TransformWrapper,
+// } from "@pronestor/react-zoom-pan-pinch";
 // /* Importations des pages de styles + images */
 /* Styles CSS  Icon Full Screen   */
 
