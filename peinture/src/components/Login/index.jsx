@@ -53,7 +53,7 @@ function Login() {
       emailRegex.test(email)
     ) {
       axios
-        .post("https://localhost:3000/api/auth/login", {
+        .post("https://rossignol-peinture.fr:3000/api/auth/login", {
           password,
           email,
         })
@@ -78,7 +78,8 @@ function Login() {
           setPassword(null);
           setServeur(null);
           window.setTimeout(function () {
-            window.location.href = "https://localhost:3001/Signup";
+            window.location.href =
+              "https://api.rossignol-peinture.fr:3001/Signup";
           }, 1500);
         })
         .catch((err) => {
@@ -101,7 +102,7 @@ function Login() {
   function testLogin() {
     if (password && email) {
       axios
-        .post("https://localhost:3000/api/auth/login", {
+        .post("https://rossignol-peinture.fr:3000/api/auth/login", {
           password,
           email,
         })
@@ -126,7 +127,7 @@ function Login() {
           setPassword(null);
           setServeur(null);
           window.setTimeout(function () {
-            window.location.href = "https://localhost:3001/";
+            window.location.href = "https://api.rossignol-peinture.fr:3001/";
           }, 1500);
         })
         .catch((err) => {
