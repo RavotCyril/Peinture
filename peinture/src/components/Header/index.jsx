@@ -54,7 +54,7 @@ function Header() {
   useEffect(() => {
     axios({
       method: "get",
-      url: "https://localhost:3000/api/user/" + user_id,
+      url: "https://rossignol-peinture.fr:3000/api/user/" + user_id,
     })
       .then((user) => {
         setUser(user.data);
@@ -72,7 +72,10 @@ function Header() {
 
   function toUnsubscribe() {
     axios
-      .delete("https://localhost:3000/api/user/" + user_id, configData)
+      .delete(
+        "https://rossignol-peinture.fr:3000/api/user/" + user_id,
+        configData
+      )
       .then((user) => {
         console.log(user);
         localStorage.clear();

@@ -19,7 +19,6 @@ function Services() {
   var token = JSON.parse(localStorage.getItem("Identification"));
   var date = Math.round(new Date().getTime() / 1000);
   var decoded = jwt_decode(token);
-  console.log(decoded);
 
   const [isTokenValid, setisTokenValid] = useState(false);
 
