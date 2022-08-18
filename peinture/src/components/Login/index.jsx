@@ -101,7 +101,7 @@ function Login() {
   function testLogin() {
     if (password && email) {
       axios
-        .post("https://localhost:3000/api/auth/login", {
+        .post("https://82.180.155.199:3000/api/auth/login", {
           password,
           email,
         })
@@ -126,7 +126,7 @@ function Login() {
           setPassword(null);
           setServeur(null);
           window.setTimeout(function () {
-            window.location.href = "https://localhost:3001/";
+            window.location.href = "https://rossignol-peinture.fr:3001/";
           }, 1500);
         })
         .catch((err) => {
